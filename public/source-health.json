@@ -1,7 +1,7 @@
 {
-  "checkedAt": "2026-08-18T23:25:14.056Z",
-  "healthy": 31,
-  "errors": 1,
+  "checkedAt": "2026-08-18T23:36:47.183Z",
+  "healthy": 32,
+  "errors": 0,
   "sources": [
     {
       "company": "ApplyGuy 2027 New Grad Jobs",
@@ -140,8 +140,8 @@
       "company": "Nintendo",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 49,
-      "checkedAt": "2026-08-18T23:24:54.167Z"
+      "jobCount": 50,
+      "checkedAt": "2026-08-18T23:36:44.437Z"
     },
     {
       "company": "Northrop Grumman",
@@ -181,10 +181,9 @@
     {
       "company": "Point72",
       "type": "greenhouse",
-      "status": "error",
-      "message": "The operation was aborted due to timeout",
-      "jobCount": 0,
-      "checkedAt": "2026-08-18T23:25:13.729Z"
+      "status": "healthy",
+      "jobCount": 227,
+      "checkedAt": "2026-08-18T23:36:44.773Z"
     },
     {
       "company": "Roblox",
@@ -197,8 +196,8 @@
       "company": "SpaceX",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 2133,
-      "checkedAt": "2026-08-18T23:24:55.568Z"
+      "jobCount": 2131,
+      "checkedAt": "2026-08-18T23:36:46.129Z"
     },
     {
       "company": "Uber",

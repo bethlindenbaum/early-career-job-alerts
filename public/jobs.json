@@ -1,6 +1,25 @@
 {
   "jobs": [
     {
+      "externalId": "gh-Nintendo-4374843009",
+      "company": "Nintendo",
+      "title": "Associate Engineer (NTD)",
+      "location": "Redmond, WA",
+      "url": "https://careers.nintendo.com/?gh_jid=4374843009",
+      "description": "&lt;p&gt;&lt;strong&gt;Nintendo Technology Development&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;The worldwide pioneer in the creation of interactive entertainment, Nintendo Co., Ltd., of Kyoto, Japan, manufactures and markets hardware and software for its Nintendo Switch&lt;sup&gt;™&lt;/sup&gt; nbsp;system and the Nintendo 3DS&lt;sup&gt;™&lt;/sup&gt; nbsp;family of portable systems. Since 1983, when it launched the Nintendo Entertainment System&lt;sup&gt;™&lt;/sup&gt;, Nintendo has sold more than 4.7 billion video games and more than 740 million hardware units globally, including Nintendo Switch and the Nintendo 3DS family of systems, as well as the Game Boy&lt;sup&gt;™&lt;/sup&gt;, Game Boy Advance, Nintendo DS&lt;sup&gt;™&lt;/sup&gt; nbsp;family of systems, Super NES&lt;sup&gt;™&lt;/sup&gt;, Nintendo 64&lt;sup&gt;™&lt;/sup&gt;, Nintendo GameCube&lt;sup&gt;™&lt;/sup&gt;, Wii&lt;sup&gt;™&lt;/sup&gt; nbsp;and Wii U&lt;sup&gt;™&lt;/sup&gt; nbsp;systems. It has also created industry icons that have become well-known, household names, such as Mario, Donkey Kong, Metroid, Zelda and Pokémon. nbsp; nbsp;A wholly owned subsidiary, Nintendo Technology Development, based in Redmond, Washington, creates future hardware/software technology and researches North American-based technologies.&lt;/p&gt; &lt;p&gt;Nintendo is an equal opportunity employer. We offer a welcoming and inclusive environment in service to one another, our products, the diverse consumers we represent, and the communities we call home. We do all of this with kindness, empathy and respect for each other.&lt;/p&gt; &lt;p&gt;&lt;strong&gt;DESCRIPTION OF DUTIES&lt;/strong&gt;&lt;/p&gt; &lt;ul&gt; &lt;li&gt;Gather requirements from internal software developers to learn what build or test jobs are needed&lt;/li&gt; &lt;li&gt;Design, develop, debug and test continuous integration system build or test jobs based upon requirements&lt;/li&gt; &lt;li&gt;Create concise, easy to read documents to facilitate efficient software development&lt;/li&gt; &lt;li&gt;Modifies and maintains existing code&lt;/li&gt; &lt;li&gt;Produces production-ready code to defined specifications with assistance and review from more senior engineers&lt;/li&gt; &lt;li&gt;Debugs own code&lt;/li&gt; &lt;li&gt;Supports and/or installs software applications/operating systems for development and server applications&lt;/li&gt; &lt;li&gt;Participates in the testing process through test strategy and test plan review, use-case testing, review and analysis&lt;/li&gt; &lt;li&gt;Learns how to collaborates with peer groups and other teams across Nintendo&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;&lt;strong&gt;SUMMARY OF REQUIREMENTS&lt;/strong&gt;&lt;/p&gt; &lt;ul&gt; &lt;li&gt;Excellent communication skills, both verbal and written&lt;/li&gt; &lt;li&gt;Strong problem solving and debugging skills&lt;/li&gt; &lt;li&gt;Knowledge and understanding of software product development, related tools and testing paradigms&lt;/li&gt; &lt;li&gt;Knowledge of Windows and/or Linux configuration&lt;/li&gt; &lt;li&gt;Experience with one of the following programming languages: C# (Preferred), Java, Python, or equivalent&lt;/li&gt; &lt;li&gt;Experience with one of the following scripting languages: PowerShell, Bash, Ruby, or equivalent&lt;/li&gt; &lt;li&gt;Degree in Computer Science, Electrical Engineering, or related field preferred&lt;/li&gt; &lt;li&gt;Experience with continuous integration software (e.g., TeamCity, Jenkins, Buildbot) a plus&lt;/li&gt; &lt;li&gt;Experience with infrastructure creation amp; maintenance (VMs, Containers, Cloud-based infrastructure) a plus&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;Applicants must be legally eligible to work in the United States to be considered. Visa sponsorship is not available for this role.&lt;/p&gt; &lt;p&gt;This position is onsite in Redmond, WA, and not open to remote status at this time. &lt;strong&gt; nbsp;&lt;/strong&gt;&lt;/p&gt;&lt;div class=&quot;content-pay-transparency&quot;&gt;&lt;div class=&quot;pay-input&quot;&gt;&lt;div class=&quot;description&quot;&gt;&lt;p&gt;This position includes the base pay range listed below, potential for a semi-annual discretionary performance bonus, and a comprehensive benefits package that includes medical, dental, vision, 401(k), and paid time off.&lt;/p&gt;&lt;/div&gt;&lt;div class=&quot;title&quot;&gt;Pay Range:&lt;/div&gt;&lt;div class=&quot;pay-range&quot;&gt;&lt;span&gt;$108,450&lt;/span&gt;&lt;span class=&quot;divider&quot;&gt; mdash;&lt;/span&gt;&lt;span&gt;$173,550 USD&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;",
+      "salary": "",
+      "skills": [
+        "Python",
+        "Java",
+        "Linux"
+      ],
+      "postedAt": "2026-08-18T19:31:21-04:00",
+      "source": "Greenhouse",
+      "id": "ff384690-fed4-4bb9-81ec-7127dd639e72",
+      "status": "review",
+      "discoveredAt": "2026-08-18T23:36:46.505Z"
+    },
+    {
       "externalId": "markdown-48439afac1fca7a9ccead179c47638fd89b3d381",
       "company": "Qualcomm",
       "title": "Embedded DSP Software Engineer",
@@ -3701,7 +3720,7 @@
       "discoveredAt": "2026-08-18T18:03:53.356Z"
     }
   ],
-  "lastScanAt": "2026-08-18T23:25:13.729Z",
+  "lastScanAt": "2026-08-18T23:36:46.548Z",
   "lastDigestAt": "2026-08-18T22:34:53.519Z",
   "delivery": {
     "smsConfigured": true,
