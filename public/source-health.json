@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-08-18T23:36:47.183Z",
+  "checkedAt": "2026-08-18T23:53:42.460Z",
   "healthy": 32,
   "errors": 0,
   "sources": [
@@ -140,8 +140,8 @@
       "company": "Nintendo",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 50,
-      "checkedAt": "2026-08-18T23:36:44.437Z"
+      "jobCount": 49,
+      "checkedAt": "2026-08-18T23:53:40.346Z"
     },
     {
       "company": "Northrop Grumman",
@@ -196,8 +196,8 @@
       "company": "SpaceX",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 2131,
-      "checkedAt": "2026-08-18T23:36:46.129Z"
+      "jobCount": 2132,
+      "checkedAt": "2026-08-18T23:53:41.592Z"
     },
     {
       "company": "Uber",
