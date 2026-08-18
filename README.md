@@ -313,6 +313,8 @@ The scanner uses two coverage layers:
 
 The fallbacks are curated externally and can find jobs on Workday and proprietary career systems that this project cannot query directly. They are broader than the direct adapters, but may have less detail or a short delay compared with an employer's own feed. The project therefore checks direct feeds first and suppresses duplicate company/title/location combinations across all sources.
 
+When a fallback source is added for the first time, its existing listings are imported to the website without sending a bulk SMS or email flood. Jobs discovered from that source on later scans use the normal immediate-SMS and daily-digest behavior.
+
 ### Add or update a direct feed
 
 For Greenhouse or Lever, add an entry to `data/sources.json`:
