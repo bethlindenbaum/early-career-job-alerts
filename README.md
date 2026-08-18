@@ -296,9 +296,20 @@ The website itself is static. Supabase handles authenticated preference changes,
 
 Application statuses are stored in the current browser's local storage. They survive closing the tab but do not currently synchronize across browsers or devices. SMS and email destinations come from protected GitHub secrets, not from the values typed into the public website.
 
-## Adding company career feeds
+## Job-source coverage
 
-The scanner currently supports public Greenhouse and Lever feeds. Add an entry to `data/sources.json`:
+The scanner uses two coverage layers:
+
+1. **Verified direct feeds** for 22 target companies using Greenhouse, Lever, Ashby, or SmartRecruiters. These provide the richest descriptions, skill extraction, and compensation when the employer publishes it.
+2. **ApplyGuy's machine-readable 2027 New Grad Jobs feed** as a fallback. Every listing in that feed is still filtered against all 109 target-company names, the independent role list, and the U.S. location list. Application buttons use the original employer listing URL when the feed provides it.
+
+`public/source-coverage.json` records which companies have direct feeds and which rely on the all-company fallback. A monitored company will not appear in Matches unless it currently has a published job that passes every preference rule. “No current match” is different from “not monitored.”
+
+The fallback is curated externally and can find jobs on Workday and proprietary career systems that this project cannot query directly. It is broader than the direct adapters, but may have less detail or a short delay compared with an employer's own feed. The project therefore prefers direct feeds and suppresses duplicate company/title/location combinations.
+
+### Add or update a direct feed
+
+For Greenhouse or Lever, add an entry to `data/sources.json`:
 
 ```json
 { "company": "Company name exactly as listed", "type": "greenhouse", "token": "board-token" }
@@ -310,7 +321,19 @@ or:
 { "company": "Company name exactly as listed", "type": "lever", "token": "site-token" }
 ```
 
-The token is the final segment of the company's public board URL. A company in the preference CSV is not scanned until a compatible source is also configured. Companies using proprietary career systems require dedicated adapters.
+Ashby is also supported:
+
+```json
+{ "company": "Company name exactly as listed", "type": "ashby", "token": "job-board-name" }
+```
+
+SmartRecruiters is supported with:
+
+```json
+{ "company": "Company name exactly as listed", "type": "smartrecruiters", "token": "company-identifier" }
+```
+
+The token is normally the employer identifier in its public job-board URL. Validate a board before adding it because short identifiers can belong to an unrelated organization or test board. Companies using unsupported proprietary systems continue to receive fallback coverage when they appear in the curated 2027 feed.
 
 ## Local development
 

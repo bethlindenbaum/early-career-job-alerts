@@ -1,0 +1,663 @@
+{
+  "generatedAt": "2026-08-18T21:59:16.088Z",
+  "targetCompanies": 109,
+  "directCompanies": 22,
+  "fallbackEnabled": true,
+  "fallbackName": "ApplyGuy 2027 New Grad Jobs",
+  "companies": [
+    {
+      "company": "ABC Technologies",
+      "direct": false,
+      "provider": null,
+      "fallback": true
+    },
+    {
+      "company": "Accenture",
+      "direct": false,
+      "provider": null,
+      "fallback": true
+    },
+    {
+      "company": "Adobe",
+      "direct": false,
+      "provider": null,
+      "fallback": true
+    },
+    {
+      "company": "Amazon",
+      "direct": false,
+      "provider": null,
+      "fallback": true
+    },
+    {
+      "company": "AMD",
+      "direct": false,
+      "provider": null,
+      "fallback": true
+    },
+    {
+      "company": "American Airlines",
+      "direct": false,
+      "provider": null,
+      "fallback": true
+    },
+    {
+      "company": "American Express",
+      "direct": false,
+      "provider": null,
+      "fallback": true
+    },
+    {
+      "company": "Android",
+      "direct": false,
+      "provider": null,
+      "fallback": true
+    },
+    {
+      "company": "Apple",
+      "direct": false,
+      "provider": null,
+      "fallback": true
+    },
+    {
+      "company": "Aquatic Capital Management",
+      "direct": true,
+      "provider": "greenhouse",
+      "fallback": true
+    },
+    {
+      "company": "ARM",
+      "direct": false,
+      "provider": null,
+      "fallback": true
+    },
+    {
+      "company": "AT&T",
+      "direct": false,
+      "provider": null,
+      "fallback": true
+    },
+    {
+      "company": "Autodesk",
+      "direct": false,
+      "provider": null,
+      "fallback": true
+    },
+    {
+      "company": "Blizzard",
+      "direct": false,
+      "provider": null,
+      "fallback": true
+    },
+    {
+      "company": "BMW",
+      "direct": false,
+      "provider": null,
+      "fallback": true
+    },
+    {
+      "company": "Bose",
+      "direct": false,
+      "provider": null,
+      "fallback": true
+    },
+    {
+      "company": "Capital One",
+      "direct": false,
+      "provider": null,
+      "fallback": true
+    },
+    {
+      "company": "Charles Schwab",
+      "direct": false,
+      "provider": null,
+      "fallback": true
+    },
+    {
+      "company": "Chase",
+      "direct": false,
+      "provider": null,
+      "fallback": true
+    },
+    {
+      "company": "Chicago Trading",
+      "direct": true,
+      "provider": "greenhouse",
+      "fallback": true
+    },
+    {
+      "company": "Cisco",
+      "direct": false,
+      "provider": null,
+      "fallback": true
+    },
+    {
+      "company": "Citadel",
+      "direct": false,
+      "provider": null,
+      "fallback": true
+    },
+    {
+      "company": "Claude",
+      "direct": false,
+      "provider": null,
+      "fallback": true
+    },
+    {
+      "company": "Comcast",
+      "direct": false,
+      "provider": null,
+      "fallback": true
+    },
+    {
+      "company": "Cursor",
+      "direct": true,
+      "provider": "ashby",
+      "fallback": true
+    },
+    {
+      "company": "Databricks",
+      "direct": true,
+      "provider": "greenhouse",
+      "fallback": true
+    },
+    {
+      "company": "Datadog",
+      "direct": true,
+      "provider": "greenhouse",
+      "fallback": true
+    },
+    {
+      "company": "DE Shaw",
+      "direct": false,
+      "provider": null,
+      "fallback": true
+    },
+    {
+      "company": "Dell",
+      "direct": false,
+      "provider": null,
+      "fallback": true
+    },
+    {
+      "company": "Deloitte",
+      "direct": false,
+      "provider": null,
+      "fallback": true
+    },
+    {
+      "company": "Delta Airlines",
+      "direct": false,
+      "provider": null,
+      "fallback": true
+    },
+    {
+      "company": "DraftKings",
+      "direct": false,
+      "provider": null,
+      "fallback": true
+    },
+    {
+      "company": "Dropbox",
+      "direct": true,
+      "provider": "greenhouse",
+      "fallback": true
+    },
+    {
+      "company": "Duke Energy",
+      "direct": false,
+      "provider": null,
+      "fallback": true
+    },
+    {
+      "company": "eBay",
+      "direct": false,
+      "provider": null,
+      "fallback": true
+    },
+    {
+      "company": "Epic Games",
+      "direct": true,
+      "provider": "greenhouse",
+      "fallback": true
+    },
+    {
+      "company": "Fidelity Investments",
+      "direct": false,
+      "provider": null,
+      "fallback": true
+    },
+    {
+      "company": "Frontier Airlines",
+      "direct": false,
+      "provider": null,
+      "fallback": true
+    },
+    {
+      "company": "Garmin",
+      "direct": false,
+      "provider": null,
+      "fallback": true
+    },
+    {
+      "company": "General Dynamics",
+      "direct": false,
+      "provider": null,
+      "fallback": true
+    },
+    {
+      "company": "GitHub",
+      "direct": false,
+      "provider": null,
+      "fallback": true
+    },
+    {
+      "company": "Goldman Sachs",
+      "direct": false,
+      "provider": null,
+      "fallback": true
+    },
+    {
+      "company": "Google",
+      "direct": false,
+      "provider": null,
+      "fallback": true
+    },
+    {
+      "company": "Honda",
+      "direct": false,
+      "provider": null,
+      "fallback": true
+    },
+    {
+      "company": "Hudl",
+      "direct": true,
+      "provider": "greenhouse",
+      "fallback": true
+    },
+    {
+      "company": "Hudson River Trading",
+      "direct": false,
+      "provider": null,
+      "fallback": true
+    },
+    {
+      "company": "IBM",
+      "direct": false,
+      "provider": null,
+      "fallback": true
+    },
+    {
+      "company": "IMC Trading",
+      "direct": true,
+      "provider": "greenhouse",
+      "fallback": true
+    },
+    {
+      "company": "Intel",
+      "direct": false,
+      "provider": null,
+      "fallback": true
+    },
+    {
+      "company": "Jane Street",
+      "direct": true,
+      "provider": "greenhouse",
+      "fallback": true
+    },
+    {
+      "company": "Johnson & Johnson",
+      "direct": false,
+      "provider": null,
+      "fallback": true
+    },
+    {
+      "company": "JP Morgan",
+      "direct": false,
+      "provider": null,
+      "fallback": true
+    },
+    {
+      "company": "Lenovo",
+      "direct": false,
+      "provider": null,
+      "fallback": true
+    },
+    {
+      "company": "LinkedIn",
+      "direct": false,
+      "provider": null,
+      "fallback": true
+    },
+    {
+      "company": "Lockheed Martin",
+      "direct": false,
+      "provider": null,
+      "fallback": true
+    },
+    {
+      "company": "Logitech",
+      "direct": false,
+      "provider": null,
+      "fallback": true
+    },
+    {
+      "company": "Lucid Software",
+      "direct": true,
+      "provider": "greenhouse",
+      "fallback": true
+    },
+    {
+      "company": "Lyft",
+      "direct": true,
+      "provider": "greenhouse",
+      "fallback": true
+    },
+    {
+      "company": "Marvel",
+      "direct": false,
+      "provider": null,
+      "fallback": true
+    },
+    {
+      "company": "McKinsey",
+      "direct": false,
+      "provider": null,
+      "fallback": true
+    },
+    {
+      "company": "Medtronic",
+      "direct": false,
+      "provider": null,
+      "fallback": true
+    },
+    {
+      "company": "Mercedes",
+      "direct": false,
+      "provider": null,
+      "fallback": true
+    },
+    {
+      "company": "Meta",
+      "direct": false,
+      "provider": null,
+      "fallback": true
+    },
+    {
+      "company": "MetLife",
+      "direct": true,
+      "provider": "lever",
+      "fallback": true
+    },
+    {
+      "company": "Microchip",
+      "direct": true,
+      "provider": "smartrecruiters",
+      "fallback": true
+    },
+    {
+      "company": "Micron Technology",
+      "direct": false,
+      "provider": null,
+      "fallback": true
+    },
+    {
+      "company": "Microsoft",
+      "direct": false,
+      "provider": null,
+      "fallback": true
+    },
+    {
+      "company": "MongoDB",
+      "direct": true,
+      "provider": "greenhouse",
+      "fallback": true
+    },
+    {
+      "company": "Morgan Stanley",
+      "direct": false,
+      "provider": null,
+      "fallback": true
+    },
+    {
+      "company": "Motorola",
+      "direct": false,
+      "provider": null,
+      "fallback": true
+    },
+    {
+      "company": "NASA",
+      "direct": false,
+      "provider": null,
+      "fallback": true
+    },
+    {
+      "company": "Netflix",
+      "direct": false,
+      "provider": null,
+      "fallback": true
+    },
+    {
+      "company": "Nike",
+      "direct": false,
+      "provider": null,
+      "fallback": true
+    },
+    {
+      "company": "Nintendo",
+      "direct": true,
+      "provider": "greenhouse",
+      "fallback": true
+    },
+    {
+      "company": "Nokia",
+      "direct": false,
+      "provider": null,
+      "fallback": true
+    },
+    {
+      "company": "Northrop Grumman",
+      "direct": false,
+      "provider": null,
+      "fallback": true
+    },
+    {
+      "company": "Notion",
+      "direct": true,
+      "provider": "ashby",
+      "fallback": true
+    },
+    {
+      "company": "NVIDIA",
+      "direct": false,
+      "provider": null,
+      "fallback": true
+    },
+    {
+      "company": "OpenAI",
+      "direct": true,
+      "provider": "ashby",
+      "fallback": true
+    },
+    {
+      "company": "Optiver",
+      "direct": false,
+      "provider": null,
+      "fallback": true
+    },
+    {
+      "company": "Oracle",
+      "direct": false,
+      "provider": null,
+      "fallback": true
+    },
+    {
+      "company": "Other airline companies",
+      "direct": false,
+      "provider": null,
+      "fallback": true
+    },
+    {
+      "company": "Other car companies",
+      "direct": false,
+      "provider": null,
+      "fallback": true
+    },
+    {
+      "company": "Palantir",
+      "direct": true,
+      "provider": "lever",
+      "fallback": true
+    },
+    {
+      "company": "PayPal",
+      "direct": false,
+      "provider": null,
+      "fallback": true
+    },
+    {
+      "company": "Pfizer",
+      "direct": false,
+      "provider": null,
+      "fallback": true
+    },
+    {
+      "company": "Point72",
+      "direct": true,
+      "provider": "greenhouse",
+      "fallback": true
+    },
+    {
+      "company": "Qualcomm",
+      "direct": false,
+      "provider": null,
+      "fallback": true
+    },
+    {
+      "company": "Red Hat",
+      "direct": false,
+      "provider": null,
+      "fallback": true
+    },
+    {
+      "company": "Roblox",
+      "direct": true,
+      "provider": "greenhouse",
+      "fallback": true
+    },
+    {
+      "company": "Samsung",
+      "direct": false,
+      "provider": null,
+      "fallback": true
+    },
+    {
+      "company": "Schneider Electric",
+      "direct": false,
+      "provider": null,
+      "fallback": true
+    },
+    {
+      "company": "Sony",
+      "direct": false,
+      "provider": null,
+      "fallback": true
+    },
+    {
+      "company": "Southwest Airlines",
+      "direct": false,
+      "provider": null,
+      "fallback": true
+    },
+    {
+      "company": "SpaceX",
+      "direct": true,
+      "provider": "greenhouse",
+      "fallback": true
+    },
+    {
+      "company": "T-Mobile",
+      "direct": false,
+      "provider": null,
+      "fallback": true
+    },
+    {
+      "company": "Tesla",
+      "direct": false,
+      "provider": null,
+      "fallback": true
+    },
+    {
+      "company": "Texas Instruments",
+      "direct": false,
+      "provider": null,
+      "fallback": true
+    },
+    {
+      "company": "TikTok",
+      "direct": false,
+      "provider": null,
+      "fallback": true
+    },
+    {
+      "company": "Toyota",
+      "direct": false,
+      "provider": null,
+      "fallback": true
+    },
+    {
+      "company": "TSMC",
+      "direct": false,
+      "provider": null,
+      "fallback": true
+    },
+    {
+      "company": "Twitter",
+      "direct": false,
+      "provider": null,
+      "fallback": true
+    },
+    {
+      "company": "Two Sigma",
+      "direct": false,
+      "provider": null,
+      "fallback": true
+    },
+    {
+      "company": "Uber",
+      "direct": false,
+      "provider": null,
+      "fallback": true
+    },
+    {
+      "company": "Venmo",
+      "direct": false,
+      "provider": null,
+      "fallback": true
+    },
+    {
+      "company": "Visa",
+      "direct": false,
+      "provider": null,
+      "fallback": true
+    },
+    {
+      "company": "Walt Disney",
+      "direct": false,
+      "provider": null,
+      "fallback": true
+    },
+    {
+      "company": "Warner Bros",
+      "direct": false,
+      "provider": null,
+      "fallback": true
+    },
+    {
+      "company": "Wells Fargo",
+      "direct": false,
+      "provider": null,
+      "fallback": true
+    }
+  ]
+}

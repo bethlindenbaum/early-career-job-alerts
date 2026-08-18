@@ -27,3 +27,11 @@ test('treats spreadsheet columns as independent lists', () => {
 test('requires a job to match one selected location', () => {
   assert.equal(match({ company: 'Adobe', title: 'Software Engineer — 2027 New Grad', location: 'London, United Kingdom', description: '' }, independent), null);
 });
+test('accepts a trusted curated early-career feed when the title is generic', () => {
+  const result = match({ company: 'Amazon', title: 'Software Engineer', location: 'Seattle, WA', description: '', earlyCareer: true }, independent);
+  assert.equal(result.company, 'Amazon');
+});
+test('normalizes common company-brand aliases', () => {
+  const result = match({ company: 'Disney', title: 'Software Engineer I', location: 'Glendale, CA', description: '', earlyCareer: true }, { companies: ['Walt Disney'], roles: ['Software Engineer'], locations: ['United States'] });
+  assert.equal(result.company, 'Disney');
+});
