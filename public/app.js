@@ -1,5 +1,27 @@
 let state; const $ = s => document.querySelector(s); const $$ = s => [...document.querySelectorAll(s)];
-async function request(url, options={}) { const response = await fetch(url,{headers:{'Content-Type':'application/json'},...options}); const data=await response.json(); if(!response.ok) throw new Error(data.error||'Something went wrong'); return data; }
+const staticMode = !['localhost', '127.0.0.1'].includes(location.hostname) || new URLSearchParams(location.search).has('static');
+const LOCAL_KEY = 'first-look-state-v1';
+function saveLocal() { if (staticMode) localStorage.setItem(LOCAL_KEY, JSON.stringify({ profile: state.profile, preferences: state.preferences, jobStatuses: Object.fromEntries(state.jobs.map(j => [j.externalId || j.id, j.status])) })); }
+async function staticState() {
+  const [jobsResponse, preferencesResponse] = await Promise.all([fetch('./jobs.json', { cache: 'no-store' }), fetch('./preferences.json', { cache: 'no-store' })]);
+  const cloud = jobsResponse.ok ? await jobsResponse.json() : { jobs: [], lastScanAt: null };
+  const defaults = preferencesResponse.ok ? await preferencesResponse.json() : [];
+  const local = JSON.parse(localStorage.getItem(LOCAL_KEY) || '{}');
+  const statuses = local.jobStatuses || {};
+  return { profile: local.profile || { name: '', phone: '', email: '', timezone: 'America/New_York', onboardingComplete: false }, preferences: local.preferences || defaults,
+    jobs: (cloud.jobs || []).map(job => ({ ...job, status: statuses[job.externalId || job.id] || job.status || 'review' })), events: [], lastScanAt: cloud.lastScanAt,
+    delivery: { smsConfigured: cloud.delivery?.smsConfigured || false, emailConfigured: cloud.delivery?.emailConfigured || false } };
+}
+async function request(url, options={}) {
+  if (!staticMode) { const response = await fetch(url,{headers:{'Content-Type':'application/json'},...options}); const data=await response.json(); if(!response.ok) throw new Error(data.error||'Something went wrong'); return data; }
+  const payload = options.body ? JSON.parse(options.body) : {};
+  if (url === '/api/state') return staticState();
+  if (url === '/api/profile') state.profile = { ...state.profile, ...payload };
+  else if (url === '/api/preferences' && options.method === 'POST') state.preferences.unshift({ id: crypto.randomUUID(), ...payload, active: true });
+  else if (url.startsWith('/api/preferences/')) { const id = url.split('/').pop(); if (options.method === 'DELETE') state.preferences = state.preferences.filter(p => p.id !== id); else state.preferences = state.preferences.map(p => p.id === id ? { ...p, ...payload } : p); }
+  else if (url.startsWith('/api/jobs/')) { const id = url.split('/').pop(); state.jobs = state.jobs.map(j => j.id === id ? { ...j, ...payload } : j); }
+  saveLocal(); return state;
+}
 function toast(message){const el=$('#toast');el.textContent=message;el.classList.add('show');setTimeout(()=>el.classList.remove('show'),2600)}
 function initials(company){return company.split(/\s+/).slice(0,2).map(x=>x[0]).join('').toUpperCase()}
 function dateLabel(value){if(!value)return 'Not scanned yet';const minutes=Math.floor((Date.now()-new Date(value))/60000);return minutes<1?'Just scanned':minutes<60?`${minutes}m ago`:`${Math.floor(minutes/60)}h ago`}
@@ -14,7 +36,7 @@ function renderJobs(){const filter=$('#jobFilter').value;const jobs=state.jobs.f
 function renderTracker(){const groups=[['review','To review'],['saved','Saved'],['applied','Applied']];$('#trackerBoard').innerHTML=groups.map(([status,label])=>`<div class="track-col"><h3>${label} · ${state.jobs.filter(j=>j.status===status).length}</h3>${state.jobs.filter(j=>j.status===status).map(j=>`<div class="track-item"><strong>${j.title}</strong><small>${j.company} · ${j.location}</small></div>`).join('')||'<div class="empty">Nothing here yet</div>'}</div>`).join('')}
 function renderPreferences(){const query=$('#prefSearch').value.toLowerCase();const rows=state.preferences.filter(p=>`${p.company} ${p.role} ${p.location}`.toLowerCase().includes(query));$('#preferenceCount').textContent=`${rows.length} of ${state.preferences.length} targets`;$('#preferenceList').innerHTML=rows.map(p=>`<div class="pref-row"><div><strong>${p.company}</strong></div><small>${p.role||'Any early-career role'}</small><small>${p.location||'Any U.S. location'}</small><div><button class="toggle ${p.active?'on':''}" data-toggle="${p.id}" aria-label="Toggle target"></button><button class="delete" data-delete="${p.id}" aria-label="Delete">×</button></div></div>`).join('');$$('[data-toggle]').forEach(b=>b.onclick=()=>patchPreference(b.dataset.toggle,{active:!b.classList.contains('on')}));$$('[data-delete]').forEach(b=>b.onclick=()=>deletePreference(b.dataset.delete))}
 function renderSettings(){const form=$('#settingsForm');['name','phone','email','timezone'].forEach(key=>form.elements[key].value=state.profile[key]||'');$('#smsStatus').textContent=state.delivery.smsConfigured?'Connected':'Needs credentials';$('#emailStatus').textContent=state.delivery.emailConfigured?'Connected':'Needs credentials'}
-async function scan(){const buttons=[$('#scanTop'),$('#scanSide')];buttons.forEach(b=>{b.disabled=true;b.innerHTML='<i class="loader"></i> Scanning'});try{const result=await request('/api/scan',{method:'POST'});state=result.state;render();toast(result.added.length?`${result.added.length} new match${result.added.length===1?'':'es'} found`:'Scan complete — no new matches')}catch(e){toast(e.message)}finally{buttons[0].disabled=false;buttons[0].textContent='↻  Scan for jobs';buttons[1].disabled=false;buttons[1].textContent='Scan now'}}window.scan=scan;
+async function scan(){const buttons=[$('#scanTop'),$('#scanSide')];buttons.forEach(b=>{b.disabled=true;b.innerHTML='<i class="loader"></i> Scanning'});try{if(staticMode){state=await staticState();render();toast('Refreshed — GitHub scans automatically every 10 minutes')}else{const result=await request('/api/scan',{method:'POST'});state=result.state;render();toast(result.added.length?`${result.added.length} new match${result.added.length===1?'':'es'} found`:'Scan complete — no new matches')}}catch(e){toast(e.message)}finally{buttons[0].disabled=false;buttons[0].textContent=staticMode?'↻  Refresh matches':'↻  Scan for jobs';buttons[1].disabled=false;buttons[1].textContent=staticMode?'Refresh':'Scan now'}}window.scan=scan;
 async function updateJob(id,status){state=await request(`/api/jobs/${id}`,{method:'PATCH',body:JSON.stringify({status})});render();toast(status==='applied'?'Marked as applied — nice work!':'Status updated')}
 async function patchPreference(id,update){state=await request(`/api/preferences/${id}`,{method:'PATCH',body:JSON.stringify(update)});render()}
 async function deletePreference(id){state=await request(`/api/preferences/${id}`,{method:'DELETE'});render();toast('Target removed')}

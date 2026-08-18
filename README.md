@@ -43,6 +43,42 @@ The token is the final segment of the company's Greenhouse board or Lever jobs U
 
 State is stored locally in `data/state.json` and excluded from git. Run `npm test` to verify the matching rules.
 
-## Production notes
+## GitHub Pages + automatic scanner
 
-For always-on alerts, deploy this Node process to an always-on host, add persistent storage for `data/state.json`, set the environment variables, and keep `SCAN_INTERVAL_MINUTES` at the desired cadence. A database-backed store and authenticated user accounts are the natural next step for a multi-user deployment.
+The repository includes two GitHub Actions workflows:
+
+- `pages.yml` publishes `public/` to GitHub Pages whenever `main` changes.
+- `scan.yml` runs on GitHub's infrastructure every ten minutes, checks configured job feeds, sends alerts, and commits updated matches to `public/jobs.json`.
+
+After merging the `dev` branch into `main` and pushing it:
+
+1. Open the repository on GitHub and go to **Settings → Pages**.
+2. Set **Source** to **GitHub Actions**.
+3. Go to **Settings → Actions → General → Workflow permissions**, select **Read and write permissions**, and save. This lets the scanner commit new matches.
+4. Go to **Settings → Secrets and variables → Actions** and add the notification secrets below.
+5. Open **Actions → Scan for jobs → Run workflow** once to verify the scanner. The scheduled runs use the workflow on the default branch (`main`).
+
+Required secrets for texts:
+
+```text
+ALERT_PHONE
+TWILIO_ACCOUNT_SID
+TWILIO_AUTH_TOKEN
+TWILIO_FROM_NUMBER
+```
+
+Required secrets for the daily email:
+
+```text
+ALERT_EMAIL
+RESEND_API_KEY
+EMAIL_FROM
+```
+
+`EMAIL_FROM` must be a sender accepted by the configured Resend account. Never put these values in frontend code or commit a `.env` file.
+
+The scanner does not require a terminal or an awake computer after the branch is merged and workflows are enabled. GitHub schedules are not a continuously running server: scans are requested every ten minutes and GitHub may occasionally delay a scheduled run. The five-minute schedule is GitHub's shortest supported interval, but ten minutes is used here to reduce Actions usage.
+
+On GitHub Pages, application statuses and site-added preferences are saved in that browser's local storage. They survive closing the page but do not sync between devices. The scheduled scanner reads `data/preferences.csv`, so add permanent scanner targets there and push the change. Supporting synchronized edits directly from the site requires an authenticated cloud database; a static Pages site cannot safely write to the repository or expose a write credential.
+
+For local development, the original Node server remains available with `npm run dev`.

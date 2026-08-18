@@ -5,7 +5,7 @@
   <title>First Look — early career job alerts</title>
   <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/styles.css">
+  <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
   <div class="shell">
@@ -30,5 +30,5 @@
   </div>
   <dialog id="onboarding"><button class="close" data-close>×</button><span class="step">WELCOME TO FIRST LOOK</span><h2>Let's catch you up.</h2><p>We imported your spreadsheet. First Look can now search for positions that are already live, then ask which ones you’ve applied to.</p><div class="import-proof"><span>✓</span><div><strong id="importCount">0 preferences imported</strong><small>Companies, roles, and locations are ready</small></div></div><form id="onboardingForm"><label>Your name<input name="name" required placeholder="Beth"></label><div class="two"><label>Mobile number<input name="phone" type="tel" placeholder="+1 555 555 5555"></label><label>Email address<input name="email" type="email" placeholder="you@example.com"></label></div><button class="primary wide" type="submit">Save & scan existing jobs →</button></form><small class="fine">Delivery credentials can be connected later. Your preferences stay on your machine.</small></dialog>
   <dialog id="preferenceDialog"><button class="close" data-close>×</button><span class="step">NEW SEARCH TARGET</span><h2>Add a company or role.</h2><form id="preferenceForm"><label>Company<input name="company" required placeholder="e.g. Stripe"></label><label>Role keywords<input name="role" placeholder="e.g. Software Engineer"></label><label>Location<input name="location" placeholder="e.g. New York, NY or Remote"></label><button class="primary wide">Add to watchlist</button></form></dialog>
-  <div id="toast"></div><script src="/app.js"></script>
+  <div id="toast"></div><script src="./app.js"></script>
 </body></html>

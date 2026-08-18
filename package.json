@@ -4,6 +4,8 @@
   "private": true,
   "description": "Early-career job monitor with SMS alerts, email digests, and application tracking.",
   "scripts": {
+    "build": "node scripts/build-preferences.js",
+    "scan:github": "node scripts/github-scan.js",
     "dev": "node server.js",
     "start": "node server.js",
     "test": "node --test"
