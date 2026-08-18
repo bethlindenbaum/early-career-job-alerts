@@ -30,9 +30,12 @@ const state = {
     });
     try { await sendDigest(state, todaysJobs); } catch (error) { console.error(`Digest failed: ${error.message}`); }
   }
-  const output = { jobs: state.jobs, lastScanAt: state.lastScanAt, lastDigestAt: state.lastDigestAt || null,
+  const previousIds = (existing.jobs || []).map(job => job.externalId).sort().join('|');
+  const currentIds = state.jobs.map(job => job.externalId).sort().join('|');
+  const jobsChanged = previousIds !== currentIds;
+  const output = { jobs: state.jobs, lastScanAt: jobsChanged ? state.lastScanAt : existing.lastScanAt, lastDigestAt: state.lastDigestAt || null,
     delivery: { smsConfigured: Boolean(process.env.TWILIO_ACCOUNT_SID && process.env.ALERT_PHONE), emailConfigured: Boolean(process.env.RESEND_API_KEY && process.env.ALERT_EMAIL) } };
   fs.writeFileSync(outputPath, `${JSON.stringify(output, null, 2)}\n`);
-  console.log(`Scan finished with ${result.added.length} new matches and ${result.errors.length} source errors.`);
+  console.log(`Scan finished with ${result.added.length} new matches and ${result.errors.length} source errors.${jobsChanged ? ' Published job data changed.' : ''}`);
   if (result.errors.length) console.error(result.errors.join('\n'));
 })().catch(error => { console.error(error); process.exitCode = 1; });

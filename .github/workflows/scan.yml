@@ -23,6 +23,10 @@ jobs:
       - uses: actions/setup-node@v6
         with:
           node-version: 22
+      - run: npm run sync:targets
+        env:
+          SUPABASE_URL: ${{ vars.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
       - run: npm run build
       - run: npm run scan:github
         env:
@@ -36,12 +40,17 @@ jobs:
           EMAIL_FROM: ${{ secrets.EMAIL_FROM }}
       - name: Publish new matches
         run: |
-          if git diff --quiet -- public/jobs.json; then
+          if git diff --quiet -- public/jobs.json public/preferences.json data/preferences.csv; then
             echo "No job data changes"
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add public/jobs.json public/preferences.json
+          git add data/preferences.csv public/jobs.json public/preferences.json
           git commit -m "chore: update job matches"
           git push
+      - name: Clear synchronized website changes
+        run: npm run sync:clear
+        env:
+          SUPABASE_URL: ${{ vars.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}

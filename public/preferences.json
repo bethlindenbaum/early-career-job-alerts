@@ -1,765 +1,129 @@
-[
-  {
-    "id": "pref-1",
-    "company": "ABC Technologies",
-    "role": "Software Engineer",
-    "location": "United States",
-    "active": true
-  },
-  {
-    "id": "pref-2",
-    "company": "Accenture",
-    "role": "SWE",
-    "location": "",
-    "active": true
-  },
-  {
-    "id": "pref-3",
-    "company": "Adobe",
-    "role": "Hardware Engineer",
-    "location": "",
-    "active": true
-  },
-  {
-    "id": "pref-4",
-    "company": "Amazon",
-    "role": "FPGA Engineer",
-    "location": "",
-    "active": true
-  },
-  {
-    "id": "pref-5",
-    "company": "AMD",
-    "role": "Embedded Software Engineer",
-    "location": "",
-    "active": true
-  },
-  {
-    "id": "pref-6",
-    "company": "American Airlines",
-    "role": "Firmware Engineer",
-    "location": "",
-    "active": true
-  },
-  {
-    "id": "pref-7",
-    "company": "American Express",
-    "role": "Silicon Engineer",
-    "location": "",
-    "active": true
-  },
-  {
-    "id": "pref-8",
-    "company": "Android",
-    "role": "Nanoelectronics Engineer",
-    "location": "",
-    "active": true
-  },
-  {
-    "id": "pref-9",
-    "company": "Apple",
-    "role": "Quantitative Developer",
-    "location": "",
-    "active": true
-  },
-  {
-    "id": "pref-10",
-    "company": "Aquatic Capital Management",
-    "role": "Machine Learning Engineer",
-    "location": "",
-    "active": true
-  },
-  {
-    "id": "pref-11",
-    "company": "ARM",
-    "role": "AI Engineer",
-    "location": "",
-    "active": true
-  },
-  {
-    "id": "pref-12",
-    "company": "AT&T",
-    "role": "",
-    "location": "",
-    "active": true
-  },
-  {
-    "id": "pref-13",
-    "company": "Autodesk",
-    "role": "",
-    "location": "",
-    "active": true
-  },
-  {
-    "id": "pref-14",
-    "company": "Blizzard",
-    "role": "",
-    "location": "",
-    "active": true
-  },
-  {
-    "id": "pref-15",
-    "company": "BMW",
-    "role": "",
-    "location": "",
-    "active": true
-  },
-  {
-    "id": "pref-16",
-    "company": "Bose",
-    "role": "",
-    "location": "",
-    "active": true
-  },
-  {
-    "id": "pref-17",
-    "company": "Capital One",
-    "role": "",
-    "location": "",
-    "active": true
-  },
-  {
-    "id": "pref-18",
-    "company": "Charles Schwab",
-    "role": "",
-    "location": "",
-    "active": true
-  },
-  {
-    "id": "pref-19",
-    "company": "Chase",
-    "role": "",
-    "location": "",
-    "active": true
-  },
-  {
-    "id": "pref-20",
-    "company": "Chicago Trading",
-    "role": "",
-    "location": "",
-    "active": true
-  },
-  {
-    "id": "pref-21",
-    "company": "Cisco",
-    "role": "",
-    "location": "",
-    "active": true
-  },
-  {
-    "id": "pref-22",
-    "company": "Citadel",
-    "role": "",
-    "location": "",
-    "active": true
-  },
-  {
-    "id": "pref-23",
-    "company": "Claude",
-    "role": "",
-    "location": "",
-    "active": true
-  },
-  {
-    "id": "pref-24",
-    "company": "Comcast",
-    "role": "",
-    "location": "",
-    "active": true
-  },
-  {
-    "id": "pref-25",
-    "company": "Cursor",
-    "role": "",
-    "location": "",
-    "active": true
-  },
-  {
-    "id": "pref-26",
-    "company": "Databricks",
-    "role": "",
-    "location": "",
-    "active": true
-  },
-  {
-    "id": "pref-27",
-    "company": "Datadog",
-    "role": "",
-    "location": "",
-    "active": true
-  },
-  {
-    "id": "pref-28",
-    "company": "DE Shaw",
-    "role": "",
-    "location": "",
-    "active": true
-  },
-  {
-    "id": "pref-29",
-    "company": "Dell",
-    "role": "",
-    "location": "",
-    "active": true
-  },
-  {
-    "id": "pref-30",
-    "company": "Deloitte",
-    "role": "",
-    "location": "",
-    "active": true
-  },
-  {
-    "id": "pref-31",
-    "company": "Delta Airlines",
-    "role": "",
-    "location": "",
-    "active": true
-  },
-  {
-    "id": "pref-32",
-    "company": "DraftKings",
-    "role": "",
-    "location": "",
-    "active": true
-  },
-  {
-    "id": "pref-33",
-    "company": "Dropbox",
-    "role": "",
-    "location": "",
-    "active": true
-  },
-  {
-    "id": "pref-34",
-    "company": "Duke Energy",
-    "role": "",
-    "location": "",
-    "active": true
-  },
-  {
-    "id": "pref-35",
-    "company": "eBay",
-    "role": "",
-    "location": "",
-    "active": true
-  },
-  {
-    "id": "pref-36",
-    "company": "Epic Games",
-    "role": "",
-    "location": "",
-    "active": true
-  },
-  {
-    "id": "pref-37",
-    "company": "Fidelity Investments",
-    "role": "",
-    "location": "",
-    "active": true
-  },
-  {
-    "id": "pref-38",
-    "company": "Frontier Airlines",
-    "role": "",
-    "location": "",
-    "active": true
-  },
-  {
-    "id": "pref-39",
-    "company": "Garmin",
-    "role": "",
-    "location": "",
-    "active": true
-  },
-  {
-    "id": "pref-40",
-    "company": "General Dynamics",
-    "role": "",
-    "location": "",
-    "active": true
-  },
-  {
-    "id": "pref-41",
-    "company": "GitHub",
-    "role": "",
-    "location": "",
-    "active": true
-  },
-  {
-    "id": "pref-42",
-    "company": "Goldman Sachs",
-    "role": "",
-    "location": "",
-    "active": true
-  },
-  {
-    "id": "pref-43",
-    "company": "Google",
-    "role": "",
-    "location": "",
-    "active": true
-  },
-  {
-    "id": "pref-44",
-    "company": "Honda",
-    "role": "",
-    "location": "",
-    "active": true
-  },
-  {
-    "id": "pref-45",
-    "company": "Hudl",
-    "role": "",
-    "location": "",
-    "active": true
-  },
-  {
-    "id": "pref-46",
-    "company": "Hudson River Trading",
-    "role": "",
-    "location": "",
-    "active": true
-  },
-  {
-    "id": "pref-47",
-    "company": "IBM",
-    "role": "",
-    "location": "",
-    "active": true
-  },
-  {
-    "id": "pref-48",
-    "company": "IMC Trading",
-    "role": "",
-    "location": "",
-    "active": true
-  },
-  {
-    "id": "pref-49",
-    "company": "Intel",
-    "role": "",
-    "location": "",
-    "active": true
-  },
-  {
-    "id": "pref-50",
-    "company": "Jane Street",
-    "role": "",
-    "location": "",
-    "active": true
-  },
-  {
-    "id": "pref-51",
-    "company": "Johnson & Johnson",
-    "role": "",
-    "location": "",
-    "active": true
-  },
-  {
-    "id": "pref-52",
-    "company": "JP Morgan",
-    "role": "",
-    "location": "",
-    "active": true
-  },
-  {
-    "id": "pref-53",
-    "company": "Lenovo",
-    "role": "",
-    "location": "",
-    "active": true
-  },
-  {
-    "id": "pref-54",
-    "company": "LinkedIn",
-    "role": "",
-    "location": "",
-    "active": true
-  },
-  {
-    "id": "pref-55",
-    "company": "Lockheed Martin",
-    "role": "",
-    "location": "",
-    "active": true
-  },
-  {
-    "id": "pref-56",
-    "company": "Logitech",
-    "role": "",
-    "location": "",
-    "active": true
-  },
-  {
-    "id": "pref-57",
-    "company": "Lucid Software",
-    "role": "",
-    "location": "",
-    "active": true
-  },
-  {
-    "id": "pref-58",
-    "company": "Lyft",
-    "role": "",
-    "location": "",
-    "active": true
-  },
-  {
-    "id": "pref-59",
-    "company": "Marvel",
-    "role": "",
-    "location": "",
-    "active": true
-  },
-  {
-    "id": "pref-60",
-    "company": "McKinsey",
-    "role": "",
-    "location": "",
-    "active": true
-  },
-  {
-    "id": "pref-61",
-    "company": "Medtronic",
-    "role": "",
-    "location": "",
-    "active": true
-  },
-  {
-    "id": "pref-62",
-    "company": "Mercedes",
-    "role": "",
-    "location": "",
-    "active": true
-  },
-  {
-    "id": "pref-63",
-    "company": "Meta",
-    "role": "",
-    "location": "",
-    "active": true
-  },
-  {
-    "id": "pref-64",
-    "company": "MetLife",
-    "role": "",
-    "location": "",
-    "active": true
-  },
-  {
-    "id": "pref-65",
-    "company": "Microchip",
-    "role": "",
-    "location": "",
-    "active": true
-  },
-  {
-    "id": "pref-66",
-    "company": "Micron Technology",
-    "role": "",
-    "location": "",
-    "active": true
-  },
-  {
-    "id": "pref-67",
-    "company": "Microsoft",
-    "role": "",
-    "location": "",
-    "active": true
-  },
-  {
-    "id": "pref-68",
-    "company": "MongoDB",
-    "role": "",
-    "location": "",
-    "active": true
-  },
-  {
-    "id": "pref-69",
-    "company": "Morgan Stanley",
-    "role": "",
-    "location": "",
-    "active": true
-  },
-  {
-    "id": "pref-70",
-    "company": "Motorola",
-    "role": "",
-    "location": "",
-    "active": true
-  },
-  {
-    "id": "pref-71",
-    "company": "NASA",
-    "role": "",
-    "location": "",
-    "active": true
-  },
-  {
-    "id": "pref-72",
-    "company": "Netflix",
-    "role": "",
-    "location": "",
-    "active": true
-  },
-  {
-    "id": "pref-73",
-    "company": "Nike",
-    "role": "",
-    "location": "",
-    "active": true
-  },
-  {
-    "id": "pref-74",
-    "company": "Nintendo",
-    "role": "",
-    "location": "",
-    "active": true
-  },
-  {
-    "id": "pref-75",
-    "company": "Nokia",
-    "role": "",
-    "location": "",
-    "active": true
-  },
-  {
-    "id": "pref-76",
-    "company": "Northrop Grumman",
-    "role": "",
-    "location": "",
-    "active": true
-  },
-  {
-    "id": "pref-77",
-    "company": "Notion",
-    "role": "",
-    "location": "",
-    "active": true
-  },
-  {
-    "id": "pref-78",
-    "company": "NVIDIA",
-    "role": "",
-    "location": "",
-    "active": true
-  },
-  {
-    "id": "pref-79",
-    "company": "OpenAI",
-    "role": "",
-    "location": "",
-    "active": true
-  },
-  {
-    "id": "pref-80",
-    "company": "Optiver",
-    "role": "",
-    "location": "",
-    "active": true
-  },
-  {
-    "id": "pref-81",
-    "company": "Oracle",
-    "role": "",
-    "location": "",
-    "active": true
-  },
-  {
-    "id": "pref-82",
-    "company": "Other airline companies",
-    "role": "",
-    "location": "",
-    "active": true
-  },
-  {
-    "id": "pref-83",
-    "company": "Other car companies",
-    "role": "",
-    "location": "",
-    "active": true
-  },
-  {
-    "id": "pref-84",
-    "company": "Palantir",
-    "role": "",
-    "location": "",
-    "active": true
-  },
-  {
-    "id": "pref-85",
-    "company": "PayPal",
-    "role": "",
-    "location": "",
-    "active": true
-  },
-  {
-    "id": "pref-86",
-    "company": "Pfizer",
-    "role": "",
-    "location": "",
-    "active": true
-  },
-  {
-    "id": "pref-87",
-    "company": "Point72",
-    "role": "",
-    "location": "",
-    "active": true
-  },
-  {
-    "id": "pref-88",
-    "company": "Qualcomm",
-    "role": "",
-    "location": "",
-    "active": true
-  },
-  {
-    "id": "pref-89",
-    "company": "Red Hat",
-    "role": "",
-    "location": "",
-    "active": true
-  },
-  {
-    "id": "pref-90",
-    "company": "Roblox",
-    "role": "",
-    "location": "",
-    "active": true
-  },
-  {
-    "id": "pref-91",
-    "company": "Samsung",
-    "role": "",
-    "location": "",
-    "active": true
-  },
-  {
-    "id": "pref-92",
-    "company": "Schneider Electric",
-    "role": "",
-    "location": "",
-    "active": true
-  },
-  {
-    "id": "pref-93",
-    "company": "Sony",
-    "role": "",
-    "location": "",
-    "active": true
-  },
-  {
-    "id": "pref-94",
-    "company": "Southwest Airlines",
-    "role": "",
-    "location": "",
-    "active": true
-  },
-  {
-    "id": "pref-95",
-    "company": "SpaceX",
-    "role": "",
-    "location": "",
-    "active": true
-  },
-  {
-    "id": "pref-96",
-    "company": "T-Mobile",
-    "role": "",
-    "location": "",
-    "active": true
-  },
-  {
-    "id": "pref-97",
-    "company": "Tesla",
-    "role": "",
-    "location": "",
-    "active": true
-  },
-  {
-    "id": "pref-98",
-    "company": "Texas Instruments",
-    "role": "",
-    "location": "",
-    "active": true
-  },
-  {
-    "id": "pref-99",
-    "company": "TikTok",
-    "role": "",
-    "location": "",
-    "active": true
-  },
-  {
-    "id": "pref-100",
-    "company": "Toyota",
-    "role": "",
-    "location": "",
-    "active": true
-  },
-  {
-    "id": "pref-101",
-    "company": "TSMC",
-    "role": "",
-    "location": "",
-    "active": true
-  },
-  {
-    "id": "pref-102",
-    "company": "Twitter",
-    "role": "",
-    "location": "",
-    "active": true
-  },
-  {
-    "id": "pref-103",
-    "company": "Two Sigma",
-    "role": "",
-    "location": "",
-    "active": true
-  },
-  {
-    "id": "pref-104",
-    "company": "Uber",
-    "role": "",
-    "location": "",
-    "active": true
-  },
-  {
-    "id": "pref-105",
-    "company": "Venmo",
-    "role": "",
-    "location": "",
-    "active": true
-  },
-  {
-    "id": "pref-106",
-    "company": "Visa",
-    "role": "",
-    "location": "",
-    "active": true
-  },
-  {
-    "id": "pref-107",
-    "company": "Walt Disney",
-    "role": "",
-    "location": "",
-    "active": true
-  },
-  {
-    "id": "pref-108",
-    "company": "Warner Bros",
-    "role": "",
-    "location": "",
-    "active": true
-  },
-  {
-    "id": "pref-109",
-    "company": "Wells Fargo",
-    "role": "",
-    "location": "",
-    "active": true
-  }
-]
+{
+  "companies": [
+    "ABC Technologies",
+    "Accenture",
+    "Adobe",
+    "Amazon",
+    "AMD",
+    "American Airlines",
+    "American Express",
+    "Android",
+    "Apple",
+    "Aquatic Capital Management",
+    "ARM",
+    "AT&T",
+    "Autodesk",
+    "Blizzard",
+    "BMW",
+    "Bose",
+    "Capital One",
+    "Charles Schwab",
+    "Chase",
+    "Chicago Trading",
+    "Cisco",
+    "Citadel",
+    "Claude",
+    "Comcast",
+    "Cursor",
+    "Databricks",
+    "Datadog",
+    "DE Shaw",
+    "Dell",
+    "Deloitte",
+    "Delta Airlines",
+    "DraftKings",
+    "Dropbox",
+    "Duke Energy",
+    "eBay",
+    "Epic Games",
+    "Fidelity Investments",
+    "Frontier Airlines",
+    "Garmin",
+    "General Dynamics",
+    "GitHub",
+    "Goldman Sachs",
+    "Google",
+    "Honda",
+    "Hudl",
+    "Hudson River Trading",
+    "IBM",
+    "IMC Trading",
+    "Intel",
+    "Jane Street",
+    "Johnson & Johnson",
+    "JP Morgan",
+    "Lenovo",
+    "LinkedIn",
+    "Lockheed Martin",
+    "Logitech",
+    "Lucid Software",
+    "Lyft",
+    "Marvel",
+    "McKinsey",
+    "Medtronic",
+    "Mercedes",
+    "Meta",
+    "MetLife",
+    "Microchip",
+    "Micron Technology",
+    "Microsoft",
+    "MongoDB",
+    "Morgan Stanley",
+    "Motorola",
+    "NASA",
+    "Netflix",
+    "Nike",
+    "Nintendo",
+    "Nokia",
+    "Northrop Grumman",
+    "Notion",
+    "NVIDIA",
+    "OpenAI",
+    "Optiver",
+    "Oracle",
+    "Other airline companies",
+    "Other car companies",
+    "Palantir",
+    "PayPal",
+    "Pfizer",
+    "Point72",
+    "Qualcomm",
+    "Red Hat",
+    "Roblox",
+    "Samsung",
+    "Schneider Electric",
+    "Sony",
+    "Southwest Airlines",
+    "SpaceX",
+    "T-Mobile",
+    "Tesla",
+    "Texas Instruments",
+    "TikTok",
+    "Toyota",
+    "TSMC",
+    "Twitter",
+    "Two Sigma",
+    "Uber",
+    "Venmo",
+    "Visa",
+    "Walt Disney",
+    "Warner Bros",
+    "Wells Fargo"
+  ],
+  "roles": [
+    "Software Engineer",
+    "SWE",
+    "Hardware Engineer",
+    "FPGA Engineer",
+    "Embedded Software Engineer",
+    "Firmware Engineer",
+    "Silicon Engineer",
+    "Nanoelectronics Engineer",
+    "Quantitative Developer",
+    "Machine Learning Engineer",
+    "AI Engineer"
+  ],
+  "locations": [
+    "United States"
+  ]
+}

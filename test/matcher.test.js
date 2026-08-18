@@ -3,6 +3,7 @@ const assert = require('node:assert/strict');
 const { match, skillsFrom } = require('../lib/matcher');
 
 const preferences = [{ id: '1', company: 'Amazon', role: 'SWE', location: 'United States', active: true }];
+const independent = { companies: ['Amazon', 'Adobe'], roles: ['SWE', 'Hardware Engineer'], locations: ['United States'] };
 test('matches early-career role synonyms', () => {
   const result = match({ company: 'Amazon', title: 'Software Development Engineer — 2027 New Grad', location: 'Seattle, WA', description: '' }, preferences);
   assert.equal(result.id, '1');
@@ -18,4 +19,11 @@ test('excludes internships from a new-grad search', () => {
 });
 test('extracts a short skill summary', () => {
   assert.deepEqual(skillsFrom('Build in Python, React, SQL, and AWS.'), ['Python', 'React', 'SQL', 'AWS']);
+});
+test('treats spreadsheet columns as independent lists', () => {
+  const result = match({ company: 'Adobe', title: 'Software Engineer — 2027 New Grad', location: 'San Jose, CA', description: '' }, independent);
+  assert.equal(result.company, 'Adobe');
+});
+test('requires a job to match one selected location', () => {
+  assert.equal(match({ company: 'Adobe', title: 'Software Engineer — 2027 New Grad', location: 'London, United Kingdom', description: '' }, independent), null);
 });

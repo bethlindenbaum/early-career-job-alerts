@@ -29,13 +29,14 @@ async function api(req, res, url) {
     state.profile = { ...state.profile, ...(await body(req)) }; write(state); return json(res, 200, publicState(state));
   }
   if (req.method === 'POST' && url.pathname === '/api/preferences') {
-    const row = await body(req); state.preferences.unshift({ id: crypto.randomUUID(), company: row.company.trim(), role: row.role?.trim() || '', location: row.location?.trim() || '', active: true }); write(state); return json(res, 201, publicState(state));
-  }
-  if (req.method === 'PATCH' && url.pathname.startsWith('/api/preferences/')) {
-    const id = url.pathname.split('/').pop(); const update = await body(req); state.preferences = state.preferences.map(item => item.id === id ? { ...item, ...update } : item); write(state); return json(res, 200, publicState(state));
+    const target = await body(req); if (!['companies', 'roles', 'locations'].includes(target.category) || !target.value?.trim()) return json(res, 400, { error: 'Invalid target' });
+    if (!state.preferences[target.category].some(value => value.toLowerCase() === target.value.trim().toLowerCase())) state.preferences[target.category].push(target.value.trim());
+    write(state); return json(res, 201, publicState(state));
   }
   if (req.method === 'DELETE' && url.pathname.startsWith('/api/preferences/')) {
-    const id = url.pathname.split('/').pop(); state.preferences = state.preferences.filter(item => item.id !== id); write(state); return json(res, 200, publicState(state));
+    const [, , , category, encodedValue] = url.pathname.split('/');
+    if (!state.preferences[category]) return json(res, 400, { error: 'Invalid target category' });
+    const value = decodeURIComponent(encodedValue); state.preferences[category] = state.preferences[category].filter(item => item.toLowerCase() !== value.toLowerCase()); write(state); return json(res, 200, publicState(state));
   }
   if (req.method === 'PATCH' && url.pathname.startsWith('/api/jobs/')) {
     const id = url.pathname.split('/').pop(); const update = await body(req); state.jobs = state.jobs.map(job => job.id === id ? { ...job, ...update, statusUpdatedAt: new Date().toISOString() } : job); write(state); return json(res, 200, publicState(state));

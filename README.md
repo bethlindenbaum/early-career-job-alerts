@@ -1,64 +1,78 @@
 # First Look Jobs
 
-First Look is a self-hosted early-career job monitor. It imports the supplied company, role, and location preferences; checks supported public career feeds for matching 2027/new-grad roles; sends an immediate SMS for each new match; creates a daily email recap; and tracks whether a job is under review, saved, applied to, or dismissed.
+First Look monitors public company career feeds for 2027 new-grad and early-career jobs. The GitHub Pages dashboard shows current matches, salary and skill details when available, application links, and an application tracker. GitHub Actions runs the scanner every ten minutes, sends immediate Twilio texts, and sends a daily Resend email digest without requiring a terminal or an awake computer.
 
-## Run locally
+## How preferences work
 
-Requires Node.js 20 or newer and no package installation.
+The three CSV columns are independent lists:
 
-```bash
-cp .env.example .env
-node --env-file=.env server.js
-```
+- **Companies** contains every company to monitor.
+- **Roles** contains acceptable position keywords. Every role applies to every company.
+- **Locations** contains acceptable locations. Every location applies to every company and role.
 
-Then open `http://localhost:4173`. On first launch, the app confirms the imported preferences and offers to scan currently live roles before beginning continuous monitoring.
+Rows have no relationship to one another. A job matches when its company is in the Companies list, its title matches at least one Roles value, and its location matches at least one Locations value. Blank Roles or Locations lists mean “any.” Common aliases such as SWE/software engineer and firmware/embedded software are normalized.
 
-## Connect notifications
+Only titles explicitly signaling new grad, 2027, graduate, entry level, early career, university, campus, associate, or Engineer I are accepted. Internship, senior, staff, principal, lead, manager, director, and head roles are excluded.
 
-Fill in `.env` with a Twilio account SID, auth token, and sending number for immediate SMS alerts. Add a Resend API key and verified `EMAIL_FROM` address for the 6:00 PM local-time digest. Without these values, the dashboard and scanner remain fully usable and clearly show that delivery credentials are needed.
+## How the hosted website works
 
-## Add job sources
+1. GitHub Pages publishes the files in `public/` at `https://YOUR-USERNAME.github.io/REPOSITORY/`.
+2. `.github/workflows/scan.yml` runs every ten minutes on GitHub's servers.
+3. The workflow securely retrieves queued website target changes from Supabase and applies them to `data/preferences.csv`.
+4. It rebuilds `public/preferences.json`, scans configured Greenhouse and Lever feeds, and compares listings against the three independent preference lists.
+5. New matches are added to `public/jobs.json`; immediate texts are sent through Twilio.
+6. At 6:00 PM America/New_York, matches discovered that day are emailed through Resend.
+7. The workflow commits the updated CSV and job data to `main`. That commit triggers the Pages deployment workflow, updating the website.
 
-The scanner supports public Greenhouse and Lever feeds. Add a row to `data/sources.json`:
+Application statuses are stored in the current browser because GitHub Pages is static. They survive closing the page but do not currently sync between browsers or devices. Target additions and removals do sync after the user signs in through Supabase.
 
-```json
-{ "company": "Company name exactly as in preferences", "type": "greenhouse", "token": "board-token" }
-```
+GitHub Actions schedules are not guaranteed to start at the exact scheduled second and may occasionally be delayed. The scanner does not require your computer to be running.
 
-or:
+## Initial GitHub Pages setup
 
-```json
-{ "company": "Company name exactly as in preferences", "type": "lever", "token": "site-token" }
-```
+Merge `dev` into `main` and push it. Then:
 
-The token is the final segment of the company's Greenhouse board or Lever jobs URL. The starter configuration includes several target companies. Companies using proprietary career sites need a dedicated adapter; keeping these explicit avoids brittle scraping and respects sites that prohibit automated access.
-
-## Matching behavior
-
-- Only titles/descriptions signaling 2027, new grad, graduate, entry-level, early-career, university, campus, associate, or Engineer I are considered.
-- Senior, staff, principal, lead, manager, and director titles are excluded.
-- Blank spreadsheet role or location values act as “any.”
-- Common role aliases such as SWE/software engineer and firmware/embedded software are normalized.
-- Duplicate jobs are stored only once.
-
-State is stored locally in `data/state.json` and excluded from git. Run `npm test` to verify the matching rules.
-
-## GitHub Pages + automatic scanner
-
-The repository includes two GitHub Actions workflows:
-
-- `pages.yml` publishes `public/` to GitHub Pages whenever `main` changes.
-- `scan.yml` runs on GitHub's infrastructure every ten minutes, checks configured job feeds, sends alerts, and commits updated matches to `public/jobs.json`.
-
-After merging the `dev` branch into `main` and pushing it:
-
-1. Open the repository on GitHub and go to **Settings → Pages**.
+1. Open the repository's **Settings → Pages**.
 2. Set **Source** to **GitHub Actions**.
-3. Go to **Settings → Actions → General → Workflow permissions**, select **Read and write permissions**, and save. This lets the scanner commit new matches.
-4. Go to **Settings → Secrets and variables → Actions** and add the notification secrets below.
-5. Open **Actions → Scan for jobs → Run workflow** once to verify the scanner. The scheduled runs use the workflow on the default branch (`main`).
+3. Open **Settings → Actions → General → Workflow permissions**.
+4. Select **Read and write permissions** and save so the scanner can commit updated CSV and job data.
+5. Open **Actions → Scan for jobs** and use **Run workflow** after completing the secrets below.
 
-Required secrets for texts:
+`pages.yml` deploys only from `main`. Scheduled workflows also use the version on the repository's default branch, so the setup is not active until it is merged.
+
+## Website target sync setup
+
+Supabase provides authenticated writes without exposing a repository token in the public website.
+
+1. Create a Supabase project.
+2. Open its SQL editor.
+3. Open `supabase/schema.sql`, replace `YOUR_EMAIL@example.com` with the only email that should be allowed to change targets, and run the SQL.
+4. In Supabase **Authentication → URL Configuration**, set the Site URL to the GitHub Pages URL and add the same URL under Redirect URLs.
+5. In GitHub, open **Settings → Secrets and variables → Actions → Variables** and add:
+
+   ```text
+   SUPABASE_URL
+   SUPABASE_ANON_KEY
+   ```
+
+   The URL and anonymous key are designed to be used by the browser. Row-level security restricts writes to the email configured in the SQL policy.
+
+6. Under **Actions → Secrets**, add:
+
+   ```text
+   SUPABASE_SERVICE_ROLE_KEY
+   ```
+
+   This secret is available only to the scheduled workflow. Never put the service-role key in frontend code or a repository variable.
+
+7. Deploy Pages, open the website, enter the authorized email under **Alerts**, and click **Email me a sign-in link**.
+8. Open the link in that email. The Alerts page will show that cloud sync is connected.
+
+When a signed-in user adds or removes a target, the website records an authenticated change in Supabase immediately. The next scheduled scan applies it to `data/preferences.csv`, clears the processed queue entry, commits the CSV, and scans using the new values. No manual CSV editing is required.
+
+## SMS setup
+
+Create a Twilio account and add these GitHub Actions secrets:
 
 ```text
 ALERT_PHONE
@@ -67,7 +81,11 @@ TWILIO_AUTH_TOKEN
 TWILIO_FROM_NUMBER
 ```
 
-Required secrets for the daily email:
+Phone numbers should use international format, such as `+15555555555`.
+
+## Daily email setup
+
+Create a Resend account, verify a sending domain or address, and add:
 
 ```text
 ALERT_EMAIL
@@ -75,10 +93,39 @@ RESEND_API_KEY
 EMAIL_FROM
 ```
 
-`EMAIL_FROM` must be a sender accepted by the configured Resend account. Never put these values in frontend code or commit a `.env` file.
+`EMAIL_FROM` must be accepted by the configured Resend account, for example `First Look <alerts@yourdomain.com>`.
 
-The scanner does not require a terminal or an awake computer after the branch is merged and workflows are enabled. GitHub schedules are not a continuously running server: scans are requested every ten minutes and GitHub may occasionally delay a scheduled run. The five-minute schedule is GitHub's shortest supported interval, but ten minutes is used here to reduce Actions usage.
+## Adding career feeds
 
-On GitHub Pages, application statuses and site-added preferences are saved in that browser's local storage. They survive closing the page but do not sync between devices. The scheduled scanner reads `data/preferences.csv`, so add permanent scanner targets there and push the change. Supporting synchronized edits directly from the site requires an authenticated cloud database; a static Pages site cannot safely write to the repository or expose a write credential.
+The scanner supports Greenhouse and Lever. Add sources to `data/sources.json`:
 
-For local development, the original Node server remains available with `npm run dev`.
+```json
+{ "company": "Company name exactly as listed", "type": "greenhouse", "token": "board-token" }
+```
+
+```json
+{ "company": "Company name exactly as listed", "type": "lever", "token": "site-token" }
+```
+
+The token is the final segment of the company's public board URL. Companies using proprietary career systems require dedicated adapters.
+
+## Local development
+
+Node.js 20 or newer is required. No package installation is needed.
+
+```bash
+cp .env.example .env
+npm run dev
+```
+
+Open `http://localhost:4173`. Local mode uses `data/state.json`; cloud target sync is enabled only in the static GitHub Pages build.
+
+Useful checks:
+
+```bash
+npm run build
+npm test
+npm run scan:github
+```
+
+Never commit `.env`, Supabase service-role keys, Twilio credentials, or Resend credentials.
