@@ -1,0 +1,12 @@
+{
+  "name": "first-look-jobs",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Early-career job monitor with SMS alerts, email digests, and application tracking.",
+  "scripts": {
+    "dev": "node server.js",
+    "start": "node server.js",
+    "test": "node --test"
+  },
+  "engines": { "node": ">=20" }
+}
