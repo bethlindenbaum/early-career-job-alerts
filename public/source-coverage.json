@@ -1,9 +1,14 @@
 {
-  "generatedAt": "2026-08-18T23:13:36.904Z",
+  "generatedAt": "2026-08-18T23:20:57.946Z",
   "targetCompanies": 109,
   "directCompanies": 28,
   "fallbackEnabled": true,
-  "fallbackName": "ApplyGuy 2027 New Grad Jobs",
+  "fallbackName": "ApplyGuy 2027 New Grad Jobs, Vansh New Grad 2027, Zapply Hardware & Systems Engineering",
+  "fallbackSources": [
+    "ApplyGuy 2027 New Grad Jobs",
+    "Vansh New Grad 2027",
+    "Zapply Hardware & Systems Engineering"
+  ],
   "companies": [
     {
       "company": "ABC Technologies",

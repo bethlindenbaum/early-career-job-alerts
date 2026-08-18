@@ -161,5 +161,21 @@
     "name": "ApplyGuy 2027 New Grad Jobs",
     "url": "https://raw.githubusercontent.com/ApplyGuy/2027-New-Grad-Jobs/main/data/new-grad-jobs.json",
     "coverage": "all-target-companies"
+  },
+  {
+    "type": "markdown",
+    "name": "Vansh New Grad 2027",
+    "url": "https://raw.githubusercontent.com/vanshb03/New-Grad-2027/dev/README.md",
+    "format": "vansh",
+    "earlyCareer": true,
+    "coverage": "all-target-companies"
+  },
+  {
+    "type": "markdown",
+    "name": "Zapply Hardware & Systems Engineering",
+    "url": "https://raw.githubusercontent.com/zapplyjobs/New-Grad-Jobs-2027/main/README.md",
+    "format": "zapply",
+    "section": "Hardware & Systems Engineering",
+    "coverage": "all-target-companies"
   }
 ]
