@@ -1,8 +1,9 @@
 const fs = require('node:fs');
 const path = require('node:path');
 const { fromFile, toCsv, unique, CATEGORIES } = require('../lib/preferences');
+const { normalizeSupabaseUrl } = require('../lib/supabase');
 
-const url = process.env.SUPABASE_URL;
+const url = normalizeSupabaseUrl(process.env.SUPABASE_URL);
 const key = process.env.SUPABASE_SECRET_KEY;
 if (!url || !key) { console.log('Supabase sync skipped: credentials are not configured.'); process.exit(0); }
 

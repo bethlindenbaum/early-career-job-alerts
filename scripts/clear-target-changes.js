@@ -1,8 +1,9 @@
 const fs = require('node:fs');
 const path = require('node:path');
+const { normalizeSupabaseUrl } = require('../lib/supabase');
 
 const file = path.join(__dirname, '..', '.target-change-ids.json');
-const url = process.env.SUPABASE_URL;
+const url = normalizeSupabaseUrl(process.env.SUPABASE_URL);
 const key = process.env.SUPABASE_SECRET_KEY;
 if (!url || !key || !fs.existsSync(file)) process.exit(0);
 const ids = JSON.parse(fs.readFileSync(file, 'utf8'));

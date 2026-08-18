@@ -16,8 +16,8 @@ create policy "Owner can manage target changes"
 on public.target_changes
 for all
 to authenticated
-using ((auth.jwt() ->> 'email') = 'YOUR_EMAIL@example.com')
-with check (auth.uid() = user_id and (auth.jwt() ->> 'email') = 'YOUR_EMAIL@example.com');
+using ((auth.jwt() ->> 'email') = 'bethlindenbaum@comcast.net')
+with check (auth.uid() = user_id and (auth.jwt() ->> 'email') = 'bethlindenbaum@comcast.net');
 
 create index if not exists target_changes_created_at_idx
 on public.target_changes(created_at);

@@ -159,7 +159,7 @@ First select the **Variables** tab and create these repository variables:
 
 | Variable | Value |
 |---|---|
-| `SUPABASE_URL` | The Supabase Project URL |
+| `SUPABASE_URL` | The Supabase Project URL, such as `https://abcdefgh.supabase.co` (do not include `/rest/v1`) |
 | `SUPABASE_PUBLISHABLE_KEY` | The `sb_publishable_...` key |
 
 Then select the **Secrets** tab and create this repository secret:
