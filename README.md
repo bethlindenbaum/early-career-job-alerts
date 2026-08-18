@@ -230,6 +230,12 @@ After the run completes, GitHub may automatically start **Deploy GitHub Pages** 
 
 The scheduled scanner now runs every ten minutes without your terminal or computer. GitHub can occasionally delay scheduled jobs, so “every ten minutes” is the requested schedule rather than a guarantee that every run starts at the exact second.
 
+The separate **Discover company job feeds** workflow runs every Monday and can also be run manually. It probes Greenhouse, Lever, Ashby, and SmartRecruiters public APIs for companies that do not yet have a direct source. It also learns Greenhouse, Lever, Ashby, SmartRecruiters, and Workday configurations from official links in the fallback feeds. Every candidate is validated by loading actual listings before it is committed.
+
+Discovery is intentionally recurring: a company that cannot be monitored directly today may move to a supported recruiting platform or publish a recognizable official listing later. Sites with CAPTCHAs, login requirements, private APIs, or custom JavaScript search systems remain marked as fallback coverage until a reliable connector is available.
+
+After a hosted scan, **Preferences → Official source health** shows whether each configured source succeeded, its recruiting platform, and how many listings it returned. A failing company source does not stop other companies from being scanned or prevent alerts from being sent.
+
 ### 14. Sign in and test website-to-CSV synchronization
 
 1. Open the GitHub Pages website.
@@ -301,11 +307,13 @@ Application statuses are stored in the current browser's local storage. They sur
 The scanner uses two coverage layers:
 
 1. **Verified direct feeds** for 22 target companies using Greenhouse, Lever, Ashby, or SmartRecruiters. These provide the richest descriptions, skill extraction, and compensation when the employer publishes it.
-2. **ApplyGuy's machine-readable 2027 New Grad Jobs feed** as a fallback. Every listing in that feed is still filtered against all 109 target-company names, the independent role list, and the U.S. location list. Application buttons use the original employer listing URL when the feed provides it.
+2. Three curated fallback sources: **ApplyGuy 2027 New Grad Jobs**, **Vansh New Grad 2027**, and the **Hardware & Systems Engineering** section of **Zapply New Grad Jobs 2027**. Every listing is filtered against all target-company names, the independent role list, the location list, and the early-career exclusions. Application buttons use the original employer listing URL.
 
 `public/source-coverage.json` records which companies have direct feeds and which rely on the all-company fallback. A monitored company will not appear in Matches unless it currently has a published job that passes every preference rule. “No current match” is different from “not monitored.”
 
-The fallback is curated externally and can find jobs on Workday and proprietary career systems that this project cannot query directly. It is broader than the direct adapters, but may have less detail or a short delay compared with an employer's own feed. The project therefore prefers direct feeds and suppresses duplicate company/title/location combinations.
+The fallbacks are curated externally and can find jobs on Workday and proprietary career systems that this project cannot query directly. They are broader than the direct adapters, but may have less detail or a short delay compared with an employer's own feed. The project therefore checks direct feeds first and suppresses duplicate company/title/location combinations across all sources.
+
+When a fallback source is added for the first time, its existing listings are imported to the website without sending a bulk SMS or email flood. Jobs discovered from that source on later scans use the normal immediate-SMS and daily-digest behavior.
 
 ### Add or update a direct feed
 

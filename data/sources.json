@@ -1,31 +1,181 @@
 [
-  { "company": "Aquatic Capital Management", "type": "greenhouse", "token": "aquaticcapitalmanagement" },
-  { "company": "Chicago Trading", "type": "greenhouse", "token": "chicagotrading" },
-  { "company": "Cloudflare", "type": "greenhouse", "token": "cloudflare" },
-  { "company": "Cursor", "type": "ashby", "token": "cursor" },
-  { "company": "Databricks", "type": "greenhouse", "token": "databricks" },
-  { "company": "Datadog", "type": "greenhouse", "token": "datadog" },
-  { "company": "Dropbox", "type": "greenhouse", "token": "dropbox" },
-  { "company": "Epic Games", "type": "greenhouse", "token": "epicgames" },
-  { "company": "Hudl", "type": "greenhouse", "token": "hudl" },
-  { "company": "IMC Trading", "type": "greenhouse", "token": "imc" },
-  { "company": "Jane Street", "type": "greenhouse", "token": "janestreet" },
-  { "company": "Lucid Software", "type": "greenhouse", "token": "lucidsoftware" },
-  { "company": "Lyft", "type": "greenhouse", "token": "lyft" },
-  { "company": "MetLife", "type": "lever", "token": "metlife" },
-  { "company": "Microchip", "type": "smartrecruiters", "token": "microchip" },
-  { "company": "MongoDB", "type": "greenhouse", "token": "mongodb" },
-  { "company": "Nintendo", "type": "greenhouse", "token": "nintendo" },
-  { "company": "Notion", "type": "ashby", "token": "notion" },
-  { "company": "OpenAI", "type": "ashby", "token": "openai" },
-  { "company": "Palantir", "type": "lever", "token": "palantir" },
-  { "company": "Point72", "type": "greenhouse", "token": "point72" },
-  { "company": "Roblox", "type": "greenhouse", "token": "roblox" },
-  { "company": "SpaceX", "type": "greenhouse", "token": "spacex" },
+  {
+    "company": "Aquatic Capital Management",
+    "type": "greenhouse",
+    "token": "aquaticcapitalmanagement"
+  },
+  {
+    "company": "Chicago Trading",
+    "type": "greenhouse",
+    "token": "chicagotrading"
+  },
+  {
+    "company": "Cloudflare",
+    "type": "greenhouse",
+    "token": "cloudflare"
+  },
+  {
+    "company": "Cursor",
+    "type": "ashby",
+    "token": "cursor"
+  },
+  {
+    "company": "Databricks",
+    "type": "greenhouse",
+    "token": "databricks"
+  },
+  {
+    "company": "Datadog",
+    "type": "greenhouse",
+    "token": "datadog"
+  },
+  {
+    "company": "Dropbox",
+    "type": "greenhouse",
+    "token": "dropbox"
+  },
+  {
+    "company": "Epic Games",
+    "type": "greenhouse",
+    "token": "epicgames"
+  },
+  {
+    "company": "Hudl",
+    "type": "greenhouse",
+    "token": "hudl"
+  },
+  {
+    "company": "IMC Trading",
+    "type": "greenhouse",
+    "token": "imc"
+  },
+  {
+    "company": "Jane Street",
+    "type": "greenhouse",
+    "token": "janestreet"
+  },
+  {
+    "company": "LinkedIn",
+    "type": "greenhouse",
+    "token": "linkedin",
+    "discovery": "automatic"
+  },
+  {
+    "company": "Lucid Software",
+    "type": "greenhouse",
+    "token": "lucidsoftware"
+  },
+  {
+    "company": "Lyft",
+    "type": "greenhouse",
+    "token": "lyft"
+  },
+  {
+    "company": "Medtronic",
+    "type": "workday",
+    "host": "medtronic.wd1.myworkdayjobs.com",
+    "tenant": "medtronic",
+    "site": "medtroniccareers",
+    "discovery": "fallback-listing"
+  },
+  {
+    "company": "MetLife",
+    "type": "lever",
+    "token": "metlife"
+  },
+  {
+    "company": "Microchip",
+    "type": "smartrecruiters",
+    "token": "microchip"
+  },
+  {
+    "company": "MongoDB",
+    "type": "greenhouse",
+    "token": "mongodb"
+  },
+  {
+    "company": "Nintendo",
+    "type": "greenhouse",
+    "token": "nintendo"
+  },
+  {
+    "company": "Northrop Grumman",
+    "type": "workday",
+    "host": "ngc.wd1.myworkdayjobs.com",
+    "tenant": "ngc",
+    "site": "northrop_grumman_external_site",
+    "discovery": "fallback-listing"
+  },
+  {
+    "company": "Notion",
+    "type": "ashby",
+    "token": "notion"
+  },
+  {
+    "company": "NVIDIA",
+    "type": "workday",
+    "host": "nvidia.wd5.myworkdayjobs.com",
+    "tenant": "nvidia",
+    "site": "nvidiaexternalcareersite",
+    "discovery": "fallback-listing"
+  },
+  {
+    "company": "OpenAI",
+    "type": "ashby",
+    "token": "openai"
+  },
+  {
+    "company": "Palantir",
+    "type": "lever",
+    "token": "palantir"
+  },
+  {
+    "company": "Point72",
+    "type": "greenhouse",
+    "token": "point72"
+  },
+  {
+    "company": "Roblox",
+    "type": "greenhouse",
+    "token": "roblox"
+  },
+  {
+    "company": "SpaceX",
+    "type": "greenhouse",
+    "token": "spacex"
+  },
+  {
+    "company": "Uber",
+    "type": "smartrecruiters",
+    "token": "uber",
+    "discovery": "automatic"
+  },
+  {
+    "company": "Visa",
+    "type": "smartrecruiters",
+    "token": "visa",
+    "discovery": "automatic"
+  },
   {
     "type": "applyguy",
     "name": "ApplyGuy 2027 New Grad Jobs",
     "url": "https://raw.githubusercontent.com/ApplyGuy/2027-New-Grad-Jobs/main/data/new-grad-jobs.json",
+    "coverage": "all-target-companies"
+  },
+  {
+    "type": "markdown",
+    "name": "Vansh New Grad 2027",
+    "url": "https://raw.githubusercontent.com/vanshb03/New-Grad-2027/dev/README.md",
+    "format": "vansh",
+    "earlyCareer": true,
+    "coverage": "all-target-companies"
+  },
+  {
+    "type": "markdown",
+    "name": "Zapply Hardware & Systems Engineering",
+    "url": "https://raw.githubusercontent.com/zapplyjobs/New-Grad-Jobs-2027/main/README.md",
+    "format": "zapply",
+    "section": "Hardware & Systems Engineering",
     "coverage": "all-target-companies"
   }
 ]
