@@ -122,11 +122,19 @@ In Supabase:
 3. Under **Redirect URLs**, click **Add URL** and add that same exact Pages URL.
 4. Save the settings.
 
+The URL must use your exact GitHub username and repository name and should end in `/`. For this repository it should be:
+
+```text
+https://bethlindenbaum.github.io/early-career-job-alerts/
+```
+
+If an emailed sign-in link opens a GitHub Pages 404, recheck both fields for an old username, the GitHub repository URL instead of the `github.io` URL, or a missing repository path.
+
 Example:
 
 ```text
-Site URL:      https://beth.github.io/early-career-job-alerts/
-Redirect URL:  https://beth.github.io/early-career-job-alerts/
+Site URL:      https://bethlindenbaum.github.io/early-career-job-alerts/
+Redirect URL:  https://bethlindenbaum.github.io/early-career-job-alerts/
 ```
 
 Do not use the repository URL such as `https://github.com/...`; use the published `github.io` website URL. Supabase requires the magic-link destination to match an allowed redirect URL. [Supabase redirect URL documentation](https://supabase.com/docs/guides/auth/redirect-urls)
