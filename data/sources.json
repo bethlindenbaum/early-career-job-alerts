@@ -1,5 +1,4 @@
 [
-  { "company": "OpenAI", "type": "greenhouse", "token": "openai" },
   { "company": "Datadog", "type": "greenhouse", "token": "datadog" },
   { "company": "Cloudflare", "type": "greenhouse", "token": "cloudflare" },
   { "company": "MongoDB", "type": "greenhouse", "token": "mongodb" },

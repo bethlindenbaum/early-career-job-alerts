@@ -1,0 +1,56 @@
+name: Scan for jobs
+
+on:
+  schedule:
+    - cron: '*/10 * * * *'
+      timezone: America/New_York
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: job-scanner
+  cancel-in-progress: false
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          ref: main
+      - uses: actions/setup-node@v6
+        with:
+          node-version: 22
+      - run: npm run sync:targets
+        env:
+          SUPABASE_URL: ${{ vars.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+      - run: npm run build
+      - run: npm run scan:github
+        env:
+          ALERT_PHONE: ${{ secrets.ALERT_PHONE }}
+          ALERT_EMAIL: ${{ secrets.ALERT_EMAIL }}
+          ALERT_TIMEZONE: America/New_York
+          TWILIO_ACCOUNT_SID: ${{ secrets.TWILIO_ACCOUNT_SID }}
+          TWILIO_AUTH_TOKEN: ${{ secrets.TWILIO_AUTH_TOKEN }}
+          TWILIO_FROM_NUMBER: ${{ secrets.TWILIO_FROM_NUMBER }}
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+          EMAIL_FROM: ${{ secrets.EMAIL_FROM }}
+      - name: Publish new matches
+        run: |
+          if git diff --quiet -- public/jobs.json public/preferences.json data/preferences.csv; then
+            echo "No job data changes"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/preferences.csv public/jobs.json public/preferences.json
+          git commit -m "chore: update job matches"
+          git push
+      - name: Clear synchronized website changes
+        run: npm run sync:clear
+        env:
+          SUPABASE_URL: ${{ vars.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
