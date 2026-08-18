@@ -1,113 +1,316 @@
 # First Look Jobs
 
-First Look monitors public company career feeds for 2027 new-grad and early-career jobs. The GitHub Pages dashboard shows current matches, salary and skill details when available, application links, and an application tracker. GitHub Actions runs the scanner every ten minutes, sends immediate Twilio texts, and sends a daily Resend email digest without requiring a terminal or an awake computer.
+First Look finds 2027 new-grad and early-career jobs, displays them on a GitHub Pages website, sends immediate SMS alerts through Twilio, and sends a daily email digest through Resend. GitHub Actions runs the scanner every ten minutes, so your terminal and computer do not need to remain on.
 
-## How preferences work
+## Complete hosted setup — follow in this order
 
-The three CSV columns are independent lists:
+The order matters because you need to publish the site once to learn its final GitHub Pages URL before configuring Supabase authentication.
 
-- **Companies** contains every company to monitor.
-- **Roles** contains acceptable position keywords. Every role applies to every company.
-- **Locations** contains acceptable locations. Every location applies to every company and role.
+### 1. Push the development branch
 
-Rows have no relationship to one another. A job matches when its company is in the Companies list, its title matches at least one Roles value, and its location matches at least one Locations value. Blank Roles or Locations lists mean “any.” Common aliases such as SWE/software engineer and firmware/embedded software are normalized.
+Confirm that you are on `dev`, then push it:
 
-Only titles explicitly signaling new grad, 2027, graduate, entry level, early career, university, campus, associate, or Engineer I are accepted. Internship, senior, staff, principal, lead, manager, director, and head roles are excluded.
-
-## How the hosted website works
-
-1. GitHub Pages publishes the files in `public/` at `https://YOUR-USERNAME.github.io/REPOSITORY/`.
-2. `.github/workflows/scan.yml` runs every ten minutes on GitHub's servers.
-3. The workflow securely retrieves queued website target changes from Supabase and applies them to `data/preferences.csv`.
-4. It rebuilds `public/preferences.json`, scans configured Greenhouse and Lever feeds, and compares listings against the three independent preference lists.
-5. New matches are added to `public/jobs.json`; immediate texts are sent through Twilio.
-6. At 6:00 PM America/New_York, matches discovered that day are emailed through Resend.
-7. The workflow commits the updated CSV and job data to `main`. That commit triggers the Pages deployment workflow, updating the website.
-
-Application statuses are stored in the current browser because GitHub Pages is static. They survive closing the page but do not currently sync between browsers or devices. Target additions and removals do sync after the user signs in through Supabase.
-
-GitHub Actions schedules are not guaranteed to start at the exact scheduled second and may occasionally be delayed. The scanner does not require your computer to be running.
-
-## Initial GitHub Pages setup
-
-Merge `dev` into `main` and push it. Then:
-
-1. Open the repository's **Settings → Pages**.
-2. Set **Source** to **GitHub Actions**.
-3. Open **Settings → Actions → General → Workflow permissions**.
-4. Select **Read and write permissions** and save so the scanner can commit updated CSV and job data.
-5. Open **Actions → Scan for jobs** and use **Run workflow** after completing the secrets below.
-
-`pages.yml` deploys only from `main`. Scheduled workflows also use the version on the repository's default branch, so the setup is not active until it is merged.
-
-## Website target sync setup
-
-Supabase provides authenticated writes without exposing a repository token in the public website.
-
-1. Create a Supabase project.
-2. Open its SQL editor.
-3. Open `supabase/schema.sql`, replace `YOUR_EMAIL@example.com` with the only email that should be allowed to change targets, and run the SQL.
-4. In Supabase **Authentication → URL Configuration**, set the Site URL to the GitHub Pages URL and add the same URL under Redirect URLs.
-5. In GitHub, open **Settings → Secrets and variables → Actions → Variables** and add:
-
-   ```text
-   SUPABASE_URL
-   SUPABASE_ANON_KEY
-   ```
-
-   The URL and anonymous key are designed to be used by the browser. Row-level security restricts writes to the email configured in the SQL policy.
-
-6. Under **Actions → Secrets**, add:
-
-   ```text
-   SUPABASE_SERVICE_ROLE_KEY
-   ```
-
-   This secret is available only to the scheduled workflow. Never put the service-role key in frontend code or a repository variable.
-
-7. Deploy Pages, open the website, enter the authorized email under **Alerts**, and click **Email me a sign-in link**.
-8. Open the link in that email. The Alerts page will show that cloud sync is connected.
-
-When a signed-in user adds or removes a target, the website records an authenticated change in Supabase immediately. The next scheduled scan applies it to `data/preferences.csv`, clears the processed queue entry, commits the CSV, and scans using the new values. No manual CSV editing is required.
-
-## SMS setup
-
-Create a Twilio account and add these GitHub Actions secrets:
-
-```text
-ALERT_PHONE
-TWILIO_ACCOUNT_SID
-TWILIO_AUTH_TOKEN
-TWILIO_FROM_NUMBER
+```bash
+git branch --show-current
+git push -u origin dev
 ```
 
-Phone numbers should use international format, such as `+15555555555`.
+On GitHub, open the repository and create a pull request from `dev` into `main`. Merge the pull request. The Pages and scanner workflows only become active after they are on the repository's default branch, normally `main`.
 
-## Daily email setup
+### 2. Configure GitHub Actions permissions
 
-Create a Resend account, verify a sending domain or address, and add:
+In the GitHub repository:
+
+1. Open **Settings**.
+2. In the left sidebar, select **Actions → General**.
+3. Under **Actions permissions**, select **Allow all actions and reusable workflows**. If your account already allows the actions used by this repository, that existing setting can remain.
+4. Scroll to **Workflow permissions**.
+5. Select **Read and write permissions**.
+6. Leave **Allow GitHub Actions to create and approve pull requests** unchecked; this project does not need it.
+7. Click **Save**.
+
+Write permission is necessary because the scanner commits synchronized CSV changes and new job matches back to `main`.
+
+### 3. Enable GitHub Pages and create the website URL
+
+In the same repository:
+
+1. Open **Settings → Pages**.
+2. Under **Build and deployment**, set **Source** to **GitHub Actions**.
+3. Do not select a branch or `/docs` folder. Those options belong to branch-based publishing and are not used by this project.
+4. Leave **Custom domain** blank unless you already own and want to configure a separate domain.
+5. Keep **Enforce HTTPS** enabled if the option is shown. GitHub's `github.io` address uses HTTPS automatically.
+
+Now publish the first copy:
+
+1. Open the repository's **Actions** tab.
+2. Select **Deploy GitHub Pages** in the left sidebar.
+3. Click **Run workflow**.
+4. Choose the `main` branch and confirm **Run workflow**.
+5. Wait for the workflow to finish with a green check.
+6. Return to **Settings → Pages**. GitHub will display **Your site is live at** followed by the URL.
+
+For a normal project repository, the URL is:
 
 ```text
-ALERT_EMAIL
-RESEND_API_KEY
-EMAIL_FROM
+https://YOUR-GITHUB-USERNAME.github.io/YOUR-REPOSITORY-NAME/
 ```
 
-`EMAIL_FROM` must be accepted by the configured Resend account, for example `First Look <alerts@yourdomain.com>`.
+For example, if the username is `beth` and the repository is `early-career-job-alerts`, the URL is:
 
-## Adding career feeds
+```text
+https://beth.github.io/early-career-job-alerts/
+```
 
-The scanner supports Greenhouse and Lever. Add sources to `data/sources.json`:
+Copy the exact URL, including the repository path and trailing `/`. You will use it in Supabase.
+
+GitHub Pages sites are publicly accessible. Do not place API secrets, private phone numbers, or `.env` files in `public/` or commit them to the repository.
+
+### 4. Create the Supabase project
+
+Supabase lets the public Pages website accept authenticated target changes without exposing a GitHub write token.
+
+1. Sign in at [Supabase](https://supabase.com/dashboard).
+2. Click **New project**.
+3. Select or create an organization.
+4. Enter a project name such as `first-look-jobs`.
+5. Generate and safely store the database password. This application does not put that password in GitHub.
+6. Choose the region closest to you.
+7. Select the free or paid plan you want and click **Create new project**.
+8. Wait until the project reports that it is ready.
+
+You do not need to change database networking, connection-pooler, storage, realtime, or Edge Function settings.
+
+### 5. Create the Supabase table and security policy
+
+Before running the SQL, open [supabase/schema.sql](supabase/schema.sql) locally and replace:
+
+```text
+YOUR_EMAIL@example.com
+```
+
+with the exact email address that will be allowed to change job targets. Do not remove the surrounding single quotes.
+
+Then, in Supabase:
+
+1. Open **SQL Editor** in the left sidebar.
+2. Click **New query**.
+3. Paste the complete contents of `supabase/schema.sql`.
+4. Click **Run**.
+5. Open **Table Editor** and confirm that `target_changes` appears under the `public` schema.
+
+The SQL enables Row Level Security. Do not disable RLS. The policy permits only an authenticated user whose email matches the address placed in the SQL file.
+
+### 6. Configure Supabase email authentication
+
+In the Supabase project:
+
+1. Open **Authentication → Sign In / Providers**.
+2. Select **Email**.
+3. Make sure the **Email** provider is enabled.
+4. Keep passwordless email/OTP sign-in available. The website uses an emailed magic link, not a password.
+5. Save if you changed anything.
+
+For a personal single-user site, the Row Level Security policy is what restricts target changes to your email. Other authenticated emails cannot insert changes even if someone discovers the public website.
+
+### 7. Configure Supabase URLs
+
+In Supabase:
+
+1. Open **Authentication → URL Configuration**.
+2. Set **Site URL** to the exact GitHub Pages URL copied in step 3.
+3. Under **Redirect URLs**, click **Add URL** and add that same exact Pages URL.
+4. Save the settings.
+
+Example:
+
+```text
+Site URL:      https://beth.github.io/early-career-job-alerts/
+Redirect URL:  https://beth.github.io/early-career-job-alerts/
+```
+
+Do not use the repository URL such as `https://github.com/...`; use the published `github.io` website URL. Supabase requires the magic-link destination to match an allowed redirect URL. [Supabase redirect URL documentation](https://supabase.com/docs/guides/auth/redirect-urls)
+
+Optional local testing can be allowed by adding this additional Redirect URL:
+
+```text
+http://localhost:4173/
+```
+
+The production **Site URL** should still remain the GitHub Pages URL.
+
+### 8. Copy the Supabase URL and API keys
+
+In Supabase, open the project's **Connect** dialog or **Project Settings → API Keys**.
+
+Collect these three values:
+
+1. **Project URL**, similar to `https://abcdefgh.supabase.co`.
+2. **Publishable key**, beginning with `sb_publishable_`. This is the low-privilege browser key.
+3. **Secret key**, beginning with `sb_secret_`. This is the privileged server key.
+
+If the project only shows legacy keys, the legacy `anon` key can replace the publishable key and the legacy `service_role` key can replace the secret key. New Supabase projects should use publishable and secret keys. Publishable keys are safe to expose to a browser when RLS is enabled; secret keys bypass RLS and must never be exposed publicly. [Supabase API-key documentation](https://supabase.com/docs/guides/getting-started/api-keys)
+
+### 9. Add Supabase values to GitHub
+
+Open the GitHub repository's **Settings → Secrets and variables → Actions**.
+
+First select the **Variables** tab and create these repository variables:
+
+| Variable | Value |
+|---|---|
+| `SUPABASE_URL` | The Supabase Project URL |
+| `SUPABASE_PUBLISHABLE_KEY` | The `sb_publishable_...` key |
+
+Then select the **Secrets** tab and create this repository secret:
+
+| Secret | Value |
+|---|---|
+| `SUPABASE_SECRET_KEY` | The `sb_secret_...` key |
+
+Use **New repository variable** and **New repository secret**, not environment-level entries. The variable names must match exactly, including capitalization.
+
+The publishable key is intentionally available to the Pages build. The secret key is available only to GitHub Actions and must never be placed in `public/config.json`, source code, a GitHub variable, or `.env` committed to git.
+
+### 10. Redeploy Pages with cloud sync enabled
+
+The first deployment occurred before the Supabase variables existed, so deploy again:
+
+1. Open **Actions → Deploy GitHub Pages**.
+2. Click **Run workflow**.
+3. Select `main` and run it.
+4. Wait for a green check.
+5. Open the Pages URL and perform a hard refresh.
+
+Open **Alerts** on the website. **Cloud target sync** should now say **Not signed in**, rather than **Setup required**.
+
+### 11. Configure SMS alerts with Twilio
+
+Create or use a Twilio account and obtain a sending number. In GitHub, open **Settings → Secrets and variables → Actions → Secrets** and add:
+
+| Secret | Value |
+|---|---|
+| `ALERT_PHONE` | Your receiving number, such as `+15555555555` |
+| `TWILIO_ACCOUNT_SID` | Twilio Account SID |
+| `TWILIO_AUTH_TOKEN` | Twilio Auth Token |
+| `TWILIO_FROM_NUMBER` | Twilio sending number in international format |
+
+Twilio trial accounts may require the receiving number to be verified in Twilio. Do not put these values in GitHub variables; use secrets.
+
+This step is optional if you do not want SMS alerts. The scanner and website still work without it.
+
+### 12. Configure the daily email with Resend
+
+Create or use a Resend account, then verify a sending domain or use an allowed test sender. In GitHub Actions **Secrets**, add:
+
+| Secret | Value |
+|---|---|
+| `ALERT_EMAIL` | The email address that receives the digest |
+| `RESEND_API_KEY` | The Resend API key |
+| `EMAIL_FROM` | An approved sender, such as `First Look <alerts@yourdomain.com>` |
+
+This step is optional if you do not want email digests. The daily digest is scheduled for 6:00 PM `America/New_York`.
+
+### 13. Run and verify the first hosted scan
+
+1. Open the GitHub repository's **Actions** tab.
+2. Select **Scan for jobs**.
+3. Click **Run workflow**.
+4. Choose `main` and run it.
+5. Open the running job and inspect its steps.
+
+A successful run should show:
+
+- **Sync website targets** or the equivalent `npm run sync:targets` step succeeding.
+- The scan completing without a fatal error.
+- **Publish new matches** either committing changes or reporting that there were no changes.
+- **Clear synchronized website changes** succeeding.
+
+After the run completes, GitHub may automatically start **Deploy GitHub Pages** if the scanner committed new data. Wait for that deployment, then refresh the website.
+
+The scheduled scanner now runs every ten minutes without your terminal or computer. GitHub can occasionally delay scheduled jobs, so “every ten minutes” is the requested schedule rather than a guarantee that every run starts at the exact second.
+
+### 14. Sign in and test website-to-CSV synchronization
+
+1. Open the GitHub Pages website.
+2. Open **Alerts**.
+3. Enter the same email address used in `supabase/schema.sql`.
+4. Click **Save alert settings**.
+5. Click **Email me a sign-in link**.
+6. Open the email and click its link.
+7. Confirm that the website returns to the Pages URL and **Cloud target sync** says **Signed in as ...**.
+8. Open **Preferences → Add target**.
+9. Add a test company, position, or location.
+10. Wait for the next scheduled scan, or manually run **Actions → Scan for jobs**.
+11. In GitHub, open `data/preferences.csv` on `main` and confirm the target was added to the appropriate independent column.
+
+Removing a target from the signed-in website works the same way: the next scanner run removes it from the CSV and commits the updated file.
+
+## How the current website works
+
+### Independent preference lists
+
+The CSV columns are not row relationships:
+
+- **Companies** is the complete company watchlist.
+- **Roles** is the complete acceptable-position list. Every role applies to every company.
+- **Locations** is the complete acceptable-location list. Every location applies to every company and role.
+
+A job matches when:
+
+1. Its company is in Companies.
+2. Its title matches at least one Roles entry.
+3. Its location matches at least one Locations entry.
+4. Its title signals new grad, 2027, graduate, entry level, early career, university, campus, associate, or Engineer I.
+
+Internship, senior, staff, principal, lead, manager, director, and head roles are excluded. Common aliases such as SWE/software engineer and firmware/embedded software are normalized. An empty Roles or Locations list means “any.”
+
+### Scanner and publication flow
+
+```text
+Signed-in website change
+        ↓
+Supabase target_changes queue
+        ↓
+GitHub scanner runs every 10 minutes
+        ↓
+data/preferences.csv is updated automatically
+        ↓
+Greenhouse and Lever feeds are checked
+        ↓
+New matches are written to public/jobs.json
+        ↓
+SMS is sent immediately; daily matches are emailed at 6 PM
+        ↓
+GitHub Pages redeploys the updated dashboard
+```
+
+The website itself is static. Supabase handles authenticated preference changes, while GitHub Actions performs privileged scanning, notification, CSV-writing, and deployment work.
+
+### Dashboard and application tracking
+
+- **Matches** displays company, title, salary when available, extracted skills, city/location, and an application link.
+- **Tracker** groups jobs marked Review, Saved, or Applied.
+- **Preferences** displays the three independent target lists and lets a signed-in user add or remove entries.
+- **Alerts** stores the displayed contact settings in the current browser and provides Supabase sign-in.
+
+Application statuses are stored in the current browser's local storage. They survive closing the tab but do not currently synchronize across browsers or devices. SMS and email destinations come from protected GitHub secrets, not from the values typed into the public website.
+
+## Adding company career feeds
+
+The scanner currently supports public Greenhouse and Lever feeds. Add an entry to `data/sources.json`:
 
 ```json
 { "company": "Company name exactly as listed", "type": "greenhouse", "token": "board-token" }
 ```
 
+or:
+
 ```json
 { "company": "Company name exactly as listed", "type": "lever", "token": "site-token" }
 ```
 
-The token is the final segment of the company's public board URL. Companies using proprietary career systems require dedicated adapters.
+The token is the final segment of the company's public board URL. A company in the preference CSV is not scanned until a compatible source is also configured. Companies using proprietary career systems require dedicated adapters.
 
 ## Local development
 
@@ -118,7 +321,7 @@ cp .env.example .env
 npm run dev
 ```
 
-Open `http://localhost:4173`. Local mode uses `data/state.json`; cloud target sync is enabled only in the static GitHub Pages build.
+Open `http://localhost:4173`. Local mode uses `data/state.json`. The hosted Supabase change queue is used by the GitHub Pages build.
 
 Useful checks:
 
@@ -128,4 +331,4 @@ npm test
 npm run scan:github
 ```
 
-Never commit `.env`, Supabase service-role keys, Twilio credentials, or Resend credentials.
+Never commit `.env`, database passwords, Supabase secret keys, Twilio credentials, or Resend credentials.
