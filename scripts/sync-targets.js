@@ -7,11 +7,14 @@ const key = process.env.SUPABASE_SECRET_KEY;
 if (!url || !key) { console.log('Supabase sync skipped: credentials are not configured.'); process.exit(0); }
 
 const csvPath = path.join(__dirname, '..', 'data', 'preferences.csv');
-const headers = { apikey: key, Authorization: `Bearer ${key}`, 'Content-Type': 'application/json' };
+const headers = { apikey: key, 'Content-Type': 'application/json' };
+// Supabase's current sb_secret_* keys are API keys, not JWTs. Legacy
+// service_role JWTs still need to be sent as bearer tokens.
+if (!key.startsWith('sb_secret_')) headers.Authorization = `Bearer ${key}`;
 
 (async () => {
   const response = await fetch(`${url}/rest/v1/target_changes?select=id,action,category,value,created_at&order=created_at.asc`, { headers });
-  if (!response.ok) throw new Error(`Could not load target changes: ${response.status} ${await response.text()}`);
+  if (!response.ok) throw new Error(`Could not load target changes from Supabase: ${response.status} ${await response.text()}`);
   const changes = await response.json();
   if (!changes.length) { console.log('No website target changes to synchronize.'); return; }
   const preferences = fromFile(csvPath);
