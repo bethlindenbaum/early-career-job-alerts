@@ -3,7 +3,7 @@ const path = require('node:path');
 const { fromFile, toCsv, unique, CATEGORIES } = require('../lib/preferences');
 
 const url = process.env.SUPABASE_URL;
-const key = process.env.SUPABASE_SERVICE_ROLE_KEY;
+const key = process.env.SUPABASE_SECRET_KEY;
 if (!url || !key) { console.log('Supabase sync skipped: credentials are not configured.'); process.exit(0); }
 
 const csvPath = path.join(__dirname, '..', 'data', 'preferences.csv');
