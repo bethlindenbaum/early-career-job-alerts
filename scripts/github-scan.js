@@ -6,6 +6,7 @@ const { match } = require('../lib/matcher');
 
 const root = path.join(__dirname, '..');
 const outputPath = path.join(root, 'public', 'jobs.json');
+const healthPath = path.join(root, 'public', 'source-health.json');
 const preferences = fs.readFileSync(path.join(root, 'public', 'preferences.json'), 'utf8');
 const existing = JSON.parse(fs.readFileSync(outputPath, 'utf8'));
 const parsedPreferences = JSON.parse(preferences);
@@ -36,6 +37,17 @@ const state = {
   const output = { jobs: state.jobs, lastScanAt: jobsChanged ? state.lastScanAt : existing.lastScanAt, lastDigestAt: state.lastDigestAt || null,
     delivery: { smsConfigured: Boolean(process.env.TWILIO_ACCOUNT_SID && process.env.ALERT_PHONE), emailConfigured: Boolean(process.env.RESEND_API_KEY && process.env.ALERT_EMAIL) } };
   fs.writeFileSync(outputPath, `${JSON.stringify(output, null, 2)}\n`);
+  const previousHealth = fs.existsSync(healthPath) ? JSON.parse(fs.readFileSync(healthPath, 'utf8')) : { sources: [] };
+  const previousBySource = new Map((previousHealth.sources || []).map(item => [`${item.company}|${item.type}`, item]));
+  const sources = result.health.map(({ durationMs, checkedAt, ...item }) => {
+    const previous = previousBySource.get(`${item.company}|${item.type}`);
+    const same = previous && JSON.stringify({ ...previous, checkedAt: undefined }) === JSON.stringify({ ...item, checkedAt: undefined });
+    return { ...item, checkedAt: same ? previous.checkedAt : checkedAt };
+  }).sort((a, b) => a.company.localeCompare(b.company));
+  const healthCounts = { healthy: sources.filter(item => item.status === 'healthy').length, errors: sources.filter(item => item.status === 'error').length };
+  const healthChanged = JSON.stringify((previousHealth.sources || []).map(item => ({ ...item, checkedAt: undefined }))) !== JSON.stringify(sources.map(item => ({ ...item, checkedAt: undefined })));
+  const health = { checkedAt: healthChanged ? new Date().toISOString() : previousHealth.checkedAt, ...healthCounts, sources };
+  fs.writeFileSync(healthPath, `${JSON.stringify(health, null, 2)}\n`);
   console.log(`Scan finished with ${result.added.length} new matches and ${result.errors.length} source errors.${jobsChanged ? ' Published job data changed.' : ''}`);
-  if (result.errors.length) console.error(result.errors.join('\n'));
+  if (result.errors.length) console.warn(result.errors.join('\n'));
 })().catch(error => { console.error(error); process.exitCode = 1; });

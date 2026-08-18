@@ -11,7 +11,11 @@ const companies = preferences.companies.map(company => {
   const source = direct.get(company.toLowerCase());
   return { company, direct: Boolean(source), provider: source?.type || null, fallback: Boolean(fallback) };
 });
-const report = { generatedAt: new Date().toISOString(), targetCompanies: companies.length, directCompanies: companies.filter(item => item.direct).length,
+const outputPath = path.join(root, 'public', 'source-coverage.json');
+const previous = fs.existsSync(outputPath) ? JSON.parse(fs.readFileSync(outputPath, 'utf8')) : null;
+const content = { targetCompanies: companies.length, directCompanies: companies.filter(item => item.direct).length,
   fallbackEnabled: Boolean(fallback), fallbackName: fallback?.name || null, companies };
-fs.writeFileSync(path.join(root, 'public', 'source-coverage.json'), `${JSON.stringify(report, null, 2)}\n`);
+const unchanged = previous && JSON.stringify({ ...previous, generatedAt: undefined }) === JSON.stringify({ ...content, generatedAt: undefined });
+const report = { generatedAt: unchanged ? previous.generatedAt : new Date().toISOString(), ...content };
+fs.writeFileSync(outputPath, `${JSON.stringify(report, null, 2)}\n`);
 console.log(`Built source coverage: ${report.directCompanies} direct feeds; fallback ${report.fallbackEnabled ? 'enabled' : 'disabled'} for ${report.targetCompanies} targets`);

@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-08-18T21:59:16.088Z",
+  "generatedAt": "2026-08-18T23:13:36.904Z",
   "targetCompanies": 109,
-  "directCompanies": 22,
+  "directCompanies": 28,
   "fallbackEnabled": true,
   "fallbackName": "ApplyGuy 2027 New Grad Jobs",
   "companies": [
@@ -325,8 +325,8 @@
     },
     {
       "company": "LinkedIn",
-      "direct": false,
-      "provider": null,
+      "direct": true,
+      "provider": "greenhouse",
       "fallback": true
     },
     {
@@ -367,8 +367,8 @@
     },
     {
       "company": "Medtronic",
-      "direct": false,
-      "provider": null,
+      "direct": true,
+      "provider": "workday",
       "fallback": true
     },
     {
@@ -457,8 +457,8 @@
     },
     {
       "company": "Northrop Grumman",
-      "direct": false,
-      "provider": null,
+      "direct": true,
+      "provider": "workday",
       "fallback": true
     },
     {
@@ -469,8 +469,8 @@
     },
     {
       "company": "NVIDIA",
-      "direct": false,
-      "provider": null,
+      "direct": true,
+      "provider": "workday",
       "fallback": true
     },
     {
@@ -625,8 +625,8 @@
     },
     {
       "company": "Uber",
-      "direct": false,
-      "provider": null,
+      "direct": true,
+      "provider": "smartrecruiters",
       "fallback": true
     },
     {
@@ -637,8 +637,8 @@
     },
     {
       "company": "Visa",
-      "direct": false,
-      "provider": null,
+      "direct": true,
+      "provider": "smartrecruiters",
       "fallback": true
     },
     {

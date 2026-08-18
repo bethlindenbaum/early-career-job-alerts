@@ -230,6 +230,12 @@ After the run completes, GitHub may automatically start **Deploy GitHub Pages** 
 
 The scheduled scanner now runs every ten minutes without your terminal or computer. GitHub can occasionally delay scheduled jobs, so “every ten minutes” is the requested schedule rather than a guarantee that every run starts at the exact second.
 
+The separate **Discover company job feeds** workflow runs every Monday and can also be run manually. It probes Greenhouse, Lever, Ashby, and SmartRecruiters public APIs for companies that do not yet have a direct source. It also learns Greenhouse, Lever, Ashby, SmartRecruiters, and Workday configurations from official links in the fallback feed. Every candidate is validated by loading actual listings before it is committed. The ten-minute scanner continues using the ApplyGuy list as a backup for every target company.
+
+Discovery is intentionally recurring: a company that cannot be monitored directly today may move to a supported recruiting platform or publish a recognizable official listing later. Sites with CAPTCHAs, login requirements, private APIs, or custom JavaScript search systems remain marked as fallback coverage until a reliable connector is available.
+
+After a hosted scan, **Preferences → Official source health** shows whether each configured source succeeded, its recruiting platform, and how many listings it returned. A failing company source does not stop other companies from being scanned or prevent alerts from being sent.
+
 ### 14. Sign in and test website-to-CSV synchronization
 
 1. Open the GitHub Pages website.

@@ -40,13 +40,13 @@ jobs:
           EMAIL_FROM: ${{ secrets.EMAIL_FROM }}
       - name: Publish new matches
         run: |
-          if git diff --quiet -- public/jobs.json public/preferences.json data/preferences.csv; then
+          if git diff --quiet -- public/jobs.json public/preferences.json public/source-health.json public/source-coverage.json data/preferences.csv data/sources.json; then
             echo "No job data changes"
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/preferences.csv public/jobs.json public/preferences.json
+          git add data/preferences.csv data/sources.json public/jobs.json public/preferences.json public/source-coverage.json public/source-health.json
           git commit -m "chore: update job matches"
           git push
       - name: Clear synchronized website changes
