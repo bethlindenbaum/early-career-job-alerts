@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-08-19T20:46:45.141Z",
+  "checkedAt": "2026-08-19T21:35:11.201Z",
   "healthy": 32,
   "errors": 0,
   "sources": [
@@ -7,8 +7,8 @@
       "company": "ApplyGuy 2027 New Grad Jobs",
       "type": "applyguy",
       "status": "healthy",
-      "jobCount": 308,
-      "checkedAt": "2026-08-19T20:46:04.759Z"
+      "jobCount": 310,
+      "checkedAt": "2026-08-19T21:34:24.741Z"
     },
     {
       "company": "Aquatic Capital Management",
@@ -28,8 +28,8 @@
       "company": "Cloudflare",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 305,
-      "checkedAt": "2026-08-19T18:33:50.305Z"
+      "jobCount": 306,
+      "checkedAt": "2026-08-19T21:34:25.341Z"
     },
     {
       "company": "Cursor",
@@ -84,8 +84,8 @@
       "company": "Jane Street",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 233,
-      "checkedAt": "2026-08-19T17:40:58.808Z"
+      "jobCount": 234,
+      "checkedAt": "2026-08-19T21:34:24.737Z"
     },
     {
       "company": "LinkedIn",
@@ -140,8 +140,8 @@
       "company": "Nintendo",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 49,
-      "checkedAt": "2026-08-18T23:53:40.346Z"
+      "jobCount": 48,
+      "checkedAt": "2026-08-19T21:34:24.703Z"
     },
     {
       "company": "Northrop Grumman",
@@ -189,15 +189,15 @@
       "company": "Roblox",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 224,
-      "checkedAt": "2026-08-19T19:33:49.082Z"
+      "jobCount": 223,
+      "checkedAt": "2026-08-19T21:34:25.052Z"
     },
     {
       "company": "SpaceX",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 2148,
-      "checkedAt": "2026-08-19T20:46:06.441Z"
+      "jobCount": 2149,
+      "checkedAt": "2026-08-19T21:34:30.914Z"
     },
     {
       "company": "Uber",
