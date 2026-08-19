@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-08-19T23:02:06.908Z",
+  "checkedAt": "2026-08-19T23:32:10.196Z",
   "healthy": 32,
   "errors": 0,
   "sources": [
@@ -7,8 +7,8 @@
       "company": "ApplyGuy 2027 New Grad Jobs",
       "type": "applyguy",
       "status": "healthy",
-      "jobCount": 311,
-      "checkedAt": "2026-08-19T22:42:08.456Z"
+      "jobCount": 312,
+      "checkedAt": "2026-08-19T23:31:32.790Z"
     },
     {
       "company": "Aquatic Capital Management",
@@ -63,8 +63,8 @@
       "company": "Epic Games",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 159,
-      "checkedAt": "2026-08-19T19:33:48.798Z"
+      "jobCount": 155,
+      "checkedAt": "2026-08-19T23:31:32.697Z"
     },
     {
       "company": "Hudl",
@@ -168,8 +168,8 @@
       "company": "OpenAI",
       "type": "ashby",
       "status": "healthy",
-      "jobCount": 735,
-      "checkedAt": "2026-08-19T22:42:09.335Z"
+      "jobCount": 738,
+      "checkedAt": "2026-08-19T23:31:33.849Z"
     },
     {
       "company": "Palantir",
