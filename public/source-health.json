@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-08-19T06:22:30.265Z",
+  "checkedAt": "2026-08-19T07:12:45.250Z",
   "healthy": 32,
   "errors": 0,
   "sources": [
@@ -7,8 +7,8 @@
       "company": "ApplyGuy 2027 New Grad Jobs",
       "type": "applyguy",
       "status": "healthy",
-      "jobCount": 297,
-      "checkedAt": "2026-08-19T06:21:40.374Z"
+      "jobCount": 299,
+      "checkedAt": "2026-08-19T07:12:03.924Z"
     },
     {
       "company": "Aquatic Capital Management",
@@ -70,8 +70,8 @@
       "company": "Hudl",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 28,
-      "checkedAt": "2026-08-18T23:24:53.959Z"
+      "jobCount": 29,
+      "checkedAt": "2026-08-19T07:12:03.770Z"
     },
     {
       "company": "IMC Trading",
