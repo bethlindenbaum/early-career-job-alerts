@@ -1,7 +1,7 @@
 {
-  "checkedAt": "2026-08-19T09:01:47.498Z",
-  "healthy": 32,
-  "errors": 0,
+  "checkedAt": "2026-08-19T10:05:11.375Z",
+  "healthy": 31,
+  "errors": 1,
   "sources": [
     {
       "company": "ApplyGuy 2027 New Grad Jobs",
@@ -133,8 +133,8 @@
       "company": "MongoDB",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 406,
-      "checkedAt": "2026-08-18T23:24:54.767Z"
+      "jobCount": 407,
+      "checkedAt": "2026-08-19T10:04:29.583Z"
     },
     {
       "company": "Nintendo",
@@ -168,8 +168,8 @@
       "company": "OpenAI",
       "type": "ashby",
       "status": "healthy",
-      "jobCount": 734,
-      "checkedAt": "2026-08-19T07:54:15.506Z"
+      "jobCount": 733,
+      "checkedAt": "2026-08-19T10:04:29.864Z"
     },
     {
       "company": "Palantir",
@@ -223,9 +223,10 @@
     {
       "company": "Zapply Hardware & Systems Engineering",
       "type": "markdown",
-      "status": "healthy",
-      "jobCount": 100,
-      "checkedAt": "2026-08-18T23:24:54.251Z"
+      "status": "error",
+      "message": "fetch failed",
+      "jobCount": 0,
+      "checkedAt": "2026-08-19T10:05:11.358Z"
     }
   ]
 }
