@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-08-19T10:39:38.637Z",
+  "checkedAt": "2026-08-19T10:59:45.156Z",
   "healthy": 32,
   "errors": 0,
   "sources": [
@@ -28,8 +28,8 @@
       "company": "Cloudflare",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 304,
-      "checkedAt": "2026-08-19T02:00:25.966Z"
+      "jobCount": 305,
+      "checkedAt": "2026-08-19T10:59:09.320Z"
     },
     {
       "company": "Cursor",
