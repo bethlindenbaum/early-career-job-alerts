@@ -1,6 +1,22 @@
 {
   "jobs": [
     {
+      "externalId": "applyguy-custom:microsoft:698bf1cfd0197fa8f311",
+      "company": "Microsoft",
+      "title": "Software Engineer - CTJ - Poly",
+      "location": "Reston, VA · MD",
+      "url": "https://apply.careers.microsoft.com/careers/job/1970393556860973",
+      "description": "Entry Level entry_level",
+      "salary": "",
+      "skills": [],
+      "postedAt": "2026-08-19",
+      "source": "ApplyGuy 2027 feed",
+      "earlyCareer": true,
+      "id": "26b4f507-594d-4c72-994e-4d02cc2a482c",
+      "status": "review",
+      "discoveredAt": "2026-08-19T20:46:44.542Z"
+    },
+    {
       "externalId": "gh-SpaceX-8729124002",
       "company": "SpaceX",
       "title": "New Graduate Engineer, Electrical (Starship)",
@@ -3848,7 +3864,7 @@
       "discoveredAt": "2026-08-18T18:03:53.356Z"
     }
   ],
-  "lastScanAt": "2026-08-19T06:22:29.978Z",
+  "lastScanAt": "2026-08-19T20:46:44.568Z",
   "lastDigestAt": "2026-08-18T22:34:53.519Z",
   "delivery": {
     "smsConfigured": true,
