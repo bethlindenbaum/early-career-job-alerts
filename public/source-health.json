@@ -1,14 +1,14 @@
 {
-  "checkedAt": "2026-08-19T18:00:29.403Z",
-  "healthy": 32,
-  "errors": 0,
+  "checkedAt": "2026-08-19T18:34:50.248Z",
+  "healthy": 31,
+  "errors": 1,
   "sources": [
     {
       "company": "ApplyGuy 2027 New Grad Jobs",
       "type": "applyguy",
       "status": "healthy",
-      "jobCount": 303,
-      "checkedAt": "2026-08-19T17:40:58.811Z"
+      "jobCount": 304,
+      "checkedAt": "2026-08-19T18:33:50.527Z"
     },
     {
       "company": "Aquatic Capital Management",
@@ -28,8 +28,8 @@
       "company": "Cloudflare",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 304,
-      "checkedAt": "2026-08-19T17:40:59.112Z"
+      "jobCount": 305,
+      "checkedAt": "2026-08-19T18:33:50.305Z"
     },
     {
       "company": "Cursor",
@@ -105,8 +105,8 @@
       "company": "Lyft",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 161,
-      "checkedAt": "2026-08-19T17:40:58.868Z"
+      "jobCount": 158,
+      "checkedAt": "2026-08-19T18:33:50.576Z"
     },
     {
       "company": "Medtronic",
@@ -189,15 +189,16 @@
       "company": "Roblox",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 222,
-      "checkedAt": "2026-08-19T17:41:00.242Z"
+      "jobCount": 223,
+      "checkedAt": "2026-08-19T18:33:51.371Z"
     },
     {
       "company": "SpaceX",
       "type": "greenhouse",
-      "status": "healthy",
-      "jobCount": 2131,
-      "checkedAt": "2026-08-19T17:59:34.958Z"
+      "status": "error",
+      "message": "The operation was aborted due to timeout",
+      "jobCount": 0,
+      "checkedAt": "2026-08-19T18:34:49.988Z"
     },
     {
       "company": "Uber",
