@@ -31,6 +31,16 @@ test('accepts a trusted curated early-career feed when the title is generic', ()
   const result = match({ company: 'Amazon', title: 'Software Engineer', location: 'Seattle, WA', description: '', earlyCareer: true }, independent);
   assert.equal(result.company, 'Amazon');
 });
+test('rejects curated jobs that require prior professional experience', () => {
+  const job = { company: 'Amazon', title: 'Software Engineer', location: 'Seattle, WA', earlyCareer: true,
+    description: 'Candidates must have at least 3 years of professional software development experience.' };
+  assert.equal(match(job, independent), null);
+});
+test('does not reject a true new-grad listing with optional experience', () => {
+  const job = { company: 'Amazon', title: 'Software Engineer', location: 'Seattle, WA', earlyCareer: true,
+    description: 'No prior professional experience is required. 3 years of experience is preferred, but optional. Internship experience is welcome.' };
+  assert.equal(match(job, independent).company, 'Amazon');
+});
 test('normalizes common company-brand aliases', () => {
   const result = match({ company: 'Disney', title: 'Software Engineer I', location: 'Glendale, CA', description: '', earlyCareer: true }, { companies: ['Walt Disney'], roles: ['Software Engineer'], locations: ['United States'] });
   assert.equal(result.company, 'Disney');
