@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-08-19T00:29:50.400Z",
+  "checkedAt": "2026-08-19T02:01:12.273Z",
   "healthy": 32,
   "errors": 0,
   "sources": [
@@ -7,8 +7,8 @@
       "company": "ApplyGuy 2027 New Grad Jobs",
       "type": "applyguy",
       "status": "healthy",
-      "jobCount": 304,
-      "checkedAt": "2026-08-19T00:29:47.679Z"
+      "jobCount": 305,
+      "checkedAt": "2026-08-19T02:00:25.492Z"
     },
     {
       "company": "Aquatic Capital Management",
@@ -28,8 +28,8 @@
       "company": "Cloudflare",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 303,
-      "checkedAt": "2026-08-18T23:24:54.668Z"
+      "jobCount": 304,
+      "checkedAt": "2026-08-19T02:00:25.966Z"
     },
     {
       "company": "Cursor",
@@ -77,8 +77,8 @@
       "company": "IMC Trading",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 163,
-      "checkedAt": "2026-08-18T23:24:54.210Z"
+      "jobCount": 165,
+      "checkedAt": "2026-08-19T02:00:25.469Z"
     },
     {
       "company": "Jane Street",
@@ -189,8 +189,8 @@
       "company": "Roblox",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 222,
-      "checkedAt": "2026-08-18T23:24:54.431Z"
+      "jobCount": 221,
+      "checkedAt": "2026-08-19T02:00:25.676Z"
     },
     {
       "company": "SpaceX",
