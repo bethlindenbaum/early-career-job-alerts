@@ -1,6 +1,22 @@
 {
   "jobs": [
     {
+      "externalId": "applyguy-a45db522-b15a-42df-a5a0-4f0ec3af0931",
+      "company": "Disney",
+      "title": "Software Engineer I",
+      "location": "Glendale, CA",
+      "url": "https://disney.wd5.myworkdayjobs.com/disneycareer/job/Glendale-CA-USA/Software-Engineer-I_10158076",
+      "description": "Entry Level entry_level",
+      "salary": "",
+      "skills": [],
+      "postedAt": "2026-08-19",
+      "source": "ApplyGuy 2027 feed",
+      "earlyCareer": true,
+      "id": "067187c1-2383-4049-a911-fe1f9f253ae7",
+      "status": "review",
+      "discoveredAt": "2026-08-19T22:42:47.710Z"
+    },
+    {
       "externalId": "applyguy-custom:microsoft:698bf1cfd0197fa8f311",
       "company": "Microsoft",
       "title": "Software Engineer - CTJ - Poly",
@@ -3864,7 +3880,7 @@
       "discoveredAt": "2026-08-18T18:03:53.356Z"
     }
   ],
-  "lastScanAt": "2026-08-19T20:46:44.568Z",
+  "lastScanAt": "2026-08-19T22:42:47.736Z",
   "lastDigestAt": "2026-08-19T22:13:06.452Z",
   "delivery": {
     "smsConfigured": true,

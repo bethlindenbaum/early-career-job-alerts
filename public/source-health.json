@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-08-19T21:55:08.887Z",
+  "checkedAt": "2026-08-19T22:42:48.035Z",
   "healthy": 32,
   "errors": 0,
   "sources": [
@@ -7,8 +7,8 @@
       "company": "ApplyGuy 2027 New Grad Jobs",
       "type": "applyguy",
       "status": "healthy",
-      "jobCount": 310,
-      "checkedAt": "2026-08-19T21:34:24.741Z"
+      "jobCount": 311,
+      "checkedAt": "2026-08-19T22:42:08.456Z"
     },
     {
       "company": "Aquatic Capital Management",
@@ -42,8 +42,8 @@
       "company": "Databricks",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 809,
-      "checkedAt": "2026-08-19T17:40:59.654Z"
+      "jobCount": 808,
+      "checkedAt": "2026-08-19T22:42:09.537Z"
     },
     {
       "company": "Datadog",
@@ -154,8 +154,8 @@
       "company": "Notion",
       "type": "ashby",
       "status": "healthy",
-      "jobCount": 127,
-      "checkedAt": "2026-08-18T23:24:54.354Z"
+      "jobCount": 128,
+      "checkedAt": "2026-08-19T22:42:08.516Z"
     },
     {
       "company": "NVIDIA",
@@ -168,8 +168,8 @@
       "company": "OpenAI",
       "type": "ashby",
       "status": "healthy",
-      "jobCount": 734,
-      "checkedAt": "2026-08-19T20:46:05.705Z"
+      "jobCount": 735,
+      "checkedAt": "2026-08-19T22:42:09.335Z"
     },
     {
       "company": "Palantir",
