@@ -1,14 +1,14 @@
 {
-  "checkedAt": "2026-08-19T10:05:11.375Z",
-  "healthy": 31,
-  "errors": 1,
+  "checkedAt": "2026-08-19T10:39:38.637Z",
+  "healthy": 32,
+  "errors": 0,
   "sources": [
     {
       "company": "ApplyGuy 2027 New Grad Jobs",
       "type": "applyguy",
       "status": "healthy",
-      "jobCount": 299,
-      "checkedAt": "2026-08-19T07:12:03.924Z"
+      "jobCount": 300,
+      "checkedAt": "2026-08-19T10:38:49.798Z"
     },
     {
       "company": "Aquatic Capital Management",
@@ -49,8 +49,8 @@
       "company": "Datadog",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 429,
-      "checkedAt": "2026-08-19T09:01:09.402Z"
+      "jobCount": 430,
+      "checkedAt": "2026-08-19T10:38:50.489Z"
     },
     {
       "company": "Dropbox",
@@ -223,10 +223,9 @@
     {
       "company": "Zapply Hardware & Systems Engineering",
       "type": "markdown",
-      "status": "error",
-      "message": "fetch failed",
-      "jobCount": 0,
-      "checkedAt": "2026-08-19T10:05:11.358Z"
+      "status": "healthy",
+      "jobCount": 100,
+      "checkedAt": "2026-08-19T10:38:49.692Z"
     }
   ]
 }
