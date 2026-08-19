@@ -1,14 +1,14 @@
 {
-  "checkedAt": "2026-08-19T18:34:50.248Z",
-  "healthy": 31,
-  "errors": 1,
+  "checkedAt": "2026-08-19T19:05:55.988Z",
+  "healthy": 32,
+  "errors": 0,
   "sources": [
     {
       "company": "ApplyGuy 2027 New Grad Jobs",
       "type": "applyguy",
       "status": "healthy",
-      "jobCount": 304,
-      "checkedAt": "2026-08-19T18:33:50.527Z"
+      "jobCount": 302,
+      "checkedAt": "2026-08-19T19:04:59.122Z"
     },
     {
       "company": "Aquatic Capital Management",
@@ -168,8 +168,8 @@
       "company": "OpenAI",
       "type": "ashby",
       "status": "healthy",
-      "jobCount": 734,
-      "checkedAt": "2026-08-19T17:10:59.273Z"
+      "jobCount": 731,
+      "checkedAt": "2026-08-19T19:04:59.904Z"
     },
     {
       "company": "Palantir",
@@ -182,8 +182,8 @@
       "company": "Point72",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 227,
-      "checkedAt": "2026-08-18T23:36:44.773Z"
+      "jobCount": 228,
+      "checkedAt": "2026-08-19T19:04:59.326Z"
     },
     {
       "company": "Roblox",
@@ -195,10 +195,9 @@
     {
       "company": "SpaceX",
       "type": "greenhouse",
-      "status": "error",
-      "message": "The operation was aborted due to timeout",
-      "jobCount": 0,
-      "checkedAt": "2026-08-19T18:34:49.988Z"
+      "status": "healthy",
+      "jobCount": 2133,
+      "checkedAt": "2026-08-19T19:05:06.780Z"
     },
     {
       "company": "Uber",
