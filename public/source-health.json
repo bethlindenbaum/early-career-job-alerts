@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-08-20T19:59:35.431Z",
+  "checkedAt": "2026-08-20T20:25:23.409Z",
   "healthy": 32,
   "errors": 0,
   "sources": [
@@ -7,8 +7,8 @@
       "company": "ApplyGuy 2027 New Grad Jobs",
       "type": "applyguy",
       "status": "healthy",
-      "jobCount": 307,
-      "checkedAt": "2026-08-20T18:59:49.842Z"
+      "jobCount": 304,
+      "checkedAt": "2026-08-20T20:24:45.280Z"
     },
     {
       "company": "Aquatic Capital Management",
@@ -168,8 +168,8 @@
       "company": "OpenAI",
       "type": "ashby",
       "status": "healthy",
-      "jobCount": 738,
-      "checkedAt": "2026-08-20T19:31:15.308Z"
+      "jobCount": 737,
+      "checkedAt": "2026-08-20T20:24:46.112Z"
     },
     {
       "company": "Palantir",
