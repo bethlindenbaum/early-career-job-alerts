@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-08-20T06:23:41.644Z",
+  "checkedAt": "2026-08-20T07:14:30.600Z",
   "healthy": 32,
   "errors": 0,
   "sources": [
@@ -133,8 +133,8 @@
       "company": "MongoDB",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 405,
-      "checkedAt": "2026-08-19T19:53:30.760Z"
+      "jobCount": 406,
+      "checkedAt": "2026-08-20T07:13:48.323Z"
     },
     {
       "company": "Nintendo",
@@ -154,8 +154,8 @@
       "company": "Notion",
       "type": "ashby",
       "status": "healthy",
-      "jobCount": 130,
-      "checkedAt": "2026-08-20T04:18:40.270Z"
+      "jobCount": 129,
+      "checkedAt": "2026-08-20T07:13:48.110Z"
     },
     {
       "company": "NVIDIA",
