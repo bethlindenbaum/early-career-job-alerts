@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-08-20T14:09:18.779Z",
+  "checkedAt": "2026-08-20T14:51:39.216Z",
   "healthy": 32,
   "errors": 0,
   "sources": [
@@ -7,8 +7,8 @@
       "company": "ApplyGuy 2027 New Grad Jobs",
       "type": "applyguy",
       "status": "healthy",
-      "jobCount": 306,
-      "checkedAt": "2026-08-20T14:08:33.677Z"
+      "jobCount": 308,
+      "checkedAt": "2026-08-20T14:50:57.004Z"
     },
     {
       "company": "Aquatic Capital Management",
@@ -35,22 +35,22 @@
       "company": "Cursor",
       "type": "ashby",
       "status": "healthy",
-      "jobCount": 116,
-      "checkedAt": "2026-08-18T23:24:53.866Z"
+      "jobCount": 115,
+      "checkedAt": "2026-08-20T14:50:57.025Z"
     },
     {
       "company": "Databricks",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 804,
-      "checkedAt": "2026-08-20T14:08:34.441Z"
+      "jobCount": 805,
+      "checkedAt": "2026-08-20T14:50:58.175Z"
     },
     {
       "company": "Datadog",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 438,
-      "checkedAt": "2026-08-20T14:08:34.142Z"
+      "jobCount": 441,
+      "checkedAt": "2026-08-20T14:50:57.800Z"
     },
     {
       "company": "Dropbox",
@@ -105,8 +105,8 @@
       "company": "Lyft",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 157,
-      "checkedAt": "2026-08-19T20:12:26.590Z"
+      "jobCount": 159,
+      "checkedAt": "2026-08-20T14:50:57.173Z"
     },
     {
       "company": "Medtronic",
@@ -154,8 +154,8 @@
       "company": "Notion",
       "type": "ashby",
       "status": "healthy",
-      "jobCount": 129,
-      "checkedAt": "2026-08-20T07:13:48.110Z"
+      "jobCount": 128,
+      "checkedAt": "2026-08-20T14:50:57.214Z"
     },
     {
       "company": "NVIDIA",
@@ -168,8 +168,8 @@
       "company": "OpenAI",
       "type": "ashby",
       "status": "healthy",
-      "jobCount": 738,
-      "checkedAt": "2026-08-20T14:08:34.687Z"
+      "jobCount": 737,
+      "checkedAt": "2026-08-20T14:50:57.988Z"
     },
     {
       "company": "Palantir",
