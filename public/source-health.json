@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-08-20T02:00:15.655Z",
+  "checkedAt": "2026-08-20T02:56:25.347Z",
   "healthy": 32,
   "errors": 0,
   "sources": [
@@ -7,8 +7,8 @@
       "company": "ApplyGuy 2027 New Grad Jobs",
       "type": "applyguy",
       "status": "healthy",
-      "jobCount": 313,
-      "checkedAt": "2026-08-20T00:29:59.166Z"
+      "jobCount": 309,
+      "checkedAt": "2026-08-20T02:55:45.908Z"
     },
     {
       "company": "Aquatic Capital Management",
@@ -189,15 +189,15 @@
       "company": "Roblox",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 224,
-      "checkedAt": "2026-08-20T00:29:59.557Z"
+      "jobCount": 225,
+      "checkedAt": "2026-08-20T02:55:46.377Z"
     },
     {
       "company": "SpaceX",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 2153,
-      "checkedAt": "2026-08-20T01:59:33.136Z"
+      "jobCount": 2151,
+      "checkedAt": "2026-08-20T02:55:47.889Z"
     },
     {
       "company": "Uber",
