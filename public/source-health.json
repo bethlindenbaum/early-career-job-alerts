@@ -1,7 +1,7 @@
 {
-  "checkedAt": "2026-08-20T12:36:38.693Z",
-  "healthy": 31,
-  "errors": 1,
+  "checkedAt": "2026-08-20T13:30:36.360Z",
+  "healthy": 32,
+  "errors": 0,
   "sources": [
     {
       "company": "ApplyGuy 2027 New Grad Jobs",
@@ -55,10 +55,9 @@
     {
       "company": "Dropbox",
       "type": "greenhouse",
-      "status": "error",
-      "message": "The operation was aborted due to timeout",
-      "jobCount": 0,
-      "checkedAt": "2026-08-20T12:36:38.669Z"
+      "status": "healthy",
+      "jobCount": 41,
+      "checkedAt": "2026-08-20T13:29:50.589Z"
     },
     {
       "company": "Epic Games",
@@ -134,8 +133,8 @@
       "company": "MongoDB",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 408,
-      "checkedAt": "2026-08-20T12:35:35.308Z"
+      "jobCount": 406,
+      "checkedAt": "2026-08-20T13:29:51.234Z"
     },
     {
       "company": "Nintendo",
