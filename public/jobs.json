@@ -1,6 +1,21 @@
 {
   "jobs": [
     {
+      "externalId": "workday-Northrop Grumman-R10244230",
+      "company": "Northrop Grumman",
+      "title": "2026 Associate Embedded Software Engineer/ Embedded Software Engineer (Manufacturing) - Rolling Meadows IL",
+      "location": "United States-Illinois-Rolling Meadows",
+      "url": "https://ngc.wd1.myworkdayjobs.com/job/United-States-Illinois-Rolling-Meadows/XMLNAME-2026-Associate-Embedded-Software-Engineer--Manufacturing----Rolling-Meadows-IL_R10244230",
+      "description": "",
+      "salary": "",
+      "skills": [],
+      "postedAt": "2026-08-20T15:54:56.771Z",
+      "source": "Workday",
+      "id": "21146eb9-c978-41a8-8ed9-6b4412e7db3b",
+      "status": "review",
+      "discoveredAt": "2026-08-20T15:55:53.985Z"
+    },
+    {
       "externalId": "applyguy-a45db522-b15a-42df-a5a0-4f0ec3af0931",
       "company": "Disney",
       "title": "Software Engineer I",
@@ -3880,7 +3895,7 @@
       "discoveredAt": "2026-08-18T18:03:53.356Z"
     }
   ],
-  "lastScanAt": "2026-08-19T22:42:47.736Z",
+  "lastScanAt": "2026-08-20T15:55:54.036Z",
   "lastDigestAt": "2026-08-19T22:13:06.452Z",
   "delivery": {
     "smsConfigured": true,
