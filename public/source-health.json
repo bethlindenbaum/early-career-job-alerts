@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-08-21T10:48:35.677Z",
+  "checkedAt": "2026-08-21T11:09:49.084Z",
   "healthy": 32,
   "errors": 0,
   "sources": [
@@ -7,8 +7,8 @@
       "company": "ApplyGuy 2027 New Grad Jobs",
       "type": "applyguy",
       "status": "healthy",
-      "jobCount": 306,
-      "checkedAt": "2026-08-21T10:13:19.140Z"
+      "jobCount": 303,
+      "checkedAt": "2026-08-21T11:09:05.245Z"
     },
     {
       "company": "Aquatic Capital Management",
@@ -154,8 +154,8 @@
       "company": "Notion",
       "type": "ashby",
       "status": "healthy",
-      "jobCount": 128,
-      "checkedAt": "2026-08-20T19:58:42.704Z"
+      "jobCount": 129,
+      "checkedAt": "2026-08-21T11:09:05.443Z"
     },
     {
       "company": "NVIDIA",
