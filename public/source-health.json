@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-08-21T05:33:47.310Z",
+  "checkedAt": "2026-08-21T07:02:19.120Z",
   "healthy": 32,
   "errors": 0,
   "sources": [
@@ -168,8 +168,8 @@
       "company": "OpenAI",
       "type": "ashby",
       "status": "healthy",
-      "jobCount": 744,
-      "checkedAt": "2026-08-21T05:05:06.427Z"
+      "jobCount": 746,
+      "checkedAt": "2026-08-21T07:01:39.511Z"
     },
     {
       "company": "Palantir",
@@ -182,8 +182,8 @@
       "company": "Point72",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 229,
-      "checkedAt": "2026-08-20T18:13:48.893Z"
+      "jobCount": 230,
+      "checkedAt": "2026-08-21T07:01:38.891Z"
     },
     {
       "company": "Roblox",
