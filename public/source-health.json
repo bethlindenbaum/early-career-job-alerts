@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-08-21T18:56:57.796Z",
+  "checkedAt": "2026-08-21T19:20:18.079Z",
   "healthy": 32,
   "errors": 0,
   "sources": [
@@ -42,8 +42,8 @@
       "company": "Databricks",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 810,
-      "checkedAt": "2026-08-21T18:14:16.394Z"
+      "jobCount": 807,
+      "checkedAt": "2026-08-21T19:19:24.396Z"
     },
     {
       "company": "Datadog",
@@ -98,8 +98,8 @@
       "company": "Lucid Software",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 34,
-      "checkedAt": "2026-08-21T14:47:13.556Z"
+      "jobCount": 30,
+      "checkedAt": "2026-08-21T19:19:21.479Z"
     },
     {
       "company": "Lyft",
@@ -133,8 +133,8 @@
       "company": "MongoDB",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 410,
-      "checkedAt": "2026-08-21T18:56:12.752Z"
+      "jobCount": 406,
+      "checkedAt": "2026-08-21T19:19:22.161Z"
     },
     {
       "company": "Nintendo",
@@ -154,8 +154,8 @@
       "company": "Notion",
       "type": "ashby",
       "status": "healthy",
-      "jobCount": 130,
-      "checkedAt": "2026-08-21T17:48:01.400Z"
+      "jobCount": 129,
+      "checkedAt": "2026-08-21T19:19:21.727Z"
     },
     {
       "company": "NVIDIA",
@@ -168,8 +168,8 @@
       "company": "OpenAI",
       "type": "ashby",
       "status": "healthy",
-      "jobCount": 751,
-      "checkedAt": "2026-08-21T18:56:13.033Z"
+      "jobCount": 750,
+      "checkedAt": "2026-08-21T19:19:22.350Z"
     },
     {
       "company": "Palantir",
