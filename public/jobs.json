@@ -1,6 +1,21 @@
 {
   "jobs": [
     {
+      "externalId": "workday-Northrop Grumman-R10245469",
+      "company": "Northrop Grumman",
+      "title": "Associate AI Software Engineer/ AI Software Engineer (AHT)",
+      "location": "United States-Ohio-Beavercreek",
+      "url": "https://ngc.wd1.myworkdayjobs.com/job/United-States-Ohio-Beavercreek/Associate-AI-Software-Engineer--AI-Software-Engineer--AHT-_R10245469",
+      "description": "",
+      "salary": "",
+      "skills": [],
+      "postedAt": "2026-08-21T12:30:36.566Z",
+      "source": "Workday",
+      "id": "649a8ded-5e3c-48dc-b1f4-5d2b42e17617",
+      "status": "review",
+      "discoveredAt": "2026-08-21T12:31:17.306Z"
+    },
+    {
       "externalId": "workday-Northrop Grumman-R10244230",
       "company": "Northrop Grumman",
       "title": "2026 Associate Embedded Software Engineer/ Embedded Software Engineer (Manufacturing) - Rolling Meadows IL",
@@ -3895,7 +3910,7 @@
       "discoveredAt": "2026-08-18T18:03:53.356Z"
     }
   ],
-  "lastScanAt": "2026-08-20T15:55:54.036Z",
+  "lastScanAt": "2026-08-21T12:31:17.359Z",
   "lastDigestAt": "2026-08-20T22:02:45.278Z",
   "delivery": {
     "smsConfigured": true,
