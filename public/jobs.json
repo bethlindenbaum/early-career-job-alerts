@@ -1,6 +1,22 @@
 {
   "jobs": [
     {
+      "externalId": "applyguy-custom:microsoft:6984f806da11ed694bbe",
+      "company": "Microsoft",
+      "title": "Software Engineering IC2",
+      "location": "Redmond, WA",
+      "url": "https://apply.careers.microsoft.com/careers/job/1970393556972157",
+      "description": "Entry Level entry_level",
+      "salary": "",
+      "skills": [],
+      "postedAt": "2026-08-21",
+      "source": "ApplyGuy 2027 feed",
+      "earlyCareer": true,
+      "id": "01bed799-556e-46dc-a06d-45d00cf40c9e",
+      "status": "review",
+      "discoveredAt": "2026-08-21T17:18:16.096Z"
+    },
+    {
       "externalId": "workday-Northrop Grumman-R10245469",
       "company": "Northrop Grumman",
       "title": "Associate AI Software Engineer/ AI Software Engineer (AHT)",
@@ -3910,7 +3926,7 @@
       "discoveredAt": "2026-08-18T18:03:53.356Z"
     }
   ],
-  "lastScanAt": "2026-08-21T12:31:17.359Z",
+  "lastScanAt": "2026-08-21T17:18:16.121Z",
   "lastDigestAt": "2026-08-20T22:02:45.278Z",
   "delivery": {
     "smsConfigured": true,
