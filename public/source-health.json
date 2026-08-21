@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-08-21T15:17:09.278Z",
+  "checkedAt": "2026-08-21T15:50:51.798Z",
   "healthy": 32,
   "errors": 0,
   "sources": [
@@ -7,8 +7,8 @@
       "company": "ApplyGuy 2027 New Grad Jobs",
       "type": "applyguy",
       "status": "healthy",
-      "jobCount": 308,
-      "checkedAt": "2026-08-21T14:47:13.718Z"
+      "jobCount": 305,
+      "checkedAt": "2026-08-21T15:50:01.259Z"
     },
     {
       "company": "Aquatic Capital Management",
@@ -28,8 +28,8 @@
       "company": "Cloudflare",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 303,
-      "checkedAt": "2026-08-21T14:05:40.476Z"
+      "jobCount": 304,
+      "checkedAt": "2026-08-21T15:50:00.946Z"
     },
     {
       "company": "Cursor",
@@ -105,8 +105,8 @@
       "company": "Lyft",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 162,
-      "checkedAt": "2026-08-21T14:47:13.773Z"
+      "jobCount": 161,
+      "checkedAt": "2026-08-21T15:50:01.070Z"
     },
     {
       "company": "Medtronic",
@@ -210,8 +210,8 @@
       "company": "Vansh New Grad 2027",
       "type": "markdown",
       "status": "healthy",
-      "jobCount": 593,
-      "checkedAt": "2026-08-18T23:24:54.183Z"
+      "jobCount": 589,
+      "checkedAt": "2026-08-21T15:50:01.268Z"
     },
     {
       "company": "Visa",
