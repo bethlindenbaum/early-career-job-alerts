@@ -1,7 +1,7 @@
 {
-  "checkedAt": "2026-08-21T17:48:45.879Z",
-  "healthy": 32,
-  "errors": 0,
+  "checkedAt": "2026-08-21T18:15:21.566Z",
+  "healthy": 31,
+  "errors": 1,
   "sources": [
     {
       "company": "ApplyGuy 2027 New Grad Jobs",
@@ -28,29 +28,29 @@
       "company": "Cloudflare",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 306,
-      "checkedAt": "2026-08-21T17:17:34.443Z"
+      "jobCount": 307,
+      "checkedAt": "2026-08-21T18:14:15.641Z"
     },
     {
       "company": "Cursor",
       "type": "ashby",
       "status": "healthy",
-      "jobCount": 115,
-      "checkedAt": "2026-08-20T14:50:57.025Z"
+      "jobCount": 114,
+      "checkedAt": "2026-08-21T18:14:15.002Z"
     },
     {
       "company": "Databricks",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 808,
-      "checkedAt": "2026-08-21T14:47:14.117Z"
+      "jobCount": 810,
+      "checkedAt": "2026-08-21T18:14:16.394Z"
     },
     {
       "company": "Datadog",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 448,
-      "checkedAt": "2026-08-21T17:48:01.873Z"
+      "jobCount": 449,
+      "checkedAt": "2026-08-21T18:14:15.842Z"
     },
     {
       "company": "Dropbox",
@@ -76,9 +76,10 @@
     {
       "company": "IMC Trading",
       "type": "greenhouse",
-      "status": "healthy",
-      "jobCount": 166,
-      "checkedAt": "2026-08-21T15:16:18.545Z"
+      "status": "error",
+      "message": "The operation was aborted due to timeout",
+      "jobCount": 0,
+      "checkedAt": "2026-08-21T18:15:21.544Z"
     },
     {
       "company": "Jane Street",
@@ -105,8 +106,8 @@
       "company": "Lyft",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 162,
-      "checkedAt": "2026-08-21T17:17:33.836Z"
+      "jobCount": 161,
+      "checkedAt": "2026-08-21T18:14:15.409Z"
     },
     {
       "company": "Medtronic",
@@ -196,8 +197,8 @@
       "company": "SpaceX",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 2178,
-      "checkedAt": "2026-08-21T17:48:02.820Z"
+      "jobCount": 2174,
+      "checkedAt": "2026-08-21T18:14:17.239Z"
     },
     {
       "company": "Uber",
