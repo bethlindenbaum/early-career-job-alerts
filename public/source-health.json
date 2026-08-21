@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-08-21T10:13:59.026Z",
+  "checkedAt": "2026-08-21T10:48:35.677Z",
   "healthy": 32,
   "errors": 0,
   "sources": [
@@ -28,8 +28,8 @@
       "company": "Cloudflare",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 305,
-      "checkedAt": "2026-08-21T09:47:25.478Z"
+      "jobCount": 304,
+      "checkedAt": "2026-08-21T10:47:54.821Z"
     },
     {
       "company": "Cursor",
@@ -70,8 +70,8 @@
       "company": "Hudl",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 29,
-      "checkedAt": "2026-08-20T15:21:45.186Z"
+      "jobCount": 30,
+      "checkedAt": "2026-08-21T10:47:54.158Z"
     },
     {
       "company": "IMC Trading",
