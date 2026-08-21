@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-08-21T13:29:13.834Z",
+  "checkedAt": "2026-08-21T14:06:27.877Z",
   "healthy": 32,
   "errors": 0,
   "sources": [
@@ -7,8 +7,8 @@
       "company": "ApplyGuy 2027 New Grad Jobs",
       "type": "applyguy",
       "status": "healthy",
-      "jobCount": 307,
-      "checkedAt": "2026-08-21T13:28:13.998Z"
+      "jobCount": 305,
+      "checkedAt": "2026-08-21T14:05:40.022Z"
     },
     {
       "company": "Aquatic Capital Management",
@@ -28,8 +28,8 @@
       "company": "Cloudflare",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 304,
-      "checkedAt": "2026-08-21T10:47:54.821Z"
+      "jobCount": 303,
+      "checkedAt": "2026-08-21T14:05:40.476Z"
     },
     {
       "company": "Cursor",
@@ -182,8 +182,8 @@
       "company": "Point72",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 230,
-      "checkedAt": "2026-08-21T07:01:38.891Z"
+      "jobCount": 229,
+      "checkedAt": "2026-08-21T14:05:40.271Z"
     },
     {
       "company": "Roblox",
@@ -217,8 +217,8 @@
       "company": "Visa",
       "type": "smartrecruiters",
       "status": "healthy",
-      "jobCount": 1,
-      "checkedAt": "2026-08-20T19:31:14.617Z"
+      "jobCount": 0,
+      "checkedAt": "2026-08-21T14:05:40.202Z"
     },
     {
       "company": "Zapply Hardware & Systems Engineering",
