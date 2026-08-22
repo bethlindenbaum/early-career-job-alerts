@@ -1,7 +1,7 @@
 {
-  "checkedAt": "2026-08-22T04:43:28.504Z",
-  "healthy": 32,
-  "errors": 0,
+  "checkedAt": "2026-08-22T06:29:34.680Z",
+  "healthy": 29,
+  "errors": 3,
   "sources": [
     {
       "company": "ApplyGuy 2027 New Grad Jobs",
@@ -111,9 +111,10 @@
     {
       "company": "Medtronic",
       "type": "workday",
-      "status": "healthy",
-      "jobCount": 20,
-      "checkedAt": "2026-08-18T23:24:56.040Z"
+      "status": "error",
+      "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON",
+      "jobCount": 0,
+      "checkedAt": "2026-08-22T06:29:34.143Z"
     },
     {
       "company": "MetLife",
@@ -146,9 +147,10 @@
     {
       "company": "Northrop Grumman",
       "type": "workday",
-      "status": "healthy",
-      "jobCount": 20,
-      "checkedAt": "2026-08-18T23:24:54.548Z"
+      "status": "error",
+      "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON",
+      "jobCount": 0,
+      "checkedAt": "2026-08-22T06:29:34.143Z"
     },
     {
       "company": "Notion",
@@ -160,9 +162,10 @@
     {
       "company": "NVIDIA",
       "type": "workday",
-      "status": "healthy",
-      "jobCount": 20,
-      "checkedAt": "2026-08-18T23:24:55.570Z"
+      "status": "error",
+      "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON",
+      "jobCount": 0,
+      "checkedAt": "2026-08-22T06:29:34.143Z"
     },
     {
       "company": "OpenAI",
