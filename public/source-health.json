@@ -1,7 +1,7 @@
 {
-  "checkedAt": "2026-08-22T06:29:34.680Z",
-  "healthy": 29,
-  "errors": 3,
+  "checkedAt": "2026-08-22T07:42:07.942Z",
+  "healthy": 31,
+  "errors": 1,
   "sources": [
     {
       "company": "ApplyGuy 2027 New Grad Jobs",
@@ -111,10 +111,9 @@
     {
       "company": "Medtronic",
       "type": "workday",
-      "status": "error",
-      "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON",
-      "jobCount": 0,
-      "checkedAt": "2026-08-22T06:29:34.143Z"
+      "status": "healthy",
+      "jobCount": 20,
+      "checkedAt": "2026-08-22T07:41:32.914Z"
     },
     {
       "company": "MetLife",
@@ -162,10 +161,9 @@
     {
       "company": "NVIDIA",
       "type": "workday",
-      "status": "error",
-      "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON",
-      "jobCount": 0,
-      "checkedAt": "2026-08-22T06:29:34.143Z"
+      "status": "healthy",
+      "jobCount": 20,
+      "checkedAt": "2026-08-22T07:41:32.130Z"
     },
     {
       "company": "OpenAI",
