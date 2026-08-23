@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-08-23T17:02:00.881Z",
+  "checkedAt": "2026-08-23T18:50:53.549Z",
   "healthy": 32,
   "errors": 0,
   "sources": [
@@ -140,8 +140,8 @@
       "company": "Nintendo",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 48,
-      "checkedAt": "2026-08-21T17:17:33.594Z"
+      "jobCount": 47,
+      "checkedAt": "2026-08-23T18:50:12.778Z"
     },
     {
       "company": "Northrop Grumman",
