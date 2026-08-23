@@ -1,7 +1,7 @@
 {
-  "checkedAt": "2026-08-23T02:12:25.902Z",
-  "healthy": 31,
-  "errors": 1,
+  "checkedAt": "2026-08-23T03:16:17.665Z",
+  "healthy": 32,
+  "errors": 0,
   "sources": [
     {
       "company": "ApplyGuy 2027 New Grad Jobs",
@@ -69,10 +69,9 @@
     {
       "company": "Hudl",
       "type": "greenhouse",
-      "status": "error",
-      "message": "The operation was aborted due to timeout",
-      "jobCount": 0,
-      "checkedAt": "2026-08-23T02:12:25.858Z"
+      "status": "healthy",
+      "jobCount": 29,
+      "checkedAt": "2026-08-23T03:15:37.593Z"
     },
     {
       "company": "IMC Trading",
