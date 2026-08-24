@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-08-23T22:35:34.664Z",
+  "checkedAt": "2026-08-24T00:32:15.662Z",
   "healthy": 32,
   "errors": 0,
   "sources": [
@@ -7,8 +7,8 @@
       "company": "ApplyGuy 2027 New Grad Jobs",
       "type": "applyguy",
       "status": "healthy",
-      "jobCount": 301,
-      "checkedAt": "2026-08-23T22:34:49.059Z"
+      "jobCount": 298,
+      "checkedAt": "2026-08-24T00:31:37.491Z"
     },
     {
       "company": "Aquatic Capital Management",
@@ -77,8 +77,8 @@
       "company": "IMC Trading",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 166,
-      "checkedAt": "2026-08-21T18:56:11.955Z"
+      "jobCount": 168,
+      "checkedAt": "2026-08-24T00:31:37.517Z"
     },
     {
       "company": "Jane Street",
