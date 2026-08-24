@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-08-24T21:50:35.687Z",
+  "checkedAt": "2026-08-24T22:08:38.204Z",
   "healthy": 32,
   "errors": 0,
   "sources": [
@@ -21,8 +21,8 @@
       "company": "Chicago Trading",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 22,
-      "checkedAt": "2026-08-24T21:49:55.890Z"
+      "jobCount": 21,
+      "checkedAt": "2026-08-24T22:07:57.492Z"
     },
     {
       "company": "Cloudflare",
@@ -35,8 +35,8 @@
       "company": "Cursor",
       "type": "ashby",
       "status": "healthy",
-      "jobCount": 113,
-      "checkedAt": "2026-08-24T20:57:42.700Z"
+      "jobCount": 114,
+      "checkedAt": "2026-08-24T22:07:57.528Z"
     },
     {
       "company": "Databricks",
@@ -196,8 +196,8 @@
       "company": "SpaceX",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 2174,
-      "checkedAt": "2026-08-24T21:49:57.724Z"
+      "jobCount": 2173,
+      "checkedAt": "2026-08-24T22:07:59.452Z"
     },
     {
       "company": "Uber",
