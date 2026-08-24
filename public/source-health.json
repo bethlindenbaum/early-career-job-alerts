@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-08-24T19:39:23.419Z",
+  "checkedAt": "2026-08-24T19:59:54.765Z",
   "healthy": 32,
   "errors": 0,
   "sources": [
@@ -7,8 +7,8 @@
       "company": "ApplyGuy 2027 New Grad Jobs",
       "type": "applyguy",
       "status": "healthy",
-      "jobCount": 294,
-      "checkedAt": "2026-08-24T19:38:32.974Z"
+      "jobCount": 295,
+      "checkedAt": "2026-08-24T19:59:13.135Z"
     },
     {
       "company": "Aquatic Capital Management",
@@ -35,8 +35,8 @@
       "company": "Cursor",
       "type": "ashby",
       "status": "healthy",
-      "jobCount": 113,
-      "checkedAt": "2026-08-21T18:56:11.740Z"
+      "jobCount": 112,
+      "checkedAt": "2026-08-24T19:59:12.800Z"
     },
     {
       "company": "Databricks",
@@ -63,8 +63,8 @@
       "company": "Epic Games",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 160,
-      "checkedAt": "2026-08-21T18:56:12.031Z"
+      "jobCount": 162,
+      "checkedAt": "2026-08-24T19:59:13.244Z"
     },
     {
       "company": "Hudl",
@@ -133,8 +133,8 @@
       "company": "MongoDB",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 406,
-      "checkedAt": "2026-08-24T19:38:33.372Z"
+      "jobCount": 405,
+      "checkedAt": "2026-08-24T19:59:13.873Z"
     },
     {
       "company": "Nintendo",
@@ -168,8 +168,8 @@
       "company": "OpenAI",
       "type": "ashby",
       "status": "healthy",
-      "jobCount": 754,
-      "checkedAt": "2026-08-24T19:38:33.673Z"
+      "jobCount": 755,
+      "checkedAt": "2026-08-24T19:59:14.095Z"
     },
     {
       "company": "Palantir",
