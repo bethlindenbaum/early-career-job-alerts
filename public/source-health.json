@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-08-24T00:32:15.662Z",
+  "checkedAt": "2026-08-24T02:10:04.032Z",
   "healthy": 32,
   "errors": 0,
   "sources": [
@@ -84,8 +84,8 @@
       "company": "Jane Street",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 233,
-      "checkedAt": "2026-08-20T21:16:32.295Z"
+      "jobCount": 230,
+      "checkedAt": "2026-08-24T02:09:23.849Z"
     },
     {
       "company": "LinkedIn",
@@ -140,8 +140,8 @@
       "company": "Nintendo",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 47,
-      "checkedAt": "2026-08-23T18:50:12.778Z"
+      "jobCount": 48,
+      "checkedAt": "2026-08-24T02:09:23.778Z"
     },
     {
       "company": "Northrop Grumman",
@@ -196,8 +196,8 @@
       "company": "SpaceX",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 2176,
-      "checkedAt": "2026-08-23T21:33:37.517Z"
+      "jobCount": 2177,
+      "checkedAt": "2026-08-24T02:09:25.409Z"
     },
     {
       "company": "Uber",
