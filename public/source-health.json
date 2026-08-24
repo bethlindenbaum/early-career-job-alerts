@@ -1,14 +1,14 @@
 {
-  "checkedAt": "2026-08-24T17:54:04.528Z",
-  "healthy": 32,
-  "errors": 0,
+  "checkedAt": "2026-08-24T18:22:04.298Z",
+  "healthy": 31,
+  "errors": 1,
   "sources": [
     {
       "company": "ApplyGuy 2027 New Grad Jobs",
       "type": "applyguy",
       "status": "healthy",
-      "jobCount": 294,
-      "checkedAt": "2026-08-24T17:53:21.046Z"
+      "jobCount": 298,
+      "checkedAt": "2026-08-24T18:21:06.480Z"
     },
     {
       "company": "Aquatic Capital Management",
@@ -49,8 +49,8 @@
       "company": "Datadog",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 449,
-      "checkedAt": "2026-08-24T16:50:12.833Z"
+      "jobCount": 450,
+      "checkedAt": "2026-08-24T18:21:07.270Z"
     },
     {
       "company": "Dropbox",
@@ -154,8 +154,8 @@
       "company": "Notion",
       "type": "ashby",
       "status": "healthy",
-      "jobCount": 130,
-      "checkedAt": "2026-08-24T16:04:18.816Z"
+      "jobCount": 129,
+      "checkedAt": "2026-08-24T18:21:06.714Z"
     },
     {
       "company": "NVIDIA",
@@ -195,9 +195,10 @@
     {
       "company": "SpaceX",
       "type": "greenhouse",
-      "status": "healthy",
-      "jobCount": 2188,
-      "checkedAt": "2026-08-24T17:53:22.938Z"
+      "status": "error",
+      "message": "The operation was aborted due to timeout",
+      "jobCount": 0,
+      "checkedAt": "2026-08-24T18:22:03.875Z"
     },
     {
       "company": "Uber",
