@@ -1,6 +1,21 @@
 {
   "jobs": [
     {
+      "externalId": "workday-Northrop Grumman-R10247440",
+      "company": "Northrop Grumman",
+      "title": "Associate Software Engineer",
+      "location": "United States-Maryland-Hollywood",
+      "url": "https://ngc.wd1.myworkdayjobs.com/job/United-States-Maryland-Hollywood/Associate-Software-Engineer_R10247440",
+      "description": "",
+      "salary": "",
+      "skills": [],
+      "postedAt": "2026-08-24T22:39:32.604Z",
+      "source": "Workday",
+      "id": "fd5738e2-d0e3-4c11-aaa4-806b50f63f4f",
+      "status": "review",
+      "discoveredAt": "2026-08-24T22:40:10.639Z"
+    },
+    {
       "externalId": "gh-SpaceX-8724316002",
       "company": "SpaceX",
       "title": "New Graduate Engineer, Software Security - '26/'27 (Starlink)",
@@ -3979,7 +3994,7 @@
       "discoveredAt": "2026-08-18T18:03:53.356Z"
     }
   ],
-  "lastScanAt": "2026-08-24T21:23:30.939Z",
+  "lastScanAt": "2026-08-24T22:40:10.690Z",
   "lastDigestAt": "2026-08-24T22:08:38.195Z",
   "delivery": {
     "smsConfigured": true,
