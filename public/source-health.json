@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-08-24T16:50:59.874Z",
+  "checkedAt": "2026-08-24T17:21:22.541Z",
   "healthy": 32,
   "errors": 0,
   "sources": [
@@ -7,8 +7,8 @@
       "company": "ApplyGuy 2027 New Grad Jobs",
       "type": "applyguy",
       "status": "healthy",
-      "jobCount": 295,
-      "checkedAt": "2026-08-24T16:50:12.326Z"
+      "jobCount": 297,
+      "checkedAt": "2026-08-24T17:20:41.795Z"
     },
     {
       "company": "Aquatic Capital Management",
@@ -84,8 +84,8 @@
       "company": "Jane Street",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 230,
-      "checkedAt": "2026-08-24T13:27:46.834Z"
+      "jobCount": 231,
+      "checkedAt": "2026-08-24T17:20:41.938Z"
     },
     {
       "company": "LinkedIn",
@@ -168,8 +168,8 @@
       "company": "OpenAI",
       "type": "ashby",
       "status": "healthy",
-      "jobCount": 749,
-      "checkedAt": "2026-08-24T16:50:13.149Z"
+      "jobCount": 751,
+      "checkedAt": "2026-08-24T17:20:42.661Z"
     },
     {
       "company": "Palantir",
@@ -196,8 +196,8 @@
       "company": "SpaceX",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 2183,
-      "checkedAt": "2026-08-24T16:50:13.908Z"
+      "jobCount": 2184,
+      "checkedAt": "2026-08-24T17:20:43.444Z"
     },
     {
       "company": "Uber",
