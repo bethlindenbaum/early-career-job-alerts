@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-08-24T22:40:11.123Z",
+  "checkedAt": "2026-08-24T22:59:06.089Z",
   "healthy": 32,
   "errors": 0,
   "sources": [
@@ -7,8 +7,8 @@
       "company": "ApplyGuy 2027 New Grad Jobs",
       "type": "applyguy",
       "status": "healthy",
-      "jobCount": 297,
-      "checkedAt": "2026-08-24T21:49:56.298Z"
+      "jobCount": 298,
+      "checkedAt": "2026-08-24T22:58:28.046Z"
     },
     {
       "company": "Aquatic Capital Management",
@@ -154,8 +154,8 @@
       "company": "Notion",
       "type": "ashby",
       "status": "healthy",
-      "jobCount": 129,
-      "checkedAt": "2026-08-24T18:21:06.714Z"
+      "jobCount": 131,
+      "checkedAt": "2026-08-24T22:58:28.351Z"
     },
     {
       "company": "NVIDIA",
@@ -189,8 +189,8 @@
       "company": "Roblox",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 236,
-      "checkedAt": "2026-08-24T22:39:32.330Z"
+      "jobCount": 235,
+      "checkedAt": "2026-08-24T22:58:28.485Z"
     },
     {
       "company": "SpaceX",
