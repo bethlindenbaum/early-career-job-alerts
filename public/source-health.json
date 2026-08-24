@@ -1,7 +1,7 @@
 {
-  "checkedAt": "2026-08-24T18:22:04.298Z",
-  "healthy": 31,
-  "errors": 1,
+  "checkedAt": "2026-08-24T19:08:08.713Z",
+  "healthy": 32,
+  "errors": 0,
   "sources": [
     {
       "company": "ApplyGuy 2027 New Grad Jobs",
@@ -49,8 +49,8 @@
       "company": "Datadog",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 450,
-      "checkedAt": "2026-08-24T18:21:07.270Z"
+      "jobCount": 451,
+      "checkedAt": "2026-08-24T19:07:30.219Z"
     },
     {
       "company": "Dropbox",
@@ -77,8 +77,8 @@
       "company": "IMC Trading",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 166,
-      "checkedAt": "2026-08-24T13:27:46.736Z"
+      "jobCount": 165,
+      "checkedAt": "2026-08-24T19:07:29.632Z"
     },
     {
       "company": "Jane Street",
@@ -168,8 +168,8 @@
       "company": "OpenAI",
       "type": "ashby",
       "status": "healthy",
-      "jobCount": 752,
-      "checkedAt": "2026-08-24T17:53:22.067Z"
+      "jobCount": 753,
+      "checkedAt": "2026-08-24T19:07:30.419Z"
     },
     {
       "company": "Palantir",
@@ -182,8 +182,8 @@
       "company": "Point72",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 233,
-      "checkedAt": "2026-08-24T16:50:12.593Z"
+      "jobCount": 234,
+      "checkedAt": "2026-08-24T19:07:29.811Z"
     },
     {
       "company": "Roblox",
@@ -195,10 +195,9 @@
     {
       "company": "SpaceX",
       "type": "greenhouse",
-      "status": "error",
-      "message": "The operation was aborted due to timeout",
-      "jobCount": 0,
-      "checkedAt": "2026-08-24T18:22:03.875Z"
+      "status": "healthy",
+      "jobCount": 2183,
+      "checkedAt": "2026-08-24T19:07:31.346Z"
     },
     {
       "company": "Uber",
