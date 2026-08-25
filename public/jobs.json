@@ -1,6 +1,22 @@
 {
   "jobs": [
     {
+      "externalId": "applyguy-7445b97b-ef54-4235-a69f-e3dd23987fec",
+      "company": "Disney",
+      "title": "Associate Software Engineer",
+      "location": "Orlando, FL",
+      "url": "https://disney.wd5.myworkdayjobs.com/disneycareer/job/Orlando-FL-USA/Associate-Software-Engineer_10157526",
+      "description": "Entry Level entry_level",
+      "salary": "",
+      "skills": [],
+      "postedAt": "2026-08-25",
+      "source": "ApplyGuy 2027 feed",
+      "earlyCareer": true,
+      "id": "891745d8-4f03-4518-946f-4ed245e85d3c",
+      "status": "review",
+      "discoveredAt": "2026-08-25T23:33:51.146Z"
+    },
+    {
       "externalId": "applyguy-812bd563-d821-432e-b3b2-6dd242e540cf",
       "company": "Northrop Grumman",
       "title": "2027 Associate Software Engineer / Software Engineer - Huntsville AL",
@@ -4056,7 +4072,7 @@
       "discoveredAt": "2026-08-18T18:03:53.356Z"
     }
   ],
-  "lastScanAt": "2026-08-25T18:58:16.925Z",
+  "lastScanAt": "2026-08-25T23:33:51.172Z",
   "lastDigestAt": "2026-08-25T22:17:42.352Z",
   "delivery": {
     "smsConfigured": true,
