@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-08-25T17:18:37.050Z",
+  "checkedAt": "2026-08-25T17:48:11.776Z",
   "healthy": 32,
   "errors": 0,
   "sources": [
@@ -7,8 +7,8 @@
       "company": "ApplyGuy 2027 New Grad Jobs",
       "type": "applyguy",
       "status": "healthy",
-      "jobCount": 298,
-      "checkedAt": "2026-08-25T17:17:56.125Z"
+      "jobCount": 296,
+      "checkedAt": "2026-08-25T17:47:25.223Z"
     },
     {
       "company": "Aquatic Capital Management",
@@ -28,8 +28,8 @@
       "company": "Cloudflare",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 306,
-      "checkedAt": "2026-08-25T16:05:39.464Z"
+      "jobCount": 307,
+      "checkedAt": "2026-08-25T17:47:25.707Z"
     },
     {
       "company": "Cursor",
@@ -42,8 +42,8 @@
       "company": "Databricks",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 822,
-      "checkedAt": "2026-08-25T15:25:15.944Z"
+      "jobCount": 821,
+      "checkedAt": "2026-08-25T17:47:26.204Z"
     },
     {
       "company": "Datadog",
@@ -175,8 +175,8 @@
       "company": "Palantir",
       "type": "lever",
       "status": "healthy",
-      "jobCount": 307,
-      "checkedAt": "2026-08-25T16:05:41.034Z"
+      "jobCount": 308,
+      "checkedAt": "2026-08-25T17:47:26.278Z"
     },
     {
       "company": "Point72",
@@ -189,15 +189,15 @@
       "company": "Roblox",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 235,
-      "checkedAt": "2026-08-25T07:15:29.829Z"
+      "jobCount": 236,
+      "checkedAt": "2026-08-25T17:47:25.463Z"
     },
     {
       "company": "SpaceX",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 2168,
-      "checkedAt": "2026-08-25T17:17:57.886Z"
+      "jobCount": 2167,
+      "checkedAt": "2026-08-25T17:47:26.807Z"
     },
     {
       "company": "Uber",
