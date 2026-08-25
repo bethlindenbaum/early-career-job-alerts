@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-08-25T05:19:20.827Z",
+  "checkedAt": "2026-08-25T07:16:09.244Z",
   "healthy": 32,
   "errors": 0,
   "sources": [
@@ -189,8 +189,8 @@
       "company": "Roblox",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 236,
-      "checkedAt": "2026-08-25T04:48:41.003Z"
+      "jobCount": 235,
+      "checkedAt": "2026-08-25T07:15:29.829Z"
     },
     {
       "company": "SpaceX",
