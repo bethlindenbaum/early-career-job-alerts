@@ -1,6 +1,22 @@
 {
   "jobs": [
     {
+      "externalId": "applyguy-812bd563-d821-432e-b3b2-6dd242e540cf",
+      "company": "Northrop Grumman",
+      "title": "2027 Associate Software Engineer / Software Engineer - Huntsville AL",
+      "location": "Huntsville, AL",
+      "url": "https://ngc.wd1.myworkdayjobs.com/northrop_grumman_external_site/job/United-States-Alabama-Huntsville/XMLNAME-2027-Associate-Software-Engineer---Software-Engineer---Huntsville-AL_R10247580-1",
+      "description": "Entry Level entry_level",
+      "salary": "",
+      "skills": [],
+      "postedAt": "2026-08-25",
+      "source": "ApplyGuy 2027 feed",
+      "earlyCareer": true,
+      "id": "7ba581a7-16a7-4275-8c82-c4b57627d7c7",
+      "status": "review",
+      "discoveredAt": "2026-08-25T18:58:16.900Z"
+    },
+    {
       "externalId": "gh-Chicago Trading-4725292005",
       "company": "Chicago Trading",
       "title": "Campus Relations & Events Associate",
@@ -4040,7 +4056,7 @@
       "discoveredAt": "2026-08-18T18:03:53.356Z"
     }
   ],
-  "lastScanAt": "2026-08-25T17:18:36.466Z",
+  "lastScanAt": "2026-08-25T18:58:16.925Z",
   "lastDigestAt": "2026-08-24T22:08:38.195Z",
   "delivery": {
     "smsConfigured": true,
