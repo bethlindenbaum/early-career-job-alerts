@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-08-25T20:47:13.382Z",
+  "checkedAt": "2026-08-25T21:05:38.140Z",
   "healthy": 32,
   "errors": 0,
   "sources": [
@@ -7,8 +7,8 @@
       "company": "ApplyGuy 2027 New Grad Jobs",
       "type": "applyguy",
       "status": "healthy",
-      "jobCount": 301,
-      "checkedAt": "2026-08-25T19:52:39.548Z"
+      "jobCount": 297,
+      "checkedAt": "2026-08-25T21:04:56.435Z"
     },
     {
       "company": "Aquatic Capital Management",
@@ -56,8 +56,8 @@
       "company": "Dropbox",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 41,
-      "checkedAt": "2026-08-21T18:56:11.849Z"
+      "jobCount": 39,
+      "checkedAt": "2026-08-25T21:04:56.181Z"
     },
     {
       "company": "Epic Games",
@@ -105,8 +105,8 @@
       "company": "Lyft",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 161,
-      "checkedAt": "2026-08-25T19:52:39.696Z"
+      "jobCount": 162,
+      "checkedAt": "2026-08-25T21:04:56.518Z"
     },
     {
       "company": "Medtronic",
