@@ -1,6 +1,22 @@
 {
   "jobs": [
     {
+      "externalId": "applyguy-ed73ed7d-4c96-4558-8f2a-0e14c947fc22",
+      "company": "Northrop Grumman",
+      "title": "Associate Software Engineer",
+      "location": "Hollywood, MD",
+      "url": "https://ngc.wd1.myworkdayjobs.com/northrop_grumman_external_site/job/United-States-Maryland-Hollywood/Associate-Software-Engineer_R10247440",
+      "description": "Entry Level entry_level",
+      "salary": "",
+      "skills": [],
+      "postedAt": "2026-08-24",
+      "source": "ApplyGuy 2027 feed",
+      "earlyCareer": true,
+      "id": "eba26676-e3f6-4919-ab17-b74256fa32c7",
+      "status": "review",
+      "discoveredAt": "2026-08-25T01:05:55.046Z"
+    },
+    {
       "externalId": "workday-Northrop Grumman-R10247440",
       "company": "Northrop Grumman",
       "title": "Associate Software Engineer",
@@ -3994,7 +4010,7 @@
       "discoveredAt": "2026-08-18T18:03:53.356Z"
     }
   ],
-  "lastScanAt": "2026-08-24T22:40:10.690Z",
+  "lastScanAt": "2026-08-25T01:05:55.072Z",
   "lastDigestAt": "2026-08-24T22:08:38.195Z",
   "delivery": {
     "smsConfigured": true,
