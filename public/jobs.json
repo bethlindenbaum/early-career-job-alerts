@@ -1,6 +1,24 @@
 {
   "jobs": [
     {
+      "externalId": "markdown-3ac6c6739363d415055c56a0f5b518eecb64527c",
+      "company": "Hudson River Trading",
+      "title": "Trade Operations",
+      "location": "Austin, TX",
+      "url": "https://www.hudsonrivertrading.com/hrt-job/junior-electronic-trading-support-engineer/?utm_source=vansh",
+      "description": "Junior Electronic Trading Support Engineer | Hudson River Trading Skip navigation and jump to content Who We Are Trade With Us Tech Blog Join Our Team  About Built by coders, led by coders. At HRT we are mathematicians, computer scientists, statisticians, physicists, and engineers.  Offices A community of colleagues spanning 14 offices worldwide.  Diversity & Inclusion Building the future of trading together.  Contact Us Access our Liquidity As a liquidity provider, HRT develops automated trading algorithms designed to provide the best prices to our clients. Learn More Intern Spotlight: 2025 Software Engineering Summer Projects Read More ▸ Designing a SystemVerilog Language Server Read More ▸ HRTWorker: A SharedWorker Framework for Viewing Real-Time Trading Read More ▸ Read Our Tech Blog  Work at HRT Join our vibrant community of curious thinkers and eager automators, working together at the forefront of innovation.  Life at HRT A place where kindness and excellence converge across six countries and nearly all the world’s electronic markets.  Student Opportunities Full-time & internship opportunities for current undergraduates, graduating seniors, masters, or PhD students.  Talent Community See Open Roles Home About Careers at HRT Client Market Making Student Opportunities Work at HRT Life at HRT Offices Tech Blog About This Role &#xe01d; Austin | Dublin | New York &#xe600; Trade Operations &#x7d; Full-Time &#xe608; Job ID: 108 &#x23; View All Positions About HRT Hudson River Trading is a multi-asset class quantitative trading firm that provides liquidity on global markets and directly to our clients. We have built one of the world’s most advanced computing environments for research and development, modeling, and risk management, and are at the forefront of technical innovation for financial markets everywhere. We are thoughtful market leaders, committed to the health and longevity of global markets. Follow Us Follow Follow Follow Follow Follow Who We Are Home About Offices Diversity Inclusion Contact What We Do Tech Blog Liquidity Client Market Making Ventures Disclosures Careers Job Openings Work at HRT Life at HRT Student Opportunities AI Machine Learning Talent Community North America New York City 3 World Trade Center 175 Greenwich Street, 76th Floor New York, NY 10007 Chicago 111 S Wacker Drive Suite 4730 Chicago, IL 60606 Austin 401 South 1st Street Suite 1150 Austin, TX 78704 Boulder 1919 14th Street Suite 700 Boulder, CO 80302 Boston 20 University Road 5th Floor Cambridge, MA 02138 Seattle 400 University Street 3rd Floor Seattle, WA 98101 Miami 1111 Brickell Ave 10th Floor Miami, FL 33131 Asia-Pacific Singapore Ocean Financial Centre 10 Collyer Quay, #06-07/10 Singapore 049315 Singapore Shanghai 6F HSBC Building, Shanghai IFC Suite 608-09 Pudong, Shanghai 200120 China Mumbai The Capital, TEC Level-3, Plot No. C-70, G Block, BKC, Bandra (East), Mumbai 400051 India Seoul Unit 4310, Level 43 Three International Finance Centre (Three IFC), 10 Gukjegeumyungro, Youngdeungpo-gu, Seoul, 07326 South Korea Hong Kong Unit 2002-03, 28 Stanley Street, Central, Hong Kong Europe London 100 Liverpool Street 10th Floor London EC2M 2AT United Kingdom Dublin 1st Floor 76 Sir John Rogerson&#8217;s Quay Dublin 2, D02 C9D0 Ireland HRT® and Hudson River Trading® are registered trademarks of Hudson River Trading LLC. © 2002-2026 Hudson River Trading LLC. All rights reserved. © 2002-2026 Hudson River Trading LLC. All rights reserved. HRT® and Hudson River Trading® are registered trademarks of Hudson River Trading LLC.",
+      "salary": "",
+      "skills": [],
+      "postedAt": "2026-08-26T16:07:48.204Z",
+      "source": "Vansh New Grad 2027",
+      "earlyCareer": true,
+      "experienceCheck": true,
+      "experienceCheckedAt": "2026-08-26T16:08:25.848Z",
+      "id": "e9930806-f3f2-47d8-ba7a-59fd43f1ebec",
+      "status": "review",
+      "discoveredAt": "2026-08-26T16:08:33.831Z"
+    },
+    {
       "externalId": "applyguy-7445b97b-ef54-4235-a69f-e3dd23987fec",
       "company": "Disney",
       "title": "Associate Software Engineer",
@@ -4072,7 +4090,7 @@
       "discoveredAt": "2026-08-18T18:03:53.356Z"
     }
   ],
-  "lastScanAt": "2026-08-25T23:33:51.172Z",
+  "lastScanAt": "2026-08-26T16:08:33.836Z",
   "lastDigestAt": "2026-08-25T22:17:42.352Z",
   "delivery": {
     "smsConfigured": true,
