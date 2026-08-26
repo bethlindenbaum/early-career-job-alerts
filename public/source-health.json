@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-08-26T12:04:48.841Z",
+  "checkedAt": "2026-08-26T13:10:54.435Z",
   "healthy": 32,
   "errors": 0,
   "sources": [
@@ -7,8 +7,8 @@
       "company": "ApplyGuy 2027 New Grad Jobs",
       "type": "applyguy",
       "status": "healthy",
-      "jobCount": 310,
-      "checkedAt": "2026-08-26T09:34:58.467Z"
+      "jobCount": 311,
+      "checkedAt": "2026-08-26T13:10:11.737Z"
     },
     {
       "company": "Aquatic Capital Management",
@@ -28,8 +28,8 @@
       "company": "Cloudflare",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 310,
-      "checkedAt": "2026-08-26T11:14:07.683Z"
+      "jobCount": 306,
+      "checkedAt": "2026-08-26T13:10:12.119Z"
     },
     {
       "company": "Cursor",
