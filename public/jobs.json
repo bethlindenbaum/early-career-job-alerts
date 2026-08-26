@@ -1,6 +1,22 @@
 {
   "jobs": [
     {
+      "externalId": "applyguy-custom:amazon:1bcd77e56ccd10ad7bf3",
+      "company": "Amazon",
+      "title": "Software Engineer I, Memberships",
+      "location": "San Francisco, CA",
+      "url": "https://www.amazon.jobs/en/jobs/10515912/software-engineer-i-memberships",
+      "description": "Entry Level entry_level",
+      "salary": "",
+      "skills": [],
+      "postedAt": "2026-08-26",
+      "source": "ApplyGuy 2027 feed",
+      "earlyCareer": true,
+      "id": "ab7ef7cb-8536-4b3f-824f-350763fda541",
+      "status": "review",
+      "discoveredAt": "2026-08-26T18:49:42.966Z"
+    },
+    {
       "externalId": "markdown-3ac6c6739363d415055c56a0f5b518eecb64527c",
       "company": "Hudson River Trading",
       "title": "Trade Operations",
@@ -4090,7 +4106,7 @@
       "discoveredAt": "2026-08-18T18:03:53.356Z"
     }
   ],
-  "lastScanAt": "2026-08-26T16:08:33.836Z",
+  "lastScanAt": "2026-08-26T18:49:42.988Z",
   "lastDigestAt": "2026-08-25T22:17:42.352Z",
   "delivery": {
     "smsConfigured": true,
