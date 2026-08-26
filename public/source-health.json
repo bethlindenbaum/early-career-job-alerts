@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-08-26T07:29:42.142Z",
+  "checkedAt": "2026-08-26T08:08:17.801Z",
   "healthy": 32,
   "errors": 0,
   "sources": [
@@ -70,15 +70,15 @@
       "company": "Hudl",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 29,
-      "checkedAt": "2026-08-23T03:15:37.593Z"
+      "jobCount": 28,
+      "checkedAt": "2026-08-26T08:07:37.902Z"
     },
     {
       "company": "IMC Trading",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 168,
-      "checkedAt": "2026-08-26T07:28:54.577Z"
+      "jobCount": 169,
+      "checkedAt": "2026-08-26T08:07:38.003Z"
     },
     {
       "company": "Jane Street",
