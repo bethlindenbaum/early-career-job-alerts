@@ -1,14 +1,14 @@
 {
-  "checkedAt": "2026-08-28T04:30:14.297Z",
-  "healthy": 32,
-  "errors": 0,
+  "checkedAt": "2026-08-28T16:50:22.457Z",
+  "healthy": 31,
+  "errors": 1,
   "sources": [
     {
       "company": "ApplyGuy 2027 New Grad Jobs",
       "type": "applyguy",
       "status": "healthy",
-      "jobCount": 315,
-      "checkedAt": "2026-08-28T04:29:38.983Z"
+      "jobCount": 322,
+      "checkedAt": "2026-08-28T16:49:27.005Z"
     },
     {
       "company": "Aquatic Capital Management",
@@ -28,8 +28,8 @@
       "company": "Cloudflare",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 311,
-      "checkedAt": "2026-08-28T04:29:39.680Z"
+      "jobCount": 314,
+      "checkedAt": "2026-08-28T16:49:27.616Z"
     },
     {
       "company": "Cursor",
@@ -42,36 +42,36 @@
       "company": "Databricks",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 838,
-      "checkedAt": "2026-08-28T04:29:40.164Z"
+      "jobCount": 857,
+      "checkedAt": "2026-08-28T16:49:28.100Z"
     },
     {
       "company": "Datadog",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 450,
-      "checkedAt": "2026-08-28T04:29:39.784Z"
+      "jobCount": 452,
+      "checkedAt": "2026-08-28T16:49:27.730Z"
     },
     {
       "company": "Dropbox",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 40,
-      "checkedAt": "2026-08-28T04:29:39.013Z"
+      "jobCount": 41,
+      "checkedAt": "2026-08-28T16:49:27.000Z"
     },
     {
       "company": "Epic Games",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 167,
-      "checkedAt": "2026-08-28T04:29:39.232Z"
+      "jobCount": 170,
+      "checkedAt": "2026-08-28T16:49:27.235Z"
     },
     {
       "company": "Hudl",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 27,
-      "checkedAt": "2026-08-28T04:29:38.922Z"
+      "jobCount": 31,
+      "checkedAt": "2026-08-28T16:49:26.882Z"
     },
     {
       "company": "IMC Trading",
@@ -84,8 +84,8 @@
       "company": "Jane Street",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 234,
-      "checkedAt": "2026-08-26T18:49:01.737Z"
+      "jobCount": 233,
+      "checkedAt": "2026-08-28T16:49:27.074Z"
     },
     {
       "company": "LinkedIn",
@@ -105,8 +105,8 @@
       "company": "Lyft",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 166,
-      "checkedAt": "2026-08-27T20:43:09.909Z"
+      "jobCount": 168,
+      "checkedAt": "2026-08-28T16:49:27.184Z"
     },
     {
       "company": "Medtronic",
@@ -133,8 +133,8 @@
       "company": "MongoDB",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 409,
-      "checkedAt": "2026-08-27T20:43:11.322Z"
+      "jobCount": 402,
+      "checkedAt": "2026-08-28T16:49:27.497Z"
     },
     {
       "company": "Nintendo",
@@ -154,8 +154,8 @@
       "company": "Notion",
       "type": "ashby",
       "status": "healthy",
-      "jobCount": 135,
-      "checkedAt": "2026-08-26T21:16:03.475Z"
+      "jobCount": 132,
+      "checkedAt": "2026-08-28T16:49:27.150Z"
     },
     {
       "company": "NVIDIA",
@@ -168,8 +168,8 @@
       "company": "OpenAI",
       "type": "ashby",
       "status": "healthy",
-      "jobCount": 748,
-      "checkedAt": "2026-08-28T04:29:39.978Z"
+      "jobCount": 752,
+      "checkedAt": "2026-08-28T16:49:27.922Z"
     },
     {
       "company": "Palantir",
@@ -182,8 +182,8 @@
       "company": "Point72",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 236,
-      "checkedAt": "2026-08-27T20:43:09.995Z"
+      "jobCount": 238,
+      "checkedAt": "2026-08-28T16:49:27.284Z"
     },
     {
       "company": "Roblox",
@@ -195,9 +195,10 @@
     {
       "company": "SpaceX",
       "type": "greenhouse",
-      "status": "healthy",
-      "jobCount": 2216,
-      "checkedAt": "2026-08-28T04:29:40.775Z"
+      "status": "error",
+      "message": "The operation was aborted due to timeout",
+      "jobCount": 0,
+      "checkedAt": "2026-08-28T16:50:22.081Z"
     },
     {
       "company": "Uber",
