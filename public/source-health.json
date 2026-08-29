@@ -1,14 +1,14 @@
 {
-  "checkedAt": "2026-08-29T00:44:43.815Z",
-  "healthy": 32,
-  "errors": 0,
+  "checkedAt": "2026-08-29T07:25:05.714Z",
+  "healthy": 29,
+  "errors": 3,
   "sources": [
     {
       "company": "ApplyGuy 2027 New Grad Jobs",
       "type": "applyguy",
       "status": "healthy",
-      "jobCount": 308,
-      "checkedAt": "2026-08-29T00:43:58.691Z"
+      "jobCount": 306,
+      "checkedAt": "2026-08-29T07:24:28.467Z"
     },
     {
       "company": "Aquatic Capital Management",
@@ -42,8 +42,8 @@
       "company": "Databricks",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 855,
-      "checkedAt": "2026-08-29T00:43:59.371Z"
+      "jobCount": 856,
+      "checkedAt": "2026-08-29T07:24:29.532Z"
     },
     {
       "company": "Datadog",
@@ -111,9 +111,10 @@
     {
       "company": "Medtronic",
       "type": "workday",
-      "status": "healthy",
-      "jobCount": 20,
-      "checkedAt": "2026-08-22T07:41:32.914Z"
+      "status": "error",
+      "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON",
+      "jobCount": 0,
+      "checkedAt": "2026-08-29T07:25:05.673Z"
     },
     {
       "company": "MetLife",
@@ -146,9 +147,10 @@
     {
       "company": "Northrop Grumman",
       "type": "workday",
-      "status": "healthy",
-      "jobCount": 20,
-      "checkedAt": "2026-08-22T08:01:05.874Z"
+      "status": "error",
+      "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON",
+      "jobCount": 0,
+      "checkedAt": "2026-08-29T07:25:05.673Z"
     },
     {
       "company": "Notion",
@@ -160,16 +162,17 @@
     {
       "company": "NVIDIA",
       "type": "workday",
-      "status": "healthy",
-      "jobCount": 20,
-      "checkedAt": "2026-08-22T07:41:32.130Z"
+      "status": "error",
+      "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON",
+      "jobCount": 0,
+      "checkedAt": "2026-08-29T07:25:05.673Z"
     },
     {
       "company": "OpenAI",
       "type": "ashby",
       "status": "healthy",
-      "jobCount": 759,
-      "checkedAt": "2026-08-29T00:43:59.541Z"
+      "jobCount": 758,
+      "checkedAt": "2026-08-29T07:24:29.318Z"
     },
     {
       "company": "Palantir",
@@ -189,15 +192,15 @@
       "company": "Roblox",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 235,
-      "checkedAt": "2026-08-29T00:43:58.911Z"
+      "jobCount": 234,
+      "checkedAt": "2026-08-29T07:24:28.710Z"
     },
     {
       "company": "SpaceX",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 2227,
-      "checkedAt": "2026-08-29T00:44:00.101Z"
+      "jobCount": 2229,
+      "checkedAt": "2026-08-29T07:24:30.115Z"
     },
     {
       "company": "Uber",
