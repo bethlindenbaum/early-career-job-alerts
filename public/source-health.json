@@ -1,14 +1,14 @@
 {
-  "checkedAt": "2026-08-29T07:25:05.714Z",
-  "healthy": 29,
-  "errors": 3,
+  "checkedAt": "2026-08-29T13:14:32.066Z",
+  "healthy": 32,
+  "errors": 0,
   "sources": [
     {
       "company": "ApplyGuy 2027 New Grad Jobs",
       "type": "applyguy",
       "status": "healthy",
-      "jobCount": 306,
-      "checkedAt": "2026-08-29T07:24:28.467Z"
+      "jobCount": 309,
+      "checkedAt": "2026-08-29T13:13:56.596Z"
     },
     {
       "company": "Aquatic Capital Management",
@@ -42,8 +42,8 @@
       "company": "Databricks",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 856,
-      "checkedAt": "2026-08-29T07:24:29.532Z"
+      "jobCount": 857,
+      "checkedAt": "2026-08-29T13:13:57.599Z"
     },
     {
       "company": "Datadog",
@@ -111,10 +111,9 @@
     {
       "company": "Medtronic",
       "type": "workday",
-      "status": "error",
-      "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON",
-      "jobCount": 0,
-      "checkedAt": "2026-08-29T07:25:05.673Z"
+      "status": "healthy",
+      "jobCount": 20,
+      "checkedAt": "2026-08-29T13:13:58.475Z"
     },
     {
       "company": "MetLife",
@@ -147,10 +146,9 @@
     {
       "company": "Northrop Grumman",
       "type": "workday",
-      "status": "error",
-      "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON",
-      "jobCount": 0,
-      "checkedAt": "2026-08-29T07:25:05.673Z"
+      "status": "healthy",
+      "jobCount": 20,
+      "checkedAt": "2026-08-29T13:13:56.921Z"
     },
     {
       "company": "Notion",
@@ -162,10 +160,9 @@
     {
       "company": "NVIDIA",
       "type": "workday",
-      "status": "error",
-      "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON",
-      "jobCount": 0,
-      "checkedAt": "2026-08-29T07:25:05.673Z"
+      "status": "healthy",
+      "jobCount": 20,
+      "checkedAt": "2026-08-29T13:13:57.625Z"
     },
     {
       "company": "OpenAI",
