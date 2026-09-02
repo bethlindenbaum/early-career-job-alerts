@@ -1,6 +1,37 @@
 {
   "jobs": [
     {
+      "externalId": "applyguy-custom:microsoft:5f5bddec87a71f9cb757",
+      "company": "Microsoft",
+      "title": "Software Engineer - Microsoft Defender for Endpoint",
+      "location": "Redmond, WA",
+      "url": "https://apply.careers.microsoft.com/careers/job/1970393556924230",
+      "description": "Entry Level entry_level",
+      "salary": "",
+      "skills": [],
+      "postedAt": "2026-09-02",
+      "source": "ApplyGuy 2027 feed",
+      "earlyCareer": true,
+      "id": "71c17fd7-1a36-43d1-9b73-932f98bd3881",
+      "status": "review",
+      "discoveredAt": "2026-09-02T23:20:17.284Z"
+    },
+    {
+      "externalId": "workday-Northrop Grumman-R10249088",
+      "company": "Northrop Grumman",
+      "title": "Associate Software Engineer / Software Engineer",
+      "location": "United States-Alabama-Huntsville",
+      "url": "https://ngc.wd1.myworkdayjobs.com/job/United-States-Alabama-Huntsville/Associate-Software-Engineer---Software-Engineer_R10249088",
+      "description": "",
+      "salary": "",
+      "skills": [],
+      "postedAt": "2026-09-02T23:19:37.252Z",
+      "source": "Workday",
+      "id": "e050af72-0fc9-47cd-aeff-2e0fae117973",
+      "status": "review",
+      "discoveredAt": "2026-09-02T23:20:17.261Z"
+    },
+    {
       "externalId": "markdown-581718ded4918ceb5718f3a74955840d3b2669b6",
       "company": "Hudson River Trading",
       "title": "Trade Operations",
@@ -4159,7 +4190,7 @@
       "discoveredAt": "2026-08-18T18:03:53.356Z"
     }
   ],
-  "lastScanAt": "2026-09-01T16:41:15.811Z",
+  "lastScanAt": "2026-09-02T23:20:17.306Z",
   "lastDigestAt": "2026-08-25T22:17:42.352Z",
   "delivery": {
     "smsConfigured": true,
