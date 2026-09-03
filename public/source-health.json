@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-09-03T20:17:32.943Z",
+  "checkedAt": "2026-09-03T22:36:47.843Z",
   "healthy": 32,
   "errors": 0,
   "sources": [
@@ -7,8 +7,8 @@
       "company": "ApplyGuy 2027 New Grad Jobs",
       "type": "applyguy",
       "status": "healthy",
-      "jobCount": 323,
-      "checkedAt": "2026-09-03T20:16:42.463Z"
+      "jobCount": 320,
+      "checkedAt": "2026-09-03T22:36:13.709Z"
     },
     {
       "company": "Aquatic Capital Management",
@@ -28,8 +28,8 @@
       "company": "Cloudflare",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 327,
-      "checkedAt": "2026-09-03T20:16:32.822Z"
+      "jobCount": 328,
+      "checkedAt": "2026-09-03T22:36:14.022Z"
     },
     {
       "company": "Cursor",
@@ -42,8 +42,8 @@
       "company": "Databricks",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 860,
-      "checkedAt": "2026-09-03T20:16:37.553Z"
+      "jobCount": 859,
+      "checkedAt": "2026-09-03T22:36:14.485Z"
     },
     {
       "company": "Datadog",
@@ -84,8 +84,8 @@
       "company": "Jane Street",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 234,
-      "checkedAt": "2026-09-02T18:35:01.202Z"
+      "jobCount": 235,
+      "checkedAt": "2026-09-03T22:36:13.526Z"
     },
     {
       "company": "LinkedIn",
@@ -98,15 +98,15 @@
       "company": "Lucid Software",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 30,
-      "checkedAt": "2026-09-03T17:56:10.375Z"
+      "jobCount": 31,
+      "checkedAt": "2026-09-03T22:36:13.313Z"
     },
     {
       "company": "Lyft",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 171,
-      "checkedAt": "2026-09-03T20:16:32.604Z"
+      "jobCount": 170,
+      "checkedAt": "2026-09-03T22:36:13.604Z"
     },
     {
       "company": "Medtronic",
@@ -196,8 +196,8 @@
       "company": "SpaceX",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 2297,
-      "checkedAt": "2026-09-03T20:16:34.279Z"
+      "jobCount": 2299,
+      "checkedAt": "2026-09-03T22:36:15.342Z"
     },
     {
       "company": "Uber",
