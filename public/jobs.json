@@ -1,6 +1,22 @@
 {
   "jobs": [
     {
+      "externalId": "applyguy-fe46e18c-6cf4-450c-ac9f-05641c8e825a",
+      "company": "Northrop Grumman",
+      "title": "Associate Software Engineer / Software Engineer",
+      "location": "Huntsville, AL",
+      "url": "https://ngc.wd1.myworkdayjobs.com/northrop_grumman_external_site/job/United-States-Alabama-Huntsville/Associate-Software-Engineer---Software-Engineer_R10249088",
+      "description": "Entry Level entry_level",
+      "salary": "",
+      "skills": [],
+      "postedAt": "2026-09-02",
+      "source": "ApplyGuy 2027 feed",
+      "earlyCareer": true,
+      "id": "4bb05bf0-9412-4e71-9ef1-da0fda47a003",
+      "status": "review",
+      "discoveredAt": "2026-09-03T01:10:58.147Z"
+    },
+    {
       "externalId": "applyguy-custom:microsoft:5f5bddec87a71f9cb757",
       "company": "Microsoft",
       "title": "Software Engineer - Microsoft Defender for Endpoint",
@@ -4190,7 +4206,7 @@
       "discoveredAt": "2026-08-18T18:03:53.356Z"
     }
   ],
-  "lastScanAt": "2026-09-02T23:20:17.306Z",
+  "lastScanAt": "2026-09-03T01:10:58.171Z",
   "lastDigestAt": "2026-08-25T22:17:42.352Z",
   "delivery": {
     "smsConfigured": true,
