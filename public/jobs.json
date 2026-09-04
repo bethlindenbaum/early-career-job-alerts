@@ -1,6 +1,21 @@
 {
   "jobs": [
     {
+      "externalId": "gh-Point72-8784664002",
+      "company": "Point72",
+      "title": "Compliance Associate, Trading Compliance",
+      "location": "Stamford, CT",
+      "url": "https://boards.greenhouse.io/point72/jobs/8784664002?gh_jid=8784664002",
+      "description": "&lt;p&gt;&lt;strong&gt;A Career with Point72&#39;s Compliance Team&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;The Point72 Compliance department is an industry-leading team of compliance professionals who support global investment and trading activities by establishing and enforcing the firm’s compliance policies, providing real-time advice, and conducting pre- and post-trade surveillance. Our team is essential to Point72’s success and we provide mentorship, a growth path, and the opportunity for a long-term career with us.&lt;/p&gt; &lt;p&gt;&lt;strong&gt;What you&#39;ll do&lt;/strong&gt;&lt;/p&gt; &lt;ul&gt; &lt;li&gt;Monitor compliance restriction alerts and partner with the broader Compliance team to investigate, escalate, and resolve potential issues&lt;/li&gt; &lt;li&gt;Investigate trading exceptions, prepare concise findings, develop recommendations, and escalate to senior members of Compliance&lt;/li&gt; &lt;li&gt;Manage compliance-related security master data by maintaining accurate mappings, validating underlying information, and resolving issues adversely affecting trading compliance reports&lt;/li&gt; &lt;li&gt;Partner with, among other functions, Technology to implement automated controls, reports, and dashboards that improve visibility and reduce manual intervention&lt;/li&gt; &lt;li&gt;Track open technology issues and compliance projects to support timely resolution&lt;/li&gt; &lt;li&gt;Analyze compliance reports to identify data issues and improve related processes&lt;/li&gt; &lt;li&gt;Support artificial intelligence integration to enhance compliance monitoring tools&lt;/li&gt; &lt;li&gt;Assist with real-time compliance coverage for trade approvals and time-sensitive trading matters&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;&lt;strong&gt;What&#39;s required&lt;/strong&gt;&lt;/p&gt; &lt;ul&gt; &lt;li&gt;One to three years of compliance experience within an investment manager, hedge fund, or broker-dealer&lt;/li&gt; &lt;li&gt;Basic understanding of multiple asset classes&lt;/li&gt; &lt;li&gt;Experience analyzing data and producing clear written summaries, escalation materials, and remediation plans&lt;/li&gt; &lt;li&gt;Project management experience with the ability to manage multiple projects simultaneously&lt;/li&gt; &lt;li&gt;Experience partnering successfully with cross-functional colleagues&lt;/li&gt; &lt;li&gt;Excellent verbal and written communication skills, with the ability to explain technical compliance topics clearly&lt;/li&gt; &lt;li&gt;Commitment to the highest ethical standards&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;&lt;strong&gt;We take care of our people&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;We invest in our people, their careers, their health, and their well-being. When you work here, we provide:&lt;/p&gt; &lt;ul&gt; &lt;li&gt;Fully-paid health care benefits&lt;/li&gt; &lt;li&gt;Generous parental and family leave policies&lt;/li&gt; &lt;li&gt;Volunteer opportunities&lt;/li&gt; &lt;li&gt;Support for employee-led affinity groups representing women, people of color and the LGBT+ community&lt;/li&gt; &lt;li&gt;Mental and physical wellness programs&lt;/li&gt; &lt;li&gt;Tuition assistance&lt;/li&gt; &lt;li&gt;A 401(k) savings program with an employer match and more&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;&lt;strong&gt;About Point72&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;Point72 is a leading global alternative investment firm led by Steven A. Cohen. Building on more than 30 years of investing experience, Point72 seeks to deliver superior returns for its investors through fundamental and systematic investing strategies across asset classes and geographies. We aim to attract and retain the industry&#39;s brightest talent by cultivating an investor-led culture and committing to our people&#39;s long-term growth. For more information, visit https://point72.com/.&lt;/p&gt;",
+      "salary": "",
+      "skills": [],
+      "postedAt": "2026-09-04T17:11:56-04:00",
+      "source": "Greenhouse",
+      "id": "3919b5e5-0b7d-446d-bc0e-1a0b19ffeaa0",
+      "status": "review",
+      "discoveredAt": "2026-09-04T21:30:10.071Z"
+    },
+    {
       "externalId": "gh-Hudl-8173785",
       "company": "Hudl",
       "title": "Revenue Operations Associate II",
@@ -4221,7 +4236,7 @@
       "discoveredAt": "2026-08-18T18:03:53.356Z"
     }
   ],
-  "lastScanAt": "2026-09-03T20:17:32.535Z",
+  "lastScanAt": "2026-09-04T21:30:10.109Z",
   "lastDigestAt": "2026-09-03T22:36:47.834Z",
   "delivery": {
     "smsConfigured": true,
