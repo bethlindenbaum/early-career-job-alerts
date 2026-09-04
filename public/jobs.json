@@ -1,6 +1,22 @@
 {
   "jobs": [
     {
+      "externalId": "applyguy-custom:microsoft:bd09edb153d64145ce49",
+      "company": "Microsoft",
+      "title": "Software Engineer - CTJ - Poly",
+      "location": "Redmond, WA · Reston, VA · MD",
+      "url": "https://apply.careers.microsoft.com/careers/job/1970393556926963",
+      "description": "Entry Level entry_level",
+      "salary": "",
+      "skills": [],
+      "postedAt": "2026-09-04",
+      "source": "ApplyGuy 2027 feed",
+      "earlyCareer": true,
+      "id": "6443bbdd-8b04-49e7-9ce5-d64e5386449c",
+      "status": "review",
+      "discoveredAt": "2026-09-04T23:10:56.307Z"
+    },
+    {
       "externalId": "gh-Point72-8784664002",
       "company": "Point72",
       "title": "Compliance Associate, Trading Compliance",
@@ -4236,7 +4252,7 @@
       "discoveredAt": "2026-08-18T18:03:53.356Z"
     }
   ],
-  "lastScanAt": "2026-09-04T21:30:10.109Z",
+  "lastScanAt": "2026-09-04T23:10:56.334Z",
   "lastDigestAt": "2026-09-03T22:36:47.834Z",
   "delivery": {
     "smsConfigured": true,
