@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-09-04T00:20:39.812Z",
+  "checkedAt": "2026-09-04T04:42:22.911Z",
   "healthy": 32,
   "errors": 0,
   "sources": [
@@ -7,8 +7,8 @@
       "company": "ApplyGuy 2027 New Grad Jobs",
       "type": "applyguy",
       "status": "healthy",
-      "jobCount": 321,
-      "checkedAt": "2026-09-04T00:20:05.497Z"
+      "jobCount": 313,
+      "checkedAt": "2026-09-04T04:41:45.660Z"
     },
     {
       "company": "Aquatic Capital Management",
@@ -28,8 +28,8 @@
       "company": "Cloudflare",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 328,
-      "checkedAt": "2026-09-03T22:36:14.022Z"
+      "jobCount": 329,
+      "checkedAt": "2026-09-04T04:41:46.222Z"
     },
     {
       "company": "Cursor",
@@ -42,15 +42,15 @@
       "company": "Databricks",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 858,
-      "checkedAt": "2026-09-04T00:20:06.667Z"
+      "jobCount": 865,
+      "checkedAt": "2026-09-04T04:41:46.623Z"
     },
     {
       "company": "Datadog",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 443,
-      "checkedAt": "2026-09-03T17:56:11.124Z"
+      "jobCount": 444,
+      "checkedAt": "2026-09-04T04:41:46.102Z"
     },
     {
       "company": "Dropbox",
@@ -77,15 +77,15 @@
       "company": "IMC Trading",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 172,
-      "checkedAt": "2026-09-03T17:56:10.583Z"
+      "jobCount": 173,
+      "checkedAt": "2026-09-04T04:41:45.558Z"
     },
     {
       "company": "Jane Street",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 235,
-      "checkedAt": "2026-09-03T22:36:13.526Z"
+      "jobCount": 234,
+      "checkedAt": "2026-09-04T04:41:45.528Z"
     },
     {
       "company": "LinkedIn",
@@ -168,8 +168,8 @@
       "company": "OpenAI",
       "type": "ashby",
       "status": "healthy",
-      "jobCount": 767,
-      "checkedAt": "2026-09-04T00:20:06.476Z"
+      "jobCount": 768,
+      "checkedAt": "2026-09-04T04:41:46.443Z"
     },
     {
       "company": "Palantir",
@@ -196,8 +196,8 @@
       "company": "SpaceX",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 2308,
-      "checkedAt": "2026-09-04T00:20:07.227Z"
+      "jobCount": 2309,
+      "checkedAt": "2026-09-04T04:41:47.216Z"
     },
     {
       "company": "Uber",
