@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-09-05T00:58:26.630Z",
+  "checkedAt": "2026-09-05T05:12:09.283Z",
   "healthy": 32,
   "errors": 0,
   "sources": [
@@ -7,8 +7,8 @@
       "company": "ApplyGuy 2027 New Grad Jobs",
       "type": "applyguy",
       "status": "healthy",
-      "jobCount": 320,
-      "checkedAt": "2026-09-05T00:57:45.813Z"
+      "jobCount": 322,
+      "checkedAt": "2026-09-05T05:11:32.213Z"
     },
     {
       "company": "Aquatic Capital Management",
@@ -77,8 +77,8 @@
       "company": "IMC Trading",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 174,
-      "checkedAt": "2026-09-04T16:54:28.849Z"
+      "jobCount": 175,
+      "checkedAt": "2026-09-05T05:11:32.285Z"
     },
     {
       "company": "Jane Street",
@@ -196,8 +196,8 @@
       "company": "SpaceX",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 2328,
-      "checkedAt": "2026-09-05T00:57:47.555Z"
+      "jobCount": 2333,
+      "checkedAt": "2026-09-05T05:11:34.132Z"
     },
     {
       "company": "Uber",
