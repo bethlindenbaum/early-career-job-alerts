@@ -1,6 +1,21 @@
 {
   "jobs": [
     {
+      "externalId": "gh-SpaceX-8784892002",
+      "company": "SpaceX",
+      "title": "Merchandising Associate",
+      "location": "Starbase, TX",
+      "url": "https://boards.greenhouse.io/spacex/jobs/8784892002?gh_jid=8784892002",
+      "description": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;SpaceX was founded under the belief that a future where humanity is out exploring the stars is fundamentally more exciting than one where we are not. Today SpaceX is actively developing the technologies to make this possible, with the ultimate goal of nbsp;enabling human life on Mars.&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;MERCHANDISING ASSOCIATE&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;This role owns the day-to-day operations of the SpaceX merchandise store, ensuring consistent execution of processes, accurate inventory management, strong customer service, and a high-quality retail experience for employees and visitors. The Merchandise Associate supports both routine store operations and merchandise needs for events and activations.&lt;/p&gt; &lt;p&gt;&lt;strong&gt;RESPONSIBILITIES:&lt;/strong&gt;&lt;/p&gt; &lt;ul&gt; &lt;li&gt;Execute daily store operations, including opening and closing procedures, cash handling, and maintaining a clean, organized, and presentation-ready retail environment&lt;/li&gt; &lt;li&gt;Manage inventory at the store level, including receiving shipments, stocking product, conducting cycle counts, organizing storage, and escalating discrepancies or shortages&lt;/li&gt; &lt;li&gt;Provide excellent customer service by assisting employees and visitors with product selection, answering questions, and processing sales accurately through the POS system&lt;/li&gt; &lt;li&gt;Maintain visual merchandising standards by restocking displays, rotating product, and executing planograms and brand-immersive setups&lt;/li&gt; &lt;li&gt;Support merchandise needs for company events, launches, activations, and special programs as assigned&lt;/li&gt; &lt;li&gt;Follow established processes and best practices to ensure consistent, efficient, and scalable store operations&lt;/li&gt; &lt;li&gt;Complete required reporting, including sales summaries, inventory updates, and maintenance or facilities requests&lt;/li&gt; &lt;li&gt;Partner with the Merchandise Store Manager and cross-functional teams to support new product drops, promotions, and continuous improvement initiatives&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;&lt;strong&gt;BASIC QUALIFICATIONS:&lt;/strong&gt;&lt;/p&gt; &lt;ul&gt; &lt;li&gt;High school diploma or equivalency certificate&lt;/li&gt; &lt;li&gt;1+ years of experience in retail, merchandise, inventory, or customer-facing operations&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;&lt;strong&gt;PREFERRED SKILLS AND EXPERIENCE:&lt;/strong&gt;&lt;/p&gt; &lt;ul&gt; &lt;li&gt;Prior experience in a branded retail or merchandise store environment&lt;/li&gt; &lt;li&gt;Hands-on experience with visual merchandising, planogram execution, product displays, and pop-up activations&lt;/li&gt; &lt;li&gt;Experience supporting events, activations, or pop-up retail&lt;/li&gt; &lt;li&gt;Familiarity with inventory receiving, cycle counting, and discrepancy resolution&lt;/li&gt; &lt;li&gt;Previous experience in a high-volume or high-traffic retail setting&lt;/li&gt; &lt;li&gt;Experience with POS systems and basic inventory management software&lt;/li&gt; &lt;li&gt;Excellent verbal communication and customer service skills&lt;/li&gt; &lt;li&gt;Comfortable working in a fast-paced, high-visibility environment&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;&lt;strong&gt;ADDITIONAL REQUIREMENTS:&lt;/strong&gt;&lt;/p&gt; &lt;ul&gt; &lt;li&gt;Ability to work flexible hours, including early mornings, evenings, weekends, and launch/event days as needed&lt;/li&gt; &lt;li&gt;Must be able to work overtime&lt;/li&gt; &lt;li&gt;Ability to carry large, heavy items unassisted (up to 25lbs) &lt;/li&gt; &lt;li&gt;Must have the ability to stand for periods up to 8-12 hours a day&lt;/li&gt; &lt;/ul&gt;&lt;div class=&quot;content-conclusion&quot;&gt;&lt;p&gt;&lt;strong&gt;ITAR REQUIREMENTS:&lt;/strong&gt;&lt;/p&gt; &lt;ul&gt; &lt;li&gt;To conform to U.S. Government export regulations, applicant must be a (i) U.S. citizen or national, (ii) U.S. lawful, permanent resident (aka green card holder), (iii) Refugee under 8 U.S.C. § 1157, or (iv) Asylee under 8 U.S.C. § 1158, or be eligible to obtain the required authorizations from the U.S. Department of State. Learn more about the ITAR &lt;a href=&quot;https://www.pmddtc.state.gov/?id=ddtc_kb_article_page amp;sys_id=24d528fddbfc930044f9ff621f961987&quot;&gt;here&lt;/a&gt;. nbsp;&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;SpaceX is an Equal Opportunity Employer; employment with SpaceX is governed on the basis of merit, competence and qualifications and will not be influenced in any manner by race, color, religion, gender, national origin/ethnicity, veteran status, disability status, age, sexual orientation, gender identity, marital status, mental or physical disability or any other legally protected status.&lt;/p&gt; &lt;p&gt;Applicants wishing to view a copy of SpaceX’s Affirmative Action Plan for veterans and individuals with disabilities, or applicants requiring reasonable accommodation to the application/interview process should reach out to nbsp;&lt;a href=&quot;mailto:EEOCompliance@spacex.com&quot;&gt;EEOCompliance@spacex.com&lt;/a&gt;&lt;em&gt;. nbsp;&lt;/em&gt;&lt;/p&gt;&lt;/div&gt;",
+      "salary": "",
+      "skills": [],
+      "postedAt": "2026-09-07T00:33:13-04:00",
+      "source": "Greenhouse",
+      "id": "8a8f94ed-9689-43b5-8a8c-f1e7c4c0153e",
+      "status": "review",
+      "discoveredAt": "2026-09-07T05:22:18.664Z"
+    },
+    {
       "externalId": "applyguy-custom:microsoft:bd09edb153d64145ce49",
       "company": "Microsoft",
       "title": "Software Engineer - CTJ - Poly",
@@ -4252,7 +4267,7 @@
       "discoveredAt": "2026-08-18T18:03:53.356Z"
     }
   ],
-  "lastScanAt": "2026-09-04T23:10:56.334Z",
+  "lastScanAt": "2026-09-07T05:22:18.704Z",
   "lastDigestAt": "2026-09-03T22:36:47.834Z",
   "delivery": {
     "smsConfigured": true,
