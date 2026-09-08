@@ -1,6 +1,22 @@
 {
   "jobs": [
     {
+      "externalId": "applyguy-ff0d9aca-3ac1-412e-99df-d042fd9ea046",
+      "company": "Northrop Grumman",
+      "title": "2027 Associate Software Engineer / Software Engineer - Roy UT",
+      "location": "Roy, UT",
+      "url": "https://ngc.wd1.myworkdayjobs.com/northrop_grumman_external_site/job/United-States-Utah-Roy/XMLNAME-2027-Associate-Software-Engineer---Software-Engineer---Roy-UT_R10249844-1",
+      "description": "Entry Level entry_level",
+      "salary": "",
+      "skills": [],
+      "postedAt": "2026-09-08",
+      "source": "ApplyGuy 2027 feed",
+      "earlyCareer": true,
+      "id": "edb7bc94-30a3-47e8-afce-af970ef257a2",
+      "status": "review",
+      "discoveredAt": "2026-09-08T20:11:51.852Z"
+    },
+    {
       "externalId": "gh-SpaceX-8784892002",
       "company": "SpaceX",
       "title": "Merchandising Associate",
@@ -4267,7 +4283,7 @@
       "discoveredAt": "2026-08-18T18:03:53.356Z"
     }
   ],
-  "lastScanAt": "2026-09-07T05:22:18.704Z",
+  "lastScanAt": "2026-09-08T20:11:51.872Z",
   "lastDigestAt": "2026-09-07T22:20:56.464Z",
   "delivery": {
     "smsConfigured": true,
