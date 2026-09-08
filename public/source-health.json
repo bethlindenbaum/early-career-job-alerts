@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-09-07T22:20:56.475Z",
+  "checkedAt": "2026-09-08T00:32:53.303Z",
   "healthy": 32,
   "errors": 0,
   "sources": [
@@ -7,8 +7,8 @@
       "company": "ApplyGuy 2027 New Grad Jobs",
       "type": "applyguy",
       "status": "healthy",
-      "jobCount": 300,
-      "checkedAt": "2026-09-07T22:20:25.615Z"
+      "jobCount": 299,
+      "checkedAt": "2026-09-08T00:32:19.443Z"
     },
     {
       "company": "Aquatic Capital Management",
@@ -49,8 +49,8 @@
       "company": "Datadog",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 442,
-      "checkedAt": "2026-09-07T16:01:14.767Z"
+      "jobCount": 443,
+      "checkedAt": "2026-09-08T00:32:20.080Z"
     },
     {
       "company": "Dropbox",
@@ -77,8 +77,8 @@
       "company": "IMC Trading",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 177,
-      "checkedAt": "2026-09-07T16:01:14.355Z"
+      "jobCount": 176,
+      "checkedAt": "2026-09-08T00:32:19.471Z"
     },
     {
       "company": "Jane Street",
@@ -133,8 +133,8 @@
       "company": "MongoDB",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 408,
-      "checkedAt": "2026-09-07T19:51:32.784Z"
+      "jobCount": 407,
+      "checkedAt": "2026-09-08T00:32:19.973Z"
     },
     {
       "company": "Nintendo",
@@ -196,8 +196,8 @@
       "company": "SpaceX",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 2340,
-      "checkedAt": "2026-09-07T22:20:27.407Z"
+      "jobCount": 2343,
+      "checkedAt": "2026-09-08T00:32:21.075Z"
     },
     {
       "company": "Uber",
