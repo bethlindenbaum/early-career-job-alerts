@@ -1,14 +1,14 @@
 {
-  "checkedAt": "2026-09-08T05:08:09.391Z",
-  "healthy": 32,
-  "errors": 0,
+  "checkedAt": "2026-09-08T09:35:59.351Z",
+  "healthy": 31,
+  "errors": 1,
   "sources": [
     {
       "company": "ApplyGuy 2027 New Grad Jobs",
       "type": "applyguy",
       "status": "healthy",
-      "jobCount": 298,
-      "checkedAt": "2026-09-08T05:07:36.055Z"
+      "jobCount": 299,
+      "checkedAt": "2026-09-08T09:35:04.971Z"
     },
     {
       "company": "Aquatic Capital Management",
@@ -42,15 +42,15 @@
       "company": "Databricks",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 870,
-      "checkedAt": "2026-09-07T22:20:26.810Z"
+      "jobCount": 871,
+      "checkedAt": "2026-09-08T09:35:05.749Z"
     },
     {
       "company": "Datadog",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 443,
-      "checkedAt": "2026-09-08T00:32:20.080Z"
+      "jobCount": 444,
+      "checkedAt": "2026-09-08T09:35:05.569Z"
     },
     {
       "company": "Dropbox",
@@ -105,8 +105,8 @@
       "company": "Lyft",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 169,
-      "checkedAt": "2026-09-07T16:01:14.449Z"
+      "jobCount": 167,
+      "checkedAt": "2026-09-08T09:35:05.201Z"
     },
     {
       "company": "Medtronic",
@@ -133,8 +133,8 @@
       "company": "MongoDB",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 407,
-      "checkedAt": "2026-09-08T00:32:19.973Z"
+      "jobCount": 408,
+      "checkedAt": "2026-09-08T09:35:05.486Z"
     },
     {
       "company": "Nintendo",
@@ -168,8 +168,8 @@
       "company": "OpenAI",
       "type": "ashby",
       "status": "healthy",
-      "jobCount": 780,
-      "checkedAt": "2026-09-08T05:07:37.023Z"
+      "jobCount": 781,
+      "checkedAt": "2026-09-08T09:35:05.902Z"
     },
     {
       "company": "Palantir",
@@ -195,9 +195,10 @@
     {
       "company": "SpaceX",
       "type": "greenhouse",
-      "status": "healthy",
-      "jobCount": 2344,
-      "checkedAt": "2026-09-08T05:07:37.813Z"
+      "status": "error",
+      "message": "The operation was aborted due to timeout",
+      "jobCount": 0,
+      "checkedAt": "2026-09-08T09:35:58.886Z"
     },
     {
       "company": "Uber",
