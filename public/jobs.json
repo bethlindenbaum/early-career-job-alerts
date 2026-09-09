@@ -1,6 +1,22 @@
 {
   "jobs": [
     {
+      "externalId": "applyguy-custom:microsoft:a17359d2298b5002e3a3",
+      "company": "Microsoft",
+      "title": "Software Engineer UX",
+      "location": "Redmond, WA",
+      "url": "https://apply.careers.microsoft.com/careers/job/1970393556985572",
+      "description": "Entry Level entry_level",
+      "salary": "",
+      "skills": [],
+      "postedAt": "2026-09-08",
+      "source": "ApplyGuy 2027 feed",
+      "earlyCareer": true,
+      "id": "8d06b6b9-66a7-4a78-bf58-756c0f82c89b",
+      "status": "review",
+      "discoveredAt": "2026-09-09T00:39:34.422Z"
+    },
+    {
       "externalId": "gh-SpaceX-8743362002",
       "company": "SpaceX",
       "title": "New Graduate Engineer, Software (Starship)",
@@ -4298,7 +4314,7 @@
       "discoveredAt": "2026-08-18T18:03:53.356Z"
     }
   ],
-  "lastScanAt": "2026-09-08T22:42:07.112Z",
+  "lastScanAt": "2026-09-09T00:39:34.448Z",
   "lastDigestAt": "2026-09-08T22:42:08.190Z",
   "delivery": {
     "smsConfigured": true,
