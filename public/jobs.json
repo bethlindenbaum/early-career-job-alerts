@@ -1,6 +1,38 @@
 {
   "jobs": [
     {
+      "externalId": "applyguy-37baf769-069f-40b0-ba97-9a6eb7bc133b",
+      "company": "Cursor",
+      "title": "Software Engineer, New Grad 2027",
+      "location": "San Francisco, CA",
+      "url": "https://jobs.ashbyhq.com/cursor/d0e5b41d-84ab-4887-bd3a-55589b11dd7b",
+      "description": "New Grad explicit",
+      "salary": "",
+      "skills": [],
+      "postedAt": "2026-09-08",
+      "source": "ApplyGuy 2027 feed",
+      "earlyCareer": true,
+      "id": "04b911d0-2edc-4d33-8c33-07126f0717fc",
+      "status": "review",
+      "discoveredAt": "2026-09-10T09:04:08.922Z"
+    },
+    {
+      "externalId": "applyguy-custom:microsoft:05ae06ea68171c7895e2",
+      "company": "Microsoft",
+      "title": "Software Engineer Intune",
+      "location": "Redmond, WA",
+      "url": "https://apply.careers.microsoft.com/careers/job/1970393556982925",
+      "description": "Entry Level entry_level",
+      "salary": "",
+      "skills": [],
+      "postedAt": "2026-09-09",
+      "source": "ApplyGuy 2027 feed",
+      "earlyCareer": true,
+      "id": "7e278fcb-e015-4628-8ae3-e4df0c6d4cf9",
+      "status": "review",
+      "discoveredAt": "2026-09-10T09:04:08.921Z"
+    },
+    {
       "externalId": "gh-SpaceX-8789869002",
       "company": "SpaceX",
       "title": "Merchandising Associate (Bastrop)",
@@ -4329,7 +4361,7 @@
       "discoveredAt": "2026-08-18T18:03:53.356Z"
     }
   ],
-  "lastScanAt": "2026-09-09T17:27:34.778Z",
+  "lastScanAt": "2026-09-10T09:04:08.946Z",
   "lastDigestAt": "2026-09-09T22:03:27.657Z",
   "delivery": {
     "smsConfigured": true,
