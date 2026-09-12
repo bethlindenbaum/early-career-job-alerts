@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-09-12T00:45:49.297Z",
+  "checkedAt": "2026-09-12T05:07:29.537Z",
   "healthy": 32,
   "errors": 0,
   "sources": [
@@ -168,8 +168,8 @@
       "company": "OpenAI",
       "type": "ashby",
       "status": "healthy",
-      "jobCount": 792,
-      "checkedAt": "2026-09-12T00:45:10.365Z"
+      "jobCount": 795,
+      "checkedAt": "2026-09-12T05:06:47.952Z"
     },
     {
       "company": "Palantir",
@@ -196,8 +196,8 @@
       "company": "SpaceX",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 2403,
-      "checkedAt": "2026-09-12T00:45:11.024Z"
+      "jobCount": 2405,
+      "checkedAt": "2026-09-12T05:06:59.304Z"
     },
     {
       "company": "Uber",
