@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-09-12T12:52:29.925Z",
+  "checkedAt": "2026-09-12T15:55:08.930Z",
   "healthy": 32,
   "errors": 0,
   "sources": [
@@ -168,8 +168,8 @@
       "company": "OpenAI",
       "type": "ashby",
       "status": "healthy",
-      "jobCount": 795,
-      "checkedAt": "2026-09-12T05:06:47.952Z"
+      "jobCount": 796,
+      "checkedAt": "2026-09-12T15:54:30.429Z"
     },
     {
       "company": "Palantir",
