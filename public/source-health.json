@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-09-13T01:13:11.297Z",
+  "checkedAt": "2026-09-13T06:11:18.641Z",
   "healthy": 32,
   "errors": 0,
   "sources": [
@@ -7,8 +7,8 @@
       "company": "ApplyGuy 2027 New Grad Jobs",
       "type": "applyguy",
       "status": "healthy",
-      "jobCount": 303,
-      "checkedAt": "2026-09-13T01:12:40.244Z"
+      "jobCount": 300,
+      "checkedAt": "2026-09-13T06:10:42.343Z"
     },
     {
       "company": "Aquatic Capital Management",
@@ -42,8 +42,8 @@
       "company": "Databricks",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 891,
-      "checkedAt": "2026-09-12T19:49:35.557Z"
+      "jobCount": 892,
+      "checkedAt": "2026-09-13T06:10:43.465Z"
     },
     {
       "company": "Datadog",
