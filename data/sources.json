@@ -10,6 +10,14 @@
     "token": "chicagotrading"
   },
   {
+    "company": "Cisco",
+    "type": "workday",
+    "host": "cisco.wd5.myworkdayjobs.com",
+    "tenant": "cisco",
+    "site": "cisco_careers",
+    "discovery": "fallback-listing"
+  },
+  {
     "company": "Cloudflare",
     "type": "greenhouse",
     "token": "cloudflare"
