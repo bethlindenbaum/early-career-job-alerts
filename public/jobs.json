@@ -1,6 +1,37 @@
 {
   "jobs": [
     {
+      "externalId": "applyguy-custom:microsoft:03d65b2b10e701c197e7",
+      "company": "Microsoft",
+      "title": "Software Engineering - Commercial Engineering & AI (CEAI)",
+      "location": "Redmond, WA",
+      "url": "https://apply.careers.microsoft.com/careers/job/1970393556914839",
+      "description": "Entry Level entry_level",
+      "salary": "",
+      "skills": [],
+      "postedAt": "2026-09-14",
+      "source": "ApplyGuy 2027 feed",
+      "earlyCareer": true,
+      "id": "580766f4-3859-4e49-be24-88df8a21a612",
+      "status": "review",
+      "discoveredAt": "2026-09-14T20:28:59.379Z"
+    },
+    {
+      "externalId": "workday-Northrop Grumman-R10250677",
+      "company": "Northrop Grumman",
+      "title": "2026 Associate Hardware Engineer / Hardware Engineer (AHT) - Aurora CO",
+      "location": "United States-Colorado-Aurora",
+      "url": "https://ngc.wd1.myworkdayjobs.com/job/United-States-Colorado-Aurora/XMLNAME-2026-Associate-Hardware-Engineer---Hardware-Engineer--AHT----Aurora-CO_R10250677",
+      "description": "",
+      "salary": "",
+      "skills": [],
+      "postedAt": "2026-09-14T20:28:15.053Z",
+      "source": "Workday",
+      "id": "3828f5cc-ee81-409a-a8b8-37290416f22a",
+      "status": "review",
+      "discoveredAt": "2026-09-14T20:28:59.353Z"
+    },
+    {
       "externalId": "gh-SpaceX-8802897002",
       "company": "SpaceX",
       "title": "New Graduate Engineer, Security Software (Starshield) ",
@@ -4410,7 +4441,7 @@
       "discoveredAt": "2026-08-18T18:03:53.356Z"
     }
   ],
-  "lastScanAt": "2026-09-12T00:45:48.728Z",
+  "lastScanAt": "2026-09-14T20:28:59.403Z",
   "lastDigestAt": "2026-09-11T22:51:22.341Z",
   "delivery": {
     "smsConfigured": true,
