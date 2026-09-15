@@ -1,6 +1,23 @@
 {
   "jobs": [
     {
+      "externalId": "markdown-d875b50eefd013e0c5688606729ea14d0997782f",
+      "company": "Northrop Grumman",
+      "title": "Associate Electrical Engineer/Electrical Engineer",
+      "location": "United States-California-San Diego",
+      "url": "https://zapply.jobs/l/d/workday-ngc-northrop-grumman-external-site-R10248365?s=gh-new-grad-jobs-2027",
+      "description": "",
+      "salary": "",
+      "skills": [],
+      "postedAt": "2026-09-15T19:53:22.296Z",
+      "source": "Zapply Hardware & Systems Engineering",
+      "earlyCareer": false,
+      "experienceCheck": false,
+      "id": "4b022ee5-2064-4430-8eff-3851609958c1",
+      "status": "review",
+      "discoveredAt": "2026-09-15T19:54:00.982Z"
+    },
+    {
       "externalId": "applyguy-custom:microsoft:03d65b2b10e701c197e7",
       "company": "Microsoft",
       "title": "Software Engineering - Commercial Engineering & AI (CEAI)",
@@ -4441,7 +4458,7 @@
       "discoveredAt": "2026-08-18T18:03:53.356Z"
     }
   ],
-  "lastScanAt": "2026-09-14T20:28:59.403Z",
+  "lastScanAt": "2026-09-15T19:54:00.983Z",
   "lastDigestAt": "2026-09-11T22:51:22.341Z",
   "delivery": {
     "smsConfigured": true,
