@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-09-16T14:31:34.039Z",
+  "checkedAt": "2026-09-16T18:23:31.925Z",
   "healthy": 33,
   "errors": 0,
   "sources": [
@@ -7,8 +7,8 @@
       "company": "ApplyGuy 2027 New Grad Jobs",
       "type": "applyguy",
       "status": "healthy",
-      "jobCount": 314,
-      "checkedAt": "2026-09-16T14:30:52.846Z"
+      "jobCount": 312,
+      "checkedAt": "2026-09-16T18:22:57.871Z"
     },
     {
       "company": "Aquatic Capital Management",
@@ -56,15 +56,15 @@
       "company": "Datadog",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 454,
-      "checkedAt": "2026-09-16T14:30:53.599Z"
+      "jobCount": 455,
+      "checkedAt": "2026-09-16T18:22:58.748Z"
     },
     {
       "company": "Dropbox",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 39,
-      "checkedAt": "2026-09-16T14:30:52.912Z"
+      "jobCount": 41,
+      "checkedAt": "2026-09-16T18:22:58.007Z"
     },
     {
       "company": "Epic Games",
@@ -112,8 +112,8 @@
       "company": "Lyft",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 180,
-      "checkedAt": "2026-09-16T14:30:53.199Z"
+      "jobCount": 183,
+      "checkedAt": "2026-09-16T18:22:58.237Z"
     },
     {
       "company": "Medtronic",
@@ -182,8 +182,8 @@
       "company": "Palantir",
       "type": "lever",
       "status": "healthy",
-      "jobCount": 316,
-      "checkedAt": "2026-09-16T05:12:28.324Z"
+      "jobCount": 313,
+      "checkedAt": "2026-09-16T18:23:00.353Z"
     },
     {
       "company": "Point72",
@@ -196,15 +196,15 @@
       "company": "Roblox",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 240,
-      "checkedAt": "2026-09-15T22:29:37.804Z"
+      "jobCount": 238,
+      "checkedAt": "2026-09-16T18:22:58.344Z"
     },
     {
       "company": "SpaceX",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 2456,
-      "checkedAt": "2026-09-16T14:30:54.804Z"
+      "jobCount": 2459,
+      "checkedAt": "2026-09-16T18:22:59.774Z"
     },
     {
       "company": "Uber",
