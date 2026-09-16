@@ -1,6 +1,22 @@
 {
   "jobs": [
     {
+      "externalId": "applyguy-ecd3c350-4582-431e-9c9b-14104e1254d0",
+      "company": "NVIDIA",
+      "title": "Software Engineer, Coding Agent Harness Engineering -  New College Grad 2026",
+      "location": "Santa Clara, CA",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineer--Coding-Agent-Harness-Engineering----New-College-Grad-2026_JR2023749",
+      "description": "New Grad explicit",
+      "salary": "",
+      "skills": [],
+      "postedAt": "2026-09-15",
+      "source": "ApplyGuy 2027 feed",
+      "earlyCareer": true,
+      "id": "b3b9f987-8bde-4733-9d3a-060daac58af8",
+      "status": "review",
+      "discoveredAt": "2026-09-16T09:57:57.647Z"
+    },
+    {
       "externalId": "markdown-d875b50eefd013e0c5688606729ea14d0997782f",
       "company": "Northrop Grumman",
       "title": "Associate Electrical Engineer/Electrical Engineer",
@@ -4458,7 +4474,7 @@
       "discoveredAt": "2026-08-18T18:03:53.356Z"
     }
   ],
-  "lastScanAt": "2026-09-15T19:54:00.983Z",
+  "lastScanAt": "2026-09-16T09:57:57.673Z",
   "lastDigestAt": "2026-09-15T22:30:10.444Z",
   "delivery": {
     "smsConfigured": true,
