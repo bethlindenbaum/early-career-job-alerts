@@ -1,14 +1,14 @@
 {
-  "checkedAt": "2026-09-15T22:30:10.454Z",
-  "healthy": 33,
-  "errors": 0,
+  "checkedAt": "2026-09-16T00:40:22.923Z",
+  "healthy": 32,
+  "errors": 1,
   "sources": [
     {
       "company": "ApplyGuy 2027 New Grad Jobs",
       "type": "applyguy",
       "status": "healthy",
-      "jobCount": 316,
-      "checkedAt": "2026-09-15T22:29:37.586Z"
+      "jobCount": 315,
+      "checkedAt": "2026-09-16T00:39:33.267Z"
     },
     {
       "company": "Aquatic Capital Management",
@@ -35,22 +35,22 @@
       "company": "Cloudflare",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 356,
-      "checkedAt": "2026-09-15T19:53:23.091Z"
+      "jobCount": 355,
+      "checkedAt": "2026-09-16T00:39:33.925Z"
     },
     {
       "company": "Cursor",
       "type": "ashby",
       "status": "healthy",
-      "jobCount": 118,
-      "checkedAt": "2026-09-15T16:50:22.992Z"
+      "jobCount": 120,
+      "checkedAt": "2026-09-16T00:39:33.132Z"
     },
     {
       "company": "Databricks",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 884,
-      "checkedAt": "2026-09-15T19:53:23.386Z"
+      "jobCount": 883,
+      "checkedAt": "2026-09-16T00:39:34.265Z"
     },
     {
       "company": "Datadog",
@@ -175,22 +175,23 @@
       "company": "OpenAI",
       "type": "ashby",
       "status": "healthy",
-      "jobCount": 805,
-      "checkedAt": "2026-09-15T22:29:38.427Z"
+      "jobCount": 810,
+      "checkedAt": "2026-09-16T00:39:34.111Z"
     },
     {
       "company": "Palantir",
       "type": "lever",
-      "status": "healthy",
-      "jobCount": 316,
-      "checkedAt": "2026-09-15T16:50:25.935Z"
+      "status": "error",
+      "message": "The operation was aborted due to timeout",
+      "jobCount": 0,
+      "checkedAt": "2026-09-16T00:40:22.901Z"
     },
     {
       "company": "Point72",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 231,
-      "checkedAt": "2026-09-15T16:50:23.601Z"
+      "jobCount": 230,
+      "checkedAt": "2026-09-16T00:39:33.482Z"
     },
     {
       "company": "Roblox",
