@@ -1,6 +1,22 @@
 {
   "jobs": [
     {
+      "externalId": "applyguy-106b1aaf-66a9-491f-a47f-973de0ddfbdb",
+      "company": "Visa",
+      "title": "Software Engineer, New College Grad, Bellevue - 2027",
+      "location": "Bellevue, WA",
+      "url": "https://visa.wd5.myworkdayjobs.com/visa/job/US---Bellevue-WA/Software-Engineer--New-College-Grad--Bellevue---2027_REF088530W-3",
+      "description": "New Grad explicit",
+      "salary": "",
+      "skills": [],
+      "postedAt": "2026-09-17",
+      "source": "ApplyGuy 2027 feed",
+      "earlyCareer": true,
+      "id": "2785185e-3e48-4e50-801f-6a1318596fc9",
+      "status": "review",
+      "discoveredAt": "2026-09-17T12:08:10.281Z"
+    },
+    {
       "externalId": "applyguy-ecd3c350-4582-431e-9c9b-14104e1254d0",
       "company": "NVIDIA",
       "title": "Software Engineer, Coding Agent Harness Engineering -  New College Grad 2026",
@@ -4474,7 +4490,7 @@
       "discoveredAt": "2026-08-18T18:03:53.356Z"
     }
   ],
-  "lastScanAt": "2026-09-16T09:57:57.673Z",
+  "lastScanAt": "2026-09-17T12:08:10.307Z",
   "lastDigestAt": "2026-09-15T22:30:10.444Z",
   "delivery": {
     "smsConfigured": true,
