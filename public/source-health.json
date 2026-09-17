@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-09-17T01:43:50.623Z",
+  "checkedAt": "2026-09-17T06:40:52.822Z",
   "healthy": 33,
   "errors": 0,
   "sources": [
@@ -7,8 +7,8 @@
       "company": "ApplyGuy 2027 New Grad Jobs",
       "type": "applyguy",
       "status": "healthy",
-      "jobCount": 320,
-      "checkedAt": "2026-09-16T23:42:37.494Z"
+      "jobCount": 314,
+      "checkedAt": "2026-09-17T06:40:19.539Z"
     },
     {
       "company": "Aquatic Capital Management",
@@ -35,8 +35,8 @@
       "company": "Cloudflare",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 360,
-      "checkedAt": "2026-09-16T21:28:05.369Z"
+      "jobCount": 361,
+      "checkedAt": "2026-09-17T06:40:19.426Z"
     },
     {
       "company": "Cursor",
@@ -56,8 +56,8 @@
       "company": "Datadog",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 453,
-      "checkedAt": "2026-09-16T21:28:05.479Z"
+      "jobCount": 451,
+      "checkedAt": "2026-09-17T06:40:20.139Z"
     },
     {
       "company": "Dropbox",
@@ -140,8 +140,8 @@
       "company": "MongoDB",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 412,
-      "checkedAt": "2026-09-17T01:43:06.609Z"
+      "jobCount": 411,
+      "checkedAt": "2026-09-17T06:40:20.032Z"
     },
     {
       "company": "Nintendo",
@@ -175,8 +175,8 @@
       "company": "OpenAI",
       "type": "ashby",
       "status": "healthy",
-      "jobCount": 819,
-      "checkedAt": "2026-09-17T01:43:06.926Z"
+      "jobCount": 818,
+      "checkedAt": "2026-09-17T06:40:20.369Z"
     },
     {
       "company": "Palantir",
@@ -203,8 +203,8 @@
       "company": "SpaceX",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 2464,
-      "checkedAt": "2026-09-17T01:43:07.391Z"
+      "jobCount": 2465,
+      "checkedAt": "2026-09-17T06:40:21.252Z"
     },
     {
       "company": "Uber",
