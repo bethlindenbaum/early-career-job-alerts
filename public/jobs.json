@@ -1,6 +1,21 @@
 {
   "jobs": [
     {
+      "externalId": "workday-Northrop Grumman-R10251662",
+      "company": "Northrop Grumman",
+      "title": "Associate AI Software Engineer/ AI Software Engineer",
+      "location": "United States-Ohio-Beavercreek",
+      "url": "https://ngc.wd1.myworkdayjobs.com/job/United-States-Ohio-Beavercreek/Associate-AI-Software-Engineer--AI-Software-Engineer_R10251662",
+      "description": "",
+      "salary": "",
+      "skills": [],
+      "postedAt": "2026-09-18T13:47:56.520Z",
+      "source": "Workday",
+      "id": "53e7a80e-f3a3-4d02-98c3-d314240ce797",
+      "status": "review",
+      "discoveredAt": "2026-09-18T13:48:35.998Z"
+    },
+    {
       "externalId": "applyguy-1ee3cf5e-bc9a-463e-bc67-95ab52ee2197",
       "company": "Visa",
       "title": "Software Engineer, New College Grad - 2027, Austin, TX",
@@ -4522,7 +4537,7 @@
       "discoveredAt": "2026-08-18T18:03:53.356Z"
     }
   ],
-  "lastScanAt": "2026-09-17T16:53:51.239Z",
+  "lastScanAt": "2026-09-18T13:48:36.058Z",
   "lastDigestAt": "2026-09-17T22:30:44.091Z",
   "delivery": {
     "smsConfigured": true,
