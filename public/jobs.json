@@ -1,6 +1,22 @@
 {
   "jobs": [
     {
+      "externalId": "applyguy-dd24b9f1-691f-4c23-914c-c0fa23cf4046",
+      "company": "Toyota",
+      "title": "Software Engineer (Early Career Professional)",
+      "location": "Plano, TX",
+      "url": "https://toyota.wd503.myworkdayjobs.com/tmna/job/Plano-Texas/Software-Engineer--Early-Career-Professional-_10325071",
+      "description": "New Grad explicit",
+      "salary": "",
+      "skills": [],
+      "postedAt": "2026-09-18",
+      "source": "ApplyGuy 2027 feed",
+      "earlyCareer": true,
+      "id": "3cdd58c1-8155-4a23-9dc4-5fda96f784d7",
+      "status": "review",
+      "discoveredAt": "2026-09-18T23:38:03.886Z"
+    },
+    {
       "externalId": "workday-Northrop Grumman-R10236717",
       "company": "Northrop Grumman",
       "title": "2026 Associate Embedded Software Engineer - Rolling Meadows IL",
@@ -4552,7 +4568,7 @@
       "discoveredAt": "2026-08-18T18:03:53.356Z"
     }
   ],
-  "lastScanAt": "2026-09-18T19:38:05.804Z",
+  "lastScanAt": "2026-09-18T23:38:03.912Z",
   "lastDigestAt": "2026-09-17T22:30:44.091Z",
   "delivery": {
     "smsConfigured": true,
