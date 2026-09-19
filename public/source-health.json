@@ -1,14 +1,14 @@
 {
-  "checkedAt": "2026-09-19T01:33:22.435Z",
-  "healthy": 33,
-  "errors": 0,
+  "checkedAt": "2026-09-19T06:32:23.850Z",
+  "healthy": 29,
+  "errors": 4,
   "sources": [
     {
       "company": "ApplyGuy 2027 New Grad Jobs",
       "type": "applyguy",
       "status": "healthy",
-      "jobCount": 326,
-      "checkedAt": "2026-09-19T01:32:38.317Z"
+      "jobCount": 329,
+      "checkedAt": "2026-09-19T06:31:48.547Z"
     },
     {
       "company": "Aquatic Capital Management",
@@ -27,9 +27,10 @@
     {
       "company": "Cisco",
       "type": "workday",
-      "status": "healthy",
-      "jobCount": 20,
-      "checkedAt": "2026-09-14T20:28:14.979Z"
+      "status": "error",
+      "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON",
+      "jobCount": 0,
+      "checkedAt": "2026-09-19T06:32:23.798Z"
     },
     {
       "company": "Cloudflare",
@@ -118,9 +119,10 @@
     {
       "company": "Medtronic",
       "type": "workday",
-      "status": "healthy",
-      "jobCount": 20,
-      "checkedAt": "2026-08-29T13:13:58.475Z"
+      "status": "error",
+      "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON",
+      "jobCount": 0,
+      "checkedAt": "2026-09-19T06:32:23.798Z"
     },
     {
       "company": "MetLife",
@@ -153,9 +155,10 @@
     {
       "company": "Northrop Grumman",
       "type": "workday",
-      "status": "healthy",
-      "jobCount": 20,
-      "checkedAt": "2026-08-29T13:13:56.921Z"
+      "status": "error",
+      "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON",
+      "jobCount": 0,
+      "checkedAt": "2026-09-19T06:32:23.798Z"
     },
     {
       "company": "Notion",
@@ -167,16 +170,17 @@
     {
       "company": "NVIDIA",
       "type": "workday",
-      "status": "healthy",
-      "jobCount": 20,
-      "checkedAt": "2026-08-29T13:13:57.625Z"
+      "status": "error",
+      "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON",
+      "jobCount": 0,
+      "checkedAt": "2026-09-19T06:32:23.798Z"
     },
     {
       "company": "OpenAI",
       "type": "ashby",
       "status": "healthy",
-      "jobCount": 816,
-      "checkedAt": "2026-09-19T01:32:38.736Z"
+      "jobCount": 818,
+      "checkedAt": "2026-09-19T06:31:49.358Z"
     },
     {
       "company": "Palantir",
