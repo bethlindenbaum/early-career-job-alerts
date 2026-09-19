@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-09-19T19:25:15.631Z",
+  "checkedAt": "2026-09-19T21:32:17.824Z",
   "healthy": 33,
   "errors": 0,
   "sources": [
@@ -203,8 +203,8 @@
       "company": "SpaceX",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 2502,
-      "checkedAt": "2026-09-19T19:24:39.996Z"
+      "jobCount": 2500,
+      "checkedAt": "2026-09-19T21:31:42.964Z"
     },
     {
       "company": "Uber",
