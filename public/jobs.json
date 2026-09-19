@@ -1,6 +1,22 @@
 {
   "jobs": [
     {
+      "externalId": "applyguy-custom:microsoft:0ae8f2bf560ced65505f",
+      "company": "Microsoft",
+      "title": "Software Engineer: AI Experiences Search",
+      "location": "Redmond, WA",
+      "url": "https://apply.careers.microsoft.com/careers/job/1970393556986144",
+      "description": "Entry Level entry_level",
+      "salary": "",
+      "skills": [],
+      "postedAt": "2026-09-18",
+      "source": "ApplyGuy 2027 feed",
+      "earlyCareer": true,
+      "id": "b98cc74f-39e6-4c69-8b9a-5f63df46b8b5",
+      "status": "review",
+      "discoveredAt": "2026-09-19T01:33:21.587Z"
+    },
+    {
       "externalId": "applyguy-dd24b9f1-691f-4c23-914c-c0fa23cf4046",
       "company": "Toyota",
       "title": "Software Engineer (Early Career Professional)",
@@ -4568,7 +4584,7 @@
       "discoveredAt": "2026-08-18T18:03:53.356Z"
     }
   ],
-  "lastScanAt": "2026-09-18T23:38:03.912Z",
+  "lastScanAt": "2026-09-19T01:33:21.605Z",
   "lastDigestAt": "2026-09-17T22:30:44.091Z",
   "delivery": {
     "smsConfigured": true,
