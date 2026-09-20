@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-09-20T01:21:25.037Z",
+  "checkedAt": "2026-09-20T06:29:50.126Z",
   "healthy": 33,
   "errors": 0,
   "sources": [
@@ -7,8 +7,8 @@
       "company": "ApplyGuy 2027 New Grad Jobs",
       "type": "applyguy",
       "status": "healthy",
-      "jobCount": 318,
-      "checkedAt": "2026-09-20T01:20:38.467Z"
+      "jobCount": 312,
+      "checkedAt": "2026-09-20T06:29:08.112Z"
     },
     {
       "company": "Aquatic Capital Management",
@@ -140,8 +140,8 @@
       "company": "MongoDB",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 402,
-      "checkedAt": "2026-09-18T17:15:51.403Z"
+      "jobCount": 401,
+      "checkedAt": "2026-09-20T06:29:08.647Z"
     },
     {
       "company": "Nintendo",
