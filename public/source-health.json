@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-09-20T14:52:46.402Z",
+  "checkedAt": "2026-09-20T17:46:18.455Z",
   "healthy": 33,
   "errors": 0,
   "sources": [
@@ -49,8 +49,8 @@
       "company": "Databricks",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 877,
-      "checkedAt": "2026-09-19T23:27:38.539Z"
+      "jobCount": 875,
+      "checkedAt": "2026-09-20T17:45:47.225Z"
     },
     {
       "company": "Datadog",
@@ -91,8 +91,8 @@
       "company": "Jane Street",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 229,
-      "checkedAt": "2026-09-18T13:47:56.265Z"
+      "jobCount": 228,
+      "checkedAt": "2026-09-20T17:45:46.316Z"
     },
     {
       "company": "LinkedIn",
@@ -112,8 +112,8 @@
       "company": "Lyft",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 178,
-      "checkedAt": "2026-09-18T23:37:34.398Z"
+      "jobCount": 176,
+      "checkedAt": "2026-09-20T17:45:46.452Z"
     },
     {
       "company": "Medtronic",
@@ -203,8 +203,8 @@
       "company": "SpaceX",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 2505,
-      "checkedAt": "2026-09-19T23:27:39.354Z"
+      "jobCount": 2504,
+      "checkedAt": "2026-09-20T17:45:47.796Z"
     },
     {
       "company": "Uber",
