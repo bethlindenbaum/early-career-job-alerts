@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-09-20T21:52:28.514Z",
+  "checkedAt": "2026-09-20T23:39:31.511Z",
   "healthy": 33,
   "errors": 0,
   "sources": [
@@ -7,8 +7,8 @@
       "company": "ApplyGuy 2027 New Grad Jobs",
       "type": "applyguy",
       "status": "healthy",
-      "jobCount": 316,
-      "checkedAt": "2026-09-20T21:51:51.083Z"
+      "jobCount": 317,
+      "checkedAt": "2026-09-20T23:38:50.556Z"
     },
     {
       "company": "Aquatic Capital Management",
