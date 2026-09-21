@@ -1,6 +1,66 @@
 {
   "jobs": [
     {
+      "externalId": "workday-Northrop Grumman-R10251459",
+      "company": "Northrop Grumman",
+      "title": "2027 Embedded Software Engineer - Pathways Program - Baltimore MD",
+      "location": "United States-Maryland-Baltimore",
+      "url": "https://ngc.wd1.myworkdayjobs.com/job/United-States-Maryland-Baltimore/XMLNAME-2027-Embedded-Software-Engineer---Pathways-Program---Baltimore-MD_R10251459",
+      "description": "",
+      "salary": "",
+      "skills": [],
+      "postedAt": "2026-09-21T07:03:52.376Z",
+      "source": "Workday",
+      "id": "bc91dc18-5c51-46d9-82b6-e4291551762b",
+      "status": "review",
+      "discoveredAt": "2026-09-21T07:04:25.718Z"
+    },
+    {
+      "externalId": "workday-Northrop Grumman-R10250971",
+      "company": "Northrop Grumman",
+      "title": "2027 Electrical Engineer - Pathways Program - Baltimore MD",
+      "location": "United States-Maryland-Baltimore",
+      "url": "https://ngc.wd1.myworkdayjobs.com/job/United-States-Maryland-Baltimore/XMLNAME-2027-Electrical-Engineer---Pathways-Program---Baltimore-MD_R10250971-1",
+      "description": "",
+      "salary": "",
+      "skills": [],
+      "postedAt": "2026-09-21T07:03:52.376Z",
+      "source": "Workday",
+      "id": "1bfdcb7d-2628-4e7a-8c14-1fa32ca60209",
+      "status": "review",
+      "discoveredAt": "2026-09-21T07:04:25.718Z"
+    },
+    {
+      "externalId": "workday-Northrop Grumman-R10250982",
+      "company": "Northrop Grumman",
+      "title": "2027 Associate Embedded Software Engineer - Pathways Program - Baltimore MD",
+      "location": "United States-Maryland-Baltimore",
+      "url": "https://ngc.wd1.myworkdayjobs.com/job/United-States-Maryland-Baltimore/XMLNAME-2027-Associate-Embedded-Software-Engineer---Pathways-Program---Baltimore-MD_R10250982",
+      "description": "",
+      "salary": "",
+      "skills": [],
+      "postedAt": "2026-09-21T07:03:52.376Z",
+      "source": "Workday",
+      "id": "198b00ae-07e2-4f3c-93e5-997f61cc6f0d",
+      "status": "review",
+      "discoveredAt": "2026-09-21T07:04:25.718Z"
+    },
+    {
+      "externalId": "workday-Northrop Grumman-R10250967",
+      "company": "Northrop Grumman",
+      "title": "2027 Associate Electrical Engineer - Pathways Program - Baltimore MD",
+      "location": "United States-Maryland-Baltimore",
+      "url": "https://ngc.wd1.myworkdayjobs.com/job/United-States-Maryland-Baltimore/XMLNAME-2027-Associate-Electrical-Engineer---Pathways-Program---Baltimore-MD_R10250967",
+      "description": "",
+      "salary": "",
+      "skills": [],
+      "postedAt": "2026-09-21T07:03:52.376Z",
+      "source": "Workday",
+      "id": "5d47e81c-3b24-489c-8f2b-a91bf8857257",
+      "status": "review",
+      "discoveredAt": "2026-09-21T07:04:25.718Z"
+    },
+    {
       "externalId": "applyguy-custom:microsoft:0ae8f2bf560ced65505f",
       "company": "Microsoft",
       "title": "Software Engineer: AI Experiences Search",
@@ -4584,7 +4644,7 @@
       "discoveredAt": "2026-08-18T18:03:53.356Z"
     }
   ],
-  "lastScanAt": "2026-09-19T01:33:21.605Z",
+  "lastScanAt": "2026-09-21T07:04:25.773Z",
   "lastDigestAt": "2026-09-17T22:30:44.091Z",
   "delivery": {
     "smsConfigured": true,
