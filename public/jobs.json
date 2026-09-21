@@ -1,6 +1,23 @@
 {
   "jobs": [
     {
+      "externalId": "markdown-1152cc883c40da395a30a6786da4e8f8a4c31010",
+      "company": "Northrop Grumman",
+      "title": "2027 Associate Electrical Engineer / Electrical Engineer - Roy UT",
+      "location": "United States-Utah-Roy",
+      "url": "https://zapply.jobs/l/d/workday-ngc-northrop-grumman-external-site-R10249846?s=gh-new-grad-jobs-2027",
+      "description": "",
+      "salary": "",
+      "skills": [],
+      "postedAt": "2026-09-21T22:25:40.080Z",
+      "source": "Zapply Hardware & Systems Engineering",
+      "earlyCareer": false,
+      "experienceCheck": false,
+      "id": "93ae9ee8-7f9e-4c63-a23b-7d4293bd0c75",
+      "status": "review",
+      "discoveredAt": "2026-09-21T22:26:10.876Z"
+    },
+    {
       "externalId": "workday-Northrop Grumman-R10251459",
       "company": "Northrop Grumman",
       "title": "2027 Embedded Software Engineer - Pathways Program - Baltimore MD",
@@ -4644,8 +4661,8 @@
       "discoveredAt": "2026-08-18T18:03:53.356Z"
     }
   ],
-  "lastScanAt": "2026-09-21T07:04:25.773Z",
-  "lastDigestAt": "2026-09-17T22:30:44.091Z",
+  "lastScanAt": "2026-09-21T22:26:10.876Z",
+  "lastDigestAt": "2026-09-21T22:26:11.395Z",
   "delivery": {
     "smsConfigured": true,
     "emailConfigured": true
