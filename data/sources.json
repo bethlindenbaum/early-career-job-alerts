@@ -153,6 +153,14 @@
     "token": "spacex"
   },
   {
+    "company": "Toyota",
+    "type": "workday",
+    "host": "toyota.wd503.myworkdayjobs.com",
+    "tenant": "toyota",
+    "site": "tmna",
+    "discovery": "fallback-listing"
+  },
+  {
     "company": "Uber",
     "type": "smartrecruiters",
     "token": "uber",
