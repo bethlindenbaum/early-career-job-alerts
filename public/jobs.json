@@ -1,6 +1,22 @@
 {
   "jobs": [
     {
+      "externalId": "applyguy-custom:amazon:8b37644b16da4b8ce5f0",
+      "company": "Amazon",
+      "title": "Software Development Engineer I, GenAI and Agentic ADC",
+      "location": "Arlington, VA",
+      "url": "https://www.amazon.jobs/en/jobs/10550768/software-development-engineer-i-genai-and-agentic-adc",
+      "description": "Entry Level entry_level",
+      "salary": "",
+      "skills": [],
+      "postedAt": "2026-09-16",
+      "source": "ApplyGuy 2027 feed",
+      "earlyCareer": true,
+      "id": "1413d3a7-ce57-4971-90d6-83468758d25b",
+      "status": "review",
+      "discoveredAt": "2026-09-24T16:00:54.881Z"
+    },
+    {
       "externalId": "applyguy-custom:amazon:cfde0310784db9a8a37f",
       "company": "Amazon",
       "title": "Software Development Engineer I, Annapurna Labs, Early Career - 2027",
@@ -4693,7 +4709,7 @@
       "discoveredAt": "2026-08-18T18:03:53.356Z"
     }
   ],
-  "lastScanAt": "2026-09-24T11:51:59.091Z",
+  "lastScanAt": "2026-09-24T16:00:54.909Z",
   "lastDigestAt": "2026-09-21T22:26:11.395Z",
   "delivery": {
     "smsConfigured": true,
