@@ -1,6 +1,38 @@
 {
   "jobs": [
     {
+      "externalId": "applyguy-4be19d07-a5f8-4673-b2af-e1407c7338fd",
+      "company": "Adobe",
+      "title": "2027 University Graduate - Machine Learning Engineer",
+      "location": "San Jose, CA",
+      "url": "https://adobe.wd5.myworkdayjobs.com/external_experienced/job/San-Jose/XMLNAME-2027-University-Graduate---Machine-Learning-Engineer_R172085",
+      "description": "New Grad explicit",
+      "salary": "",
+      "skills": [],
+      "postedAt": "2026-09-24",
+      "source": "ApplyGuy 2027 feed",
+      "earlyCareer": true,
+      "id": "c4e50f2c-b0f7-46ab-9368-d1ed40bb7d82",
+      "status": "review",
+      "discoveredAt": "2026-09-24T22:45:05.533Z"
+    },
+    {
+      "externalId": "applyguy-d50f22cc-897e-41c5-b984-00cbee7cdc86",
+      "company": "Adobe",
+      "title": "2027 University Graduate - Software Engineer",
+      "location": "San Jose, CA",
+      "url": "https://adobe.wd5.myworkdayjobs.com/external_experienced/job/San-Jose/XMLNAME-2027-University-Graduate---Software-Engineer_R172083",
+      "description": "New Grad explicit",
+      "salary": "",
+      "skills": [],
+      "postedAt": "2026-09-24",
+      "source": "ApplyGuy 2027 feed",
+      "earlyCareer": true,
+      "id": "9ecc99bd-f29f-4c5a-8dbd-877128f9a33b",
+      "status": "review",
+      "discoveredAt": "2026-09-24T22:45:05.533Z"
+    },
+    {
       "externalId": "applyguy-custom:amazon:8b37644b16da4b8ce5f0",
       "company": "Amazon",
       "title": "Software Development Engineer I, GenAI and Agentic ADC",
@@ -4709,8 +4741,8 @@
       "discoveredAt": "2026-08-18T18:03:53.356Z"
     }
   ],
-  "lastScanAt": "2026-09-24T16:00:54.909Z",
-  "lastDigestAt": "2026-09-21T22:26:11.395Z",
+  "lastScanAt": "2026-09-24T22:45:05.560Z",
+  "lastDigestAt": "2026-09-24T22:45:06.272Z",
   "delivery": {
     "smsConfigured": true,
     "emailConfigured": true
