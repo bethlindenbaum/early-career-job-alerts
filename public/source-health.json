@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-09-25T05:32:53.860Z",
+  "checkedAt": "2026-09-25T10:30:51.683Z",
   "healthy": 34,
   "errors": 0,
   "sources": [
@@ -7,8 +7,8 @@
       "company": "ApplyGuy 2027 New Grad Jobs",
       "type": "applyguy",
       "status": "healthy",
-      "jobCount": 341,
-      "checkedAt": "2026-09-25T05:32:23.148Z"
+      "jobCount": 327,
+      "checkedAt": "2026-09-25T10:30:06.490Z"
     },
     {
       "company": "Aquatic Capital Management",
@@ -35,8 +35,8 @@
       "company": "Cloudflare",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 386,
-      "checkedAt": "2026-09-25T05:32:24.020Z"
+      "jobCount": 388,
+      "checkedAt": "2026-09-25T10:30:07.105Z"
     },
     {
       "company": "Cursor",
@@ -49,8 +49,8 @@
       "company": "Databricks",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 882,
-      "checkedAt": "2026-09-25T05:32:24.253Z"
+      "jobCount": 885,
+      "checkedAt": "2026-09-25T10:30:07.276Z"
     },
     {
       "company": "Datadog",
@@ -105,8 +105,8 @@
       "company": "Lucid Software",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 24,
-      "checkedAt": "2026-09-23T23:10:15.228Z"
+      "jobCount": 23,
+      "checkedAt": "2026-09-25T10:30:06.499Z"
     },
     {
       "company": "Lyft",
@@ -140,8 +140,8 @@
       "company": "MongoDB",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 400,
-      "checkedAt": "2026-09-24T19:49:56.579Z"
+      "jobCount": 402,
+      "checkedAt": "2026-09-25T10:30:06.882Z"
     },
     {
       "company": "Nintendo",
@@ -175,15 +175,15 @@
       "company": "OpenAI",
       "type": "ashby",
       "status": "healthy",
-      "jobCount": 829,
-      "checkedAt": "2026-09-25T00:52:17.121Z"
+      "jobCount": 828,
+      "checkedAt": "2026-09-25T10:30:07.431Z"
     },
     {
       "company": "Palantir",
       "type": "lever",
       "status": "healthy",
-      "jobCount": 322,
-      "checkedAt": "2026-09-25T05:32:25.808Z"
+      "jobCount": 324,
+      "checkedAt": "2026-09-25T10:30:08.644Z"
     },
     {
       "company": "Point72",
