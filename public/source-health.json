@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-09-26T00:50:18.808Z",
+  "checkedAt": "2026-09-26T05:35:35.038Z",
   "healthy": 34,
   "errors": 0,
   "sources": [
@@ -7,8 +7,8 @@
       "company": "ApplyGuy 2027 New Grad Jobs",
       "type": "applyguy",
       "status": "healthy",
-      "jobCount": 333,
-      "checkedAt": "2026-09-26T00:49:42.750Z"
+      "jobCount": 332,
+      "checkedAt": "2026-09-26T05:35:00.549Z"
     },
     {
       "company": "Aquatic Capital Management",
@@ -203,8 +203,8 @@
       "company": "SpaceX",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 2591,
-      "checkedAt": "2026-09-26T00:49:44.623Z"
+      "jobCount": 2594,
+      "checkedAt": "2026-09-26T05:35:02.338Z"
     },
     {
       "company": "Toyota",
