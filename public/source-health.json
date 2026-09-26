@@ -1,7 +1,7 @@
 {
-  "checkedAt": "2026-09-26T14:30:54.712Z",
-  "healthy": 34,
-  "errors": 0,
+  "checkedAt": "2026-09-26T17:58:11.060Z",
+  "healthy": 32,
+  "errors": 2,
   "sources": [
     {
       "company": "ApplyGuy 2027 New Grad Jobs",
@@ -20,9 +20,10 @@
     {
       "company": "Chicago Trading",
       "type": "greenhouse",
-      "status": "healthy",
-      "jobCount": 24,
-      "checkedAt": "2026-09-25T15:26:19.466Z"
+      "status": "error",
+      "message": "fetch failed",
+      "jobCount": 0,
+      "checkedAt": "2026-09-26T17:58:10.781Z"
     },
     {
       "company": "Cisco",
@@ -35,8 +36,8 @@
       "company": "Cloudflare",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 395,
-      "checkedAt": "2026-09-25T22:32:55.321Z"
+      "jobCount": 394,
+      "checkedAt": "2026-09-26T17:57:36.132Z"
     },
     {
       "company": "Cursor",
@@ -49,15 +50,15 @@
       "company": "Databricks",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 888,
-      "checkedAt": "2026-09-25T19:22:22.287Z"
+      "jobCount": 887,
+      "checkedAt": "2026-09-26T17:57:36.429Z"
     },
     {
       "company": "Datadog",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 448,
-      "checkedAt": "2026-09-26T14:30:14.699Z"
+      "jobCount": 449,
+      "checkedAt": "2026-09-26T17:57:35.999Z"
     },
     {
       "company": "Dropbox",
@@ -139,9 +140,10 @@
     {
       "company": "MongoDB",
       "type": "greenhouse",
-      "status": "healthy",
-      "jobCount": 396,
-      "checkedAt": "2026-09-25T19:22:21.617Z"
+      "status": "error",
+      "message": "fetch failed",
+      "jobCount": 0,
+      "checkedAt": "2026-09-26T17:58:10.781Z"
     },
     {
       "company": "Nintendo",
