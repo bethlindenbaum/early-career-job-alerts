@@ -1,6 +1,23 @@
 {
   "jobs": [
     {
+      "externalId": "markdown-3d2883e7da083ea2aeb397021b560ec0074e892f",
+      "company": "Google",
+      "title": "Silicon Engineer, PhD, University Graduate, 2027 Start",
+      "location": "United States",
+      "url": "https://zapply.jobs/l/d/google-127950560631366342?s=gh-new-grad-jobs-2027",
+      "description": "",
+      "salary": "",
+      "skills": [],
+      "postedAt": "2026-09-28T15:19:21.340Z",
+      "source": "Zapply Hardware & Systems Engineering",
+      "earlyCareer": false,
+      "experienceCheck": false,
+      "id": "a2f92070-ee80-45b5-9a7b-43d4b68e04a7",
+      "status": "review",
+      "discoveredAt": "2026-09-28T15:19:56.829Z"
+    },
+    {
       "externalId": "applyguy-4be19d07-a5f8-4673-b2af-e1407c7338fd",
       "company": "Adobe",
       "title": "2027 University Graduate - Machine Learning Engineer",
@@ -4741,7 +4758,7 @@
       "discoveredAt": "2026-08-18T18:03:53.356Z"
     }
   ],
-  "lastScanAt": "2026-09-24T22:45:05.560Z",
+  "lastScanAt": "2026-09-28T15:19:56.829Z",
   "lastDigestAt": "2026-09-24T22:45:06.272Z",
   "delivery": {
     "smsConfigured": true,
