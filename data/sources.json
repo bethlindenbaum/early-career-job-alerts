@@ -1,5 +1,13 @@
 [
   {
+    "company": "Adobe",
+    "type": "workday",
+    "host": "adobe.wd5.myworkdayjobs.com",
+    "tenant": "adobe",
+    "site": "external_experienced",
+    "discovery": "fallback-listing"
+  },
+  {
     "company": "Aquatic Capital Management",
     "type": "greenhouse",
     "token": "aquaticcapitalmanagement"
