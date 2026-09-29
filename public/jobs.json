@@ -1,6 +1,52 @@
 {
   "jobs": [
     {
+      "externalId": "applyguy-e555940c-0634-4e66-ab98-7a86793b673d",
+      "company": "Northrop Grumman",
+      "title": "2027 Associate Software Engineer - Huntsville (AL)",
+      "location": "Huntsville, AL",
+      "url": "https://ngc.wd1.myworkdayjobs.com/northrop_grumman_external_site/job/United-States-Alabama-Huntsville/XMLNAME-2027-Associate-Software-Engineer---Huntsville--AL-_R10253518",
+      "description": "Entry Level entry_level",
+      "salary": "",
+      "skills": [],
+      "postedAt": "2026-09-29",
+      "source": "ApplyGuy 2027 feed",
+      "earlyCareer": true,
+      "id": "e26f1c1d-71b8-43c6-9dc5-a6f6d5d36c49",
+      "status": "review",
+      "discoveredAt": "2026-09-29T18:43:52.138Z"
+    },
+    {
+      "externalId": "workday-Northrop Grumman-R10253287",
+      "company": "Northrop Grumman",
+      "title": "Associate Software Engineer / Software Engineer",
+      "location": "United States-Florida-Melbourne",
+      "url": "https://ngc.wd1.myworkdayjobs.com/job/United-States-Florida-Melbourne/Associate-Software-Engineer---Software-Engineer_R10253287",
+      "description": "",
+      "salary": "",
+      "skills": [],
+      "postedAt": "2026-09-29T18:43:12.565Z",
+      "source": "Workday",
+      "id": "1219d7d0-c9df-4c60-8614-3c431c8baef0",
+      "status": "review",
+      "discoveredAt": "2026-09-29T18:43:52.110Z"
+    },
+    {
+      "externalId": "workday-Medtronic-R78082",
+      "company": "Medtronic",
+      "title": "Hardware Engineer I - ACM",
+      "location": "Lafayette, Colorado, United States of America",
+      "url": "https://medtronic.wd1.myworkdayjobs.com/job/Lafayette-Colorado-United-States-of-America/Hardware-Engineer-I---ACM_R78082-1",
+      "description": "",
+      "salary": "",
+      "skills": [],
+      "postedAt": "2026-09-29T18:43:14.177Z",
+      "source": "Workday",
+      "id": "1728e34d-d67f-429f-bc0e-0af2895e6c01",
+      "status": "review",
+      "discoveredAt": "2026-09-29T18:43:52.104Z"
+    },
+    {
       "externalId": "gh-SpaceX-8854394002",
       "company": "SpaceX",
       "title": "New Graduate Engineer, Software (Starfall)",
@@ -4775,7 +4821,7 @@
       "discoveredAt": "2026-08-18T18:03:53.356Z"
     }
   ],
-  "lastScanAt": "2026-09-29T06:48:26.730Z",
+  "lastScanAt": "2026-09-29T18:43:52.165Z",
   "lastDigestAt": "2026-09-24T22:45:06.272Z",
   "delivery": {
     "smsConfigured": true,
