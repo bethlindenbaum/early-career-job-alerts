@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-09-29T06:48:26.931Z",
+  "checkedAt": "2026-09-29T13:22:35.018Z",
   "healthy": 35,
   "errors": 0,
   "sources": [
@@ -14,8 +14,8 @@
       "company": "ApplyGuy 2027 New Grad Jobs",
       "type": "applyguy",
       "status": "healthy",
-      "jobCount": 312,
-      "checkedAt": "2026-09-29T06:47:44.867Z"
+      "jobCount": 311,
+      "checkedAt": "2026-09-29T13:21:56.093Z"
     },
     {
       "company": "Aquatic Capital Management",
@@ -42,15 +42,15 @@
       "company": "Cloudflare",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 399,
-      "checkedAt": "2026-09-29T06:47:45.682Z"
+      "jobCount": 402,
+      "checkedAt": "2026-09-29T13:21:57.085Z"
     },
     {
       "company": "Cursor",
       "type": "ashby",
       "status": "healthy",
-      "jobCount": 131,
-      "checkedAt": "2026-09-29T06:47:44.852Z"
+      "jobCount": 132,
+      "checkedAt": "2026-09-29T13:21:56.260Z"
     },
     {
       "company": "Databricks",
@@ -63,8 +63,8 @@
       "company": "Datadog",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 437,
-      "checkedAt": "2026-09-29T06:47:45.501Z"
+      "jobCount": 436,
+      "checkedAt": "2026-09-29T13:21:56.892Z"
     },
     {
       "company": "Dropbox",
@@ -84,8 +84,8 @@
       "company": "Hudl",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 36,
-      "checkedAt": "2026-09-28T15:19:21.045Z"
+      "jobCount": 37,
+      "checkedAt": "2026-09-29T13:21:56.153Z"
     },
     {
       "company": "IMC Trading",
@@ -147,8 +147,8 @@
       "company": "MongoDB",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 398,
-      "checkedAt": "2026-09-28T21:15:52.604Z"
+      "jobCount": 401,
+      "checkedAt": "2026-09-29T13:21:56.774Z"
     },
     {
       "company": "Nintendo",
@@ -182,15 +182,15 @@
       "company": "OpenAI",
       "type": "ashby",
       "status": "healthy",
-      "jobCount": 841,
-      "checkedAt": "2026-09-29T06:47:46.067Z"
+      "jobCount": 838,
+      "checkedAt": "2026-09-29T13:21:57.281Z"
     },
     {
       "company": "Palantir",
       "type": "lever",
       "status": "healthy",
-      "jobCount": 321,
-      "checkedAt": "2026-09-25T22:32:57.177Z"
+      "jobCount": 320,
+      "checkedAt": "2026-09-29T13:21:57.634Z"
     },
     {
       "company": "Point72",
