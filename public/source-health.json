@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-01T01:29:55.998Z",
+  "checkedAt": "2026-10-01T07:31:05.819Z",
   "healthy": 34,
   "errors": 1,
   "sources": [
@@ -14,8 +14,8 @@
       "company": "ApplyGuy 2027 New Grad Jobs",
       "type": "applyguy",
       "status": "healthy",
-      "jobCount": 323,
-      "checkedAt": "2026-10-01T01:28:59.178Z"
+      "jobCount": 318,
+      "checkedAt": "2026-10-01T07:30:28.770Z"
     },
     {
       "company": "Aquatic Capital Management",
@@ -42,8 +42,8 @@
       "company": "Cloudflare",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 396,
-      "checkedAt": "2026-10-01T01:28:59.596Z"
+      "jobCount": 400,
+      "checkedAt": "2026-10-01T07:30:29.274Z"
     },
     {
       "company": "Cursor",
@@ -63,8 +63,8 @@
       "company": "Datadog",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 434,
-      "checkedAt": "2026-10-01T01:28:59.474Z"
+      "jobCount": 437,
+      "checkedAt": "2026-10-01T07:30:29.130Z"
     },
     {
       "company": "Dropbox",
@@ -104,9 +104,10 @@
     {
       "company": "LinkedIn",
       "type": "greenhouse",
-      "status": "healthy",
-      "jobCount": 53,
-      "checkedAt": "2026-08-18T23:24:53.979Z"
+      "status": "error",
+      "message": "LinkedIn: 404",
+      "jobCount": 0,
+      "checkedAt": "2026-10-01T07:31:05.479Z"
     },
     {
       "company": "Lucid Software",
@@ -147,8 +148,8 @@
       "company": "MongoDB",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 396,
-      "checkedAt": "2026-09-30T22:34:38.480Z"
+      "jobCount": 394,
+      "checkedAt": "2026-10-01T07:30:30.855Z"
     },
     {
       "company": "Nintendo",
@@ -168,8 +169,8 @@
       "company": "Notion",
       "type": "ashby",
       "status": "healthy",
-      "jobCount": 131,
-      "checkedAt": "2026-09-30T22:34:37.935Z"
+      "jobCount": 132,
+      "checkedAt": "2026-10-01T07:30:28.825Z"
     },
     {
       "company": "NVIDIA",
@@ -195,24 +196,23 @@
     {
       "company": "Point72",
       "type": "greenhouse",
-      "status": "error",
-      "message": "The operation was aborted due to timeout",
-      "jobCount": 0,
-      "checkedAt": "2026-10-01T01:29:55.716Z"
+      "status": "healthy",
+      "jobCount": 217,
+      "checkedAt": "2026-10-01T07:30:28.908Z"
     },
     {
       "company": "Roblox",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 256,
-      "checkedAt": "2026-10-01T01:28:59.345Z"
+      "jobCount": 255,
+      "checkedAt": "2026-10-01T07:30:28.986Z"
     },
     {
       "company": "SpaceX",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 2602,
-      "checkedAt": "2026-10-01T01:29:00.373Z"
+      "jobCount": 2606,
+      "checkedAt": "2026-10-01T07:30:30.257Z"
     },
     {
       "company": "Toyota",
