@@ -1,6 +1,36 @@
 {
   "jobs": [
     {
+      "externalId": "workday-Northrop Grumman-R10253394",
+      "company": "Northrop Grumman",
+      "title": "2027 - Associate Software Engineer - McClellan CA",
+      "location": "United States-California-McClellan",
+      "url": "https://ngc.wd1.myworkdayjobs.com/job/United-States-California-McClellan/XMLNAME-2027---Associate-Software-Engineer---McClellan-CA_R10253394",
+      "description": "",
+      "salary": "",
+      "skills": [],
+      "postedAt": "2026-10-01T23:30:50.204Z",
+      "source": "Workday",
+      "id": "d0a3d9d7-f820-47e1-97fd-732e8ee39c34",
+      "status": "review",
+      "discoveredAt": "2026-10-01T23:31:24.096Z"
+    },
+    {
+      "externalId": "workday-Northrop Grumman-R10254059",
+      "company": "Northrop Grumman",
+      "title": "Associate Electrical Engineer",
+      "location": "United States-Oklahoma-Oklahoma City",
+      "url": "https://ngc.wd1.myworkdayjobs.com/job/United-States-Oklahoma-Oklahoma-City/Associate-Electrical-Engineer_R10254059",
+      "description": "",
+      "salary": "",
+      "skills": [],
+      "postedAt": "2026-10-01T23:30:50.204Z",
+      "source": "Workday",
+      "id": "3fc4f49b-b200-43c1-86e5-b9758bceadde",
+      "status": "review",
+      "discoveredAt": "2026-10-01T23:31:24.096Z"
+    },
+    {
       "externalId": "applyguy-2173473f-a9b9-4cbb-b1de-176eec01d884",
       "company": "NVIDIA",
       "title": "Software Engineer, DGX Cloud AI Infrastructure - New College Grad 2026",
@@ -4916,7 +4946,7 @@
       "discoveredAt": "2026-08-18T18:03:53.356Z"
     }
   ],
-  "lastScanAt": "2026-09-30T07:19:19.752Z",
+  "lastScanAt": "2026-10-01T23:31:24.148Z",
   "lastDigestAt": "2026-09-30T22:35:10.691Z",
   "delivery": {
     "smsConfigured": true,
