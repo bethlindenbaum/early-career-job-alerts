@@ -1,6 +1,23 @@
 {
   "jobs": [
     {
+      "externalId": "markdown-6b00b986e8fd8f20d9c12f71887dcf4f81e849bf",
+      "company": "Northrop Grumman",
+      "title": "Associate Electrical Engineer",
+      "location": "United States-Oklahoma-Oklahoma...",
+      "url": "https://zapply.jobs/l/d/workday-ngc-northrop-grumman-external-site-R10254059?s=gh-new-grad-jobs-2027",
+      "description": "",
+      "salary": "",
+      "skills": [],
+      "postedAt": "2026-10-02T02:31:45.973Z",
+      "source": "Zapply Hardware & Systems Engineering",
+      "earlyCareer": false,
+      "experienceCheck": false,
+      "id": "6e591e68-999e-43be-868e-9c6bf36b3a4e",
+      "status": "review",
+      "discoveredAt": "2026-10-02T02:32:15.225Z"
+    },
+    {
       "externalId": "workday-Northrop Grumman-R10253394",
       "company": "Northrop Grumman",
       "title": "2027 - Associate Software Engineer - McClellan CA",
@@ -4946,7 +4963,7 @@
       "discoveredAt": "2026-08-18T18:03:53.356Z"
     }
   ],
-  "lastScanAt": "2026-10-01T23:31:24.148Z",
+  "lastScanAt": "2026-10-02T02:32:15.225Z",
   "lastDigestAt": "2026-09-30T22:35:10.691Z",
   "delivery": {
     "smsConfigured": true,
