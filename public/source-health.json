@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-02T08:55:50.303Z",
+  "checkedAt": "2026-10-02T15:08:36.682Z",
   "healthy": 34,
   "errors": 1,
   "sources": [
@@ -14,8 +14,8 @@
       "company": "ApplyGuy 2027 New Grad Jobs",
       "type": "applyguy",
       "status": "healthy",
-      "jobCount": 331,
-      "checkedAt": "2026-10-02T08:55:19.602Z"
+      "jobCount": 330,
+      "checkedAt": "2026-10-02T15:07:57.210Z"
     },
     {
       "company": "Aquatic Capital Management",
@@ -42,36 +42,36 @@
       "company": "Cloudflare",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 401,
-      "checkedAt": "2026-10-02T08:55:20.616Z"
+      "jobCount": 403,
+      "checkedAt": "2026-10-02T15:07:58.116Z"
     },
     {
       "company": "Cursor",
       "type": "ashby",
       "status": "healthy",
-      "jobCount": 133,
-      "checkedAt": "2026-10-02T02:31:45.734Z"
+      "jobCount": 131,
+      "checkedAt": "2026-10-02T15:07:57.346Z"
     },
     {
       "company": "Databricks",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 872,
-      "checkedAt": "2026-10-01T23:30:51.195Z"
+      "jobCount": 879,
+      "checkedAt": "2026-10-02T15:07:58.508Z"
     },
     {
       "company": "Datadog",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 440,
-      "checkedAt": "2026-10-02T08:55:20.417Z"
+      "jobCount": 444,
+      "checkedAt": "2026-10-02T15:07:57.947Z"
     },
     {
       "company": "Dropbox",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 40,
-      "checkedAt": "2026-10-02T08:55:19.679Z"
+      "jobCount": 39,
+      "checkedAt": "2026-10-02T15:07:57.317Z"
     },
     {
       "company": "Epic Games",
@@ -84,15 +84,15 @@
       "company": "Hudl",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 33,
-      "checkedAt": "2026-10-02T08:55:19.555Z"
+      "jobCount": 34,
+      "checkedAt": "2026-10-02T15:07:57.221Z"
     },
     {
       "company": "IMC Trading",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 167,
-      "checkedAt": "2026-10-02T08:55:19.767Z"
+      "jobCount": 168,
+      "checkedAt": "2026-10-02T15:07:57.393Z"
     },
     {
       "company": "Jane Street",
@@ -120,8 +120,8 @@
       "company": "Lyft",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 190,
-      "checkedAt": "2026-10-02T08:55:19.991Z"
+      "jobCount": 191,
+      "checkedAt": "2026-10-02T15:07:57.565Z"
     },
     {
       "company": "Medtronic",
@@ -148,8 +148,8 @@
       "company": "MongoDB",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 392,
-      "checkedAt": "2026-10-01T23:30:50.505Z"
+      "jobCount": 394,
+      "checkedAt": "2026-10-02T15:07:57.812Z"
     },
     {
       "company": "Nintendo",
@@ -183,22 +183,22 @@
       "company": "OpenAI",
       "type": "ashby",
       "status": "healthy",
-      "jobCount": 833,
-      "checkedAt": "2026-10-02T02:31:47.210Z"
+      "jobCount": 832,
+      "checkedAt": "2026-10-02T15:07:58.335Z"
     },
     {
       "company": "Palantir",
       "type": "lever",
       "status": "healthy",
-      "jobCount": 320,
-      "checkedAt": "2026-10-01T19:50:23.354Z"
+      "jobCount": 319,
+      "checkedAt": "2026-10-02T15:07:59.387Z"
     },
     {
       "company": "Point72",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 214,
-      "checkedAt": "2026-10-01T19:50:22.938Z"
+      "jobCount": 213,
+      "checkedAt": "2026-10-02T15:07:57.598Z"
     },
     {
       "company": "Roblox",
