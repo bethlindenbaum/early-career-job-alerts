@@ -1,6 +1,22 @@
 {
   "jobs": [
     {
+      "externalId": "applyguy-custom:microsoft:a7e272998be8b44d73e3",
+      "company": "Microsoft",
+      "title": "Software Engineer- CoreAI",
+      "location": "Redmond, WA",
+      "url": "https://apply.careers.microsoft.com/careers/job/1970393556989020",
+      "description": "Entry Level entry_level",
+      "salary": "",
+      "skills": [],
+      "postedAt": "2026-10-01",
+      "source": "ApplyGuy 2027 feed",
+      "earlyCareer": true,
+      "id": "7e1d46fc-04f2-4847-8b3d-8cc38c017617",
+      "status": "review",
+      "discoveredAt": "2026-10-02T23:22:04.668Z"
+    },
+    {
       "externalId": "markdown-6b00b986e8fd8f20d9c12f71887dcf4f81e849bf",
       "company": "Northrop Grumman",
       "title": "Associate Electrical Engineer",
@@ -4963,7 +4979,7 @@
       "discoveredAt": "2026-08-18T18:03:53.356Z"
     }
   ],
-  "lastScanAt": "2026-10-02T02:32:15.225Z",
+  "lastScanAt": "2026-10-02T23:22:04.682Z",
   "lastDigestAt": "2026-09-30T22:35:10.691Z",
   "delivery": {
     "smsConfigured": true,
