@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-03T02:07:56.848Z",
+  "checkedAt": "2026-10-03T08:00:41.922Z",
   "healthy": 34,
   "errors": 1,
   "sources": [
@@ -14,8 +14,8 @@
       "company": "ApplyGuy 2027 New Grad Jobs",
       "type": "applyguy",
       "status": "healthy",
-      "jobCount": 322,
-      "checkedAt": "2026-10-03T02:07:22.802Z"
+      "jobCount": 320,
+      "checkedAt": "2026-10-03T08:00:01.680Z"
     },
     {
       "company": "Aquatic Capital Management",
@@ -183,8 +183,8 @@
       "company": "OpenAI",
       "type": "ashby",
       "status": "healthy",
-      "jobCount": 829,
-      "checkedAt": "2026-10-03T02:07:24.022Z"
+      "jobCount": 830,
+      "checkedAt": "2026-10-03T08:00:02.608Z"
     },
     {
       "company": "Palantir",
@@ -211,8 +211,8 @@
       "company": "SpaceX",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 2646,
-      "checkedAt": "2026-10-03T02:07:24.940Z"
+      "jobCount": 2645,
+      "checkedAt": "2026-10-03T08:00:03.506Z"
     },
     {
       "company": "Toyota",
