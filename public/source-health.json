@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-03T22:31:03.352Z",
+  "checkedAt": "2026-10-04T01:49:15.085Z",
   "healthy": 34,
   "errors": 1,
   "sources": [
@@ -14,8 +14,8 @@
       "company": "ApplyGuy 2027 New Grad Jobs",
       "type": "applyguy",
       "status": "healthy",
-      "jobCount": 314,
-      "checkedAt": "2026-10-03T19:50:53.250Z"
+      "jobCount": 319,
+      "checkedAt": "2026-10-04T01:48:40.545Z"
     },
     {
       "company": "Aquatic Capital Management",
@@ -63,8 +63,8 @@
       "company": "Datadog",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 445,
-      "checkedAt": "2026-10-03T02:07:23.602Z"
+      "jobCount": 444,
+      "checkedAt": "2026-10-04T01:48:40.305Z"
     },
     {
       "company": "Dropbox",
