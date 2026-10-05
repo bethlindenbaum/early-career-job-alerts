@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-04T23:24:47.141Z",
+  "checkedAt": "2026-10-05T02:09:17.091Z",
   "healthy": 34,
   "errors": 1,
   "sources": [
@@ -14,8 +14,8 @@
       "company": "ApplyGuy 2027 New Grad Jobs",
       "type": "applyguy",
       "status": "healthy",
-      "jobCount": 315,
-      "checkedAt": "2026-10-04T23:24:10.983Z"
+      "jobCount": 305,
+      "checkedAt": "2026-10-05T02:08:36.663Z"
     },
     {
       "company": "Aquatic Capital Management",
@@ -56,8 +56,8 @@
       "company": "Databricks",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 886,
-      "checkedAt": "2026-10-04T23:24:12.069Z"
+      "jobCount": 887,
+      "checkedAt": "2026-10-05T02:08:37.335Z"
     },
     {
       "company": "Datadog",
@@ -148,8 +148,8 @@
       "company": "MongoDB",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 389,
-      "checkedAt": "2026-10-04T17:41:46.345Z"
+      "jobCount": 390,
+      "checkedAt": "2026-10-05T02:08:36.967Z"
     },
     {
       "company": "Nintendo",
@@ -169,8 +169,8 @@
       "company": "Notion",
       "type": "ashby",
       "status": "healthy",
-      "jobCount": 137,
-      "checkedAt": "2026-10-03T02:07:23.112Z"
+      "jobCount": 136,
+      "checkedAt": "2026-10-05T02:08:36.837Z"
     },
     {
       "company": "NVIDIA",
