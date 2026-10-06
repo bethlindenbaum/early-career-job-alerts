@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-05T23:20:25.993Z",
+  "checkedAt": "2026-10-06T03:06:38.403Z",
   "healthy": 34,
   "errors": 1,
   "sources": [
@@ -14,8 +14,8 @@
       "company": "ApplyGuy 2027 New Grad Jobs",
       "type": "applyguy",
       "status": "healthy",
-      "jobCount": 303,
-      "checkedAt": "2026-10-05T17:30:26.085Z"
+      "jobCount": 310,
+      "checkedAt": "2026-10-06T03:06:00.885Z"
     },
     {
       "company": "Aquatic Capital Management",
@@ -42,8 +42,8 @@
       "company": "Cloudflare",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 413,
-      "checkedAt": "2026-10-05T23:19:55.319Z"
+      "jobCount": 415,
+      "checkedAt": "2026-10-06T03:06:00.674Z"
     },
     {
       "company": "Cursor",
@@ -56,8 +56,8 @@
       "company": "Databricks",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 889,
-      "checkedAt": "2026-10-05T23:19:55.704Z"
+      "jobCount": 888,
+      "checkedAt": "2026-10-06T03:06:01.754Z"
     },
     {
       "company": "Datadog",
@@ -148,8 +148,8 @@
       "company": "MongoDB",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 393,
-      "checkedAt": "2026-10-05T23:19:55.027Z"
+      "jobCount": 392,
+      "checkedAt": "2026-10-06T03:06:01.475Z"
     },
     {
       "company": "Nintendo",
@@ -183,8 +183,8 @@
       "company": "OpenAI",
       "type": "ashby",
       "status": "healthy",
-      "jobCount": 820,
-      "checkedAt": "2026-10-05T23:19:55.526Z"
+      "jobCount": 821,
+      "checkedAt": "2026-10-06T03:06:01.960Z"
     },
     {
       "company": "Palantir",
@@ -204,15 +204,15 @@
       "company": "Roblox",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 254,
-      "checkedAt": "2026-10-05T23:19:54.873Z"
+      "jobCount": 255,
+      "checkedAt": "2026-10-06T03:06:01.239Z"
     },
     {
       "company": "SpaceX",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 2661,
-      "checkedAt": "2026-10-05T23:19:56.381Z"
+      "jobCount": 2665,
+      "checkedAt": "2026-10-06T03:06:02.745Z"
     },
     {
       "company": "Toyota",
