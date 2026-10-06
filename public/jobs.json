@@ -1,6 +1,23 @@
 {
   "jobs": [
     {
+      "externalId": "markdown-a571d6dbce85e7f69eef9e87ca249dd4b2e2b63b",
+      "company": "Northrop Grumman",
+      "title": "2027 Associate Electrical Engineer - Rocket Center WV",
+      "location": "United States-West Virginia-Rocket",
+      "url": "https://zapply.jobs/l/d/workday-ngc-northrop-grumman-external-site-R10254766?s=gh-new-grad-jobs-2027",
+      "description": "",
+      "salary": "",
+      "skills": [],
+      "postedAt": "2026-10-06T21:14:48.861Z",
+      "source": "Zapply Hardware & Systems Engineering",
+      "earlyCareer": false,
+      "experienceCheck": false,
+      "id": "e78af2c4-6e84-4a4f-9ab1-8fb65e752c17",
+      "status": "review",
+      "discoveredAt": "2026-10-06T21:15:25.140Z"
+    },
+    {
       "externalId": "applyguy-custom:microsoft:a7e272998be8b44d73e3",
       "company": "Microsoft",
       "title": "Software Engineer- CoreAI",
@@ -4979,7 +4996,7 @@
       "discoveredAt": "2026-08-18T18:03:53.356Z"
     }
   ],
-  "lastScanAt": "2026-10-02T23:22:04.682Z",
+  "lastScanAt": "2026-10-06T21:15:25.140Z",
   "lastDigestAt": "2026-09-30T22:35:10.691Z",
   "delivery": {
     "smsConfigured": true,
