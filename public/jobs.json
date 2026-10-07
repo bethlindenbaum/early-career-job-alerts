@@ -1,6 +1,37 @@
 {
   "jobs": [
     {
+      "externalId": "applyguy-5853801d-d83f-43e6-9b3e-efc24489905f",
+      "company": "NVIDIA",
+      "title": "Systems Software Engineer,  AI and Cloud - New College Grad 2026",
+      "location": "Santa Clara, CA",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Systems-Software-Engineer---AI-and-Cloud---New-College-Grad-2026_JR2025458",
+      "description": "New Grad explicit",
+      "salary": "",
+      "skills": [],
+      "postedAt": "2026-10-06",
+      "source": "ApplyGuy 2027 feed",
+      "earlyCareer": true,
+      "id": "03e67c14-de40-4b8c-a183-fcfbccf855bb",
+      "status": "review",
+      "discoveredAt": "2026-10-07T19:34:30.342Z"
+    },
+    {
+      "externalId": "workday-Northrop Grumman-R10254990",
+      "company": "Northrop Grumman",
+      "title": "2027 - Associate Cyber Software Engineer - Cincinnati OH",
+      "location": "United States-Ohio-Cincinnati",
+      "url": "https://ngc.wd1.myworkdayjobs.com/job/United-States-Ohio-Cincinnati/XMLNAME-2027---Associate-Cyber-Software-Engineer---Cincinnati-OH_R10254990-1",
+      "description": "",
+      "salary": "",
+      "skills": [],
+      "postedAt": "2026-10-07T19:33:49.987Z",
+      "source": "Workday",
+      "id": "377faf52-b6ca-4106-86e0-7d4d57dc7ee1",
+      "status": "review",
+      "discoveredAt": "2026-10-07T19:34:30.316Z"
+    },
+    {
       "externalId": "markdown-a571d6dbce85e7f69eef9e87ca249dd4b2e2b63b",
       "company": "Northrop Grumman",
       "title": "2027 Associate Electrical Engineer - Rocket Center WV",
@@ -4996,7 +5027,7 @@
       "discoveredAt": "2026-08-18T18:03:53.356Z"
     }
   ],
-  "lastScanAt": "2026-10-06T21:15:25.140Z",
+  "lastScanAt": "2026-10-07T19:34:30.364Z",
   "lastDigestAt": "2026-09-30T22:35:10.691Z",
   "delivery": {
     "smsConfigured": true,
