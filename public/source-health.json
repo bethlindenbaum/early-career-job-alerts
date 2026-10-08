@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-08T09:50:36.160Z",
+  "checkedAt": "2026-10-08T16:59:42.483Z",
   "healthy": 34,
   "errors": 1,
   "sources": [
@@ -14,8 +14,8 @@
       "company": "ApplyGuy 2027 New Grad Jobs",
       "type": "applyguy",
       "status": "healthy",
-      "jobCount": 332,
-      "checkedAt": "2026-10-08T09:49:58.266Z"
+      "jobCount": 333,
+      "checkedAt": "2026-10-08T16:58:58.662Z"
     },
     {
       "company": "Aquatic Capital Management",
@@ -42,50 +42,50 @@
       "company": "Cloudflare",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 425,
-      "checkedAt": "2026-10-08T09:49:58.213Z"
+      "jobCount": 426,
+      "checkedAt": "2026-10-08T16:58:58.982Z"
     },
     {
       "company": "Cursor",
       "type": "ashby",
       "status": "healthy",
-      "jobCount": 132,
-      "checkedAt": "2026-10-08T09:49:57.942Z"
+      "jobCount": 133,
+      "checkedAt": "2026-10-08T16:58:58.554Z"
     },
     {
       "company": "Databricks",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 896,
-      "checkedAt": "2026-10-08T09:49:58.554Z"
+      "jobCount": 893,
+      "checkedAt": "2026-10-08T16:58:59.309Z"
     },
     {
       "company": "Datadog",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 439,
-      "checkedAt": "2026-10-08T09:50:00.050Z"
+      "jobCount": 436,
+      "checkedAt": "2026-10-08T16:58:59.146Z"
     },
     {
       "company": "Dropbox",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 31,
-      "checkedAt": "2026-10-07T19:33:49.456Z"
+      "jobCount": 32,
+      "checkedAt": "2026-10-08T16:58:58.478Z"
     },
     {
       "company": "Epic Games",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 150,
-      "checkedAt": "2026-10-08T02:57:40.272Z"
+      "jobCount": 148,
+      "checkedAt": "2026-10-08T16:58:58.508Z"
     },
     {
       "company": "Hudl",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 36,
-      "checkedAt": "2026-10-07T13:48:55.044Z"
+      "jobCount": 33,
+      "checkedAt": "2026-10-08T16:58:58.432Z"
     },
     {
       "company": "IMC Trading",
@@ -98,8 +98,8 @@
       "company": "Jane Street",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 233,
-      "checkedAt": "2026-10-08T02:57:40.314Z"
+      "jobCount": 232,
+      "checkedAt": "2026-10-08T16:58:58.610Z"
     },
     {
       "company": "LinkedIn",
@@ -120,8 +120,8 @@
       "company": "Lyft",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 191,
-      "checkedAt": "2026-10-07T23:45:10.679Z"
+      "jobCount": 190,
+      "checkedAt": "2026-10-08T16:58:58.706Z"
     },
     {
       "company": "Medtronic",
@@ -155,8 +155,8 @@
       "company": "Nintendo",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 54,
-      "checkedAt": "2026-10-07T23:45:10.604Z"
+      "jobCount": 55,
+      "checkedAt": "2026-10-08T16:58:58.645Z"
     },
     {
       "company": "Northrop Grumman",
@@ -190,29 +190,29 @@
       "company": "Palantir",
       "type": "lever",
       "status": "healthy",
-      "jobCount": 315,
-      "checkedAt": "2026-10-07T23:45:12.578Z"
+      "jobCount": 313,
+      "checkedAt": "2026-10-08T16:59:00.062Z"
     },
     {
       "company": "Point72",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 219,
-      "checkedAt": "2026-10-08T02:57:40.572Z"
+      "jobCount": 221,
+      "checkedAt": "2026-10-08T16:58:58.807Z"
     },
     {
       "company": "Roblox",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 259,
-      "checkedAt": "2026-10-08T09:49:58.363Z"
+      "jobCount": 262,
+      "checkedAt": "2026-10-08T16:58:58.859Z"
     },
     {
       "company": "SpaceX",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 2683,
-      "checkedAt": "2026-10-08T02:57:41.574Z"
+      "jobCount": 2687,
+      "checkedAt": "2026-10-08T16:59:07.826Z"
     },
     {
       "company": "Toyota",
