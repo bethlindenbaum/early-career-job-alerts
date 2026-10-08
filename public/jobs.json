@@ -1,6 +1,21 @@
 {
   "jobs": [
     {
+      "externalId": "workday-Northrop Grumman-R10255374",
+      "company": "Northrop Grumman",
+      "title": "2027 Associate Electrical Engineer / Electrical Engineer",
+      "location": "United States-Florida-Melbourne",
+      "url": "https://ngc.wd1.myworkdayjobs.com/job/United-States-Florida-Melbourne/XMLNAME-2027-Associate-Electrical-Engineer---Electrical-Engineer_R10255374",
+      "description": "",
+      "salary": "",
+      "skills": [],
+      "postedAt": "2026-10-08T21:49:20.999Z",
+      "source": "Workday",
+      "id": "e6333d3f-12ba-4e96-9875-a397320a4bc7",
+      "status": "review",
+      "discoveredAt": "2026-10-08T21:49:55.274Z"
+    },
+    {
       "externalId": "applyguy-5853801d-d83f-43e6-9b3e-efc24489905f",
       "company": "NVIDIA",
       "title": "Systems Software Engineer,  AI and Cloud - New College Grad 2026",
@@ -5027,7 +5042,7 @@
       "discoveredAt": "2026-08-18T18:03:53.356Z"
     }
   ],
-  "lastScanAt": "2026-10-07T19:34:30.364Z",
+  "lastScanAt": "2026-10-08T21:49:55.330Z",
   "lastDigestAt": "2026-09-30T22:35:10.691Z",
   "delivery": {
     "smsConfigured": true,
