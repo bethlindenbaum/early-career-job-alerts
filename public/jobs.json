@@ -1,6 +1,37 @@
 {
   "jobs": [
     {
+      "externalId": "applyguy-065afd09-34e2-429c-b82b-110c815315f5",
+      "company": "NVIDIA",
+      "title": "C++ Software Engineer, Infrastructure Tools - New College Grad 2027",
+      "location": "Santa Clara, CA",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/C---Software-Engineer--Infrastructure-Tools---New-College-Grad-2027_JR2027431",
+      "description": "New Grad explicit",
+      "salary": "",
+      "skills": [],
+      "postedAt": "2026-10-09",
+      "source": "ApplyGuy 2027 feed",
+      "earlyCareer": true,
+      "id": "2fdf3730-56dd-4119-9a14-8475d1beec6a",
+      "status": "review",
+      "discoveredAt": "2026-10-10T02:40:32.589Z"
+    },
+    {
+      "externalId": "workday-NVIDIA-JR2027431",
+      "company": "NVIDIA",
+      "title": "C++ Software Engineer, Infrastructure Tools - New College Grad 2027",
+      "location": "US, CA, Santa Clara",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/job/US-CA-Santa-Clara/C---Software-Engineer--Infrastructure-Tools---New-College-Grad-2027_JR2027431",
+      "description": "",
+      "salary": "",
+      "skills": [],
+      "postedAt": "2026-10-10T02:40:00.505Z",
+      "source": "Workday",
+      "id": "d56fd470-b56a-467f-b97b-0c377637393d",
+      "status": "review",
+      "discoveredAt": "2026-10-10T02:40:32.563Z"
+    },
+    {
       "externalId": "workday-Northrop Grumman-R10255374",
       "company": "Northrop Grumman",
       "title": "2027 Associate Electrical Engineer / Electrical Engineer",
@@ -5042,7 +5073,7 @@
       "discoveredAt": "2026-08-18T18:03:53.356Z"
     }
   ],
-  "lastScanAt": "2026-10-08T21:49:55.330Z",
+  "lastScanAt": "2026-10-10T02:40:32.614Z",
   "lastDigestAt": "2026-09-30T22:35:10.691Z",
   "delivery": {
     "smsConfigured": true,
