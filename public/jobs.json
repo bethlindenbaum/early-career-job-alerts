@@ -1,6 +1,22 @@
 {
   "jobs": [
     {
+      "externalId": "applyguy-custom:amazon:b0c9151f72199fb4c351",
+      "company": "Amazon",
+      "title": "Software Development Engineer I, AWS IoT Fleet Management",
+      "location": "Seattle, WA",
+      "url": "https://www.amazon.jobs/en/jobs/10571756/software-development-engineer-i-aws-iot-fleet-management",
+      "description": "Entry Level entry_level",
+      "salary": "",
+      "skills": [],
+      "postedAt": "2026-10-07",
+      "source": "ApplyGuy 2027 feed",
+      "earlyCareer": true,
+      "id": "d2cb1a1b-a7b2-4d39-9268-f00e91a01f94",
+      "status": "review",
+      "discoveredAt": "2026-10-12T16:57:43.769Z"
+    },
+    {
       "externalId": "applyguy-96ff10af-76dd-4baa-8d7f-a9dffc407a1e",
       "company": "NVIDIA",
       "title": "Software Engineer, DL Kernel Libraries - New College Grad 2027",
@@ -5104,7 +5120,7 @@
       "discoveredAt": "2026-08-18T18:03:53.356Z"
     }
   ],
-  "lastScanAt": "2026-10-12T07:35:42.496Z",
+  "lastScanAt": "2026-10-12T16:57:43.788Z",
   "lastDigestAt": "2026-10-11T22:24:24.543Z",
   "delivery": {
     "smsConfigured": true,
