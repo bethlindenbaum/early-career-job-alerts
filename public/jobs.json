@@ -1,6 +1,22 @@
 {
   "jobs": [
     {
+      "externalId": "applyguy-96ff10af-76dd-4baa-8d7f-a9dffc407a1e",
+      "company": "NVIDIA",
+      "title": "Software Engineer, DL Kernel Libraries - New College Grad 2027",
+      "location": "Santa Clara, CA",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineer--DL-Kernel-Libraries---New-College-Grad-2027_JR2027337",
+      "description": "New Grad explicit",
+      "salary": "",
+      "skills": [],
+      "postedAt": "2026-10-11",
+      "source": "ApplyGuy 2027 feed",
+      "earlyCareer": true,
+      "id": "8da4558d-22aa-4ad3-8d44-7f1778f9ef30",
+      "status": "review",
+      "discoveredAt": "2026-10-12T07:35:42.469Z"
+    },
+    {
       "externalId": "workday-NVIDIA-JR2027337",
       "company": "NVIDIA",
       "title": "Software Engineer, DL Kernel Libraries - New College Grad 2027",
@@ -5088,7 +5104,7 @@
       "discoveredAt": "2026-08-18T18:03:53.356Z"
     }
   ],
-  "lastScanAt": "2026-10-11T22:24:24.058Z",
+  "lastScanAt": "2026-10-12T07:35:42.496Z",
   "lastDigestAt": "2026-10-11T22:24:24.543Z",
   "delivery": {
     "smsConfigured": true,

@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-12T01:26:46.577Z",
+  "checkedAt": "2026-10-12T07:35:42.855Z",
   "healthy": 34,
   "errors": 1,
   "sources": [
@@ -42,15 +42,15 @@
       "company": "Cloudflare",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 424,
-      "checkedAt": "2026-10-09T19:48:03.938Z"
+      "jobCount": 423,
+      "checkedAt": "2026-10-12T07:35:07.143Z"
     },
     {
       "company": "Cursor",
       "type": "ashby",
       "status": "healthy",
-      "jobCount": 137,
-      "checkedAt": "2026-10-09T19:48:03.434Z"
+      "jobCount": 135,
+      "checkedAt": "2026-10-12T07:35:06.258Z"
     },
     {
       "company": "Databricks",
@@ -183,8 +183,8 @@
       "company": "OpenAI",
       "type": "ashby",
       "status": "healthy",
-      "jobCount": 812,
-      "checkedAt": "2026-10-11T22:23:50.538Z"
+      "jobCount": 811,
+      "checkedAt": "2026-10-12T07:35:07.336Z"
     },
     {
       "company": "Palantir",
