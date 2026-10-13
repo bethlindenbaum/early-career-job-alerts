@@ -1,6 +1,51 @@
 {
   "jobs": [
     {
+      "externalId": "workday-NVIDIA-JR2027552",
+      "company": "NVIDIA",
+      "title": "SoC Software Engineer – New College Graduate 2026",
+      "location": "US, CA, Santa Clara",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/job/US-CA-Santa-Clara/SoC-Software-Engineer---New-College-Graduate-2026_JR2027552-1",
+      "description": "",
+      "salary": "",
+      "skills": [],
+      "postedAt": "2026-10-13T22:45:28.219Z",
+      "source": "Workday",
+      "id": "ed465a35-ae1f-4d86-8ba3-e1fece714958",
+      "status": "review",
+      "discoveredAt": "2026-10-13T22:46:02.819Z"
+    },
+    {
+      "externalId": "workday-NVIDIA-JR2026744",
+      "company": "NVIDIA",
+      "title": "SoC Software Engineer - New College Grad 2027",
+      "location": "US, CA, Santa Clara",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/job/US-CA-Santa-Clara/SoC-Software-Engineer---New-College-Grad-2027_JR2026744",
+      "description": "",
+      "salary": "",
+      "skills": [],
+      "postedAt": "2026-10-13T22:45:28.219Z",
+      "source": "Workday",
+      "id": "a9853dac-8551-4ee7-a060-e4faf73eddac",
+      "status": "review",
+      "discoveredAt": "2026-10-13T22:46:02.819Z"
+    },
+    {
+      "externalId": "workday-Northrop Grumman-R10255928",
+      "company": "Northrop Grumman",
+      "title": "Associate Cloud Software Engineer (Level 1)",
+      "location": "United States-California-Redondo Beach",
+      "url": "https://ngc.wd1.myworkdayjobs.com/job/United-States-California-Redondo-Beach/Associate-Cloud-Software-Engineer--Level-1-_R10255928",
+      "description": "",
+      "salary": "",
+      "skills": [],
+      "postedAt": "2026-10-13T22:45:27.108Z",
+      "source": "Workday",
+      "id": "4fa64545-db06-4793-ae4d-575e2f41152e",
+      "status": "review",
+      "discoveredAt": "2026-10-13T22:46:02.819Z"
+    },
+    {
       "externalId": "applyguy-12f64526-5f78-4434-adee-a783fd465a59",
       "company": "NVIDIA",
       "title": "Deep Learning Software Engineer, TensorRT Performance - New College Grad 2027",
@@ -5136,8 +5181,8 @@
       "discoveredAt": "2026-08-18T18:03:53.356Z"
     }
   ],
-  "lastScanAt": "2026-10-12T23:25:11.722Z",
-  "lastDigestAt": "2026-10-11T22:24:24.543Z",
+  "lastScanAt": "2026-10-13T22:46:02.870Z",
+  "lastDigestAt": "2026-10-13T22:46:03.613Z",
   "delivery": {
     "smsConfigured": true,
     "emailConfigured": true
