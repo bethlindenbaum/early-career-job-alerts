@@ -1,6 +1,22 @@
 {
   "jobs": [
     {
+      "externalId": "applyguy-custom:microsoft:2b898a24c4d4b7ada9a8",
+      "company": "Microsoft",
+      "title": "Software Engineer - CTJ - Poly",
+      "location": "Reston, VA · Redmond, WA",
+      "url": "https://apply.careers.microsoft.com/careers/job/1970393557022487",
+      "description": "Entry Level entry_level",
+      "salary": "",
+      "skills": [],
+      "postedAt": "2026-10-06",
+      "source": "ApplyGuy 2027 feed",
+      "earlyCareer": true,
+      "id": "05911648-47b4-483c-8b65-ecc1edfe72dd",
+      "status": "review",
+      "discoveredAt": "2026-10-14T01:25:27.856Z"
+    },
+    {
       "externalId": "workday-NVIDIA-JR2027552",
       "company": "NVIDIA",
       "title": "SoC Software Engineer – New College Graduate 2026",
@@ -5181,7 +5197,7 @@
       "discoveredAt": "2026-08-18T18:03:53.356Z"
     }
   ],
-  "lastScanAt": "2026-10-13T22:46:02.870Z",
+  "lastScanAt": "2026-10-14T01:25:27.882Z",
   "lastDigestAt": "2026-10-13T22:46:03.613Z",
   "delivery": {
     "smsConfigured": true,
