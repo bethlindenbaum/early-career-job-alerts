@@ -1,6 +1,38 @@
 {
   "jobs": [
     {
+      "externalId": "applyguy-4b12e1e3-7e63-4e3c-a2cd-79751f07c08b",
+      "company": "NVIDIA",
+      "title": "SoC Software Engineer – New College Graduate 2026",
+      "location": "Santa Clara, CA",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/SoC-Software-Engineer---New-College-Graduate-2026_JR2027552-1",
+      "description": "New Grad explicit",
+      "salary": "",
+      "skills": [],
+      "postedAt": "2026-10-13",
+      "source": "ApplyGuy 2027 feed",
+      "earlyCareer": true,
+      "id": "25ce14ab-cf08-428c-8055-8c8e7bd3e5cb",
+      "status": "review",
+      "discoveredAt": "2026-10-14T06:18:38.246Z"
+    },
+    {
+      "externalId": "applyguy-6929d864-8256-4ab0-8863-cd30fd963ced",
+      "company": "NVIDIA",
+      "title": "SoC Software Engineer - New College Grad 2027",
+      "location": "Santa Clara, CA",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/SoC-Software-Engineer---New-College-Grad-2027_JR2026744",
+      "description": "New Grad explicit",
+      "salary": "",
+      "skills": [],
+      "postedAt": "2026-10-13",
+      "source": "ApplyGuy 2027 feed",
+      "earlyCareer": true,
+      "id": "151935f2-2b19-4d6c-bcc4-757b0d5e6606",
+      "status": "review",
+      "discoveredAt": "2026-10-14T06:18:38.246Z"
+    },
+    {
       "externalId": "applyguy-custom:microsoft:2b898a24c4d4b7ada9a8",
       "company": "Microsoft",
       "title": "Software Engineer - CTJ - Poly",
@@ -5197,7 +5229,7 @@
       "discoveredAt": "2026-08-18T18:03:53.356Z"
     }
   ],
-  "lastScanAt": "2026-10-14T01:25:27.882Z",
+  "lastScanAt": "2026-10-14T06:18:38.266Z",
   "lastDigestAt": "2026-10-13T22:46:03.613Z",
   "delivery": {
     "smsConfigured": true,

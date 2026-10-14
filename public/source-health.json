@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-14T01:25:28.180Z",
+  "checkedAt": "2026-10-14T06:18:38.571Z",
   "healthy": 34,
   "errors": 1,
   "sources": [
@@ -14,8 +14,8 @@
       "company": "ApplyGuy 2027 New Grad Jobs",
       "type": "applyguy",
       "status": "healthy",
-      "jobCount": 305,
-      "checkedAt": "2026-10-14T01:24:27.774Z"
+      "jobCount": 303,
+      "checkedAt": "2026-10-14T06:18:01.863Z"
     },
     {
       "company": "Aquatic Capital Management",
@@ -56,8 +56,8 @@
       "company": "Databricks",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 895,
-      "checkedAt": "2026-10-14T01:24:29.047Z"
+      "jobCount": 894,
+      "checkedAt": "2026-10-14T06:18:02.891Z"
     },
     {
       "company": "Datadog",
@@ -91,8 +91,8 @@
       "company": "IMC Trading",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 174,
-      "checkedAt": "2026-10-13T22:45:26.733Z"
+      "jobCount": 175,
+      "checkedAt": "2026-10-14T06:18:01.943Z"
     },
     {
       "company": "Jane Street",
@@ -120,8 +120,8 @@
       "company": "Lyft",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 178,
-      "checkedAt": "2026-10-14T01:24:27.822Z"
+      "jobCount": 177,
+      "checkedAt": "2026-10-14T06:18:02.084Z"
     },
     {
       "company": "Medtronic",
@@ -169,8 +169,8 @@
       "company": "Notion",
       "type": "ashby",
       "status": "healthy",
-      "jobCount": 130,
-      "checkedAt": "2026-10-13T18:11:31.590Z"
+      "jobCount": 131,
+      "checkedAt": "2026-10-14T06:18:02.044Z"
     },
     {
       "company": "NVIDIA",
@@ -183,8 +183,8 @@
       "company": "OpenAI",
       "type": "ashby",
       "status": "healthy",
-      "jobCount": 806,
-      "checkedAt": "2026-10-14T01:24:28.803Z"
+      "jobCount": 807,
+      "checkedAt": "2026-10-14T06:18:02.729Z"
     },
     {
       "company": "Palantir",
