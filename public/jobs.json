@@ -1,6 +1,22 @@
 {
   "jobs": [
     {
+      "externalId": "applyguy-custom:amazon:6facd034837b0401109f",
+      "company": "Amazon",
+      "title": "Software Development Engineer I, Amazon Connect Customer Data & Insights",
+      "location": "Seattle, WA",
+      "url": "https://www.amazon.jobs/en/jobs/10562297/software-development-engineer-i-amazon-connect-customer-data-insights",
+      "description": "Entry Level entry_level",
+      "salary": "",
+      "skills": [],
+      "postedAt": "2026-09-28",
+      "source": "ApplyGuy 2027 feed",
+      "earlyCareer": true,
+      "id": "c54e388b-2b82-477c-a6ea-113e327c12a7",
+      "status": "review",
+      "discoveredAt": "2026-10-14T20:19:46.147Z"
+    },
+    {
       "externalId": "applyguy-4b12e1e3-7e63-4e3c-a2cd-79751f07c08b",
       "company": "NVIDIA",
       "title": "SoC Software Engineer – New College Graduate 2026",
@@ -5229,7 +5245,7 @@
       "discoveredAt": "2026-08-18T18:03:53.356Z"
     }
   ],
-  "lastScanAt": "2026-10-14T06:18:38.266Z",
+  "lastScanAt": "2026-10-14T20:19:46.161Z",
   "lastDigestAt": "2026-10-13T22:46:03.613Z",
   "delivery": {
     "smsConfigured": true,
