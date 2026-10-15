@@ -1,6 +1,21 @@
 {
   "jobs": [
     {
+      "externalId": "workday-Northrop Grumman-R10256217",
+      "company": "Northrop Grumman",
+      "title": "2026  Associate/ Embedded Software Engineer - Dulles VA",
+      "location": "United States-Virginia-Dulles",
+      "url": "https://ngc.wd1.myworkdayjobs.com/job/United-States-Virginia-Dulles/XMLNAME-2027--Associate--Embedded-Software-Engineer---Dulles-VA_R10256217",
+      "description": "",
+      "salary": "",
+      "skills": [],
+      "postedAt": "2026-10-15T15:45:00.840Z",
+      "source": "Workday",
+      "id": "bb4ddbdc-5950-43dc-b051-347ec58b72e4",
+      "status": "review",
+      "discoveredAt": "2026-10-15T15:45:35.551Z"
+    },
+    {
       "externalId": "applyguy-custom:amazon:6facd034837b0401109f",
       "company": "Amazon",
       "title": "Software Development Engineer I, Amazon Connect Customer Data & Insights",
@@ -5245,7 +5260,7 @@
       "discoveredAt": "2026-08-18T18:03:53.356Z"
     }
   ],
-  "lastScanAt": "2026-10-14T20:19:46.161Z",
+  "lastScanAt": "2026-10-15T15:45:35.590Z",
   "lastDigestAt": "2026-10-13T22:46:03.613Z",
   "delivery": {
     "smsConfigured": true,
