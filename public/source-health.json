@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-16T05:04:10.405Z",
+  "checkedAt": "2026-10-16T09:40:56.206Z",
   "healthy": 34,
   "errors": 1,
   "sources": [
@@ -14,8 +14,8 @@
       "company": "ApplyGuy 2027 New Grad Jobs",
       "type": "applyguy",
       "status": "healthy",
-      "jobCount": 304,
-      "checkedAt": "2026-10-16T05:03:39.298Z"
+      "jobCount": 299,
+      "checkedAt": "2026-10-16T09:40:08.291Z"
     },
     {
       "company": "Aquatic Capital Management",
@@ -42,8 +42,8 @@
       "company": "Cloudflare",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 438,
-      "checkedAt": "2026-10-16T05:03:40.153Z"
+      "jobCount": 436,
+      "checkedAt": "2026-10-16T09:40:08.093Z"
     },
     {
       "company": "Cursor",
@@ -56,15 +56,15 @@
       "company": "Databricks",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 898,
-      "checkedAt": "2026-10-16T05:03:40.374Z"
+      "jobCount": 899,
+      "checkedAt": "2026-10-16T09:40:08.763Z"
     },
     {
       "company": "Datadog",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 439,
-      "checkedAt": "2026-10-16T00:40:34.681Z"
+      "jobCount": 437,
+      "checkedAt": "2026-10-16T09:40:08.200Z"
     },
     {
       "company": "Dropbox",
@@ -155,8 +155,8 @@
       "company": "Nintendo",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 53,
-      "checkedAt": "2026-10-14T20:19:08.752Z"
+      "jobCount": 51,
+      "checkedAt": "2026-10-16T09:40:08.426Z"
     },
     {
       "company": "Northrop Grumman",
@@ -183,15 +183,15 @@
       "company": "OpenAI",
       "type": "ashby",
       "status": "healthy",
-      "jobCount": 802,
-      "checkedAt": "2026-10-16T00:40:35.332Z"
+      "jobCount": 801,
+      "checkedAt": "2026-10-16T09:40:09.195Z"
     },
     {
       "company": "Palantir",
       "type": "lever",
       "status": "healthy",
-      "jobCount": 310,
-      "checkedAt": "2026-10-15T19:23:38.224Z"
+      "jobCount": 309,
+      "checkedAt": "2026-10-16T09:40:10.122Z"
     },
     {
       "company": "Point72",
