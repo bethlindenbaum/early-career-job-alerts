@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-15T22:31:07.194Z",
+  "checkedAt": "2026-10-16T00:41:09.318Z",
   "healthy": 34,
   "errors": 1,
   "sources": [
@@ -14,8 +14,8 @@
       "company": "ApplyGuy 2027 New Grad Jobs",
       "type": "applyguy",
       "status": "healthy",
-      "jobCount": 313,
-      "checkedAt": "2026-10-15T22:30:30.982Z"
+      "jobCount": 308,
+      "checkedAt": "2026-10-16T00:40:33.944Z"
     },
     {
       "company": "Aquatic Capital Management",
@@ -49,22 +49,22 @@
       "company": "Cursor",
       "type": "ashby",
       "status": "healthy",
-      "jobCount": 134,
-      "checkedAt": "2026-10-15T01:30:41.960Z"
+      "jobCount": 133,
+      "checkedAt": "2026-10-16T00:40:34.070Z"
     },
     {
       "company": "Databricks",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 898,
-      "checkedAt": "2026-10-15T19:23:36.563Z"
+      "jobCount": 897,
+      "checkedAt": "2026-10-16T00:40:35.127Z"
     },
     {
       "company": "Datadog",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 440,
-      "checkedAt": "2026-10-15T19:23:36.363Z"
+      "jobCount": 439,
+      "checkedAt": "2026-10-16T00:40:34.681Z"
     },
     {
       "company": "Dropbox",
@@ -120,8 +120,8 @@
       "company": "Lyft",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 176,
-      "checkedAt": "2026-10-15T15:45:00.599Z"
+      "jobCount": 173,
+      "checkedAt": "2026-10-16T00:40:34.224Z"
     },
     {
       "company": "Medtronic",
@@ -183,8 +183,8 @@
       "company": "OpenAI",
       "type": "ashby",
       "status": "healthy",
-      "jobCount": 805,
-      "checkedAt": "2026-10-15T22:30:31.852Z"
+      "jobCount": 802,
+      "checkedAt": "2026-10-16T00:40:35.332Z"
     },
     {
       "company": "Palantir",
@@ -211,8 +211,8 @@
       "company": "SpaceX",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 2749,
-      "checkedAt": "2026-10-15T22:30:32.588Z"
+      "jobCount": 2751,
+      "checkedAt": "2026-10-16T00:40:36.114Z"
     },
     {
       "company": "Toyota",
