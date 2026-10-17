@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-17T05:40:28.668Z",
+  "checkedAt": "2026-10-17T09:39:58.982Z",
   "healthy": 33,
   "errors": 2,
   "sources": [
@@ -14,8 +14,8 @@
       "company": "ApplyGuy 2027 New Grad Jobs",
       "type": "applyguy",
       "status": "healthy",
-      "jobCount": 299,
-      "checkedAt": "2026-10-17T05:39:52.200Z"
+      "jobCount": 300,
+      "checkedAt": "2026-10-17T09:39:27.852Z"
     },
     {
       "company": "Aquatic Capital Management",
@@ -155,8 +155,8 @@
       "company": "Nintendo",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 51,
-      "checkedAt": "2026-10-16T09:40:08.426Z"
+      "jobCount": 50,
+      "checkedAt": "2026-10-17T09:39:27.891Z"
     },
     {
       "company": "Northrop Grumman",
