@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-17T13:10:42.875Z",
+  "checkedAt": "2026-10-17T16:25:53.247Z",
   "healthy": 34,
   "errors": 1,
   "sources": [
@@ -70,8 +70,8 @@
       "company": "Dropbox",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 20,
-      "checkedAt": "2026-10-16T20:56:52.111Z"
+      "jobCount": 18,
+      "checkedAt": "2026-10-17T16:25:15.313Z"
     },
     {
       "company": "Epic Games",
@@ -183,8 +183,8 @@
       "company": "OpenAI",
       "type": "ashby",
       "status": "healthy",
-      "jobCount": 815,
-      "checkedAt": "2026-10-17T01:19:34.865Z"
+      "jobCount": 814,
+      "checkedAt": "2026-10-17T16:25:16.612Z"
     },
     {
       "company": "Palantir",
@@ -204,15 +204,15 @@
       "company": "Roblox",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 262,
-      "checkedAt": "2026-10-17T05:39:52.542Z"
+      "jobCount": 263,
+      "checkedAt": "2026-10-17T16:25:15.879Z"
     },
     {
       "company": "SpaceX",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 2773,
-      "checkedAt": "2026-10-17T05:39:53.758Z"
+      "jobCount": 2771,
+      "checkedAt": "2026-10-17T16:25:17.348Z"
     },
     {
       "company": "Toyota",
