@@ -1,7 +1,7 @@
 {
-  "checkedAt": "2026-10-17T01:20:08.926Z",
-  "healthy": 34,
-  "errors": 1,
+  "checkedAt": "2026-10-17T05:40:28.668Z",
+  "healthy": 33,
+  "errors": 2,
   "sources": [
     {
       "company": "Adobe",
@@ -14,8 +14,8 @@
       "company": "ApplyGuy 2027 New Grad Jobs",
       "type": "applyguy",
       "status": "healthy",
-      "jobCount": 302,
-      "checkedAt": "2026-10-16T23:10:16.483Z"
+      "jobCount": 299,
+      "checkedAt": "2026-10-17T05:39:52.200Z"
     },
     {
       "company": "Aquatic Capital Management",
@@ -120,8 +120,8 @@
       "company": "Lyft",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 177,
-      "checkedAt": "2026-10-17T01:19:33.845Z"
+      "jobCount": 183,
+      "checkedAt": "2026-10-17T05:39:52.376Z"
     },
     {
       "company": "Medtronic",
@@ -204,22 +204,23 @@
       "company": "Roblox",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 261,
-      "checkedAt": "2026-10-16T18:03:52.471Z"
+      "jobCount": 262,
+      "checkedAt": "2026-10-17T05:39:52.542Z"
     },
     {
       "company": "SpaceX",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 2772,
-      "checkedAt": "2026-10-16T23:10:18.420Z"
+      "jobCount": 2773,
+      "checkedAt": "2026-10-17T05:39:53.758Z"
     },
     {
       "company": "Toyota",
       "type": "workday",
-      "status": "healthy",
-      "jobCount": 20,
-      "checkedAt": "2026-09-21T18:58:52.709Z"
+      "status": "error",
+      "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON",
+      "jobCount": 0,
+      "checkedAt": "2026-10-17T05:40:28.631Z"
     },
     {
       "company": "Uber",
