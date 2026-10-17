@@ -1,7 +1,7 @@
 {
-  "checkedAt": "2026-10-17T09:39:58.982Z",
-  "healthy": 33,
-  "errors": 2,
+  "checkedAt": "2026-10-17T13:10:42.875Z",
+  "healthy": 34,
+  "errors": 1,
   "sources": [
     {
       "company": "Adobe",
@@ -14,8 +14,8 @@
       "company": "ApplyGuy 2027 New Grad Jobs",
       "type": "applyguy",
       "status": "healthy",
-      "jobCount": 300,
-      "checkedAt": "2026-10-17T09:39:27.852Z"
+      "jobCount": 304,
+      "checkedAt": "2026-10-17T13:10:10.884Z"
     },
     {
       "company": "Aquatic Capital Management",
@@ -217,10 +217,9 @@
     {
       "company": "Toyota",
       "type": "workday",
-      "status": "error",
-      "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON",
-      "jobCount": 0,
-      "checkedAt": "2026-10-17T05:40:28.631Z"
+      "status": "healthy",
+      "jobCount": 20,
+      "checkedAt": "2026-10-17T13:10:11.743Z"
     },
     {
       "company": "Uber",
