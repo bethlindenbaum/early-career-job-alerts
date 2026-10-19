@@ -1,6 +1,21 @@
 {
   "jobs": [
     {
+      "externalId": "workday-Northrop Grumman-R10256499",
+      "company": "Northrop Grumman",
+      "title": "2027 Associate/Software Engineer Pathways Linthicum MA",
+      "location": "United States-Maryland-Linthicum",
+      "url": "https://ngc.wd1.myworkdayjobs.com/job/United-States-Maryland-Linthicum/XMLNAME-2027-Associate-Software-Engineer-Pathways-Dulles-VA_R10256499",
+      "description": "",
+      "salary": "",
+      "skills": [],
+      "postedAt": "2026-10-19T12:56:05.207Z",
+      "source": "Workday",
+      "id": "103437ee-8a0a-4b6f-8a35-b995b1f240b9",
+      "status": "review",
+      "discoveredAt": "2026-10-19T12:56:39.435Z"
+    },
+    {
       "externalId": "workday-Northrop Grumman-R10256217",
       "company": "Northrop Grumman",
       "title": "2026  Associate/ Embedded Software Engineer - Dulles VA",
@@ -5260,7 +5275,7 @@
       "discoveredAt": "2026-08-18T18:03:53.356Z"
     }
   ],
-  "lastScanAt": "2026-10-15T15:45:35.590Z",
+  "lastScanAt": "2026-10-19T12:56:39.486Z",
   "lastDigestAt": "2026-10-15T22:31:07.188Z",
   "delivery": {
     "smsConfigured": true,
