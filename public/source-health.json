@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-18T23:04:04.563Z",
+  "checkedAt": "2026-10-19T01:06:15.158Z",
   "healthy": 34,
   "errors": 1,
   "sources": [
@@ -91,8 +91,8 @@
       "company": "IMC Trading",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 172,
-      "checkedAt": "2026-10-16T18:03:52.293Z"
+      "jobCount": 171,
+      "checkedAt": "2026-10-19T01:05:38.233Z"
     },
     {
       "company": "Jane Street",
@@ -211,8 +211,8 @@
       "company": "SpaceX",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 2766,
-      "checkedAt": "2026-10-18T23:03:36.082Z"
+      "jobCount": 2767,
+      "checkedAt": "2026-10-19T01:05:39.651Z"
     },
     {
       "company": "Toyota",
