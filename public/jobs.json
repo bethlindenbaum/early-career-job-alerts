@@ -1,6 +1,21 @@
 {
   "jobs": [
     {
+      "externalId": "workday-Northrop Grumman-R10256623",
+      "company": "Northrop Grumman",
+      "title": "2027 Associate Embedded Software Engineer Beavercreek Ohio",
+      "location": "United States-Ohio-Beavercreek",
+      "url": "https://ngc.wd1.myworkdayjobs.com/job/United-States-Ohio-Beavercreek/XMLNAME-2027-Associate-Embedded-Software-Engineer-Beavercreek-Ohio_R10256623",
+      "description": "",
+      "salary": "",
+      "skills": [],
+      "postedAt": "2026-10-19T18:53:49.954Z",
+      "source": "Workday",
+      "id": "41b1d406-0fbe-46d1-b8cf-b5f3bec35428",
+      "status": "review",
+      "discoveredAt": "2026-10-19T18:54:23.777Z"
+    },
+    {
       "externalId": "workday-Northrop Grumman-R10256499",
       "company": "Northrop Grumman",
       "title": "2027 Associate/Software Engineer Pathways Linthicum MA",
@@ -5275,7 +5290,7 @@
       "discoveredAt": "2026-08-18T18:03:53.356Z"
     }
   ],
-  "lastScanAt": "2026-10-19T12:56:39.486Z",
+  "lastScanAt": "2026-10-19T18:54:23.813Z",
   "lastDigestAt": "2026-10-15T22:31:07.188Z",
   "delivery": {
     "smsConfigured": true,
