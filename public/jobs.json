@@ -1,6 +1,22 @@
 {
   "jobs": [
     {
+      "externalId": "applyguy-custom:microsoft:f32e2fdda1f5bb47bf6d",
+      "company": "Microsoft",
+      "title": "Software Engineer - Forward Deployed Engineer",
+      "location": "Redmond, WA",
+      "url": "https://apply.careers.microsoft.com/careers/job/1970393557004814",
+      "description": "Entry Level entry_level",
+      "salary": "",
+      "skills": [],
+      "postedAt": "2026-10-20",
+      "source": "ApplyGuy 2027 feed",
+      "earlyCareer": true,
+      "id": "26da960a-3b3b-4aab-b3ca-57ffb9c6c17e",
+      "status": "review",
+      "discoveredAt": "2026-10-20T11:24:28.633Z"
+    },
+    {
       "externalId": "lever-Palantir-90329118-d9b7-4b96-acdf-13377e3196ac",
       "company": "Palantir",
       "title": "Software Engineer, New Grad - Query Engines",
@@ -5305,7 +5321,7 @@
       "discoveredAt": "2026-08-18T18:03:53.356Z"
     }
   ],
-  "lastScanAt": "2026-10-20T01:17:33.983Z",
+  "lastScanAt": "2026-10-20T11:24:28.658Z",
   "lastDigestAt": "2026-10-19T22:40:56.846Z",
   "delivery": {
     "smsConfigured": true,

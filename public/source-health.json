@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-20T06:05:01.112Z",
+  "checkedAt": "2026-10-20T11:24:28.815Z",
   "healthy": 34,
   "errors": 1,
   "sources": [
@@ -14,8 +14,8 @@
       "company": "ApplyGuy 2027 New Grad Jobs",
       "type": "applyguy",
       "status": "healthy",
-      "jobCount": 296,
-      "checkedAt": "2026-10-20T06:04:24.852Z"
+      "jobCount": 297,
+      "checkedAt": "2026-10-20T11:23:56.373Z"
     },
     {
       "company": "Aquatic Capital Management",
@@ -42,15 +42,15 @@
       "company": "Cloudflare",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 437,
-      "checkedAt": "2026-10-20T06:04:25.639Z"
+      "jobCount": 436,
+      "checkedAt": "2026-10-20T11:23:57.238Z"
     },
     {
       "company": "Cursor",
       "type": "ashby",
       "status": "healthy",
-      "jobCount": 135,
-      "checkedAt": "2026-10-20T01:17:03.282Z"
+      "jobCount": 134,
+      "checkedAt": "2026-10-20T11:23:56.565Z"
     },
     {
       "company": "Databricks",
@@ -63,8 +63,8 @@
       "company": "Datadog",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 431,
-      "checkedAt": "2026-10-20T06:04:25.467Z"
+      "jobCount": 432,
+      "checkedAt": "2026-10-20T11:23:57.043Z"
     },
     {
       "company": "Dropbox",
@@ -183,8 +183,8 @@
       "company": "OpenAI",
       "type": "ashby",
       "status": "healthy",
-      "jobCount": 806,
-      "checkedAt": "2026-10-20T06:04:25.872Z"
+      "jobCount": 807,
+      "checkedAt": "2026-10-20T11:23:57.449Z"
     },
     {
       "company": "Palantir",
