@@ -1,6 +1,37 @@
 {
   "jobs": [
     {
+      "externalId": "applyguy-f8dd0156-5e8d-4827-85a0-c09b023dbb85",
+      "company": "NVIDIA",
+      "title": "Software Engineer, Agent Performance Modeling - New College Grad 2026",
+      "location": "Santa Clara, CA",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineer--Agent-Performance-Modeling---New-College-Grad-2026_JR2028350",
+      "description": "New Grad explicit",
+      "salary": "",
+      "skills": [],
+      "postedAt": "2026-10-20",
+      "source": "ApplyGuy 2027 feed",
+      "earlyCareer": true,
+      "id": "800ea71b-b2fc-4619-8c58-85fdf90e40e0",
+      "status": "review",
+      "discoveredAt": "2026-10-21T05:28:16.714Z"
+    },
+    {
+      "externalId": "workday-Northrop Grumman-R10257006",
+      "company": "Northrop Grumman",
+      "title": "Associate Software Engineer",
+      "location": "United States-Nebraska-Bellevue",
+      "url": "https://ngc.wd1.myworkdayjobs.com/job/United-States-Nebraska-Bellevue/Associate-Software-Engineer_R10257006",
+      "description": "",
+      "salary": "",
+      "skills": [],
+      "postedAt": "2026-10-21T05:27:39.317Z",
+      "source": "Workday",
+      "id": "0225388f-ec54-4bb0-a3a1-cc211d4179f9",
+      "status": "review",
+      "discoveredAt": "2026-10-21T05:28:16.698Z"
+    },
+    {
       "externalId": "applyguy-custom:microsoft:f32e2fdda1f5bb47bf6d",
       "company": "Microsoft",
       "title": "Software Engineer - Forward Deployed Engineer",
@@ -5321,7 +5352,7 @@
       "discoveredAt": "2026-08-18T18:03:53.356Z"
     }
   ],
-  "lastScanAt": "2026-10-20T11:24:28.658Z",
+  "lastScanAt": "2026-10-21T05:28:16.731Z",
   "lastDigestAt": "2026-10-20T22:36:27.848Z",
   "delivery": {
     "smsConfigured": true,
