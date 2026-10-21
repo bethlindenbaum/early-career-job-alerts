@@ -1,6 +1,22 @@
 {
   "jobs": [
     {
+      "externalId": "applyguy-custom:microsoft:0f630ecfe069c97628d5",
+      "company": "Microsoft",
+      "title": "Software Engineer",
+      "location": "Cambridge, MA",
+      "url": "https://apply.careers.microsoft.com/careers/job/1970393557038974",
+      "description": "Entry Level entry_level",
+      "salary": "",
+      "skills": [],
+      "postedAt": "2026-10-16",
+      "source": "ApplyGuy 2027 feed",
+      "earlyCareer": true,
+      "id": "3c794e74-1baf-4ba5-aba4-f03d33421064",
+      "status": "review",
+      "discoveredAt": "2026-10-21T15:25:53.760Z"
+    },
+    {
       "externalId": "applyguy-f8dd0156-5e8d-4827-85a0-c09b023dbb85",
       "company": "NVIDIA",
       "title": "Software Engineer, Agent Performance Modeling - New College Grad 2026",
@@ -5352,7 +5368,7 @@
       "discoveredAt": "2026-08-18T18:03:53.356Z"
     }
   ],
-  "lastScanAt": "2026-10-21T05:28:16.731Z",
+  "lastScanAt": "2026-10-21T15:25:53.785Z",
   "lastDigestAt": "2026-10-20T22:36:27.848Z",
   "delivery": {
     "smsConfigured": true,
