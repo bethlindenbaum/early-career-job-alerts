@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-21T22:32:12.734Z",
+  "checkedAt": "2026-10-22T00:51:34.121Z",
   "healthy": 34,
   "errors": 1,
   "sources": [
@@ -49,8 +49,8 @@
       "company": "Cursor",
       "type": "ashby",
       "status": "healthy",
-      "jobCount": 130,
-      "checkedAt": "2026-10-21T19:24:43.190Z"
+      "jobCount": 131,
+      "checkedAt": "2026-10-22T00:51:03.370Z"
     },
     {
       "company": "Databricks",
@@ -148,8 +148,8 @@
       "company": "MongoDB",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 393,
-      "checkedAt": "2026-10-21T22:31:40.863Z"
+      "jobCount": 390,
+      "checkedAt": "2026-10-22T00:51:03.752Z"
     },
     {
       "company": "Nintendo",
@@ -183,8 +183,8 @@
       "company": "OpenAI",
       "type": "ashby",
       "status": "healthy",
-      "jobCount": 809,
-      "checkedAt": "2026-10-21T22:31:41.691Z"
+      "jobCount": 812,
+      "checkedAt": "2026-10-22T00:51:04.297Z"
     },
     {
       "company": "Palantir",
@@ -211,8 +211,8 @@
       "company": "SpaceX",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 2780,
-      "checkedAt": "2026-10-21T22:31:42.491Z"
+      "jobCount": 2782,
+      "checkedAt": "2026-10-22T00:51:05.256Z"
     },
     {
       "company": "Toyota",
