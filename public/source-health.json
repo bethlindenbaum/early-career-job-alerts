@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-23T22:17:33.421Z",
+  "checkedAt": "2026-10-24T00:44:52.203Z",
   "healthy": 34,
   "errors": 1,
   "sources": [
@@ -42,8 +42,8 @@
       "company": "Cloudflare",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 454,
-      "checkedAt": "2026-10-23T22:16:50.348Z"
+      "jobCount": 453,
+      "checkedAt": "2026-10-24T00:44:33.968Z"
     },
     {
       "company": "Cursor",
@@ -63,8 +63,8 @@
       "company": "Datadog",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 434,
-      "checkedAt": "2026-10-23T22:16:50.224Z"
+      "jobCount": 433,
+      "checkedAt": "2026-10-24T00:44:33.823Z"
     },
     {
       "company": "Dropbox",
@@ -183,8 +183,8 @@
       "company": "OpenAI",
       "type": "ashby",
       "status": "healthy",
-      "jobCount": 796,
-      "checkedAt": "2026-10-23T22:16:50.676Z"
+      "jobCount": 795,
+      "checkedAt": "2026-10-24T00:44:34.158Z"
     },
     {
       "company": "Palantir",
@@ -204,15 +204,15 @@
       "company": "Roblox",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 267,
-      "checkedAt": "2026-10-23T22:16:50.437Z"
+      "jobCount": 269,
+      "checkedAt": "2026-10-24T00:44:33.643Z"
     },
     {
       "company": "SpaceX",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 2818,
-      "checkedAt": "2026-10-23T22:17:00.481Z"
+      "jobCount": 2816,
+      "checkedAt": "2026-10-24T00:44:34.993Z"
     },
     {
       "company": "Toyota",
