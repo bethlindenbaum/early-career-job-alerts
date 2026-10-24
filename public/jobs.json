@@ -1,6 +1,24 @@
 {
   "jobs": [
     {
+      "externalId": "markdown-7cc37e52843845a5398caca1d8d31f1f8b622b6f",
+      "company": "Intel",
+      "title": "Software Engineer, CAD/EDA Tools (Master's)",
+      "location": "Hillsboro, OR",
+      "url": "https://intel.wd1.myworkdayjobs.com/en-US/external/job/US-Oregon-Hillsboro/CAD-EDA-Tools-Software-Engineer_JR0288234-1?utm_source=vansh",
+      "description": "",
+      "salary": "",
+      "skills": [],
+      "postedAt": "2026-10-24T05:03:19.193Z",
+      "source": "Vansh New Grad 2027",
+      "earlyCareer": true,
+      "experienceCheck": true,
+      "experienceCheckedAt": "2026-10-24T05:03:22.143Z",
+      "id": "73317c60-a34d-482a-85cc-65d7f30473dc",
+      "status": "review",
+      "discoveredAt": "2026-10-24T05:03:41.481Z"
+    },
+    {
       "externalId": "markdown-41fbc7eef338fbb74338fe1196179284b9dd0826",
       "company": "Northrop Grumman",
       "title": "New Grad 2027: Associate/Software Engineer Pathways 🇺🇸",
@@ -5473,7 +5491,7 @@
       "discoveredAt": "2026-08-18T18:03:53.356Z"
     }
   ],
-  "lastScanAt": "2026-10-23T05:30:51.845Z",
+  "lastScanAt": "2026-10-24T05:03:41.493Z",
   "lastDigestAt": "2026-10-23T22:17:33.411Z",
   "delivery": {
     "smsConfigured": true,
