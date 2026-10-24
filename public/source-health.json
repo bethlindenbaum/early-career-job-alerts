@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-24T13:25:59.116Z",
+  "checkedAt": "2026-10-24T16:45:06.310Z",
   "healthy": 34,
   "errors": 1,
   "sources": [
@@ -148,8 +148,8 @@
       "company": "MongoDB",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 383,
-      "checkedAt": "2026-10-23T22:16:50.399Z"
+      "jobCount": 382,
+      "checkedAt": "2026-10-24T16:44:45.719Z"
     },
     {
       "company": "Nintendo",
@@ -211,8 +211,8 @@
       "company": "SpaceX",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 2817,
-      "checkedAt": "2026-10-24T05:03:20.911Z"
+      "jobCount": 2820,
+      "checkedAt": "2026-10-24T16:44:47.161Z"
     },
     {
       "company": "Toyota",
