@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-25T06:44:08.033Z",
+  "checkedAt": "2026-10-25T12:01:55.490Z",
   "healthy": 34,
   "errors": 1,
   "sources": [
@@ -148,8 +148,8 @@
       "company": "MongoDB",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 382,
-      "checkedAt": "2026-10-24T16:44:45.719Z"
+      "jobCount": 381,
+      "checkedAt": "2026-10-25T12:01:11.398Z"
     },
     {
       "company": "Nintendo",
@@ -232,8 +232,8 @@
       "company": "Vansh New Grad 2027",
       "type": "markdown",
       "status": "healthy",
-      "jobCount": 289,
-      "checkedAt": "2026-10-25T06:43:39.666Z"
+      "jobCount": 288,
+      "checkedAt": "2026-10-25T12:01:10.892Z"
     },
     {
       "company": "Visa",
