@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-27T13:37:00.125Z",
+  "checkedAt": "2026-10-27T18:54:32.769Z",
   "healthy": 34,
   "errors": 1,
   "sources": [
@@ -28,8 +28,8 @@
       "company": "Chicago Trading",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 20,
-      "checkedAt": "2026-10-27T13:35:51.929Z"
+      "jobCount": 19,
+      "checkedAt": "2026-10-27T18:53:40.305Z"
     },
     {
       "company": "Cisco",
@@ -42,29 +42,29 @@
       "company": "Cloudflare",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 462,
-      "checkedAt": "2026-10-27T13:35:52.750Z"
+      "jobCount": 459,
+      "checkedAt": "2026-10-27T18:53:41.182Z"
     },
     {
       "company": "Cursor",
       "type": "ashby",
       "status": "healthy",
-      "jobCount": 123,
-      "checkedAt": "2026-10-27T13:35:52.122Z"
+      "jobCount": 122,
+      "checkedAt": "2026-10-27T18:53:40.338Z"
     },
     {
       "company": "Databricks",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 897,
-      "checkedAt": "2026-10-27T13:35:53.075Z"
+      "jobCount": 893,
+      "checkedAt": "2026-10-27T18:53:41.366Z"
     },
     {
       "company": "Datadog",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 429,
-      "checkedAt": "2026-10-27T13:35:52.580Z"
+      "jobCount": 427,
+      "checkedAt": "2026-10-27T18:53:40.912Z"
     },
     {
       "company": "Dropbox",
@@ -77,22 +77,22 @@
       "company": "Epic Games",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 148,
-      "checkedAt": "2026-10-27T02:00:22.677Z"
+      "jobCount": 144,
+      "checkedAt": "2026-10-27T18:53:40.597Z"
     },
     {
       "company": "Hudl",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 37,
-      "checkedAt": "2026-10-27T13:35:51.989Z"
+      "jobCount": 36,
+      "checkedAt": "2026-10-27T18:53:40.409Z"
     },
     {
       "company": "IMC Trading",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 169,
-      "checkedAt": "2026-10-26T23:07:45.077Z"
+      "jobCount": 168,
+      "checkedAt": "2026-10-27T18:53:40.534Z"
     },
     {
       "company": "Jane Street",
@@ -148,8 +148,8 @@
       "company": "MongoDB",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 364,
-      "checkedAt": "2026-10-27T13:35:52.431Z"
+      "jobCount": 362,
+      "checkedAt": "2026-10-27T18:53:40.984Z"
     },
     {
       "company": "Nintendo",
@@ -183,36 +183,36 @@
       "company": "OpenAI",
       "type": "ashby",
       "status": "healthy",
-      "jobCount": 797,
-      "checkedAt": "2026-10-27T13:35:52.914Z"
+      "jobCount": 794,
+      "checkedAt": "2026-10-27T18:53:41.535Z"
     },
     {
       "company": "Palantir",
       "type": "lever",
       "status": "healthy",
-      "jobCount": 307,
-      "checkedAt": "2026-10-26T19:12:07.669Z"
+      "jobCount": 306,
+      "checkedAt": "2026-10-27T18:53:41.837Z"
     },
     {
       "company": "Point72",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 209,
-      "checkedAt": "2026-10-27T13:35:52.213Z"
+      "jobCount": 208,
+      "checkedAt": "2026-10-27T18:53:40.704Z"
     },
     {
       "company": "Roblox",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 267,
-      "checkedAt": "2026-10-27T07:41:05.836Z"
+      "jobCount": 269,
+      "checkedAt": "2026-10-27T18:53:40.808Z"
     },
     {
       "company": "SpaceX",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 2834,
-      "checkedAt": "2026-10-27T07:41:07.519Z"
+      "jobCount": 2832,
+      "checkedAt": "2026-10-27T18:53:42.344Z"
     },
     {
       "company": "Toyota",
@@ -232,8 +232,8 @@
       "company": "Vansh New Grad 2027",
       "type": "markdown",
       "status": "healthy",
-      "jobCount": 666,
-      "checkedAt": "2026-10-27T13:35:51.979Z"
+      "jobCount": 643,
+      "checkedAt": "2026-10-27T18:53:40.614Z"
     },
     {
       "company": "Visa",
