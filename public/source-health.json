@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-27T22:43:05.248Z",
+  "checkedAt": "2026-10-28T01:44:51.682Z",
   "healthy": 34,
   "errors": 1,
   "sources": [
@@ -42,8 +42,8 @@
       "company": "Cloudflare",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 460,
-      "checkedAt": "2026-10-27T22:42:21.564Z"
+      "jobCount": 461,
+      "checkedAt": "2026-10-28T01:44:08.796Z"
     },
     {
       "company": "Cursor",
@@ -56,8 +56,8 @@
       "company": "Databricks",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 899,
-      "checkedAt": "2026-10-27T22:42:22.087Z"
+      "jobCount": 898,
+      "checkedAt": "2026-10-28T01:44:09.018Z"
     },
     {
       "company": "Datadog",
@@ -183,8 +183,8 @@
       "company": "OpenAI",
       "type": "ashby",
       "status": "healthy",
-      "jobCount": 795,
-      "checkedAt": "2026-10-27T22:42:22.294Z"
+      "jobCount": 801,
+      "checkedAt": "2026-10-28T01:44:11.140Z"
     },
     {
       "company": "Palantir",
@@ -211,8 +211,8 @@
       "company": "SpaceX",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 2832,
-      "checkedAt": "2026-10-27T18:53:42.344Z"
+      "jobCount": 2835,
+      "checkedAt": "2026-10-28T01:44:09.823Z"
     },
     {
       "company": "Toyota",
@@ -232,8 +232,8 @@
       "company": "Vansh New Grad 2027",
       "type": "markdown",
       "status": "healthy",
-      "jobCount": 648,
-      "checkedAt": "2026-10-27T22:42:21.298Z"
+      "jobCount": 646,
+      "checkedAt": "2026-10-28T01:44:08.066Z"
     },
     {
       "company": "Visa",
