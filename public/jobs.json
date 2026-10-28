@@ -1,6 +1,24 @@
 {
   "jobs": [
     {
+      "externalId": "markdown-0e5d387806bcd38488006c63f64edcd426edc672",
+      "company": "Northrop Grumman",
+      "title": "New Grad 2027: Associate Software Engineer / Software Engineer 🇺🇸",
+      "location": "Huntsville, AL",
+      "url": "https://go.vansh.nyc/Xs?s=A",
+      "description": "",
+      "salary": "",
+      "skills": [],
+      "postedAt": "2026-10-28T14:14:39.559Z",
+      "source": "Vansh New Grad 2027",
+      "earlyCareer": true,
+      "experienceCheck": true,
+      "experienceCheckedAt": "2026-10-28T14:14:48.456Z",
+      "id": "93270fb5-abcc-44e4-8fa1-52293f3238ef",
+      "status": "review",
+      "discoveredAt": "2026-10-28T14:15:39.556Z"
+    },
+    {
       "externalId": "markdown-2bde373099f852be67ad6b48dcd74845ccf2c041",
       "company": "AT&T",
       "title": "AI-Native Software Engineer Analyst - Full-Stack Python",
@@ -6781,7 +6799,7 @@
       "discoveredAt": "2026-08-18T18:03:53.356Z"
     }
   ],
-  "lastScanAt": "2026-10-27T22:43:04.661Z",
+  "lastScanAt": "2026-10-28T14:15:39.599Z",
   "lastDigestAt": "2026-10-27T22:43:05.227Z",
   "delivery": {
     "smsConfigured": true,
