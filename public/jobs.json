@@ -1,6 +1,42 @@
 {
   "jobs": [
     {
+      "externalId": "markdown-f47ddd46b862b731d54721b12b58789565b9aa93",
+      "company": "Intel",
+      "title": "EDA Tools Software Engineer",
+      "location": "Hillsboro, OR",
+      "url": "https://go.vansh.nyc/Zb?s=A",
+      "description": "",
+      "salary": "",
+      "skills": [],
+      "postedAt": "2026-10-29T20:37:28.892Z",
+      "source": "Vansh New Grad 2027",
+      "earlyCareer": true,
+      "experienceCheck": true,
+      "experienceCheckedAt": "2026-10-29T20:37:32.306Z",
+      "id": "879cc9fc-2686-455d-b222-6184c419d259",
+      "status": "review",
+      "discoveredAt": "2026-10-29T20:38:16.168Z"
+    },
+    {
+      "externalId": "markdown-c09201a03353c2f6e259ac7526c456849006e8e3",
+      "company": "Northrop Grumman",
+      "title": "New Grad 2027: Associate Cyber Software Engineer 🇺🇸",
+      "location": "Aurora, CO",
+      "url": "https://go.vansh.nyc/Zv?s=A",
+      "description": "",
+      "salary": "",
+      "skills": [],
+      "postedAt": "2026-10-29T20:37:28.892Z",
+      "source": "Vansh New Grad 2027",
+      "earlyCareer": true,
+      "experienceCheck": true,
+      "experienceCheckedAt": "2026-10-29T20:37:31.804Z",
+      "id": "17b46031-1936-40ec-a629-25710dd4a749",
+      "status": "review",
+      "discoveredAt": "2026-10-29T20:38:16.168Z"
+    },
+    {
       "externalId": "workday-Northrop Grumman-R10258279",
       "company": "Northrop Grumman",
       "title": "2027 Associate Cyber Software Engineer - Pathways Program - Aurora CO",
@@ -6945,7 +6981,7 @@
       "discoveredAt": "2026-08-18T18:03:53.356Z"
     }
   ],
-  "lastScanAt": "2026-10-29T15:41:59.641Z",
+  "lastScanAt": "2026-10-29T20:38:16.222Z",
   "lastDigestAt": "2026-10-27T22:43:05.227Z",
   "delivery": {
     "smsConfigured": true,
