@@ -1,6 +1,21 @@
 {
   "jobs": [
     {
+      "externalId": "workday-Northrop Grumman-R10258279",
+      "company": "Northrop Grumman",
+      "title": "2027 Associate Cyber Software Engineer - Pathways Program - Aurora CO",
+      "location": "United States-Colorado-Aurora",
+      "url": "https://ngc.wd1.myworkdayjobs.com/job/United-States-Colorado-Aurora/XMLNAME-2027-Associate-Cyber-Software-Engineer---Pathways-Program---Aurora-CO_R10258279",
+      "description": "",
+      "salary": "",
+      "skills": [],
+      "postedAt": "2026-10-29T15:41:07.945Z",
+      "source": "Workday",
+      "id": "32298283-791f-4a84-aece-eb215b05bd3e",
+      "status": "review",
+      "discoveredAt": "2026-10-29T15:41:59.563Z"
+    },
+    {
       "externalId": "markdown-619f298f474086dcc78f93e42e87f6d540540e89",
       "company": "Tesla",
       "title": "Software Engineer, Manufacturing Test",
@@ -6930,7 +6945,7 @@
       "discoveredAt": "2026-08-18T18:03:53.356Z"
     }
   ],
-  "lastScanAt": "2026-10-28T23:29:29.092Z",
+  "lastScanAt": "2026-10-29T15:41:59.641Z",
   "lastDigestAt": "2026-10-27T22:43:05.227Z",
   "delivery": {
     "smsConfigured": true,
