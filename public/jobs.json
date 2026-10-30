@@ -1,6 +1,24 @@
 {
   "jobs": [
     {
+      "externalId": "markdown-6dcc96a8f06139f8da44cad1b16a5d645a57a3e1",
+      "company": "DraftKings",
+      "title": "Software Engineer",
+      "location": "Boston, MA",
+      "url": "https://go.vansh.nyc/10e?s=A",
+      "description": "",
+      "salary": "",
+      "skills": [],
+      "postedAt": "2026-10-30T00:16:30.605Z",
+      "source": "Vansh New Grad 2027",
+      "earlyCareer": true,
+      "experienceCheck": true,
+      "experienceCheckedAt": "2026-10-30T00:16:36.688Z",
+      "id": "287268f1-b4de-4be9-933e-3fb24e854ddd",
+      "status": "review",
+      "discoveredAt": "2026-10-30T00:17:15.467Z"
+    },
+    {
       "externalId": "markdown-f47ddd46b862b731d54721b12b58789565b9aa93",
       "company": "Intel",
       "title": "EDA Tools Software Engineer",
@@ -6981,7 +6999,7 @@
       "discoveredAt": "2026-08-18T18:03:53.356Z"
     }
   ],
-  "lastScanAt": "2026-10-29T20:38:16.222Z",
+  "lastScanAt": "2026-10-30T00:17:15.520Z",
   "lastDigestAt": "2026-10-27T22:43:05.227Z",
   "delivery": {
     "smsConfigured": true,
