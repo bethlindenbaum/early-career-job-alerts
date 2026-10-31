@@ -1,22 +1,21 @@
 {
-  "checkedAt": "2026-10-31T06:40:42.379Z",
-  "healthy": 29,
-  "errors": 6,
+  "checkedAt": "2026-10-31T13:02:32.104Z",
+  "healthy": 34,
+  "errors": 1,
   "sources": [
     {
       "company": "Adobe",
       "type": "workday",
-      "status": "error",
-      "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON",
-      "jobCount": 0,
-      "checkedAt": "2026-10-31T06:40:41.205Z"
+      "status": "healthy",
+      "jobCount": 20,
+      "checkedAt": "2026-10-31T13:01:50.772Z"
     },
     {
       "company": "ApplyGuy 2027 New Grad Jobs",
       "type": "applyguy",
       "status": "healthy",
-      "jobCount": 282,
-      "checkedAt": "2026-10-31T06:39:58.394Z"
+      "jobCount": 290,
+      "checkedAt": "2026-10-31T13:01:49.868Z"
     },
     {
       "company": "Aquatic Capital Management",
@@ -35,10 +34,9 @@
     {
       "company": "Cisco",
       "type": "workday",
-      "status": "error",
-      "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON",
-      "jobCount": 0,
-      "checkedAt": "2026-10-31T06:40:41.205Z"
+      "status": "healthy",
+      "jobCount": 20,
+      "checkedAt": "2026-10-31T13:01:50.145Z"
     },
     {
       "company": "Cloudflare",
@@ -128,10 +126,9 @@
     {
       "company": "Medtronic",
       "type": "workday",
-      "status": "error",
-      "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON",
-      "jobCount": 0,
-      "checkedAt": "2026-10-31T06:40:41.205Z"
+      "status": "healthy",
+      "jobCount": 20,
+      "checkedAt": "2026-10-31T13:01:52.020Z"
     },
     {
       "company": "MetLife",
@@ -164,10 +161,9 @@
     {
       "company": "Northrop Grumman",
       "type": "workday",
-      "status": "error",
-      "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON",
-      "jobCount": 0,
-      "checkedAt": "2026-10-31T06:40:41.205Z"
+      "status": "healthy",
+      "jobCount": 20,
+      "checkedAt": "2026-10-31T13:01:50.214Z"
     },
     {
       "company": "Notion",
@@ -179,10 +175,9 @@
     {
       "company": "NVIDIA",
       "type": "workday",
-      "status": "error",
-      "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON",
-      "jobCount": 0,
-      "checkedAt": "2026-10-31T06:40:41.205Z"
+      "status": "healthy",
+      "jobCount": 20,
+      "checkedAt": "2026-10-31T13:01:51.166Z"
     },
     {
       "company": "OpenAI",
@@ -237,8 +232,8 @@
       "company": "Vansh New Grad 2027",
       "type": "markdown",
       "status": "healthy",
-      "jobCount": 661,
-      "checkedAt": "2026-10-31T06:39:58.625Z"
+      "jobCount": 658,
+      "checkedAt": "2026-10-31T13:01:49.894Z"
     },
     {
       "company": "Visa",
