@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-31T17:39:18.773Z",
+  "checkedAt": "2026-10-31T20:39:30.280Z",
   "healthy": 34,
   "errors": 1,
   "sources": [
@@ -183,15 +183,15 @@
       "company": "OpenAI",
       "type": "ashby",
       "status": "healthy",
-      "jobCount": 812,
-      "checkedAt": "2026-10-31T17:38:32.745Z"
+      "jobCount": 810,
+      "checkedAt": "2026-10-31T20:38:49.153Z"
     },
     {
       "company": "Palantir",
       "type": "lever",
       "status": "healthy",
-      "jobCount": 299,
-      "checkedAt": "2026-10-30T17:14:11.900Z"
+      "jobCount": 301,
+      "checkedAt": "2026-10-31T20:38:49.220Z"
     },
     {
       "company": "Point72",
@@ -232,8 +232,8 @@
       "company": "Vansh New Grad 2027",
       "type": "markdown",
       "status": "healthy",
-      "jobCount": 659,
-      "checkedAt": "2026-10-31T17:38:31.630Z"
+      "jobCount": 660,
+      "checkedAt": "2026-10-31T20:38:47.762Z"
     },
     {
       "company": "Visa",
