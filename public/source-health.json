@@ -1,21 +1,22 @@
 {
-  "checkedAt": "2026-10-31T01:00:26.946Z",
-  "healthy": 34,
-  "errors": 1,
+  "checkedAt": "2026-10-31T06:40:42.379Z",
+  "healthy": 29,
+  "errors": 6,
   "sources": [
     {
       "company": "Adobe",
       "type": "workday",
-      "status": "healthy",
-      "jobCount": 20,
-      "checkedAt": "2026-09-28T21:15:52.965Z"
+      "status": "error",
+      "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON",
+      "jobCount": 0,
+      "checkedAt": "2026-10-31T06:40:41.205Z"
     },
     {
       "company": "ApplyGuy 2027 New Grad Jobs",
       "type": "applyguy",
       "status": "healthy",
-      "jobCount": 288,
-      "checkedAt": "2026-10-31T00:59:31.839Z"
+      "jobCount": 282,
+      "checkedAt": "2026-10-31T06:39:58.394Z"
     },
     {
       "company": "Aquatic Capital Management",
@@ -34,16 +35,17 @@
     {
       "company": "Cisco",
       "type": "workday",
-      "status": "healthy",
-      "jobCount": 20,
-      "checkedAt": "2026-09-19T11:26:07.726Z"
+      "status": "error",
+      "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON",
+      "jobCount": 0,
+      "checkedAt": "2026-10-31T06:40:41.205Z"
     },
     {
       "company": "Cloudflare",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 465,
-      "checkedAt": "2026-10-31T00:59:31.741Z"
+      "jobCount": 464,
+      "checkedAt": "2026-10-31T06:39:58.607Z"
     },
     {
       "company": "Cursor",
@@ -120,15 +122,16 @@
       "company": "Lyft",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 168,
-      "checkedAt": "2026-10-31T00:59:31.605Z"
+      "jobCount": 170,
+      "checkedAt": "2026-10-31T06:39:58.391Z"
     },
     {
       "company": "Medtronic",
       "type": "workday",
-      "status": "healthy",
-      "jobCount": 20,
-      "checkedAt": "2026-09-19T11:26:09.515Z"
+      "status": "error",
+      "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON",
+      "jobCount": 0,
+      "checkedAt": "2026-10-31T06:40:41.205Z"
     },
     {
       "company": "MetLife",
@@ -161,9 +164,10 @@
     {
       "company": "Northrop Grumman",
       "type": "workday",
-      "status": "healthy",
-      "jobCount": 20,
-      "checkedAt": "2026-09-19T11:26:07.690Z"
+      "status": "error",
+      "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON",
+      "jobCount": 0,
+      "checkedAt": "2026-10-31T06:40:41.205Z"
     },
     {
       "company": "Notion",
@@ -175,16 +179,17 @@
     {
       "company": "NVIDIA",
       "type": "workday",
-      "status": "healthy",
-      "jobCount": 20,
-      "checkedAt": "2026-09-19T11:26:08.625Z"
+      "status": "error",
+      "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON",
+      "jobCount": 0,
+      "checkedAt": "2026-10-31T06:40:41.205Z"
     },
     {
       "company": "OpenAI",
       "type": "ashby",
       "status": "healthy",
-      "jobCount": 815,
-      "checkedAt": "2026-10-31T00:59:32.294Z"
+      "jobCount": 813,
+      "checkedAt": "2026-10-31T06:39:59.424Z"
     },
     {
       "company": "Palantir",
@@ -204,15 +209,15 @@
       "company": "Roblox",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 267,
-      "checkedAt": "2026-10-31T00:59:32.104Z"
+      "jobCount": 268,
+      "checkedAt": "2026-10-31T06:39:58.819Z"
     },
     {
       "company": "SpaceX",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 2872,
-      "checkedAt": "2026-10-30T21:30:20.659Z"
+      "jobCount": 2874,
+      "checkedAt": "2026-10-31T06:40:00.356Z"
     },
     {
       "company": "Toyota",
@@ -232,8 +237,8 @@
       "company": "Vansh New Grad 2027",
       "type": "markdown",
       "status": "healthy",
-      "jobCount": 665,
-      "checkedAt": "2026-10-31T00:59:32.125Z"
+      "jobCount": 661,
+      "checkedAt": "2026-10-31T06:39:58.625Z"
     },
     {
       "company": "Visa",
