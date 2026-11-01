@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-31T23:41:57.529Z",
+  "checkedAt": "2026-11-01T02:36:59.801Z",
   "healthy": 34,
   "errors": 1,
   "sources": [
@@ -232,8 +232,8 @@
       "company": "Vansh New Grad 2027",
       "type": "markdown",
       "status": "healthy",
-      "jobCount": 660,
-      "checkedAt": "2026-10-31T20:38:47.762Z"
+      "jobCount": 667,
+      "checkedAt": "2026-11-01T02:36:12.570Z"
     },
     {
       "company": "Visa",
