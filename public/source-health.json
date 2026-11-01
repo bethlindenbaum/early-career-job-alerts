@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-01T20:35:56.422Z",
+  "checkedAt": "2026-11-01T23:51:33.983Z",
   "healthy": 34,
   "errors": 1,
   "sources": [
@@ -14,8 +14,8 @@
       "company": "ApplyGuy 2027 New Grad Jobs",
       "type": "applyguy",
       "status": "healthy",
-      "jobCount": 284,
-      "checkedAt": "2026-11-01T20:35:03.186Z"
+      "jobCount": 285,
+      "checkedAt": "2026-11-01T23:50:38.731Z"
     },
     {
       "company": "Aquatic Capital Management",
@@ -91,8 +91,8 @@
       "company": "IMC Trading",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 168,
-      "checkedAt": "2026-10-30T21:30:18.713Z"
+      "jobCount": 166,
+      "checkedAt": "2026-11-01T23:50:38.554Z"
     },
     {
       "company": "Jane Street",
@@ -183,8 +183,8 @@
       "company": "OpenAI",
       "type": "ashby",
       "status": "healthy",
-      "jobCount": 810,
-      "checkedAt": "2026-10-31T20:38:49.153Z"
+      "jobCount": 809,
+      "checkedAt": "2026-11-01T23:50:39.783Z"
     },
     {
       "company": "Palantir",
@@ -232,8 +232,8 @@
       "company": "Vansh New Grad 2027",
       "type": "markdown",
       "status": "healthy",
-      "jobCount": 791,
-      "checkedAt": "2026-11-01T16:19:43.895Z"
+      "jobCount": 792,
+      "checkedAt": "2026-11-01T23:50:38.767Z"
     },
     {
       "company": "Visa",
