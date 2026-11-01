@@ -1,6 +1,71 @@
 {
   "jobs": [
     {
+      "externalId": "markdown-8f06504eb39740b6ef995263a8cea188cc51ef5e",
+      "company": "Northrop Grumman",
+      "title": "Associate Software Engineer 🇺🇸",
+      "location": "Huntsville, AL",
+      "url": "https://go.vansh.nyc/14E?s=A",
+      "description": "",
+      "salary": "",
+      "skills": [],
+      "postedAt": "2026-11-01T09:39:10.620Z",
+      "source": "Vansh New Grad 2027",
+      "earlyCareer": true,
+      "experienceCheck": true,
+      "experienceCheckedAt": "2026-11-01T09:39:13.316Z",
+      "id": "bac58e22-7cae-4e3d-9928-db6f89fa23cc",
+      "status": "review",
+      "discoveredAt": "2026-11-01T09:39:59.020Z"
+    },
+    {
+      "externalId": "applyguy-aa52da8b-17fe-4d79-b0c1-df51183432f3",
+      "company": "NVIDIA",
+      "title": "Software Engineer, Hardware Tools and Methodology - New College Grad 2026",
+      "location": "Santa Clara, CA",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineer--Hardware-Tools-and-Methodology---New-College-Grad-2026_JR2018659",
+      "description": "New Grad explicit",
+      "salary": "",
+      "skills": [],
+      "postedAt": "2026-10-30",
+      "source": "ApplyGuy 2027 feed",
+      "earlyCareer": true,
+      "id": "f27f6201-a4d3-4a42-b7c4-262898197f23",
+      "status": "review",
+      "discoveredAt": "2026-11-01T09:39:59.015Z"
+    },
+    {
+      "externalId": "applyguy-e22e3647-5d38-46e1-aeb7-903d1674af64",
+      "company": "Northrop Grumman",
+      "title": "2027 Associate Software Engineer - Bellevue (NE)",
+      "location": "Huntsville, AL",
+      "url": "https://ngc.wd1.myworkdayjobs.com/northrop_grumman_external_site/job/United-States-Alabama-Huntsville/XMLNAME-2027-Associate-Software-Engineer---Bellevue--NE-_R10258366",
+      "description": "Entry Level entry_level",
+      "salary": "",
+      "skills": [],
+      "postedAt": "2026-11-01",
+      "source": "ApplyGuy 2027 feed",
+      "earlyCareer": true,
+      "id": "014b6295-c29e-4420-bfdb-2ec2dd785b65",
+      "status": "review",
+      "discoveredAt": "2026-11-01T09:39:59.015Z"
+    },
+    {
+      "externalId": "workday-Northrop Grumman-R10258366",
+      "company": "Northrop Grumman",
+      "title": "2027 Associate Software Engineer - Bellevue (NE)",
+      "location": "United States-Alabama-Huntsville",
+      "url": "https://ngc.wd1.myworkdayjobs.com/job/United-States-Alabama-Huntsville/XMLNAME-2027-Associate-Software-Engineer---Bellevue--NE-_R10258366",
+      "description": "",
+      "salary": "",
+      "skills": [],
+      "postedAt": "2026-11-01T09:39:10.908Z",
+      "source": "Workday",
+      "id": "e94808d8-2def-44c8-9466-b7dcc25b9cb4",
+      "status": "review",
+      "discoveredAt": "2026-11-01T09:39:58.987Z"
+    },
+    {
       "externalId": "applyguy-7cf86fbd-f042-4209-b194-7435ab3e738b",
       "company": "Northrop Grumman",
       "title": "Associate Software Engineer - Hollywood (MD)",
@@ -7462,7 +7527,7 @@
       "discoveredAt": "2026-08-18T18:03:53.356Z"
     }
   ],
-  "lastScanAt": "2026-10-31T13:02:31.880Z",
+  "lastScanAt": "2026-11-01T09:39:59.074Z",
   "lastDigestAt": "2026-10-27T22:43:05.227Z",
   "delivery": {
     "smsConfigured": true,
