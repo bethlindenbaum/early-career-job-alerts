@@ -1,6 +1,21 @@
 {
   "jobs": [
     {
+      "externalId": "workday-Northrop Grumman-R10258705",
+      "company": "Northrop Grumman",
+      "title": "2026 Associate Hardware Engineer - San Diego CA",
+      "location": "United States-California-San Diego",
+      "url": "https://ngc.wd1.myworkdayjobs.com/job/United-States-California-San-Diego/XMLNAME-2026-Associate-Hardware-Engineer---San-Diego-CA_R10258705",
+      "description": "",
+      "salary": "",
+      "skills": [],
+      "postedAt": "2026-11-02T10:26:09.671Z",
+      "source": "Workday",
+      "id": "3bc1519e-0372-4702-9a01-756e75b2083a",
+      "status": "review",
+      "discoveredAt": "2026-11-02T10:27:07.739Z"
+    },
+    {
       "externalId": "markdown-08f1d4d644875755b13ffaa4aee125d00da52373",
       "company": "Amazon",
       "title": "Software Development Engineer, Amazon Leo 🇺🇸",
@@ -9165,7 +9180,7 @@
       "discoveredAt": "2026-08-18T18:03:53.356Z"
     }
   ],
-  "lastScanAt": "2026-11-01T16:20:43.708Z",
+  "lastScanAt": "2026-11-02T10:27:07.838Z",
   "lastDigestAt": "2026-11-01T23:51:33.940Z",
   "delivery": {
     "smsConfigured": true,
