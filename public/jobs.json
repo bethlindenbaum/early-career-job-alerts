@@ -1,6 +1,51 @@
 {
   "jobs": [
     {
+      "externalId": "workday-Northrop Grumman-R10257908",
+      "company": "Northrop Grumman",
+      "title": "Associate Software Engineer - Boulder CO",
+      "location": "United States-Colorado-Boulder",
+      "url": "https://ngc.wd1.myworkdayjobs.com/job/United-States-Colorado-Boulder/XMLNAME-2027-Associate-Software-Engineer---Boulder-CO_R10257908",
+      "description": "",
+      "salary": "",
+      "skills": [],
+      "postedAt": "2026-11-03T22:24:02.454Z",
+      "source": "Workday",
+      "id": "4c97be0d-e291-46e0-acbd-c414f618daf4",
+      "status": "review",
+      "discoveredAt": "2026-11-03T22:24:59.854Z"
+    },
+    {
+      "externalId": "workday-Northrop Grumman-R10257912",
+      "company": "Northrop Grumman",
+      "title": "Associate Software Engineer - Colorado Springs",
+      "location": "United States-Colorado-Colorado Springs",
+      "url": "https://ngc.wd1.myworkdayjobs.com/job/United-States-Colorado-Colorado-Springs/Associate-Software-Engineer---Colorado-Springs_R10257912",
+      "description": "",
+      "salary": "",
+      "skills": [],
+      "postedAt": "2026-11-03T22:24:02.454Z",
+      "source": "Workday",
+      "id": "70e26fd4-f798-40d3-ae41-68a7a4ef283c",
+      "status": "review",
+      "discoveredAt": "2026-11-03T22:24:59.854Z"
+    },
+    {
+      "externalId": "workday-Northrop Grumman-R10259133",
+      "company": "Northrop Grumman",
+      "title": "2027 Associate Electrical Engineer - San Diego CA",
+      "location": "United States-California-San Diego",
+      "url": "https://ngc.wd1.myworkdayjobs.com/job/United-States-California-San-Diego/XMLNAME-2027-Associate-Electrical-Engineer---San-Diego-CA_R10259133",
+      "description": "",
+      "salary": "",
+      "skills": [],
+      "postedAt": "2026-11-03T22:24:02.454Z",
+      "source": "Workday",
+      "id": "0c77be90-971f-4a4e-8570-a99284191f90",
+      "status": "review",
+      "discoveredAt": "2026-11-03T22:24:59.854Z"
+    },
+    {
       "externalId": "markdown-d3441c062c1fe4185c8ebde5f79787a2a92dba2a",
       "company": "Micron Technology",
       "title": "Engineer, Edge Systems Architecture",
@@ -9216,7 +9261,7 @@
       "discoveredAt": "2026-08-18T18:03:53.356Z"
     }
   ],
-  "lastScanAt": "2026-11-03T17:25:00.989Z",
+  "lastScanAt": "2026-11-03T22:24:59.940Z",
   "lastDigestAt": "2026-11-01T23:51:33.940Z",
   "delivery": {
     "smsConfigured": true,
