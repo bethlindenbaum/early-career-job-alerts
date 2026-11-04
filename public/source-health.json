@@ -1,7 +1,7 @@
 {
-  "checkedAt": "2026-11-04T02:30:01.137Z",
-  "healthy": 34,
-  "errors": 1,
+  "checkedAt": "2026-11-04T17:30:31.509Z",
+  "healthy": 33,
+  "errors": 2,
   "sources": [
     {
       "company": "Adobe",
@@ -14,8 +14,8 @@
       "company": "ApplyGuy 2027 New Grad Jobs",
       "type": "applyguy",
       "status": "healthy",
-      "jobCount": 288,
-      "checkedAt": "2026-11-04T02:29:08.649Z"
+      "jobCount": 289,
+      "checkedAt": "2026-11-04T17:29:10.780Z"
     },
     {
       "company": "Aquatic Capital Management",
@@ -42,29 +42,29 @@
       "company": "Cloudflare",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 468,
-      "checkedAt": "2026-11-04T02:29:09.252Z"
+      "jobCount": 464,
+      "checkedAt": "2026-11-04T17:29:11.532Z"
     },
     {
       "company": "Cursor",
       "type": "ashby",
       "status": "healthy",
-      "jobCount": 118,
-      "checkedAt": "2026-11-03T22:24:01.691Z"
+      "jobCount": 119,
+      "checkedAt": "2026-11-04T17:29:10.882Z"
     },
     {
       "company": "Databricks",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 914,
-      "checkedAt": "2026-11-04T02:29:09.422Z"
+      "jobCount": 926,
+      "checkedAt": "2026-11-04T17:29:11.891Z"
     },
     {
       "company": "Datadog",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 400,
-      "checkedAt": "2026-11-04T02:29:08.990Z"
+      "jobCount": 395,
+      "checkedAt": "2026-11-04T17:29:11.353Z"
     },
     {
       "company": "Dropbox",
@@ -77,22 +77,22 @@
       "company": "Epic Games",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 138,
-      "checkedAt": "2026-11-03T17:23:57.119Z"
+      "jobCount": 140,
+      "checkedAt": "2026-11-04T17:29:10.910Z"
     },
     {
       "company": "Hudl",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 42,
-      "checkedAt": "2026-11-03T17:23:57.017Z"
+      "jobCount": 43,
+      "checkedAt": "2026-11-04T17:29:10.738Z"
     },
     {
       "company": "IMC Trading",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 158,
-      "checkedAt": "2026-11-03T09:50:42.370Z"
+      "jobCount": 157,
+      "checkedAt": "2026-11-04T17:29:10.934Z"
     },
     {
       "company": "Jane Street",
@@ -120,8 +120,8 @@
       "company": "Lyft",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 177,
-      "checkedAt": "2026-11-04T02:29:08.699Z"
+      "jobCount": 178,
+      "checkedAt": "2026-11-04T17:29:10.976Z"
     },
     {
       "company": "Medtronic",
@@ -183,22 +183,22 @@
       "company": "OpenAI",
       "type": "ashby",
       "status": "healthy",
-      "jobCount": 811,
-      "checkedAt": "2026-11-04T02:29:09.582Z"
+      "jobCount": 818,
+      "checkedAt": "2026-11-04T17:29:11.718Z"
     },
     {
       "company": "Palantir",
       "type": "lever",
       "status": "healthy",
-      "jobCount": 305,
-      "checkedAt": "2026-11-03T22:24:03.973Z"
+      "jobCount": 309,
+      "checkedAt": "2026-11-04T17:29:17.458Z"
     },
     {
       "company": "Point72",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 198,
-      "checkedAt": "2026-11-03T22:24:02.206Z"
+      "jobCount": 197,
+      "checkedAt": "2026-11-04T17:29:11.024Z"
     },
     {
       "company": "Roblox",
@@ -211,8 +211,8 @@
       "company": "SpaceX",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 2883,
-      "checkedAt": "2026-11-04T02:29:10.246Z"
+      "jobCount": 2888,
+      "checkedAt": "2026-11-04T17:29:12.668Z"
     },
     {
       "company": "Toyota",
@@ -232,8 +232,8 @@
       "company": "Vansh New Grad 2027",
       "type": "markdown",
       "status": "healthy",
-      "jobCount": 749,
-      "checkedAt": "2026-11-04T02:29:08.667Z"
+      "jobCount": 752,
+      "checkedAt": "2026-11-04T17:29:11.133Z"
     },
     {
       "company": "Visa",
@@ -245,9 +245,10 @@
     {
       "company": "Zapply Hardware & Systems Engineering",
       "type": "markdown",
-      "status": "healthy",
-      "jobCount": 100,
-      "checkedAt": "2026-08-19T10:38:49.692Z"
+      "status": "error",
+      "message": "Zapply Hardware & Systems Engineering: 503",
+      "jobCount": 0,
+      "checkedAt": "2026-11-04T17:30:30.867Z"
     }
   ]
 }

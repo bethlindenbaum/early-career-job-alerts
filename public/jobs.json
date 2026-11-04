@@ -1,6 +1,36 @@
 {
   "jobs": [
     {
+      "externalId": "workday-Northrop Grumman-R10259232",
+      "company": "Northrop Grumman",
+      "title": "2027 Associate Electrical Engineer - Dulles VA",
+      "location": "United States-Virginia-Dulles",
+      "url": "https://ngc.wd1.myworkdayjobs.com/job/United-States-Virginia-Dulles/XMLNAME-2027-Associate-Electrical-Engineer---Dulles-VA_R10259232",
+      "description": "",
+      "salary": "",
+      "skills": [],
+      "postedAt": "2026-11-04T17:29:11.534Z",
+      "source": "Workday",
+      "id": "c2df0e33-58fc-4831-bb73-28554af602a3",
+      "status": "review",
+      "discoveredAt": "2026-11-04T17:30:30.791Z"
+    },
+    {
+      "externalId": "workday-Northrop Grumman-R10259240",
+      "company": "Northrop Grumman",
+      "title": "2027 Electrical Engineer - Analog & Power Electronics - Dulles VA",
+      "location": "United States-Virginia-Dulles",
+      "url": "https://ngc.wd1.myworkdayjobs.com/job/United-States-Virginia-Dulles/XMLNAME-2027-Electrical-Engineer---Analog---Power-Electronics---Dulles-VA_R10259240",
+      "description": "",
+      "salary": "",
+      "skills": [],
+      "postedAt": "2026-11-04T17:29:11.534Z",
+      "source": "Workday",
+      "id": "f724be64-6c20-4673-a445-f14848151a0c",
+      "status": "review",
+      "discoveredAt": "2026-11-04T17:30:30.791Z"
+    },
+    {
       "externalId": "markdown-47d4704d3653af221a2f92aa4de241d594636b7d",
       "company": "Deloitte",
       "title": "New Grad 2027: Tax Technology Services Consultant",
@@ -9297,7 +9327,7 @@
       "discoveredAt": "2026-08-18T18:03:53.356Z"
     }
   ],
-  "lastScanAt": "2026-11-04T02:30:00.898Z",
+  "lastScanAt": "2026-11-04T17:30:30.867Z",
   "lastDigestAt": "2026-11-01T23:51:33.940Z",
   "delivery": {
     "smsConfigured": true,
