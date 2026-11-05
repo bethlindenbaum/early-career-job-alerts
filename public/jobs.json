@@ -1,6 +1,24 @@
 {
   "jobs": [
     {
+      "externalId": "markdown-de032b6bf48595e57ab7388562cf4457975b7343",
+      "company": "Northrop Grumman",
+      "title": "Electrical Engineer - Digital Hardware Design (Master's) 🇺🇸",
+      "location": "Dulles, VA",
+      "url": "https://go.vansh.nyc/1hF?s=A",
+      "description": "",
+      "salary": "",
+      "skills": [],
+      "postedAt": "2026-11-05T09:53:39.955Z",
+      "source": "Vansh New Grad 2027",
+      "earlyCareer": true,
+      "experienceCheck": true,
+      "experienceCheckedAt": "2026-11-05T09:53:43.848Z",
+      "id": "db8dd5f7-f15f-4f51-9d41-d77878d46264",
+      "status": "review",
+      "discoveredAt": "2026-11-05T09:54:40.793Z"
+    },
+    {
       "externalId": "markdown-c2843ec38e72808bf95f6daf2d4a4e0f8fa17369",
       "company": "Cisco",
       "title": "Software Engineer Full Stack / Backend I",
@@ -9345,7 +9363,7 @@
       "discoveredAt": "2026-08-18T18:03:53.356Z"
     }
   ],
-  "lastScanAt": "2026-11-05T02:50:34.743Z",
+  "lastScanAt": "2026-11-05T09:54:40.843Z",
   "lastDigestAt": "2026-11-01T23:51:33.940Z",
   "delivery": {
     "smsConfigured": true,
