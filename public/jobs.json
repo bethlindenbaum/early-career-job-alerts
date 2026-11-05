@@ -1,6 +1,24 @@
 {
   "jobs": [
     {
+      "externalId": "markdown-c2843ec38e72808bf95f6daf2d4a4e0f8fa17369",
+      "company": "Cisco",
+      "title": "Software Engineer Full Stack / Backend I",
+      "location": "Austin, TX",
+      "url": "https://go.vansh.nyc/1hr?s=A",
+      "description": "",
+      "salary": "",
+      "skills": [],
+      "postedAt": "2026-11-05T02:49:19.437Z",
+      "source": "Vansh New Grad 2027",
+      "earlyCareer": true,
+      "experienceCheck": true,
+      "experienceCheckedAt": "2026-11-05T02:49:31.015Z",
+      "id": "7155d8f0-816d-47be-a21d-da6693004a59",
+      "status": "review",
+      "discoveredAt": "2026-11-05T02:50:34.684Z"
+    },
+    {
       "externalId": "workday-Northrop Grumman-R10259232",
       "company": "Northrop Grumman",
       "title": "2027 Associate Electrical Engineer - Dulles VA",
@@ -9327,7 +9345,7 @@
       "discoveredAt": "2026-08-18T18:03:53.356Z"
     }
   ],
-  "lastScanAt": "2026-11-04T17:30:30.867Z",
+  "lastScanAt": "2026-11-05T02:50:34.743Z",
   "lastDigestAt": "2026-11-01T23:51:33.940Z",
   "delivery": {
     "smsConfigured": true,
