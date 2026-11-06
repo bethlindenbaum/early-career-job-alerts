@@ -1,6 +1,24 @@
 {
   "jobs": [
     {
+      "externalId": "markdown-4b160c1072d1dc84d414751768e90ab2fc6e62d0",
+      "company": "Charles Schwab",
+      "title": "Associate Software Development & Engineering",
+      "location": "Austin, TX Southlake, TX",
+      "url": "https://go.vansh.nyc/1ky?s=A",
+      "description": "Associate - Software Development Engineering in Southlake, Texas | Careers at TX430016 - TDS DFW CAMPUS AT SOUTHLAKE TX Charles Schwab Corporation Please Enable Cookies to Continue Please enable cookies in your browser to experience all the personalized features of this site, including the ability to apply for a job. Welcome page Returning Candidate? Log in Associate - Software Development Engineering Job Locations US-TX-Southlake | US-TX-Austin Requisition ID 2026-129593 Posted Date 2 hours ago (11/6/2026 3:00 PM) Category Engineering Software Development Salary Range USD $27.60 - $52.74 / Hour Application deadline 11/9/2026 Your Opportunity At Schwab, you&rsquo;re empowered to make an impact on your career. Here, innovative thought meets creative problem-solving, helping us &ldquo;challenge the status quo&rdquo; and transform the finance industry together. We believe in the importance of in-office collaboration and fully intend for the selected candidate for this role to work on-site in the specified location(s). As an Associate Software Development Engineer in the New Employee Recruitment Development (N.E.R.D.) Program, you&rsquo;ll join a nine-month development experience designed for early-career technology talent seeking to build a career in software engineering. Through formal training, mentorship, certification opportunities, hands-on engineering work, and ongoing knowledge sharing, you&rsquo;ll strengthen your technical expertise while gaining exposure to the people, platforms, and processes that power Schwab Technology Services. In this role, you&rsquo;ll contribute to meaningful technology initiatives that help Schwab deliver innovative, client-centric solutions. Working alongside experienced engineers in a collaborative, Agile environment, you&rsquo;ll participate in the Software Development Life Cycle by evaluating requirements, designing solutions, developing and testing code, and supporting the deployment of technology enhancements. Opportunities are available across front-end, back-end, and full-stack engineering teams, giving you the chance to apply your strengths while continuing to explore and develop new technical capabilities. What you have Required Qualifications Available to start full-time on February 1, 2027. Bachelor&rsquo;s or Master&rsquo;s degree in Computer Science, Management Information Systems, a related discipline, or completion of a coding bootcamp or similar technical training program. Foundational knowledge of software development practices, including writing, testing, debugging, and improving code. Understanding of Software Development Life Cycle concepts, including requirements analysis, solution design, development, testing, and deployment. Demonstrated ability to apply analytical thinking, problem-solving techniques, and fundamental data structure and algorithm concepts. Experience gained through coursework, projects, internships, work experience, or technical training in modern software development. Ability to collaborate effectively within Agile teams while communicating technical concepts clearly and professionally. Currently authorized to work in the United States on a full-time basis without employer sponsorship. Preferred Qualifications Familiarity with building or consuming application interfaces and services that enable systems to exchange information and functionality. Exposure to user-focused application design, digital experiences, web technologies, or mobile development concepts. Understanding of database concepts, data modeling principles, and working with structured data environments. Demonstrated curiosity, learning agility, and enthusiasm for exploring new technologies, tools, and approaches to solving complex problems. Evidence of leadership potential through academic projects, internships, work experience, volunteer activities, student organizations, technical initiatives, or other meaningful experiences. Interest in continuous learning, professional development, and building technical expertise in a collaborative engineering environment. #campus Options Apply for this job Apply Share Refer a friend Refer Sorry the Share function is not working properly at this moment. Please refresh the page and try again later. Share on your newsfeed What’s in it for you At Schwab, you’re empowered to shape your future. We champion your growth through meaningful work, continuous learning, and a culture of trust and collaboration—so you can build the skills to make a lasting impact. Our Hybrid Work and Flexibility approach balances our ongoing commitment to workplace flexibility, serving our clients, and our strong belief in the value of being together in person on a regular basis. We offer a competitive benefits package that takes care of the whole you – both today and in the future: 401(k) with company match and Employee stock purchase plan Paid time for vacation, volunteering, and 28-day sabbatical after every 5 years of service for eligible positions Paid parental leave and family building benefits Tuition reimbursement Health, dental, and vision insurance Application FAQs Software Powered by ICIMS www.icims.com",
+      "salary": "",
+      "skills": [],
+      "postedAt": "2026-11-06T17:24:04.260Z",
+      "source": "Vansh New Grad 2027",
+      "earlyCareer": true,
+      "experienceCheck": true,
+      "experienceCheckedAt": "2026-11-06T17:24:07.693Z",
+      "id": "71c93d3b-b3e9-4489-af24-9b6e92ef1ce3",
+      "status": "review",
+      "discoveredAt": "2026-11-06T17:25:07.015Z"
+    },
+    {
       "externalId": "markdown-8900cbd2406dc74523dedc9373a159ca26f70e78",
       "company": "Amazon",
       "title": "Software Development Engineer, SoC Hardware Abstraction Layer",
@@ -9413,7 +9431,7 @@
       "discoveredAt": "2026-08-18T18:03:53.356Z"
     }
   ],
-  "lastScanAt": "2026-11-06T10:04:30.067Z",
+  "lastScanAt": "2026-11-06T17:25:07.078Z",
   "lastDigestAt": "2026-11-01T23:51:33.940Z",
   "delivery": {
     "smsConfigured": true,
