@@ -1,6 +1,24 @@
 {
   "jobs": [
     {
+      "externalId": "markdown-926b36b3e5dfc13922e31db688591d3f43983c56",
+      "company": "Cisco",
+      "title": "Software Engineer Embedded Systems I",
+      "location": "San Jose, CA",
+      "url": "https://go.vansh.nyc/1lU?s=A",
+      "description": "",
+      "salary": "",
+      "skills": [],
+      "postedAt": "2026-11-07T01:55:54.298Z",
+      "source": "Vansh New Grad 2027",
+      "earlyCareer": true,
+      "experienceCheck": true,
+      "experienceCheckedAt": "2026-11-07T01:55:56.892Z",
+      "id": "db250bf9-e7be-4a14-bd86-edf35bc41a6a",
+      "status": "review",
+      "discoveredAt": "2026-11-07T01:56:46.103Z"
+    },
+    {
       "externalId": "markdown-4b160c1072d1dc84d414751768e90ab2fc6e62d0",
       "company": "Charles Schwab",
       "title": "Associate Software Development & Engineering",
@@ -9431,7 +9449,7 @@
       "discoveredAt": "2026-08-18T18:03:53.356Z"
     }
   ],
-  "lastScanAt": "2026-11-06T17:25:07.078Z",
+  "lastScanAt": "2026-11-07T01:56:46.164Z",
   "lastDigestAt": "2026-11-01T23:51:33.940Z",
   "delivery": {
     "smsConfigured": true,
