@@ -1,7 +1,7 @@
 {
-  "checkedAt": "2026-11-08T08:01:06.737Z",
-  "healthy": 34,
-  "errors": 1,
+  "checkedAt": "2026-11-08T14:50:22.747Z",
+  "healthy": 32,
+  "errors": 3,
   "sources": [
     {
       "company": "Adobe",
@@ -133,9 +133,10 @@
     {
       "company": "MetLife",
       "type": "lever",
-      "status": "healthy",
-      "jobCount": 39,
-      "checkedAt": "2026-11-05T02:49:19.413Z"
+      "status": "error",
+      "message": "The operation was aborted due to timeout",
+      "jobCount": 0,
+      "checkedAt": "2026-11-08T14:50:22.697Z"
     },
     {
       "company": "Microchip",
@@ -183,15 +184,16 @@
       "company": "OpenAI",
       "type": "ashby",
       "status": "healthy",
-      "jobCount": 818,
-      "checkedAt": "2026-11-08T08:00:02.522Z"
+      "jobCount": 815,
+      "checkedAt": "2026-11-08T14:48:58.999Z"
     },
     {
       "company": "Palantir",
       "type": "lever",
-      "status": "healthy",
-      "jobCount": 305,
-      "checkedAt": "2026-11-06T17:24:06.542Z"
+      "status": "error",
+      "message": "The operation was aborted due to timeout",
+      "jobCount": 0,
+      "checkedAt": "2026-11-08T14:50:22.697Z"
     },
     {
       "company": "Point72",
@@ -232,8 +234,8 @@
       "company": "Vansh New Grad 2027",
       "type": "markdown",
       "status": "healthy",
-      "jobCount": 783,
-      "checkedAt": "2026-11-08T01:47:22.528Z"
+      "jobCount": 785,
+      "checkedAt": "2026-11-08T14:48:58.379Z"
     },
     {
       "company": "Visa",
