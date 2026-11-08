@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-08T01:48:23.231Z",
+  "checkedAt": "2026-11-08T08:01:06.737Z",
   "healthy": 34,
   "errors": 1,
   "sources": [
@@ -14,8 +14,8 @@
       "company": "ApplyGuy 2027 New Grad Jobs",
       "type": "applyguy",
       "status": "healthy",
-      "jobCount": 297,
-      "checkedAt": "2026-11-08T01:47:22.618Z"
+      "jobCount": 295,
+      "checkedAt": "2026-11-08T08:00:01.634Z"
     },
     {
       "company": "Aquatic Capital Management",
@@ -120,8 +120,8 @@
       "company": "Lyft",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 167,
-      "checkedAt": "2026-11-06T10:03:23.471Z"
+      "jobCount": 166,
+      "checkedAt": "2026-11-08T08:00:01.719Z"
     },
     {
       "company": "Medtronic",
@@ -148,8 +148,8 @@
       "company": "MongoDB",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 375,
-      "checkedAt": "2026-11-07T01:55:54.886Z"
+      "jobCount": 374,
+      "checkedAt": "2026-11-08T08:00:02.115Z"
     },
     {
       "company": "Nintendo",
@@ -183,8 +183,8 @@
       "company": "OpenAI",
       "type": "ashby",
       "status": "healthy",
-      "jobCount": 819,
-      "checkedAt": "2026-11-07T19:00:13.480Z"
+      "jobCount": 818,
+      "checkedAt": "2026-11-08T08:00:02.522Z"
     },
     {
       "company": "Palantir",
@@ -211,8 +211,8 @@
       "company": "SpaceX",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 2899,
-      "checkedAt": "2026-11-07T22:39:23.576Z"
+      "jobCount": 2900,
+      "checkedAt": "2026-11-08T08:00:03.605Z"
     },
     {
       "company": "Toyota",
