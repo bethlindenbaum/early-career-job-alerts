@@ -1,6 +1,24 @@
 {
   "jobs": [
     {
+      "externalId": "markdown-ed7fae9c721fad1e2e38a4c1ebe597c170e70d12",
+      "company": "Charles Schwab",
+      "title": "Jr. Software Developer",
+      "location": "Omaha, NE",
+      "url": "https://go.vansh.nyc/1nb?s=A",
+      "description": "Finance, Service, Engineering, Developer Jobs | Schwab Jobs --> Skip to main content Search jobs Menu About Us About Us Charles Schwab How We Hire FAQ Back Career Areas Career Areas Career Areas Overview Client Service Technology Retail Branch Risk & Regulatory Back Life at Schwab Life at Schwab Schwab Stories Locations Benefits Diversity and Inclusion Back Early Careers Early Careers Early Careers Overview Interns NERD Program Financial Consultant Academy Advice Academy Back Joining Schwab Joining Schwab Events Join Our Talent Network Back Saved Jobs (0) Returning candidate login close Search Jobs Keyword(s) Location Search Charles Schwab We can help you find your fit, so your career can fit your goals. Let&#x27;s connect. Facebook Instagram Glassdoor LinkedIn Join our talent network Sign up Explore our upcoming events View events Returning candidate? Log in Schwab is committed to building an inclusive workplace where everyone feels valued. As an Equal Opportunity Employer, our policy is to provide equal employment opportunities to all employees and applicants without regard to protected veteran or disability status, or any individual’s status in any group or class protected by law. Click here to see the policy. If you have a disability and require reasonable accommodations in the application process, contact Human Resources at applicantaccessibility@schwab.com or call 800-275-1281. This site is designed for U.S. residents. Non-U.S. residents are subject to country-specific restrictions. Learn more about our services for non-U.S. residents . © 2025 Charles Schwab & Co., Inc, All rights reserved. Member SIPC . Unauthorized access is prohibited. Usage will be monitored. Sitemap Additional Schwab Sites Equal Opportunity Employer Candidate Privacy Notice Cookie Management Charles Schwab Corporation Schwab.com Overview Who We Are What We Do",
+      "salary": "",
+      "skills": [],
+      "postedAt": "2026-11-08T22:53:26.986Z",
+      "source": "Vansh New Grad 2027",
+      "earlyCareer": true,
+      "experienceCheck": true,
+      "experienceCheckedAt": "2026-11-08T22:53:31.498Z",
+      "id": "94313623-877b-4539-8373-a4a4e5814b64",
+      "status": "review",
+      "discoveredAt": "2026-11-08T22:54:18.698Z"
+    },
+    {
       "externalId": "markdown-d8b2d80da7dcb3e675ecd70ab8a0cf06d5f8a87a",
       "company": "NVIDIA",
       "title": "ASIC Clocks Verification Engineer (Master's)",
@@ -9611,7 +9629,7 @@
       "discoveredAt": "2026-08-18T18:03:53.356Z"
     }
   ],
-  "lastScanAt": "2026-11-07T07:58:40.443Z",
+  "lastScanAt": "2026-11-08T22:54:18.760Z",
   "lastDigestAt": "2026-11-01T23:51:33.940Z",
   "delivery": {
     "smsConfigured": true,
