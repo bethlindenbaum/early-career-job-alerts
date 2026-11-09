@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-08T22:54:18.957Z",
+  "checkedAt": "2026-11-09T02:10:38.118Z",
   "healthy": 34,
   "errors": 1,
   "sources": [
@@ -14,8 +14,8 @@
       "company": "ApplyGuy 2027 New Grad Jobs",
       "type": "applyguy",
       "status": "healthy",
-      "jobCount": 296,
-      "checkedAt": "2026-11-08T22:53:27.027Z"
+      "jobCount": 293,
+      "checkedAt": "2026-11-09T02:09:27.676Z"
     },
     {
       "company": "Aquatic Capital Management",
@@ -63,8 +63,8 @@
       "company": "Datadog",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 401,
-      "checkedAt": "2026-11-08T01:47:22.281Z"
+      "jobCount": 402,
+      "checkedAt": "2026-11-09T02:09:27.673Z"
     },
     {
       "company": "Dropbox",
@@ -84,8 +84,8 @@
       "company": "Hudl",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 48,
-      "checkedAt": "2026-11-06T10:03:23.246Z"
+      "jobCount": 47,
+      "checkedAt": "2026-11-09T02:09:27.189Z"
     },
     {
       "company": "IMC Trading",
@@ -183,8 +183,8 @@
       "company": "OpenAI",
       "type": "ashby",
       "status": "healthy",
-      "jobCount": 816,
-      "checkedAt": "2026-11-08T19:11:13.438Z"
+      "jobCount": 817,
+      "checkedAt": "2026-11-09T02:09:28.530Z"
     },
     {
       "company": "Palantir",
@@ -211,8 +211,8 @@
       "company": "SpaceX",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 2902,
-      "checkedAt": "2026-11-08T22:53:28.891Z"
+      "jobCount": 2907,
+      "checkedAt": "2026-11-09T02:09:38.054Z"
     },
     {
       "company": "Toyota",
@@ -232,8 +232,8 @@
       "company": "Vansh New Grad 2027",
       "type": "markdown",
       "status": "healthy",
-      "jobCount": 788,
-      "checkedAt": "2026-11-08T22:53:27.005Z"
+      "jobCount": 792,
+      "checkedAt": "2026-11-09T02:09:27.724Z"
     },
     {
       "company": "Visa",
