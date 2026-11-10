@@ -1,6 +1,39 @@
 {
   "jobs": [
     {
+      "externalId": "markdown-b0ce43f0a897e7c130422031c22f0c614c0fef5a",
+      "company": "Cursor",
+      "title": "New Grad 2027: Software Engineer",
+      "location": "San Francisco, CA",
+      "url": "https://go.vansh.nyc/1qa?s=A",
+      "description": "",
+      "salary": "",
+      "skills": [],
+      "postedAt": "2026-11-10T10:27:17.584Z",
+      "source": "Vansh New Grad 2027",
+      "earlyCareer": true,
+      "experienceCheck": true,
+      "id": "c487af81-0fdf-41b2-bc3d-1978b5fc3caf",
+      "status": "review",
+      "discoveredAt": "2026-11-10T10:28:15.881Z"
+    },
+    {
+      "externalId": "applyguy-custom:microsoft:d2d0d1ae97807cdaa948",
+      "company": "Microsoft",
+      "title": "Software Engineering",
+      "location": "Redmond, WA",
+      "url": "https://apply.careers.microsoft.com/careers/job/1970393557039397",
+      "description": "Entry Level entry_level",
+      "salary": "",
+      "skills": [],
+      "postedAt": "2026-11-09",
+      "source": "ApplyGuy 2027 feed",
+      "earlyCareer": true,
+      "id": "cf6e72c5-cffe-4bb3-9b41-0c7fd2ead2bc",
+      "status": "review",
+      "discoveredAt": "2026-11-10T10:28:15.877Z"
+    },
+    {
       "externalId": "workday-Northrop Grumman-R10259145",
       "company": "Northrop Grumman",
       "title": "2027 Associate Electrical Engineers - Plymouth MN",
@@ -9644,7 +9677,7 @@
       "discoveredAt": "2026-08-18T18:03:53.356Z"
     }
   ],
-  "lastScanAt": "2026-11-10T02:41:42.221Z",
+  "lastScanAt": "2026-11-10T10:28:15.931Z",
   "lastDigestAt": "2026-11-01T23:51:33.940Z",
   "delivery": {
     "smsConfigured": true,
