@@ -1,6 +1,21 @@
 {
   "jobs": [
     {
+      "externalId": "workday-Northrop Grumman-R10259145",
+      "company": "Northrop Grumman",
+      "title": "2027 Associate Electrical Engineers - Plymouth MN",
+      "location": "United States-Minnesota-Plymouth",
+      "url": "https://ngc.wd1.myworkdayjobs.com/job/United-States-Minnesota-Plymouth/XMLNAME-2027-Associate-Electrical-Engineers---Plymouth-MN_R10259145",
+      "description": "",
+      "salary": "",
+      "skills": [],
+      "postedAt": "2026-11-10T02:40:44.348Z",
+      "source": "Workday",
+      "id": "1803a8bf-b9ca-44b1-b2f9-60bfb313062e",
+      "status": "review",
+      "discoveredAt": "2026-11-10T02:41:42.149Z"
+    },
+    {
       "externalId": "markdown-ed7fae9c721fad1e2e38a4c1ebe597c170e70d12",
       "company": "Charles Schwab",
       "title": "Jr. Software Developer",
@@ -9629,7 +9644,7 @@
       "discoveredAt": "2026-08-18T18:03:53.356Z"
     }
   ],
-  "lastScanAt": "2026-11-08T22:54:18.760Z",
+  "lastScanAt": "2026-11-10T02:41:42.221Z",
   "lastDigestAt": "2026-11-01T23:51:33.940Z",
   "delivery": {
     "smsConfigured": true,
