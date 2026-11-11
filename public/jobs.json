@@ -1,6 +1,22 @@
 {
   "jobs": [
     {
+      "externalId": "applyguy-custom:amazon:4f5244e3b5ae28ec2b8a",
+      "company": "Amazon",
+      "title": "Software Development Engineer I, Inference models optimization, AWS Neuron Inference",
+      "location": "Cupertino, CA",
+      "url": "https://www.amazon.jobs/en/jobs/10598223/software-development-engineer-i-inference-models-optimization-aws-neuron-inference",
+      "description": "Entry Level entry_level",
+      "salary": "",
+      "skills": [],
+      "postedAt": "2026-11-10",
+      "source": "ApplyGuy 2027 feed",
+      "earlyCareer": true,
+      "id": "94aacab4-7e17-41cb-8923-795537bc3e8e",
+      "status": "review",
+      "discoveredAt": "2026-11-11T23:40:53.406Z"
+    },
+    {
       "externalId": "markdown-6b1169a3e69acf8493ee2eb6523b6c97dc21e927",
       "company": "Northrop Grumman",
       "title": "2026 Associate Electrical Engineering/ Electrical Engineering - Wallops VA",
@@ -9777,8 +9793,8 @@
       "discoveredAt": "2026-08-18T18:03:53.356Z"
     }
   ],
-  "lastScanAt": "2026-11-11T02:45:12.432Z",
-  "lastDigestAt": "2026-11-10T23:10:37.759Z",
+  "lastScanAt": "2026-11-11T23:40:53.446Z",
+  "lastDigestAt": "2026-11-11T23:40:54.037Z",
   "delivery": {
     "smsConfigured": true,
     "emailConfigured": true
