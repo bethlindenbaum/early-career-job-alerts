@@ -1,6 +1,38 @@
 {
   "jobs": [
     {
+      "externalId": "applyguy-90ddd20e-4661-4f8a-b371-0c434bd41184",
+      "company": "Northrop Grumman",
+      "title": "2027 Associate Software Engineer - Pathways - Colorado Springs",
+      "location": "Colorado Springs, CO",
+      "url": "https://ngc.wd1.myworkdayjobs.com/northrop_grumman_external_site/job/United-States-Colorado-Colorado-Springs/XMLNAME-2027-Associate-Software-Engineer---Pathways---Colorado-Springs_R10260174",
+      "description": "Entry Level entry_level",
+      "salary": "",
+      "skills": [],
+      "postedAt": "2026-11-11",
+      "source": "ApplyGuy 2027 feed",
+      "earlyCareer": true,
+      "id": "30595b7b-b1ff-4691-b21f-773647e0ae15",
+      "status": "review",
+      "discoveredAt": "2026-11-12T12:44:28.192Z"
+    },
+    {
+      "externalId": "applyguy-b22543e4-4070-42b6-bd80-663762b230cb",
+      "company": "Northrop Grumman",
+      "title": "2027 Associate Software Engineer - Pathways - Boulder CO",
+      "location": "Boulder, CO",
+      "url": "https://ngc.wd1.myworkdayjobs.com/northrop_grumman_external_site/job/United-States-Colorado-Boulder/XMLNAME-2027-Associate-Software-Engineer---Pathways---Boulder-CO_R10260171",
+      "description": "Entry Level entry_level",
+      "salary": "",
+      "skills": [],
+      "postedAt": "2026-11-11",
+      "source": "ApplyGuy 2027 feed",
+      "earlyCareer": true,
+      "id": "2e326550-746c-4433-89c5-d8d60ca0273d",
+      "status": "review",
+      "discoveredAt": "2026-11-12T12:44:28.192Z"
+    },
+    {
       "externalId": "applyguy-custom:amazon:4f5244e3b5ae28ec2b8a",
       "company": "Amazon",
       "title": "Software Development Engineer I, Inference models optimization, AWS Neuron Inference",
@@ -9793,7 +9825,7 @@
       "discoveredAt": "2026-08-18T18:03:53.356Z"
     }
   ],
-  "lastScanAt": "2026-11-11T23:40:53.446Z",
+  "lastScanAt": "2026-11-12T12:44:28.257Z",
   "lastDigestAt": "2026-11-11T23:40:54.037Z",
   "delivery": {
     "smsConfigured": true,
