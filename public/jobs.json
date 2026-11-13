@@ -1,6 +1,60 @@
 {
   "jobs": [
     {
+      "externalId": "markdown-8f9bf8a045f57bd2fa893b743762226091540719",
+      "company": "Northrop Grumman",
+      "title": "New Grad 2027: Associate Software Engineer, Pathways 🇺🇸",
+      "location": "Boulder, CO",
+      "url": "https://go.vansh.nyc/1z4?s=A",
+      "description": "",
+      "salary": "",
+      "skills": [],
+      "postedAt": "2026-11-13T21:58:52.576Z",
+      "source": "Vansh New Grad 2027",
+      "earlyCareer": true,
+      "experienceCheck": true,
+      "experienceCheckedAt": "2026-11-13T21:58:58.104Z",
+      "id": "5e157855-a37e-4f67-8a81-ee9568b7cee1",
+      "status": "review",
+      "discoveredAt": "2026-11-13T21:59:59.638Z"
+    },
+    {
+      "externalId": "markdown-07e3f8d989d7b9ee6e81031748a75f593e2e8bc9",
+      "company": "Northrop Grumman",
+      "title": "New Grad 2027: Associate Software Engineer, Pathways 🇺🇸",
+      "location": "Colorado Springs, CO",
+      "url": "https://go.vansh.nyc/1z3?s=A",
+      "description": "",
+      "salary": "",
+      "skills": [],
+      "postedAt": "2026-11-13T21:58:52.576Z",
+      "source": "Vansh New Grad 2027",
+      "earlyCareer": true,
+      "experienceCheck": true,
+      "experienceCheckedAt": "2026-11-13T21:58:58.175Z",
+      "id": "30b7c165-1460-4ef3-98bb-1e6fc7673866",
+      "status": "review",
+      "discoveredAt": "2026-11-13T21:59:59.638Z"
+    },
+    {
+      "externalId": "markdown-2d25cfb18d94f677b97e5f0fd2f240abc82bf538",
+      "company": "Cisco",
+      "title": "Software Engineer Compiler I",
+      "location": "Austin, TX",
+      "url": "https://go.vansh.nyc/1yI?s=A",
+      "description": "",
+      "salary": "",
+      "skills": [],
+      "postedAt": "2026-11-13T21:58:52.576Z",
+      "source": "Vansh New Grad 2027",
+      "earlyCareer": true,
+      "experienceCheck": true,
+      "experienceCheckedAt": "2026-11-13T21:58:57.112Z",
+      "id": "740766fb-2b5d-4ab6-8f2a-b7b1c7a0f89b",
+      "status": "review",
+      "discoveredAt": "2026-11-13T21:59:59.638Z"
+    },
+    {
       "externalId": "markdown-03746023ced2b7c769e610373204d74cbbc85fec",
       "company": "Northrop Grumman",
       "title": "New Grad 2027: Associate Software Engineer 🇺🇸",
@@ -9896,7 +9950,7 @@
       "discoveredAt": "2026-08-18T18:03:53.356Z"
     }
   ],
-  "lastScanAt": "2026-11-13T16:12:48.458Z",
+  "lastScanAt": "2026-11-13T21:59:59.689Z",
   "lastDigestAt": "2026-11-11T23:40:54.037Z",
   "delivery": {
     "smsConfigured": true,
