@@ -1,6 +1,24 @@
 {
   "jobs": [
     {
+      "externalId": "markdown-03746023ced2b7c769e610373204d74cbbc85fec",
+      "company": "Northrop Grumman",
+      "title": "New Grad 2027: Associate Software Engineer 🇺🇸",
+      "location": "Mcclellan, CA",
+      "url": "https://go.vansh.nyc/1yD?s=A",
+      "description": "",
+      "salary": "",
+      "skills": [],
+      "postedAt": "2026-11-13T16:11:49.522Z",
+      "source": "Vansh New Grad 2027",
+      "earlyCareer": true,
+      "experienceCheck": true,
+      "experienceCheckedAt": "2026-11-13T16:11:52.398Z",
+      "id": "8a6c13f8-a6d8-4d98-b8d1-265ab8ca0551",
+      "status": "review",
+      "discoveredAt": "2026-11-13T16:12:48.407Z"
+    },
+    {
       "externalId": "markdown-30be0b5f01b9031a55cb2fd4ea4880711f6be82a",
       "company": "Micron Technology",
       "title": "Software Engineer",
@@ -9878,7 +9896,7 @@
       "discoveredAt": "2026-08-18T18:03:53.356Z"
     }
   ],
-  "lastScanAt": "2026-11-12T20:29:42.267Z",
+  "lastScanAt": "2026-11-13T16:12:48.458Z",
   "lastDigestAt": "2026-11-11T23:40:54.037Z",
   "delivery": {
     "smsConfigured": true,
