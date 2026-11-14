@@ -1,22 +1,22 @@
 {
-  "checkedAt": "2026-11-14T08:30:14.880Z",
-  "healthy": 28,
-  "errors": 7,
+  "checkedAt": "2026-11-14T15:16:46.338Z",
+  "healthy": 29,
+  "errors": 6,
   "sources": [
     {
       "company": "Adobe",
       "type": "workday",
       "status": "error",
-      "message": "Adobe: 521",
+      "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON",
       "jobCount": 0,
-      "checkedAt": "2026-11-14T01:59:00.308Z"
+      "checkedAt": "2026-11-14T15:16:46.256Z"
     },
     {
       "company": "ApplyGuy 2027 New Grad Jobs",
       "type": "applyguy",
       "status": "healthy",
-      "jobCount": 300,
-      "checkedAt": "2026-11-14T08:29:20.543Z"
+      "jobCount": 295,
+      "checkedAt": "2026-11-14T15:15:37.828Z"
     },
     {
       "company": "Aquatic Capital Management",
@@ -35,10 +35,9 @@
     {
       "company": "Cisco",
       "type": "workday",
-      "status": "error",
-      "message": "Cisco: 521",
-      "jobCount": 0,
-      "checkedAt": "2026-11-14T01:59:00.308Z"
+      "status": "healthy",
+      "jobCount": 20,
+      "checkedAt": "2026-11-14T15:15:37.962Z"
     },
     {
       "company": "Cloudflare",
@@ -181,9 +180,9 @@
       "company": "NVIDIA",
       "type": "workday",
       "status": "error",
-      "message": "NVIDIA: 521",
+      "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON",
       "jobCount": 0,
-      "checkedAt": "2026-11-14T01:59:00.308Z"
+      "checkedAt": "2026-11-14T15:16:46.256Z"
     },
     {
       "company": "OpenAI",
@@ -238,8 +237,8 @@
       "company": "Vansh New Grad 2027",
       "type": "markdown",
       "status": "healthy",
-      "jobCount": 808,
-      "checkedAt": "2026-11-14T08:29:20.566Z"
+      "jobCount": 807,
+      "checkedAt": "2026-11-14T15:15:37.781Z"
     },
     {
       "company": "Visa",
