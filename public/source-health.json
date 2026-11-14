@@ -1,7 +1,7 @@
 {
-  "checkedAt": "2026-11-14T01:59:00.358Z",
-  "healthy": 29,
-  "errors": 6,
+  "checkedAt": "2026-11-14T08:30:14.880Z",
+  "healthy": 28,
+  "errors": 7,
   "sources": [
     {
       "company": "Adobe",
@@ -15,8 +15,8 @@
       "company": "ApplyGuy 2027 New Grad Jobs",
       "type": "applyguy",
       "status": "healthy",
-      "jobCount": 304,
-      "checkedAt": "2026-11-14T01:58:01.662Z"
+      "jobCount": 300,
+      "checkedAt": "2026-11-14T08:29:20.543Z"
     },
     {
       "company": "Aquatic Capital Management",
@@ -51,8 +51,8 @@
       "company": "Cursor",
       "type": "ashby",
       "status": "healthy",
-      "jobCount": 100,
-      "checkedAt": "2026-11-14T01:58:01.362Z"
+      "jobCount": 99,
+      "checkedAt": "2026-11-14T08:29:20.275Z"
     },
     {
       "company": "Databricks",
@@ -122,15 +122,16 @@
       "company": "Lyft",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 150,
-      "checkedAt": "2026-11-14T01:58:01.698Z"
+      "jobCount": 148,
+      "checkedAt": "2026-11-14T08:29:20.601Z"
     },
     {
       "company": "Medtronic",
       "type": "workday",
-      "status": "healthy",
-      "jobCount": 20,
-      "checkedAt": "2026-11-07T14:36:51.405Z"
+      "status": "error",
+      "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON",
+      "jobCount": 0,
+      "checkedAt": "2026-11-14T08:30:14.505Z"
     },
     {
       "company": "MetLife",
@@ -165,16 +166,16 @@
       "company": "Northrop Grumman",
       "type": "workday",
       "status": "error",
-      "message": "Northrop Grumman: 521",
+      "message": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON",
       "jobCount": 0,
-      "checkedAt": "2026-11-14T01:59:00.308Z"
+      "checkedAt": "2026-11-14T08:30:14.505Z"
     },
     {
       "company": "Notion",
       "type": "ashby",
       "status": "healthy",
-      "jobCount": 167,
-      "checkedAt": "2026-11-13T21:58:52.717Z"
+      "jobCount": 166,
+      "checkedAt": "2026-11-14T08:29:20.709Z"
     },
     {
       "company": "NVIDIA",
@@ -188,8 +189,8 @@
       "company": "OpenAI",
       "type": "ashby",
       "status": "healthy",
-      "jobCount": 837,
-      "checkedAt": "2026-11-13T21:58:53.395Z"
+      "jobCount": 838,
+      "checkedAt": "2026-11-14T08:29:21.456Z"
     },
     {
       "company": "Palantir",
@@ -237,8 +238,8 @@
       "company": "Vansh New Grad 2027",
       "type": "markdown",
       "status": "healthy",
-      "jobCount": 806,
-      "checkedAt": "2026-11-14T01:58:01.518Z"
+      "jobCount": 808,
+      "checkedAt": "2026-11-14T08:29:20.566Z"
     },
     {
       "company": "Visa",
