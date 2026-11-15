@@ -1,7 +1,7 @@
 {
-  "checkedAt": "2026-11-14T23:31:53.990Z",
-  "healthy": 33,
-  "errors": 2,
+  "checkedAt": "2026-11-15T03:01:00.122Z",
+  "healthy": 32,
+  "errors": 3,
   "sources": [
     {
       "company": "Adobe",
@@ -14,8 +14,8 @@
       "company": "ApplyGuy 2027 New Grad Jobs",
       "type": "applyguy",
       "status": "healthy",
-      "jobCount": 295,
-      "checkedAt": "2026-11-14T23:30:47.531Z"
+      "jobCount": 293,
+      "checkedAt": "2026-11-15T02:59:51.960Z"
     },
     {
       "company": "Aquatic Capital Management",
@@ -69,9 +69,10 @@
     {
       "company": "Dropbox",
       "type": "greenhouse",
-      "status": "healthy",
-      "jobCount": 44,
-      "checkedAt": "2026-11-13T21:58:52.338Z"
+      "status": "error",
+      "message": "fetch failed",
+      "jobCount": 0,
+      "checkedAt": "2026-11-15T03:00:59.832Z"
     },
     {
       "company": "Epic Games",
@@ -233,8 +234,8 @@
       "company": "Vansh New Grad 2027",
       "type": "markdown",
       "status": "healthy",
-      "jobCount": 807,
-      "checkedAt": "2026-11-14T23:30:47.565Z"
+      "jobCount": 808,
+      "checkedAt": "2026-11-15T02:59:52.016Z"
     },
     {
       "company": "Visa",
