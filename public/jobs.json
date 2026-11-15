@@ -1,23 +1,6 @@
 {
   "jobs": [
     {
-      "externalId": "markdown-e8993acd21e571c4338d8c8621c747bba771ee57",
-      "company": "SpaceX",
-      "title": "AI Software Engineer, Vehicle Engineering",
-      "location": "Hawthorne, CA",
-      "url": "https://go.vansh.nyc/BJ?s=A",
-      "description": "",
-      "salary": "",
-      "skills": [],
-      "postedAt": "2026-11-15T02:59:52.008Z",
-      "source": "Vansh New Grad 2027",
-      "earlyCareer": true,
-      "experienceCheck": true,
-      "id": "a717f10f-2f39-498f-ac96-d847792a08fe",
-      "status": "review",
-      "discoveredAt": "2026-11-15T03:00:59.798Z"
-    },
-    {
       "externalId": "markdown-3c08d0078943c2e2453ad4292ccfb078765962c6",
       "company": "Intel",
       "title": "SoC Logic Design Engineer",
@@ -10037,7 +10020,7 @@
       "discoveredAt": "2026-08-18T18:03:53.356Z"
     }
   ],
-  "lastScanAt": "2026-11-15T03:00:59.832Z",
+  "lastScanAt": "2026-11-15T10:27:50.807Z",
   "lastDigestAt": "2026-11-14T23:31:53.926Z",
   "delivery": {
     "smsConfigured": true,
