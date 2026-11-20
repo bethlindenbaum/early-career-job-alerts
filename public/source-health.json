@@ -1,7 +1,7 @@
 {
-  "checkedAt": "2026-11-19T21:51:21.729Z",
-  "healthy": 27,
-  "errors": 8,
+  "checkedAt": "2026-11-20T02:43:29.751Z",
+  "healthy": 28,
+  "errors": 7,
   "sources": [
     {
       "company": "Adobe",
@@ -44,36 +44,36 @@
       "company": "Cloudflare",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 497,
-      "checkedAt": "2026-11-18T23:44:05.003Z"
+      "jobCount": 498,
+      "checkedAt": "2026-11-20T02:42:31.975Z"
     },
     {
       "company": "Cursor",
       "type": "ashby",
       "status": "healthy",
-      "jobCount": 90,
-      "checkedAt": "2026-11-19T21:50:25.259Z"
+      "jobCount": 88,
+      "checkedAt": "2026-11-20T02:42:30.786Z"
     },
     {
       "company": "Databricks",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 900,
-      "checkedAt": "2026-11-19T21:50:26.263Z"
+      "jobCount": 897,
+      "checkedAt": "2026-11-20T02:42:32.418Z"
     },
     {
       "company": "Datadog",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 379,
-      "checkedAt": "2026-11-19T13:47:53.123Z"
+      "jobCount": 382,
+      "checkedAt": "2026-11-20T02:42:31.486Z"
     },
     {
       "company": "Dropbox",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 46,
-      "checkedAt": "2026-11-19T13:47:52.725Z"
+      "jobCount": 47,
+      "checkedAt": "2026-11-20T02:42:30.830Z"
     },
     {
       "company": "Epic Games",
@@ -152,15 +152,15 @@
       "company": "MongoDB",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 412,
-      "checkedAt": "2026-11-19T21:50:25.898Z"
+      "jobCount": 415,
+      "checkedAt": "2026-11-20T02:42:31.646Z"
     },
     {
       "company": "Nintendo",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 74,
-      "checkedAt": "2026-11-19T21:50:25.467Z"
+      "jobCount": 75,
+      "checkedAt": "2026-11-20T02:42:30.974Z"
     },
     {
       "company": "Northrop Grumman",
@@ -174,8 +174,8 @@
       "company": "Notion",
       "type": "ashby",
       "status": "healthy",
-      "jobCount": 169,
-      "checkedAt": "2026-11-19T21:50:25.663Z"
+      "jobCount": 167,
+      "checkedAt": "2026-11-20T02:42:31.260Z"
     },
     {
       "company": "NVIDIA",
@@ -189,8 +189,8 @@
       "company": "OpenAI",
       "type": "ashby",
       "status": "healthy",
-      "jobCount": 843,
-      "checkedAt": "2026-11-19T21:50:26.434Z"
+      "jobCount": 850,
+      "checkedAt": "2026-11-20T02:42:32.215Z"
     },
     {
       "company": "Palantir",
@@ -210,23 +210,22 @@
       "company": "Roblox",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 264,
-      "checkedAt": "2026-11-19T21:50:25.715Z"
+      "jobCount": 265,
+      "checkedAt": "2026-11-20T02:42:31.323Z"
     },
     {
       "company": "SpaceX",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 2763,
-      "checkedAt": "2026-11-19T21:50:27.017Z"
+      "jobCount": 2766,
+      "checkedAt": "2026-11-20T02:42:33.297Z"
     },
     {
       "company": "Toyota",
       "type": "workday",
-      "status": "error",
-      "message": "Toyota: 429",
-      "jobCount": 0,
-      "checkedAt": "2026-11-16T01:27:53.079Z"
+      "status": "healthy",
+      "jobCount": 20,
+      "checkedAt": "2026-11-20T02:42:31.726Z"
     },
     {
       "company": "Uber",
@@ -239,8 +238,8 @@
       "company": "Vansh New Grad 2027",
       "type": "markdown",
       "status": "healthy",
-      "jobCount": 803,
-      "checkedAt": "2026-11-19T21:50:25.480Z"
+      "jobCount": 802,
+      "checkedAt": "2026-11-20T02:42:31.349Z"
     },
     {
       "company": "Visa",
