@@ -1,6 +1,38 @@
 {
   "jobs": [
     {
+      "externalId": "markdown-86778ce9c4f22f7f56d28144c0081c855deddac9",
+      "company": "NVIDIA",
+      "title": "New Grad 2027: Software Engineer, DL Kernel Libraries",
+      "location": "Santa Clara, CA",
+      "url": "https://go.vansh.nyc/1F0?s=A",
+      "description": "",
+      "salary": "",
+      "skills": [],
+      "postedAt": "2026-11-21T00:17:14.398Z",
+      "source": "Vansh New Grad 2027",
+      "earlyCareer": true,
+      "experienceCheck": true,
+      "id": "ab49147f-0a6a-4e60-a48e-bf43d94546f5",
+      "status": "review",
+      "discoveredAt": "2026-11-21T00:18:09.214Z"
+    },
+    {
+      "externalId": "workday-Medtronic-R82448",
+      "company": "Medtronic",
+      "title": "Software Engineer I - CRM",
+      "location": "Minneapolis, Minnesota, United States of America",
+      "url": "https://medtronic.wd1.myworkdayjobs.com/job/Minneapolis-Minnesota-United-States-of-America/Software-Engineer-I---CRM_R82448",
+      "description": "",
+      "salary": "",
+      "skills": [],
+      "postedAt": "2026-11-21T00:17:16.338Z",
+      "source": "Workday",
+      "id": "50d7b337-2fb4-496b-a74c-fba49395f951",
+      "status": "review",
+      "discoveredAt": "2026-11-21T00:18:09.188Z"
+    },
+    {
       "externalId": "markdown-63b618d444107985c230a3a709b957305d268c19",
       "company": "Qualcomm",
       "title": "DSP Applications Software Engineer - ASICS Engineering",
@@ -10126,7 +10158,7 @@
       "discoveredAt": "2026-08-18T18:03:53.356Z"
     }
   ],
-  "lastScanAt": "2026-11-20T10:32:34.510Z",
+  "lastScanAt": "2026-11-21T00:18:09.278Z",
   "lastDigestAt": "2026-11-14T23:31:53.926Z",
   "delivery": {
     "smsConfigured": true,
