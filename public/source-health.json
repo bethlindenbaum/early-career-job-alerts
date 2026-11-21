@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-21T07:16:24.920Z",
+  "checkedAt": "2026-11-21T15:23:50.401Z",
   "healthy": 27,
   "errors": 8,
   "sources": [
@@ -15,8 +15,8 @@
       "company": "ApplyGuy 2027 New Grad Jobs",
       "type": "applyguy",
       "status": "healthy",
-      "jobCount": 263,
-      "checkedAt": "2026-11-21T07:15:12.878Z"
+      "jobCount": 264,
+      "checkedAt": "2026-11-21T15:22:45.633Z"
     },
     {
       "company": "Aquatic Capital Management",
@@ -58,8 +58,8 @@
       "company": "Databricks",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 897,
-      "checkedAt": "2026-11-21T07:15:13.175Z"
+      "jobCount": 896,
+      "checkedAt": "2026-11-21T15:22:46.486Z"
     },
     {
       "company": "Datadog",
@@ -239,8 +239,8 @@
       "company": "Vansh New Grad 2027",
       "type": "markdown",
       "status": "healthy",
-      "jobCount": 819,
-      "checkedAt": "2026-11-21T07:15:13.226Z"
+      "jobCount": 818,
+      "checkedAt": "2026-11-21T15:22:45.717Z"
     },
     {
       "company": "Visa",
