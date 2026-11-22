@@ -1,22 +1,21 @@
 {
-  "checkedAt": "2026-11-22T00:50:16.901Z",
-  "healthy": 27,
-  "errors": 8,
+  "checkedAt": "2026-11-22T07:32:09.883Z",
+  "healthy": 29,
+  "errors": 6,
   "sources": [
     {
       "company": "Adobe",
       "type": "workday",
-      "status": "error",
-      "message": "Adobe: 429",
-      "jobCount": 0,
-      "checkedAt": "2026-11-16T01:27:53.079Z"
+      "status": "healthy",
+      "jobCount": 20,
+      "checkedAt": "2026-11-22T07:31:03.211Z"
     },
     {
       "company": "ApplyGuy 2027 New Grad Jobs",
       "type": "applyguy",
       "status": "healthy",
-      "jobCount": 258,
-      "checkedAt": "2026-11-22T00:49:15.783Z"
+      "jobCount": 256,
+      "checkedAt": "2026-11-22T07:31:02.857Z"
     },
     {
       "company": "Aquatic Capital Management",
@@ -122,8 +121,8 @@
       "company": "Lyft",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 148,
-      "checkedAt": "2026-11-21T07:15:12.860Z"
+      "jobCount": 145,
+      "checkedAt": "2026-11-22T07:31:02.889Z"
     },
     {
       "company": "Medtronic",
@@ -210,8 +209,8 @@
       "company": "Roblox",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 260,
-      "checkedAt": "2026-11-21T07:15:13.547Z"
+      "jobCount": 259,
+      "checkedAt": "2026-11-22T07:31:03.058Z"
     },
     {
       "company": "SpaceX",
@@ -223,10 +222,9 @@
     {
       "company": "Toyota",
       "type": "workday",
-      "status": "error",
-      "message": "Toyota: 429",
-      "jobCount": 0,
-      "checkedAt": "2026-11-20T10:32:34.510Z"
+      "status": "healthy",
+      "jobCount": 20,
+      "checkedAt": "2026-11-22T07:31:03.324Z"
     },
     {
       "company": "Uber",
@@ -239,8 +237,8 @@
       "company": "Vansh New Grad 2027",
       "type": "markdown",
       "status": "healthy",
-      "jobCount": 819,
-      "checkedAt": "2026-11-21T20:56:57.925Z"
+      "jobCount": 818,
+      "checkedAt": "2026-11-22T07:31:02.689Z"
     },
     {
       "company": "Visa",
