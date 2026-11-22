@@ -1,21 +1,22 @@
 {
-  "checkedAt": "2026-11-22T07:32:09.883Z",
-  "healthy": 29,
-  "errors": 6,
+  "checkedAt": "2026-11-22T15:37:38.554Z",
+  "healthy": 30,
+  "errors": 5,
   "sources": [
     {
       "company": "Adobe",
       "type": "workday",
-      "status": "healthy",
-      "jobCount": 20,
-      "checkedAt": "2026-11-22T07:31:03.211Z"
+      "status": "error",
+      "message": "Adobe: 429",
+      "jobCount": 0,
+      "checkedAt": "2026-11-22T15:37:38.493Z"
     },
     {
       "company": "ApplyGuy 2027 New Grad Jobs",
       "type": "applyguy",
       "status": "healthy",
-      "jobCount": 256,
-      "checkedAt": "2026-11-22T07:31:02.857Z"
+      "jobCount": 255,
+      "checkedAt": "2026-11-22T15:36:33.983Z"
     },
     {
       "company": "Aquatic Capital Management",
@@ -57,8 +58,8 @@
       "company": "Databricks",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 895,
-      "checkedAt": "2026-11-21T20:56:58.598Z"
+      "jobCount": 894,
+      "checkedAt": "2026-11-22T15:36:35.088Z"
     },
     {
       "company": "Datadog",
@@ -127,10 +128,9 @@
     {
       "company": "Medtronic",
       "type": "workday",
-      "status": "error",
-      "message": "Medtronic: 429",
-      "jobCount": 0,
-      "checkedAt": "2026-11-21T07:16:24.859Z"
+      "status": "healthy",
+      "jobCount": 20,
+      "checkedAt": "2026-11-22T15:36:36.100Z"
     },
     {
       "company": "MetLife",
@@ -164,10 +164,9 @@
     {
       "company": "Northrop Grumman",
       "type": "workday",
-      "status": "error",
-      "message": "Northrop Grumman: 429",
-      "jobCount": 0,
-      "checkedAt": "2026-11-21T07:16:24.859Z"
+      "status": "healthy",
+      "jobCount": 20,
+      "checkedAt": "2026-11-22T15:36:34.423Z"
     },
     {
       "company": "Notion",
