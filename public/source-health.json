@@ -1,7 +1,7 @@
 {
-  "checkedAt": "2026-11-22T15:37:38.554Z",
-  "healthy": 30,
-  "errors": 5,
+  "checkedAt": "2026-11-22T21:13:23.328Z",
+  "healthy": 27,
+  "errors": 8,
   "sources": [
     {
       "company": "Adobe",
@@ -15,8 +15,8 @@
       "company": "ApplyGuy 2027 New Grad Jobs",
       "type": "applyguy",
       "status": "healthy",
-      "jobCount": 255,
-      "checkedAt": "2026-11-22T15:36:33.983Z"
+      "jobCount": 252,
+      "checkedAt": "2026-11-22T21:12:32.553Z"
     },
     {
       "company": "Aquatic Capital Management",
@@ -58,8 +58,8 @@
       "company": "Databricks",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 894,
-      "checkedAt": "2026-11-22T15:36:35.088Z"
+      "jobCount": 893,
+      "checkedAt": "2026-11-22T21:12:33.303Z"
     },
     {
       "company": "Datadog",
@@ -128,9 +128,10 @@
     {
       "company": "Medtronic",
       "type": "workday",
-      "status": "healthy",
-      "jobCount": 20,
-      "checkedAt": "2026-11-22T15:36:36.100Z"
+      "status": "error",
+      "message": "Medtronic: 429",
+      "jobCount": 0,
+      "checkedAt": "2026-11-22T21:13:23.271Z"
     },
     {
       "company": "MetLife",
@@ -164,9 +165,10 @@
     {
       "company": "Northrop Grumman",
       "type": "workday",
-      "status": "healthy",
-      "jobCount": 20,
-      "checkedAt": "2026-11-22T15:36:34.423Z"
+      "status": "error",
+      "message": "Northrop Grumman: 429",
+      "jobCount": 0,
+      "checkedAt": "2026-11-22T21:13:23.271Z"
     },
     {
       "company": "Notion",
@@ -221,9 +223,10 @@
     {
       "company": "Toyota",
       "type": "workday",
-      "status": "healthy",
-      "jobCount": 20,
-      "checkedAt": "2026-11-22T07:31:03.324Z"
+      "status": "error",
+      "message": "Toyota: 429",
+      "jobCount": 0,
+      "checkedAt": "2026-11-22T21:13:23.271Z"
     },
     {
       "company": "Uber",
@@ -236,8 +239,8 @@
       "company": "Vansh New Grad 2027",
       "type": "markdown",
       "status": "healthy",
-      "jobCount": 818,
-      "checkedAt": "2026-11-22T07:31:02.689Z"
+      "jobCount": 817,
+      "checkedAt": "2026-11-22T21:12:32.602Z"
     },
     {
       "company": "Visa",
