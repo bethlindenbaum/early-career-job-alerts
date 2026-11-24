@@ -1,6 +1,22 @@
 {
   "jobs": [
     {
+      "externalId": "applyguy-55ccd9f2-d95f-4a44-b9fb-be8e84254b42",
+      "company": "Medtronic",
+      "title": "Software Engineer I - CRM",
+      "location": "Minneapolis, MN",
+      "url": "https://medtronic.wd1.myworkdayjobs.com/redeploymentmedtroniccareers/job/Minneapolis-Minnesota-United-States-of-America/Software-Engineer-I---CRM_R82448-2",
+      "description": "Entry Level entry_level",
+      "salary": "",
+      "skills": [],
+      "postedAt": "2026-11-20",
+      "source": "ApplyGuy 2027 feed",
+      "earlyCareer": true,
+      "id": "1ee907ca-ecaf-48cf-84c2-793656d88132",
+      "status": "review",
+      "discoveredAt": "2026-11-24T16:17:40.534Z"
+    },
+    {
       "externalId": "gh-SpaceX-8957873002",
       "company": "SpaceX",
       "title": "New Graduate Engineer, Electrical (Starfall)",
@@ -10173,7 +10189,7 @@
       "discoveredAt": "2026-08-18T18:03:53.356Z"
     }
   ],
-  "lastScanAt": "2026-11-21T20:57:48.084Z",
+  "lastScanAt": "2026-11-24T16:17:40.599Z",
   "lastDigestAt": "2026-11-14T23:31:53.926Z",
   "delivery": {
     "smsConfigured": true,
