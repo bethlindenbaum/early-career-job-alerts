@@ -1,7 +1,7 @@
 {
-  "checkedAt": "2026-11-26T10:55:39.174Z",
-  "healthy": 27,
-  "errors": 8,
+  "checkedAt": "2026-11-26T19:54:45.531Z",
+  "healthy": 28,
+  "errors": 7,
   "sources": [
     {
       "company": "Adobe",
@@ -15,8 +15,8 @@
       "company": "ApplyGuy 2027 New Grad Jobs",
       "type": "applyguy",
       "status": "healthy",
-      "jobCount": 174,
-      "checkedAt": "2026-11-26T10:54:37.107Z"
+      "jobCount": 173,
+      "checkedAt": "2026-11-26T19:53:45.113Z"
     },
     {
       "company": "Aquatic Capital Management",
@@ -44,8 +44,8 @@
       "company": "Cloudflare",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 522,
-      "checkedAt": "2026-11-26T10:54:37.924Z"
+      "jobCount": 528,
+      "checkedAt": "2026-11-26T19:53:46.263Z"
     },
     {
       "company": "Cursor",
@@ -58,8 +58,8 @@
       "company": "Databricks",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 878,
-      "checkedAt": "2026-11-26T10:54:37.774Z"
+      "jobCount": 882,
+      "checkedAt": "2026-11-26T19:53:46.055Z"
     },
     {
       "company": "Datadog",
@@ -93,8 +93,8 @@
       "company": "IMC Trading",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 150,
-      "checkedAt": "2026-11-26T10:54:37.228Z"
+      "jobCount": 149,
+      "checkedAt": "2026-11-26T19:53:45.265Z"
     },
     {
       "company": "Jane Street",
@@ -152,8 +152,8 @@
       "company": "MongoDB",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 423,
-      "checkedAt": "2026-11-26T10:54:37.591Z"
+      "jobCount": 421,
+      "checkedAt": "2026-11-26T19:53:45.741Z"
     },
     {
       "company": "Nintendo",
@@ -223,10 +223,9 @@
     {
       "company": "Toyota",
       "type": "workday",
-      "status": "error",
-      "message": "Toyota: 429",
-      "jobCount": 0,
-      "checkedAt": "2026-11-25T00:47:21.598Z"
+      "status": "healthy",
+      "jobCount": 20,
+      "checkedAt": "2026-11-26T19:53:45.746Z"
     },
     {
       "company": "Uber",
@@ -239,8 +238,8 @@
       "company": "Vansh New Grad 2027",
       "type": "markdown",
       "status": "healthy",
-      "jobCount": 822,
-      "checkedAt": "2026-11-26T10:54:37.152Z"
+      "jobCount": 820,
+      "checkedAt": "2026-11-26T19:53:45.205Z"
     },
     {
       "company": "Visa",
