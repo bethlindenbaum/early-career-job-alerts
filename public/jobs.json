@@ -100,7 +100,8 @@
       "experienceCheck": true,
       "id": "ab49147f-0a6a-4e60-a48e-bf43d94546f5",
       "status": "review",
-      "discoveredAt": "2026-11-21T00:18:09.214Z"
+      "discoveredAt": "2026-11-21T00:18:09.214Z",
+      "experienceCheckedAt": "2026-11-27T11:12:33.333Z"
     },
     {
       "externalId": "workday-Medtronic-R82448",
