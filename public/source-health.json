@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-28T02:26:41.756Z",
+  "checkedAt": "2026-11-28T10:40:54.591Z",
   "healthy": 31,
   "errors": 4,
   "sources": [
@@ -14,8 +14,8 @@
       "company": "ApplyGuy 2027 New Grad Jobs",
       "type": "applyguy",
       "status": "healthy",
-      "jobCount": 176,
-      "checkedAt": "2026-11-28T02:25:25.727Z"
+      "jobCount": 175,
+      "checkedAt": "2026-11-28T10:40:01.635Z"
     },
     {
       "company": "Aquatic Capital Management",
@@ -42,8 +42,8 @@
       "company": "Cloudflare",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 533,
-      "checkedAt": "2026-11-27T19:57:13.237Z"
+      "jobCount": 532,
+      "checkedAt": "2026-11-28T10:40:01.759Z"
     },
     {
       "company": "Cursor",
@@ -63,8 +63,8 @@
       "company": "Datadog",
       "type": "greenhouse",
       "status": "healthy",
-      "jobCount": 390,
-      "checkedAt": "2026-11-27T19:57:12.854Z"
+      "jobCount": 392,
+      "checkedAt": "2026-11-28T10:40:01.202Z"
     },
     {
       "company": "Dropbox",
